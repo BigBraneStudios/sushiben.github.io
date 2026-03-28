@@ -118,7 +118,7 @@ function langSummary(locale) {
 function languageItems(locale, page) {
   return LOCALES.map((loc) => {
     const label = escapeHtml(t(`locale.name.${loc}`, locale));
-    const href = page === "home" ? `/${loc}/` : `/${loc}/${page}/`;
+    const href = page === "home" ? `../${loc}/` : `../../${loc}/${page}/`;
     return `<li><a href="${href}">${label}</a></li>`;
   }).join("\n          ");
 }
@@ -145,8 +145,8 @@ function render(template, replacements) {
   return out;
 }
 
-const homeTemplate = read("templates/home.html");
-const legalTemplate = read("templates/legal.html");
+const homeTemplate = read("templates/home.tpl");
+const legalTemplate = read("templates/legal.tpl");
 
 for (const locale of LOCALES) {
   const translationNote = t("home.translation_note", locale)

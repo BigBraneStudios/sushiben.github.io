@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{SITE_TITLE}}</title>
   <meta name="description" content="{{SITE_DESCRIPTION}}">
-  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
   <link rel="canonical" href="https://www.sushiben.com/{{LANG}}/">
   {{HREFLANG_LINKS}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap nav-row">
       <a class="brand" href="#top" aria-label="Sushi Ben Home">
-        <img class="brand-logo" src="/assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
+        <img class="brand-logo" src="../assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#about">{{NAV_ABOUT}}</a>
@@ -146,8 +146,8 @@
     <div class="wrap footer-row">
       <p>© <span id="year"></span> Big Brane Studios. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
-        <a href="/{{LANG}}/eula/">{{LEGAL_EULA_LABEL}}</a>
-        <a href="/{{LANG}}/privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
+        <a href="./eula/">{{LEGAL_EULA_LABEL}}</a>
+        <a href="./privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
       </div>
       <div class="social-row" aria-label="Social links">
         <a href="https://x.com" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>
@@ -157,6 +157,6 @@
     </div>
   </footer>
 
-  <script src="/script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>
