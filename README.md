@@ -1,14 +1,46 @@
 ﻿# Sushi Ben Static Site (GitHub Pages)
 
-This repo contains a plain HTML/CSS/JS site scaffolded for GitHub Pages.
+This repo contains a plain HTML/CSS/JS site scaffolded for GitHub Pages with path-based localization.
 
 ## Files
 
-- `index.html`: Main one-page website
+- `index.html`: Root redirect to `/en/`
 - `styles.css`: Styling
 - `script.js`: Minimal client behavior
 - `.nojekyll`: Disables Jekyll processing on GitHub Pages
 - `CNAME`: Optional custom domain file
+- `<locale>/`: Localized pages for `en`, `de`, `es`, `fr`, `it`, `pt-br`, `ja`, `ko`, `zh-hans`, `zh-hant`
+- `eula/` and `privacy/`: Backward-compatible redirects to `/en/*`
+- `i18n/strings.csv`: Translation table (source of truth for UI copy)
+- `i18n/legal/<locale>/*.txt`: Legal body text per locale/page
+- `templates/`: Shared page templates for consistent formatting
+- `scripts/build-i18n.mjs`: Generator that builds localized pages from table/text sources
+
+## Localization Workflow
+
+1. Edit `i18n/strings.csv`.
+2. Edit legal files in `i18n/legal/<locale>/`:
+   - `eula.txt`
+   - `privacy.txt`
+3. Regenerate localized pages:
+
+```powershell
+node scripts/build-i18n.mjs
+```
+
+English (`en`) is the default/fallback source language when a translation value is missing.
+
+Supported languages:
+- English (`en`)
+- German (`de`)
+- Spanish (`es`)
+- French (`fr`)
+- Italian (`it`)
+- Portuguese (Brazil) (`pt-br`)
+- Japanese (`ja`)
+- Korean (`ko`)
+- Chinese Simplified (`zh-hans`)
+- Chinese Traditional (`zh-hant`)
 
 ## Deploy To GitHub Pages
 

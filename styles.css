@@ -56,17 +56,55 @@ body {
 }
 
 .brand {
-  font-family: "Outfit", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 800;
   text-decoration: none;
-  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-logo {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.lang-switcher {
+  position: relative;
+}
+
+.lang-switcher summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+}
+
+.lang-switcher ul {
+  position: absolute;
+  right: 0;
+  margin: 0.5rem 0 0;
+  padding: 0.4rem;
+  list-style: none;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  min-width: 130px;
+}
+
+.lang-switcher ul li + li {
+  margin-top: 0.2rem;
+}
+
+.lang-switcher ul a {
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .nav-links a {
@@ -161,6 +199,16 @@ h2 {
 
 .section {
   padding: 3.1rem 0;
+}
+
+.translation-note {
+  padding-top: 1rem;
+}
+
+.translation-note p {
+  margin: 0;
+  font-weight: 700;
+  color: var(--accent-dark);
 }
 
 .section-soft {
@@ -274,6 +322,17 @@ textarea {
   gap: 0.8rem;
 }
 
+.legal-row {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.legal-row a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
 .social-row a {
   color: var(--ink);
   text-decoration: none;
@@ -290,5 +349,9 @@ textarea {
 
   .hero {
     padding-top: 3rem;
+  }
+
+  .brand-logo {
+    height: 40px;
   }
 }

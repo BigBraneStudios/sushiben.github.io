@@ -1,0 +1,31 @@
+.legal-wrap {
+  width: min(900px, calc(100% - 2rem));
+  margin: 2rem auto 3rem;
+  padding: 1.25rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.legal-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.legal-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.legal-text {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.65;
+  color: var(--ink);
+}
