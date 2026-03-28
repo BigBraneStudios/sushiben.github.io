@@ -36,10 +36,21 @@
         <a href="#media">Media</a>
         <a href="#contact">Contact</a>
       </nav>
-      <details class="lang-switcher">
-        <summary>Language: Deutsch</summary>
-        <ul>
-          <li><a href="../en/">English</a></li>
+      <div class="header-controls">
+        <details class="nav-menu">
+          <summary>Menü</summary>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#buy">Buy</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </details>
+        <details class="lang-switcher">
+          <summary aria-label="Language">Deutsch</summary>
+          <ul>
+            <li><a href="../en/">English</a></li>
           <li><a href="../de/">Deutsch</a></li>
           <li><a href="../es/">Español</a></li>
           <li><a href="../fr/">Français</a></li>
@@ -49,8 +60,9 @@
           <li><a href="../ko/">한국어</a></li>
           <li><a href="../zh-hans/">中文（简体）</a></li>
           <li><a href="../zh-hant/">中文（繁體）</a></li>
-        </ul>
-      </details>
+          </ul>
+        </details>
+      </div>
     </div>
   </header>
 
@@ -59,55 +71,45 @@
 
     <section class="hero">
       <div class="wrap hero-grid">
-        <div>
+        <div class="hero-copy">
           <p class="kicker">Narrative VR Adventure</p>
           <h1>Save a Sushi Bar, One Heartfelt Story at a Time.</h1>
-          <p class="lede">Experience Kotobuki Town through expressive manga-style moments, voice-acted characters, and a warm story about community.</p>
+          <p class="lede">Eine interaktive Anime-Geschichte! Rette eine geliebte lokale Sushibar vor schurkischen &amp;quot;Landsharks&amp;quot;, verliere dich in unzähligen Minispielen und finde unvergessliche Freundschaften in diesem übergroßen Erzählabenteuer. Geschrieben von Moa (Hatoful Boyfriend) und mit kompletter Sprachausgabe!</p>
           <div class="cta-row">
             <a class="btn btn-primary" href="#buy">Get Sushi Ben</a>
             <a class="btn btn-secondary" href="#media">Watch Trailer</a>
           </div>
         </div>
-        <div class="hero-art" role="img" aria-label="Sushi Ben key art placeholder">
-          <span>Key Art Placeholder</span>
+        <div class="hero-art">
+          <img src="../assets/images/Minami_Hero.png" alt="Minami from Sushi Ben">
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="wrap narrow">
-        <h2>Über dieses Spiel</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="about">About</h2>
         <p>Willkommen in Kotobuki Town, einer malerischen Gemeinde, die gerade Stück für Stück von durchtriebenen Großstadt-Haien aufgekauft wird. Es ist auch dein neues Zuhause. Hast du das Zeug dazu, die Einheimischen zusammenzubringen und ihre geliebte Sushibar zu retten?<br><br>Inspiriert von Slice-of-Life-Anime ist Sushi Ben ein süßes, witziges und bombastisches Erzählabenteuer darüber, in einer neuen Stadt Fuß zu fassen (und es nebenbei den Vermietern zu zeigen). <br><br>Mit einem wunderschönen Küsten-Schauplatz, auffälligen 3D-Manga-Panels, einer vollständig vertonten Riege bunter Figuren und vielen Minispielen – Angeln, Bogenschießen, Gassigehen und sogar Geisterjagd...!?  <br><br>Mit der erzählerischen Handschrift von Hato Moa (Hatoful Boyfriend) und Sprecher*innen wie Laura Post (Little Witch Academia), Ryan Colt Levy (Chainsaw Man), AJ Beckles (Dandadan) und vielen mehr!</p>
       </div>
     </section>
 
-    <section id="features" class="section section-soft">
+    <section class="section section-soft">
       <div class="wrap">
-        <h2>Highlights</h2>
+        <h2 id="features">Highlights</h2>
         <div class="feature-grid">
-          <article class="card">
-            <h3>Story-Driven Adventure</h3>
-            <p>Meet quirky locals, build trust, and uncover what makes Kotobuki Town worth fighting for.</p>
-          </article>
-          <article class="card">
-            <h3>Manga-Inspired Presentation</h3>
-            <p>Step into stylized scenes that blend comic aesthetics with immersive VR interaction.</p>
-          </article>
-          <article class="card">
-            <h3>Voice-Acted Characters</h3>
-            <p>Enjoy performances that bring each character and their personal stakes to life.</p>
-          </article>
-          <article class="card">
-            <h3>Comfortable, Accessible Play</h3>
-            <p>Designed for approachable VR sessions with clear interactions and a welcoming pace.</p>
-          </article>
+          <article class="card"><p>Eine interaktive Anime-Geschichte!</p></article>
+          <article class="card"><p>Herausplatzende Manga-Panels erwecken die Story zum Leben!</p></article>
+          <article class="card"><p>Bunter Cast aus Kleinstadt-Charakteren!</p></article>
+          <article class="card"><p>Herzlich und überdreht!</p></article>
+          <article class="card"><p>8+ Stunden Story-Quests!</p></article>
+          <article class="card"><p>4+ Stunden Minispiele – Angeln, Bogenschießen, Geisterjagd und mehr!</p></article>
         </div>
       </div>
     </section>
 
-    <section id="buy" class="section">
-      <div class="wrap narrow">
-        <h2>Available Now</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="buy">Available Now</h2>
         <p>Choose your platform:</p>
         <div class="store-grid" role="list">
           <a role="listitem" class="store-link" href="https://www.meta.com/experiences/5459391390744272/" target="_blank" rel="noopener noreferrer">Meta Quest</a>
@@ -118,13 +120,13 @@
       </div>
     </section>
 
-    <section id="media" class="section section-soft">
-      <div class="wrap">
-        <h2>Trailer &amp; Screenshots</h2>
+    <section class="section section-soft">
+      <div class="wrap soft-panel">
+        <h2 id="media">Trailer &amp; Screenshots</h2>
         <div class="media-grid">
           <div class="video-wrap">
             <iframe
-              src="https://www.youtube.com/embed/FnIscA4M4rQ"
+              src="https://www.youtube.com/embed/1lA0ssiHHxM"
               title="Sushi Ben Trailer"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -140,9 +142,9 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="wrap narrow">
-        <h2>Contact</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="contact">Contact</h2>
         <p>For press, business, or support inquiries, send a message below.</p>
 
         <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">

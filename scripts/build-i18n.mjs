@@ -109,10 +109,8 @@ function t(key, locale) {
   return row[locale] || row[DEFAULT_LOCALE] || "";
 }
 
-function langSummary(locale) {
-  const template = t("lang.summary", locale);
-  const langName = t(`locale.name.${locale}`, locale);
-  return template.replace("{language}", langName);
+function currentLanguageName(locale) {
+  return t(`locale.name.${locale}`, locale);
 }
 
 function languageItems(locale, page) {
@@ -163,7 +161,9 @@ for (const locale of LOCALES) {
     NAV_BUY: escapeHtml(t("nav.buy", locale)),
     NAV_MEDIA: escapeHtml(t("nav.media", locale)),
     NAV_CONTACT: escapeHtml(t("nav.contact", locale)),
-    LANG_SUMMARY: escapeHtml(langSummary(locale)),
+    NAV_MENU: escapeHtml(t("nav.menu", locale)),
+    LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
+    LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
     LANG_ITEMS_HOME: languageItems(locale, "home"),
     HREFLANG_LINKS: hreflangLinks("home"),
     TRANSLATION_NOTE: translationNote,
@@ -175,14 +175,15 @@ for (const locale of LOCALES) {
     HOME_ABOUT_TITLE: escapeHtml(t("home.about.title", locale)),
     HOME_ABOUT_BODY: textToHtmlParagraphs(t("home.about.body", locale)),
     HOME_FEATURES_TITLE: escapeHtml(t("home.features.title", locale)),
-    FEATURE_STORY_TITLE: escapeHtml(t("home.feature.story.title", locale)),
-    FEATURE_STORY_BODY: escapeHtml(t("home.feature.story.body", locale)),
-    FEATURE_MANGA_TITLE: escapeHtml(t("home.feature.manga.title", locale)),
-    FEATURE_MANGA_BODY: escapeHtml(t("home.feature.manga.body", locale)),
-    FEATURE_VOICE_TITLE: escapeHtml(t("home.feature.voice.title", locale)),
-    FEATURE_VOICE_BODY: escapeHtml(t("home.feature.voice.body", locale)),
-    FEATURE_COMFORT_TITLE: escapeHtml(t("home.feature.comfort.title", locale)),
-    FEATURE_COMFORT_BODY: escapeHtml(t("home.feature.comfort.body", locale)),
+    HIGHLIGHT_1: escapeHtml(t("home.highlights.item1", locale)),
+    HIGHLIGHT_2: escapeHtml(t("home.highlights.item2", locale)),
+    HIGHLIGHT_3: escapeHtml(t("home.highlights.item3", locale)),
+    HIGHLIGHT_4: escapeHtml(t("home.highlights.item4", locale)),
+    HIGHLIGHT_5: escapeHtml(t("home.highlights.item5", locale)),
+    HIGHLIGHT_6: escapeHtml(t("home.highlights.item6", locale)),
+    HIGHLIGHT_7: escapeHtml(t("home.highlights.item7", locale)),
+    HIGHLIGHT_8: escapeHtml(t("home.highlights.item8", locale)),
+    HIGHLIGHT_9: escapeHtml(t("home.highlights.item9", locale)),
     HOME_BUY_TITLE: escapeHtml(t("home.buy.title", locale)),
     HOME_BUY_SUBTITLE: escapeHtml(t("home.buy.subtitle", locale)),
     HOME_MEDIA_TITLE: escapeHtml(t("home.media.title", locale)),
@@ -215,7 +216,8 @@ for (const locale of LOCALES) {
       LEGAL_TITLE: escapeHtml(t(`legal.${page}.title`, locale)),
       LEGAL_DESCRIPTION: escapeHtml(t(`legal.${page}.description`, locale)),
       LEGAL_BACK_HOME: escapeHtml(t("legal.back_home", locale)),
-      LANG_SUMMARY: escapeHtml(langSummary(locale)),
+      LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
+      LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
       LANG_ITEMS_LEGAL: languageItems(locale, page),
       HREFLANG_LINKS: hreflangLinks(page),
       LEGAL_BODY: escapeHtml(legalBody),

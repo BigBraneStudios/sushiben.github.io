@@ -19,7 +19,7 @@
     <div class="legal-top-row">
       <a class="legal-back" href="../">{{LEGAL_BACK_HOME}}</a>
       <details class="lang-switcher">
-        <summary>{{LANG_SUMMARY}}</summary>
+        <summary aria-label="{{LANG_ARIA_LABEL}}">{{LANG_CURRENT_NAME}}</summary>
         <ul>
           {{LANG_ITEMS_LEGAL}}
         </ul>

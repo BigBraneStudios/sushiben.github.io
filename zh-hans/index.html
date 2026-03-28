@@ -36,10 +36,21 @@
         <a href="#media">Media</a>
         <a href="#contact">Contact</a>
       </nav>
-      <details class="lang-switcher">
-        <summary>Language: 中文（简体）</summary>
-        <ul>
-          <li><a href="../en/">English</a></li>
+      <div class="header-controls">
+        <details class="nav-menu">
+          <summary>菜单</summary>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#buy">Buy</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </details>
+        <details class="lang-switcher">
+          <summary aria-label="Language">中文（简体）</summary>
+          <ul>
+            <li><a href="../en/">English</a></li>
           <li><a href="../de/">Deutsch</a></li>
           <li><a href="../es/">Español</a></li>
           <li><a href="../fr/">Français</a></li>
@@ -49,8 +60,9 @@
           <li><a href="../ko/">한국어</a></li>
           <li><a href="../zh-hans/">中文（简体）</a></li>
           <li><a href="../zh-hant/">中文（繁體）</a></li>
-        </ul>
-      </details>
+          </ul>
+        </details>
+      </div>
     </div>
   </header>
 
@@ -59,55 +71,45 @@
 
     <section class="hero">
       <div class="wrap hero-grid">
-        <div>
+        <div class="hero-copy">
           <p class="kicker">Narrative VR Adventure</p>
           <h1>Save a Sushi Bar, One Heartfelt Story at a Time.</h1>
-          <p class="lede">Experience Kotobuki Town through expressive manga-style moments, voice-acted characters, and a warm story about community.</p>
+          <p class="lede">一段互动式动画剧情！从奸商手里守护备受喜爱的小镇寿司店，在无数小游戏中流连忘返，并在这场“超大号”的叙事冒险里结识一生难忘的朋友。由 Moa（Hatoful Boyfriend）执笔，全程配音！</p>
           <div class="cta-row">
             <a class="btn btn-primary" href="#buy">Get Sushi Ben</a>
             <a class="btn btn-secondary" href="#media">Watch Trailer</a>
           </div>
         </div>
-        <div class="hero-art" role="img" aria-label="Sushi Ben key art placeholder">
-          <span>Key Art Placeholder</span>
+        <div class="hero-art">
+          <img src="../assets/images/Minami_Hero.png" alt="Minami from Sushi Ben">
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="wrap narrow">
-        <h2>关于这款游戏</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="about">About</h2>
         <p>欢迎来到寿木町（Kotobuki Town）——这座恬静的小镇正被城里的地产“鲨鱼”一口一口吞下。这里也是你的新家。你能号召镇民一起，拯救他们心爱的寿司店吗？<br><br>受日常向动画启发，Sushi Ben是一段温馨、搞笑又夸张的叙事冒险，讲述在新城镇站稳脚跟的故事（顺便也要给房东点颜色看看）。 <br><br>海边美景、夺目的3D漫画分镜、色彩鲜明的全程配音角色，以及丰富的小游戏——钓鱼、射箭、遛狗，甚至还有捉鬼……!?  <br><br>由Hato Moa（Hatoful Boyfriend）担任剧情，Laura Post（Little Witch Academia）、Ryan Colt Levy（Chainsaw Man）、AJ Beckles（Dandadan）等众多声优献声！</p>
       </div>
     </section>
 
-    <section id="features" class="section section-soft">
+    <section class="section section-soft">
       <div class="wrap">
-        <h2>Highlights</h2>
+        <h2 id="features">Highlights</h2>
         <div class="feature-grid">
-          <article class="card">
-            <h3>Story-Driven Adventure</h3>
-            <p>Meet quirky locals, build trust, and uncover what makes Kotobuki Town worth fighting for.</p>
-          </article>
-          <article class="card">
-            <h3>Manga-Inspired Presentation</h3>
-            <p>Step into stylized scenes that blend comic aesthetics with immersive VR interaction.</p>
-          </article>
-          <article class="card">
-            <h3>Voice-Acted Characters</h3>
-            <p>Enjoy performances that bring each character and their personal stakes to life.</p>
-          </article>
-          <article class="card">
-            <h3>Comfortable, Accessible Play</h3>
-            <p>Designed for approachable VR sessions with clear interactions and a welcoming pace.</p>
-          </article>
+          <article class="card"><p>互动式动画剧情！</p></article>
+          <article class="card"><p>弹出的漫画面板让故事跃然纸上！</p></article>
+          <article class="card"><p>小镇群像，角色鲜活！</p></article>
+          <article class="card"><p>治愈又夸张！</p></article>
+          <article class="card"><p>8+小时主线任务！</p></article>
+          <article class="card"><p>4+小时小游戏——钓鱼、射箭、捉鬼等！</p></article>
         </div>
       </div>
     </section>
 
-    <section id="buy" class="section">
-      <div class="wrap narrow">
-        <h2>Available Now</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="buy">Available Now</h2>
         <p>Choose your platform:</p>
         <div class="store-grid" role="list">
           <a role="listitem" class="store-link" href="https://www.meta.com/experiences/5459391390744272/" target="_blank" rel="noopener noreferrer">Meta Quest</a>
@@ -118,13 +120,13 @@
       </div>
     </section>
 
-    <section id="media" class="section section-soft">
-      <div class="wrap">
-        <h2>Trailer &amp; Screenshots</h2>
+    <section class="section section-soft">
+      <div class="wrap soft-panel">
+        <h2 id="media">Trailer &amp; Screenshots</h2>
         <div class="media-grid">
           <div class="video-wrap">
             <iframe
-              src="https://www.youtube.com/embed/FnIscA4M4rQ"
+              src="https://www.youtube.com/embed/1lA0ssiHHxM"
               title="Sushi Ben Trailer"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -140,9 +142,9 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="wrap narrow">
-        <h2>Contact</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="contact">Contact</h2>
         <p>For press, business, or support inquiries, send a message below.</p>
 
         <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">

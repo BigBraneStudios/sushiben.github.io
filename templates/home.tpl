@@ -26,12 +26,24 @@
         <a href="#media">{{NAV_MEDIA}}</a>
         <a href="#contact">{{NAV_CONTACT}}</a>
       </nav>
-      <details class="lang-switcher">
-        <summary>{{LANG_SUMMARY}}</summary>
-        <ul>
-          {{LANG_ITEMS_HOME}}
-        </ul>
-      </details>
+      <div class="header-controls">
+        <details class="nav-menu">
+          <summary>{{NAV_MENU}}</summary>
+          <ul>
+            <li><a href="#about">{{NAV_ABOUT}}</a></li>
+            <li><a href="#features">{{NAV_FEATURES}}</a></li>
+            <li><a href="#buy">{{NAV_BUY}}</a></li>
+            <li><a href="#media">{{NAV_MEDIA}}</a></li>
+            <li><a href="#contact">{{NAV_CONTACT}}</a></li>
+          </ul>
+        </details>
+        <details class="lang-switcher">
+          <summary aria-label="{{LANG_ARIA_LABEL}}">{{LANG_CURRENT_NAME}}</summary>
+          <ul>
+            {{LANG_ITEMS_HOME}}
+          </ul>
+        </details>
+      </div>
     </div>
   </header>
 
@@ -40,7 +52,7 @@
 
     <section class="hero">
       <div class="wrap hero-grid">
-        <div>
+        <div class="hero-copy">
           <p class="kicker">{{HOME_KICKER}}</p>
           <h1>{{HOME_HERO_TITLE}}</h1>
           <p class="lede">{{HOME_HERO_LEDE}}</p>
@@ -49,46 +61,36 @@
             <a class="btn btn-secondary" href="#media">{{HOME_CTA_WATCH}}</a>
           </div>
         </div>
-        <div class="hero-art" role="img" aria-label="Sushi Ben key art placeholder">
-          <span>Key Art Placeholder</span>
+        <div class="hero-art">
+          <img src="../assets/images/Minami_Hero.png" alt="Minami from Sushi Ben">
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="wrap narrow">
-        <h2>{{HOME_ABOUT_TITLE}}</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="about">{{HOME_ABOUT_TITLE}}</h2>
         <p>{{HOME_ABOUT_BODY}}</p>
       </div>
     </section>
 
-    <section id="features" class="section section-soft">
+    <section class="section section-soft">
       <div class="wrap">
-        <h2>{{HOME_FEATURES_TITLE}}</h2>
+        <h2 id="features">{{HOME_FEATURES_TITLE}}</h2>
         <div class="feature-grid">
-          <article class="card">
-            <h3>{{FEATURE_STORY_TITLE}}</h3>
-            <p>{{FEATURE_STORY_BODY}}</p>
-          </article>
-          <article class="card">
-            <h3>{{FEATURE_MANGA_TITLE}}</h3>
-            <p>{{FEATURE_MANGA_BODY}}</p>
-          </article>
-          <article class="card">
-            <h3>{{FEATURE_VOICE_TITLE}}</h3>
-            <p>{{FEATURE_VOICE_BODY}}</p>
-          </article>
-          <article class="card">
-            <h3>{{FEATURE_COMFORT_TITLE}}</h3>
-            <p>{{FEATURE_COMFORT_BODY}}</p>
-          </article>
+          <article class="card"><p>{{HIGHLIGHT_1}}</p></article>
+          <article class="card"><p>{{HIGHLIGHT_2}}</p></article>
+          <article class="card"><p>{{HIGHLIGHT_3}}</p></article>
+          <article class="card"><p>{{HIGHLIGHT_4}}</p></article>
+          <article class="card"><p>{{HIGHLIGHT_5}}</p></article>
+          <article class="card"><p>{{HIGHLIGHT_6}}</p></article>
         </div>
       </div>
     </section>
 
-    <section id="buy" class="section">
-      <div class="wrap narrow">
-        <h2>{{HOME_BUY_TITLE}}</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="buy">{{HOME_BUY_TITLE}}</h2>
         <p>{{HOME_BUY_SUBTITLE}}</p>
         <div class="store-grid" role="list">
           <a role="listitem" class="store-link" href="https://www.meta.com/experiences/5459391390744272/" target="_blank" rel="noopener noreferrer">Meta Quest</a>
@@ -99,13 +101,13 @@
       </div>
     </section>
 
-    <section id="media" class="section section-soft">
-      <div class="wrap">
-        <h2>{{HOME_MEDIA_TITLE}}</h2>
+    <section class="section section-soft">
+      <div class="wrap soft-panel">
+        <h2 id="media">{{HOME_MEDIA_TITLE}}</h2>
         <div class="media-grid">
           <div class="video-wrap">
             <iframe
-              src="https://www.youtube.com/embed/FnIscA4M4rQ"
+              src="https://www.youtube.com/embed/1lA0ssiHHxM"
               title="Sushi Ben Trailer"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -121,9 +123,9 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="wrap narrow">
-        <h2>{{HOME_CONTACT_TITLE}}</h2>
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="contact">{{HOME_CONTACT_TITLE}}</h2>
         <p>{{HOME_CONTACT_SUBTITLE}}</p>
 
         <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
