@@ -93,10 +93,30 @@
         <h2 id="buy">{{HOME_BUY_TITLE}}</h2>
         <p>{{HOME_BUY_SUBTITLE}}</p>
         <div class="store-grid" role="list">
-          <a role="listitem" class="store-link" href="https://www.meta.com/experiences/5459391390744272/" target="_blank" rel="noopener noreferrer">Meta Quest</a>
-          <a role="listitem" class="store-link" href="https://store.playstation.com/concept/10010735" target="_blank" rel="noopener noreferrer">PlayStation VR2</a>
-          <a role="listitem" class="store-link" href="https://store.steampowered.com/app/2419240/Sushi_Ben/" target="_blank" rel="noopener noreferrer">Steam</a>
-          <a role="listitem" class="store-link" href="https://www.viveport.com/6176039d-bff1-4bf4-95cb-4e5d369e4679" target="_blank" rel="noopener noreferrer">VIVEPORT</a>
+          <a role="listitem" class="store-link" href="https://store.steampowered.com/app/2419240/Sushi_Ben/" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/Linktree_Logo_Steam.png" alt="Steam logo">
+            <span>Steam</span>
+          </a>
+          <a role="listitem" class="store-link" href="https://store.playstation.com/en-us/concept/10007924/" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/Linktree_Logo_PS.png" alt="PlayStation logo">
+            <span>PlayStation 5</span>
+          </a>
+          <a role="listitem" class="store-link" href="https://www.meta.com/experiences/5459391390744272/" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/Linktree_Logo_Meta.png" alt="Meta Quest logo">
+            <span>Meta Quest</span>
+          </a>
+          <a role="listitem" class="store-link" href="https://www.viveport.com/apps/1e1eb547-c759-4266-89bb-64bcc6f6294e?hl=en-US" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/Linktree_Logo_Viveport.png" alt="HTC VIVEPORT logo">
+            <span>HTC VIVEPORT</span>
+          </a>
+          <a role="listitem" class="store-link" href="https://store-global.picoxr.com/global/detail/1/7345233212618080262" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/Linktree_Logo_Pico.png" alt="PICO logo">
+            <span>PICO</span>
+          </a>
+          <a role="listitem" class="store-link" href="https://store.onstove.com/en/games/103625" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/Linktree_Logo_Stove.png" alt="STOVE logo">
+            <span>STOVE</span>
+          </a>
         </div>
       </div>
     </section>
@@ -124,22 +144,57 @@
     </section>
 
     <section class="section">
-      <div class="wrap narrow soft-panel">
+      <div class="wrap soft-panel">
         <h2 id="contact">{{HOME_CONTACT_TITLE}}</h2>
         <p>{{HOME_CONTACT_SUBTITLE}}</p>
+        <div class="support-grid">
+          <aside class="support-card" aria-label="{{SUPPORT_DISCORD_TITLE}}">
+            <h3>{{SUPPORT_DISCORD_TITLE}}</h3>
+            <p>{{SUPPORT_DISCORD_BODY}}</p>
+            <a class="btn btn-primary support-discord-btn" href="https://discord.gg/sushiben" target="_blank" rel="noopener noreferrer">{{SUPPORT_DISCORD_CTA}}</a>
+            <div class="discord-widget-wrap">
+              <iframe
+                src="https://discord.com/widget?id=1102657848393093152&theme=light"
+                title="Sushi Ben Discord Server"
+                loading="lazy"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+          </aside>
 
-        <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
-          <label for="name">{{FORM_NAME}}</label>
-          <input id="name" name="name" type="text" autocomplete="name" required>
+          <div class="support-card">
+            <h3>{{SUPPORT_EMAIL_TITLE}}</h3>
+            <p>{{SUPPORT_EMAIL_BODY}}</p>
+            <form id="support-form" class="contact-form" action="https://REPLACE_WITH_YOUR_WORKER.workers.dev/contact" method="POST" novalidate>
+              <label for="name">{{FORM_NAME}}</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
 
-          <label for="email">{{FORM_EMAIL}}</label>
-          <input id="email" name="email" type="email" autocomplete="email" required>
+              <label for="email">{{FORM_EMAIL}}</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
 
-          <label for="message">{{FORM_MESSAGE}}</label>
-          <textarea id="message" name="message" rows="6" required></textarea>
+              <label for="category">{{FORM_CATEGORY}}</label>
+              <select id="category" name="category" required>
+                <option value="">{{FORM_CATEGORY_PLACEHOLDER}}</option>
+                <option value="general">{{FORM_CATEGORY_GENERAL}}</option>
+                <option value="press">{{FORM_CATEGORY_PRESS}}</option>
+                <option value="technical">{{FORM_CATEGORY_TECH}}</option>
+              </select>
 
-          <button class="btn btn-primary" type="submit">{{FORM_SUBMIT}}</button>
-        </form>
+              <label for="message">{{FORM_MESSAGE}}</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+
+              <div class="hp-wrap" aria-hidden="true">
+                <label for="website">Website</label>
+                <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+              </div>
+
+              <input type="hidden" name="page" value="support">
+              <input type="hidden" name="locale" value="{{LANG}}">
+
+              <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+              <button class="btn btn-primary" type="submit">{{FORM_SUBMIT}}</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
   </main>

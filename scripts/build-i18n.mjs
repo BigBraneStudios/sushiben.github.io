@@ -99,6 +99,29 @@ function textToHtmlParagraphs(value) {
     .replace(/\n/g, "<br>");
 }
 
+function formatAboutHtml(value) {
+  const cleaned = String(value ?? "")
+    .replace(/\[img[^\]]*]\s*\[\/img]/gi, "")
+    .replace(/\[img[^\]]*]/gi, "")
+    .replace(/\[\/img]/gi, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+  let html = textToHtmlParagraphs(cleaned);
+
+  const people = ["Hato Moa", "Laura Post", "Ryan Colt Levy", "AJ Beckles"];
+  const projects = ["Hatoful Boyfriend", "Little Witch Academia", "Chainsaw Man", "Dandadan"];
+
+  for (const name of people) {
+    html = html.split(name).join(`<strong>${name}</strong>`);
+  }
+  for (const project of projects) {
+    html = html.split(project).join(`<em>${project}</em>`);
+  }
+
+  return html;
+}
+
 const csv = parseCsv(read("i18n/strings.csv"));
 const dict = new Map();
 csv.rows.forEach((r) => dict.set(r.key, r));
@@ -173,7 +196,7 @@ for (const locale of LOCALES) {
     HOME_CTA_BUY: escapeHtml(t("home.cta.buy", locale)),
     HOME_CTA_WATCH: escapeHtml(t("home.cta.watch", locale)),
     HOME_ABOUT_TITLE: escapeHtml(t("home.about.title", locale)),
-    HOME_ABOUT_BODY: textToHtmlParagraphs(t("home.about.body", locale)),
+    HOME_ABOUT_BODY: formatAboutHtml(t("home.about.body", locale)),
     HOME_FEATURES_TITLE: escapeHtml(t("home.features.title", locale)),
     HIGHLIGHT_1: escapeHtml(t("home.highlights.item1", locale)),
     HIGHLIGHT_2: escapeHtml(t("home.highlights.item2", locale)),
@@ -189,6 +212,16 @@ for (const locale of LOCALES) {
     HOME_MEDIA_TITLE: escapeHtml(t("home.media.title", locale)),
     HOME_CONTACT_TITLE: escapeHtml(t("home.contact.title", locale)),
     HOME_CONTACT_SUBTITLE: escapeHtml(t("home.contact.subtitle", locale)),
+    SUPPORT_DISCORD_TITLE: escapeHtml(t("home.support.discord.title", locale)),
+    SUPPORT_DISCORD_BODY: escapeHtml(t("home.support.discord.body", locale)),
+    SUPPORT_DISCORD_CTA: escapeHtml(t("home.support.discord.cta", locale)),
+    SUPPORT_EMAIL_TITLE: escapeHtml(t("home.support.email.title", locale)),
+    SUPPORT_EMAIL_BODY: escapeHtml(t("home.support.email.body", locale)),
+    FORM_CATEGORY: escapeHtml(t("home.form.category", locale)),
+    FORM_CATEGORY_PLACEHOLDER: escapeHtml(t("home.form.category.placeholder", locale)),
+    FORM_CATEGORY_GENERAL: escapeHtml(t("home.form.category.general", locale)),
+    FORM_CATEGORY_PRESS: escapeHtml(t("home.form.category.press", locale)),
+    FORM_CATEGORY_TECH: escapeHtml(t("home.form.category.tech", locale)),
     FORM_NAME: escapeHtml(t("home.form.name", locale)),
     FORM_EMAIL: escapeHtml(t("home.form.email", locale)),
     FORM_MESSAGE: escapeHtml(t("home.form.message", locale)),
