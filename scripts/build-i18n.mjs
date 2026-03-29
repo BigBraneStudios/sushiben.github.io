@@ -24,7 +24,8 @@ function read(filePath) {
 function write(filePath, content) {
   const abs = path.join(ROOT, filePath);
   fs.mkdirSync(path.dirname(abs), { recursive: true });
-  fs.writeFileSync(abs, content, "utf8");
+  const withBom = filePath.endsWith(".html") ? `\uFEFF${content}` : content;
+  fs.writeFileSync(abs, withBom, "utf8");
 }
 
 function parseCsv(content) {
@@ -92,6 +93,15 @@ function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+function decodeHtmlEntities(value) {
+  return String(value ?? "")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
 function textToHtmlParagraphs(value) {
   return escapeHtml(value)
     .replace(/\r\n/g, "\n")
@@ -122,6 +132,13 @@ function formatAboutHtml(value) {
   return html;
 }
 
+function formatHeroLedeHtml(value) {
+  let html = escapeHtml(value);
+  html = html.split("Moa").join("<strong>Moa</strong>");
+  html = html.split("Hatoful Boyfriend").join("<em>Hatoful Boyfriend</em>");
+  return html;
+}
+
 const csv = parseCsv(read("i18n/strings.csv"));
 const dict = new Map();
 csv.rows.forEach((r) => dict.set(r.key, r));
@@ -129,7 +146,7 @@ csv.rows.forEach((r) => dict.set(r.key, r));
 function t(key, locale) {
   const row = dict.get(key);
   if (!row) throw new Error(`Missing translation key: ${key}`);
-  return row[locale] || row[DEFAULT_LOCALE] || "";
+  return decodeHtmlEntities(row[locale] || row[DEFAULT_LOCALE] || "");
 }
 
 function currentLanguageName(locale) {
@@ -192,7 +209,7 @@ for (const locale of LOCALES) {
     TRANSLATION_NOTE: translationNote,
     HOME_KICKER: escapeHtml(t("home.kicker", locale)),
     HOME_HERO_TITLE: escapeHtml(t("home.hero.title", locale)),
-    HOME_HERO_LEDE: escapeHtml(t("home.hero.lede", locale)),
+    HOME_HERO_LEDE: formatHeroLedeHtml(t("home.hero.lede", locale)),
     HOME_CTA_BUY: escapeHtml(t("home.cta.buy", locale)),
     HOME_CTA_WATCH: escapeHtml(t("home.cta.watch", locale)),
     HOME_ABOUT_TITLE: escapeHtml(t("home.about.title", locale)),

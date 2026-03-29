@@ -15,6 +15,42 @@ window.addEventListener("resize", syncHeaderOffset, { passive: true });
 window.addEventListener("load", syncHeaderOffset);
 syncHeaderOffset();
 
+function scrollToHash(hash, updateUrl = true) {
+  if (!hash || !hash.startsWith("#")) return false;
+  const target = document.querySelector(hash);
+  if (!target) return false;
+
+  const header = document.querySelector(".site-header");
+  const headerHeight = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
+  const css = getComputedStyle(document.documentElement);
+  const gap = parseFloat(css.getPropertyValue("--anchor-target-gap")) || 0;
+  const top = Math.max(0, window.scrollY + target.getBoundingClientRect().top - headerHeight - gap);
+
+  window.scrollTo({ top, behavior: "auto" });
+  if (updateUrl) history.pushState(null, "", hash);
+  return true;
+}
+
+const sectionLinks = document.querySelectorAll(
+  '.nav-links a[href^="#"], .nav-menu a[href^="#"], .cta-row a[href^="#"], .brand[href^="#"]'
+);
+
+sectionLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const hash = link.getAttribute("href");
+    if (!hash || hash === "#") return;
+    if (!scrollToHash(hash, true)) return;
+    event.preventDefault();
+  });
+});
+
+window.addEventListener("load", () => {
+  if (window.location.hash) {
+    scrollToHash(window.location.hash, false);
+  }
+});
+
 document.querySelectorAll("details.nav-menu, details.lang-switcher").forEach((menu) => {
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
@@ -23,8 +59,21 @@ document.querySelectorAll("details.nav-menu, details.lang-switcher").forEach((me
   });
 });
 
+const dropdowns = Array.from(document.querySelectorAll("details.nav-menu, details.lang-switcher"));
+dropdowns.forEach((menu) => {
+  menu.addEventListener("toggle", () => {
+    if (!menu.open) return;
+    dropdowns.forEach((other) => {
+      if (other !== menu) other.open = false;
+    });
+  });
+});
+
 const supportForm = document.getElementById("support-form");
 const formStatus = document.getElementById("form-status");
+const shotLightbox = document.getElementById("shot-lightbox");
+const shotLightboxImage = document.getElementById("shot-lightbox-image");
+const shotLightboxClose = document.querySelector(".shot-lightbox-close");
 
 function setFormStatus(message, state = "neutral") {
   if (!formStatus) return;
@@ -108,6 +157,35 @@ if (supportForm) {
       setFormStatus("Thanks, your message was sent successfully.", "success");
     } catch (_err) {
       setFormStatus("Something went wrong sending your message. Please try again.", "error");
+    }
+  });
+}
+
+if (shotLightbox && shotLightboxImage) {
+  document.querySelectorAll(".shot[data-shot]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const src = button.getAttribute("data-shot");
+      if (!src) return;
+      shotLightboxImage.setAttribute("src", src);
+      shotLightbox.showModal();
+    });
+  });
+
+  if (shotLightboxClose) {
+    shotLightboxClose.addEventListener("click", () => {
+      shotLightbox.close();
+    });
+  }
+
+  shotLightbox.addEventListener("click", (event) => {
+    const rect = shotLightbox.getBoundingClientRect();
+    const inDialog =
+      rect.top <= event.clientY &&
+      event.clientY <= rect.top + rect.height &&
+      rect.left <= event.clientX &&
+      event.clientX <= rect.left + rect.width;
+    if (!inDialog) {
+      shotLightbox.close();
     }
   });
 }

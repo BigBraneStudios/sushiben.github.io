@@ -20,20 +20,18 @@
         <img class="brand-logo" src="../assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="#about">{{NAV_ABOUT}}</a>
-        <a href="#features">{{NAV_FEATURES}}</a>
         <a href="#buy">{{NAV_BUY}}</a>
         <a href="#media">{{NAV_MEDIA}}</a>
+        <a href="#about">{{NAV_ABOUT}}</a>
         <a href="#contact">{{NAV_CONTACT}}</a>
       </nav>
       <div class="header-controls">
         <details class="nav-menu">
           <summary>{{NAV_MENU}}</summary>
           <ul>
-            <li><a href="#about">{{NAV_ABOUT}}</a></li>
-            <li><a href="#features">{{NAV_FEATURES}}</a></li>
             <li><a href="#buy">{{NAV_BUY}}</a></li>
             <li><a href="#media">{{NAV_MEDIA}}</a></li>
+            <li><a href="#about">{{NAV_ABOUT}}</a></li>
             <li><a href="#contact">{{NAV_CONTACT}}</a></li>
           </ul>
         </details>
@@ -69,29 +67,7 @@
 
     <section class="section">
       <div class="wrap narrow soft-panel">
-        <h2 id="about">{{HOME_ABOUT_TITLE}}</h2>
-        <p>{{HOME_ABOUT_BODY}}</p>
-      </div>
-    </section>
-
-    <section class="section section-soft">
-      <div class="wrap">
-        <h2 id="features">{{HOME_FEATURES_TITLE}}</h2>
-        <div class="feature-grid">
-          <article class="card"><p>{{HIGHLIGHT_1}}</p></article>
-          <article class="card"><p>{{HIGHLIGHT_2}}</p></article>
-          <article class="card"><p>{{HIGHLIGHT_3}}</p></article>
-          <article class="card"><p>{{HIGHLIGHT_4}}</p></article>
-          <article class="card"><p>{{HIGHLIGHT_5}}</p></article>
-          <article class="card"><p>{{HIGHLIGHT_6}}</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap narrow soft-panel">
         <h2 id="buy">{{HOME_BUY_TITLE}}</h2>
-        <p>{{HOME_BUY_SUBTITLE}}</p>
         <div class="store-grid" role="list">
           <a role="listitem" class="store-link" href="https://store.steampowered.com/app/2419240/Sushi_Ben/" target="_blank" rel="noopener noreferrer">
             <img src="../assets/images/Linktree_Logo_Steam.png" alt="Steam logo">
@@ -121,7 +97,7 @@
       </div>
     </section>
 
-    <section class="section section-soft">
+    <section class="section">
       <div class="wrap soft-panel">
         <h2 id="media">{{HOME_MEDIA_TITLE}}</h2>
         <div class="media-grid">
@@ -134,12 +110,31 @@
               allowfullscreen></iframe>
           </div>
           <div class="shots-grid">
-            <div class="shot">Screenshot 1</div>
-            <div class="shot">Screenshot 2</div>
-            <div class="shot">Screenshot 3</div>
-            <div class="shot">Screenshot 4</div>
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_1.png" aria-label="Open screenshot 1">
+              <img src="../assets/images/SushiBen_ScreenShot_1.png" alt="Sushi Ben screenshot 1">
+            </button>
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_2.png" aria-label="Open screenshot 2">
+              <img src="../assets/images/SushiBen_ScreenShot_2.png" alt="Sushi Ben screenshot 2">
+            </button>
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_4.png" aria-label="Open screenshot 4">
+              <img src="../assets/images/SushiBen_ScreenShot_4.png" alt="Sushi Ben screenshot 4">
+            </button>
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_5.png" aria-label="Open screenshot 5">
+              <img src="../assets/images/SushiBen_ScreenShot_5.png" alt="Sushi Ben screenshot 5">
+            </button>
           </div>
         </div>
+        <div class="cta-row media-cta-row">
+          <a class="btn btn-primary" href="#buy">{{HOME_CTA_BUY}}</a>
+          <a class="btn btn-secondary" href="#contact">{{NAV_CONTACT}}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2 id="about">{{HOME_ABOUT_TITLE}}</h2>
+        <p>{{HOME_ABOUT_BODY}}</p>
       </div>
     </section>
 
@@ -198,6 +193,11 @@
       </div>
     </section>
   </main>
+
+  <dialog id="shot-lightbox" class="shot-lightbox" aria-label="Screenshot viewer">
+    <button class="shot-lightbox-close" type="button" aria-label="Close screenshot">×</button>
+    <img id="shot-lightbox-image" src="" alt="Expanded screenshot">
+  </dialog>
 
   <footer class="site-footer">
     <div class="wrap footer-row">
