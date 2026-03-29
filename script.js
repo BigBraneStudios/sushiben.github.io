@@ -3,54 +3,6 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
-function syncHeaderOffset() {
-  const header = document.querySelector(".site-header");
-  if (!header) return;
-
-  const offset = Math.ceil(header.getBoundingClientRect().height) + 2;
-  document.documentElement.style.setProperty("--header-offset", `${offset}px`);
-}
-
-window.addEventListener("resize", syncHeaderOffset, { passive: true });
-window.addEventListener("load", syncHeaderOffset);
-syncHeaderOffset();
-
-function scrollToHash(hash, updateUrl = true) {
-  if (!hash || !hash.startsWith("#")) return false;
-  const target = document.querySelector(hash);
-  if (!target) return false;
-
-  const header = document.querySelector(".site-header");
-  const headerHeight = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
-  const css = getComputedStyle(document.documentElement);
-  const gap = parseFloat(css.getPropertyValue("--anchor-target-gap")) || 0;
-  const top = Math.max(0, window.scrollY + target.getBoundingClientRect().top - headerHeight - gap);
-
-  window.scrollTo({ top, behavior: "auto" });
-  if (updateUrl) history.pushState(null, "", hash);
-  return true;
-}
-
-const sectionLinks = document.querySelectorAll(
-  '.nav-links a[href^="#"], .nav-menu a[href^="#"], .cta-row a[href^="#"], .brand[href^="#"]'
-);
-
-sectionLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    const hash = link.getAttribute("href");
-    if (!hash || hash === "#") return;
-    if (!scrollToHash(hash, true)) return;
-    event.preventDefault();
-  });
-});
-
-window.addEventListener("load", () => {
-  if (window.location.hash) {
-    scrollToHash(window.location.hash, false);
-  }
-});
-
 document.querySelectorAll("details.nav-menu, details.lang-switcher").forEach((menu) => {
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {

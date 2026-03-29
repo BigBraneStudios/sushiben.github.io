@@ -8,8 +8,7 @@
   --accent-hover: #f285ad;
   --line: #9ecce2;
   --panel: #fdfcff;
-  --header-offset: 72px;
-  --anchor-target-gap: 40rem;
+  --header-offset: 60px;
   --chrome-bg: color-mix(in srgb, #f7fbff 88%, transparent);
   --bg-overlay-pink: 0.40;
   --bg-overlay-blue: 0.40;
@@ -28,7 +27,7 @@ body {
 
 html,
 body {
-  scroll-padding-top: calc(var(--header-offset) + var(--anchor-target-gap));
+  scroll-padding-top: var(--header-offset);
 }
 
 body {
@@ -322,11 +321,11 @@ main[id] {
 }
 
 h2[id] {
-  scroll-margin-top: calc(var(--header-offset) + var(--anchor-target-gap));
+  scroll-margin-top: var(--header-offset);
 }
 
 :target {
-  scroll-margin-top: calc(var(--header-offset) + var(--anchor-target-gap));
+  scroll-margin-top: var(--header-offset);
 }
 
 .translation-note {
@@ -625,6 +624,10 @@ select {
 }
 
 @media (max-width: 880px) {
+  :root {
+    --header-offset: 50px;
+  }
+
   .hero-grid,
   .media-grid,
   .feature-grid,
