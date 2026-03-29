@@ -252,7 +252,7 @@ h2 {
 
 .btn {
   display: inline-block;
-  padding: 0.7rem 1rem;
+  padding: 0.76rem 1.1rem;
   border-radius: 999px;
   border: 2px solid transparent;
   text-decoration: none;
@@ -369,26 +369,35 @@ h2[id] {
   text-decoration: none;
   color: var(--ink);
   font-weight: 700;
-  border: 1px solid var(--line);
+  border: 2px solid color-mix(in srgb, var(--line) 78%, #ffffff);
   background: color-mix(in srgb, var(--panel) 86%, #ffffff);
   border-radius: 12px;
-  padding: 0.9rem 1rem;
+  padding: 1rem 1rem 1.05rem;
   text-align: center;
   display: grid;
   place-items: center;
   gap: 0.45rem;
   min-width: 0;
+  min-height: 124px;
+  transition: transform 120ms ease, border-color 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
 }
 
 .store-link img {
   width: 100%;
   max-width: 180px;
-  max-height: 34px;
+  max-height: 50px;
   object-fit: contain;
 }
 
 .store-link span {
   font-size: 0.92rem;
+}
+
+.store-link:hover {
+  background: color-mix(in srgb, #ffffff 74%, var(--accent-hover));
+  border-color: var(--accent-hover);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-hover) 55%, transparent);
+  transform: translateY(-1px);
 }
 
 .media-grid {
@@ -584,6 +593,76 @@ select {
 .contact-form .btn {
   width: 100%;
   text-align: center;
+}
+
+.about-bullets {
+  margin: 0.9rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.about-bullets li + li {
+  margin-top: 0.35rem;
+}
+
+.about-cta-row {
+  margin-top: 0.95rem;
+}
+
+.review-grid {
+  margin-top: 0.95rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.reviews-cta-row {
+  margin-top: 0.9rem;
+}
+
+.review-card {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.75rem 0.85rem;
+  background: color-mix(in srgb, #ffffff 82%, var(--paper));
+}
+
+.review-card p {
+  margin: 0 0 0.2rem;
+  font-weight: 600;
+}
+
+.review-card cite {
+  font-style: normal;
+  color: var(--soft-ink);
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.section-final-cta p {
+  margin: 0;
+}
+
+.section-final-cta .cta-row {
+  margin-top: 0.95rem;
+}
+
+.meta-row {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.meta-row a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.secondary-stub {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: var(--soft-ink);
 }
 
 .site-footer {

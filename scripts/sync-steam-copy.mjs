@@ -95,6 +95,9 @@ function writeCsv(filePath, headers, rows) {
 function cleanTagText(value) {
   return value
     .replace(/\r\n/g, "\n")
+    .replace(/\[img[^]]*]\s*\[\/img]/gi, "")
+    .replace(/\[img[^]]*]/gi, "")
+    .replace(/\[\/img]/gi, "")
     .replace(/\[\/?b]/gi, "")
     .replace(/\[\/?i]/gi, "")
     .replace(/\[\/?u]/gi, "")

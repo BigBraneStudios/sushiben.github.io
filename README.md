@@ -25,8 +25,11 @@ This repo contains a plain HTML/CSS/JS site scaffolded for GitHub Pages with pat
 3. Regenerate localized pages:
 
 ```powershell
+node scripts/validate-i18n.mjs
 node scripts/build-i18n.mjs
 ```
+
+`validate-i18n` is a safety check that warns/fails on suspicious mojibake/control characters or leftover Steam image markup in `i18n/strings.csv`.
 
 English (`en`) is the default/fallback source language when a translation value is missing.
 

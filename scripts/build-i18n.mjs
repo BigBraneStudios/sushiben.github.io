@@ -4,6 +4,7 @@ import path from "node:path";
 const ROOT = process.cwd();
 const LOCALES = ["en", "de", "es", "fr", "it", "pt-br", "ja", "ko", "zh-hans", "zh-hant"];
 const DEFAULT_LOCALE = "en";
+const SECONDARY_PAGES = ["team", "cast", "press-kit"];
 const HREFLANG = {
   en: "en",
   de: "de",
@@ -185,6 +186,7 @@ function render(template, replacements) {
 
 const homeTemplate = read("templates/home.tpl");
 const legalTemplate = read("templates/legal.tpl");
+const secondaryTemplate = read("templates/secondary.tpl");
 
 for (const locale of LOCALES) {
   const translationNote = t("home.translation_note", locale)
@@ -248,6 +250,22 @@ for (const locale of LOCALES) {
     SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
     SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
     SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
+    NAV_TEAM: escapeHtml(t("nav.team", locale)),
+    NAV_CAST: escapeHtml(t("nav.cast", locale)),
+    NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
+    HOME_REVIEWS_TITLE: escapeHtml(t("home.reviews.title", locale)),
+    HOME_REVIEW_QUOTE_1: escapeHtml(t("home.reviews.quote1", locale)),
+    HOME_REVIEW_SOURCE_1: escapeHtml(t("home.reviews.source1", locale)),
+    HOME_REVIEW_QUOTE_2: escapeHtml(t("home.reviews.quote2", locale)),
+    HOME_REVIEW_SOURCE_2: escapeHtml(t("home.reviews.source2", locale)),
+    HOME_REVIEW_QUOTE_3: escapeHtml(t("home.reviews.quote3", locale)),
+    HOME_REVIEW_SOURCE_3: escapeHtml(t("home.reviews.source3", locale)),
+    HOME_REVIEW_QUOTE_4: escapeHtml(t("home.reviews.quote4", locale)),
+    HOME_REVIEW_SOURCE_4: escapeHtml(t("home.reviews.source4", locale)),
+    HOME_FINAL_CTA_TITLE: escapeHtml(t("home.final_cta.title", locale)),
+    HOME_FINAL_CTA_BODY: escapeHtml(t("home.final_cta.body", locale)),
+    HOME_FINAL_CTA_BUY: escapeHtml(t("home.final_cta.buy", locale)),
+    HOME_FINAL_CTA_WATCH: escapeHtml(t("home.final_cta.watch", locale)),
   });
 
   write(`${locale}/index.html`, homeHtml);
@@ -274,6 +292,23 @@ for (const locale of LOCALES) {
     });
 
     write(`${locale}/${page}/index.html`, legalHtml);
+  }
+
+  for (const page of SECONDARY_PAGES) {
+    const pageHtml = render(secondaryTemplate, {
+      LANG: locale,
+      HTML_LANG: htmlLang(locale),
+      PAGE_SLUG: page,
+      PAGE_TITLE: escapeHtml(t(`page.${page}.title`, locale)),
+      PAGE_DESCRIPTION: escapeHtml(t(`page.${page}.description`, locale)),
+      PAGE_STUB_BODY: escapeHtml(t(`page.${page}.stub_body`, locale)),
+      LEGAL_BACK_HOME: escapeHtml(t("legal.back_home", locale)),
+      LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
+      LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
+      LANG_ITEMS_PAGE: languageItems(locale, page),
+      HREFLANG_LINKS: hreflangLinks(page),
+    });
+    write(`${locale}/${page}/index.html`, pageHtml);
   }
 }
 

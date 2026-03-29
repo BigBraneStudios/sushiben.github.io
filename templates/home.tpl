@@ -23,6 +23,7 @@
         <a href="#buy">{{NAV_BUY}}</a>
         <a href="#media">{{NAV_MEDIA}}</a>
         <a href="#about">{{NAV_ABOUT}}</a>
+        <a href="./press-kit/">{{NAV_PRESS_KIT}}</a>
         <a href="#contact">{{NAV_CONTACT}}</a>
       </nav>
       <div class="header-controls">
@@ -32,6 +33,7 @@
             <li><a href="#buy">{{NAV_BUY}}</a></li>
             <li><a href="#media">{{NAV_MEDIA}}</a></li>
             <li><a href="#about">{{NAV_ABOUT}}</a></li>
+            <li><a href="./press-kit/">{{NAV_PRESS_KIT}}</a></li>
             <li><a href="#contact">{{NAV_CONTACT}}</a></li>
           </ul>
         </details>
@@ -126,7 +128,7 @@
         </div>
         <div class="cta-row media-cta-row">
           <a class="btn btn-primary" href="#buy">{{HOME_CTA_BUY}}</a>
-          <a class="btn btn-secondary" href="#contact">{{NAV_CONTACT}}</a>
+          <a class="btn btn-secondary" href="./press-kit/">{{NAV_PRESS_KIT}}</a>
         </div>
       </div>
     </section>
@@ -135,13 +137,50 @@
       <div class="wrap narrow soft-panel">
         <h2 id="about">{{HOME_ABOUT_TITLE}}</h2>
         <p>{{HOME_ABOUT_BODY}}</p>
+        <ul class="about-bullets">
+          <li>{{HIGHLIGHT_1}}</li>
+          <li>{{HIGHLIGHT_2}}</li>
+          <li>{{HIGHLIGHT_5}}</li>
+          <li>{{HIGHLIGHT_6}}</li>
+          <li>{{HIGHLIGHT_8}}</li>
+        </ul>
+        <div class="cta-row about-cta-row">
+          <a class="btn btn-primary" href="./cast/">{{NAV_CAST}}</a>
+          <a class="btn btn-secondary" href="./team/">{{NAV_TEAM}}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap narrow soft-panel">
+        <h2>{{HOME_REVIEWS_TITLE}}</h2>
+        <div class="review-grid">
+          <blockquote class="review-card">
+            <p>"{{HOME_REVIEW_QUOTE_1}}"</p>
+            <cite>{{HOME_REVIEW_SOURCE_1}}</cite>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>"{{HOME_REVIEW_QUOTE_2}}"</p>
+            <cite>{{HOME_REVIEW_SOURCE_2}}</cite>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>"{{HOME_REVIEW_QUOTE_3}}"</p>
+            <cite>{{HOME_REVIEW_SOURCE_3}}</cite>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>"{{HOME_REVIEW_QUOTE_4}}"</p>
+            <cite>{{HOME_REVIEW_SOURCE_4}}</cite>
+          </blockquote>
+        </div>
+        <div class="cta-row reviews-cta-row">
+          <a class="btn btn-primary" href="./press-kit/">{{NAV_PRESS_KIT}}</a>
+        </div>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap soft-panel">
         <h2 id="contact">{{HOME_CONTACT_TITLE}}</h2>
-        <p>{{HOME_CONTACT_SUBTITLE}}</p>
         <div class="support-grid">
           <aside class="support-card" aria-label="{{SUPPORT_DISCORD_TITLE}}">
             <h3>{{SUPPORT_DISCORD_TITLE}}</h3>
@@ -192,6 +231,15 @@
         </div>
       </div>
     </section>
+
+    <section class="section section-final-cta">
+      <div class="wrap narrow soft-panel">
+        <h2>{{HOME_FINAL_CTA_TITLE}}</h2>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#buy">{{HOME_FINAL_CTA_BUY}}</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <dialog id="shot-lightbox" class="shot-lightbox" aria-label="Screenshot viewer">
@@ -206,10 +254,15 @@
         <a href="./eula/">{{LEGAL_EULA_LABEL}}</a>
         <a href="./privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
       </div>
+      <div class="meta-row" aria-label="More links">
+        <a href="./team/">{{NAV_TEAM}}</a>
+        <a href="./cast/">{{NAV_CAST}}</a>
+        <a href="./press-kit/">{{NAV_PRESS_KIT}}</a>
+      </div>
       <div class="social-row" aria-label="Social links">
-        <a href="https://x.com" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">{{SOCIAL_YOUTUBE}}</a>
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer">{{SOCIAL_DISCORD}}</a>
+        <a href="https://x.com/SushiBenGame" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>
+        <a href="https://www.youtube.com/watch?v=1lA0ssiHHxM" target="_blank" rel="noopener noreferrer">{{SOCIAL_YOUTUBE}}</a>
+        <a href="https://discord.gg/sushiben" target="_blank" rel="noopener noreferrer">{{SOCIAL_DISCORD}}</a>
       </div>
     </div>
   </footer>
