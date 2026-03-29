@@ -157,19 +157,19 @@
         <div class="review-grid">
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_1}}"</p>
-            <cite>{{HOME_REVIEW_SOURCE_1}}</cite>
+            <cite><a href="{{HOME_REVIEW_URL_1}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_1}}</a></cite>
           </blockquote>
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_2}}"</p>
-            <cite>{{HOME_REVIEW_SOURCE_2}}</cite>
+            <cite><a href="{{HOME_REVIEW_URL_2}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_2}}</a></cite>
           </blockquote>
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_3}}"</p>
-            <cite>{{HOME_REVIEW_SOURCE_3}}</cite>
+            <cite><a href="{{HOME_REVIEW_URL_3}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_3}}</a></cite>
           </blockquote>
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_4}}"</p>
-            <cite>{{HOME_REVIEW_SOURCE_4}}</cite>
+            <cite><a href="{{HOME_REVIEW_URL_4}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_4}}</a></cite>
           </blockquote>
         </div>
         <div class="cta-row reviews-cta-row">
