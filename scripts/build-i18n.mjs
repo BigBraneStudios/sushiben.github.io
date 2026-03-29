@@ -184,6 +184,18 @@ function render(template, replacements) {
   return out;
 }
 
+function readSecondaryBody(locale, page) {
+  const localized = `i18n/secondary/${locale}/${page}.html`;
+  const fallback = `i18n/secondary/${DEFAULT_LOCALE}/${page}.html`;
+  const localizedAbs = path.join(ROOT, localized);
+  const fallbackAbs = path.join(ROOT, fallback);
+
+  if (fs.existsSync(localizedAbs)) return read(localized).trim();
+  if (fs.existsSync(fallbackAbs)) return read(fallback).trim();
+
+  return `<p class="secondary-stub">${escapeHtml(t(`page.${page}.stub_body`, locale))}</p>`;
+}
+
 const homeTemplate = read("templates/home.tpl");
 const legalTemplate = read("templates/legal.tpl");
 const secondaryTemplate = read("templates/secondary.tpl");
@@ -293,6 +305,19 @@ for (const locale of LOCALES) {
       LANG_ITEMS_LEGAL: languageItems(locale, page),
       HREFLANG_LINKS: hreflangLinks(page),
       LEGAL_BODY: escapeHtml(legalBody),
+      NAV_ABOUT: escapeHtml(t("nav.about", locale)),
+      NAV_BUY: escapeHtml(t("nav.buy", locale)),
+      NAV_MEDIA: escapeHtml(t("nav.media", locale)),
+      NAV_CONTACT: escapeHtml(t("nav.contact", locale)),
+      NAV_MENU: escapeHtml(t("nav.menu", locale)),
+      NAV_TEAM: escapeHtml(t("nav.team", locale)),
+      NAV_CAST: escapeHtml(t("nav.cast", locale)),
+      NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
+      LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
+      LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
+      SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
+      SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
+      SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
     });
 
     write(`${locale}/${page}/index.html`, legalHtml);
@@ -305,12 +330,25 @@ for (const locale of LOCALES) {
       PAGE_SLUG: page,
       PAGE_TITLE: escapeHtml(t(`page.${page}.title`, locale)),
       PAGE_DESCRIPTION: escapeHtml(t(`page.${page}.description`, locale)),
-      PAGE_STUB_BODY: escapeHtml(t(`page.${page}.stub_body`, locale)),
+      PAGE_BODY: readSecondaryBody(locale, page),
       LEGAL_BACK_HOME: escapeHtml(t("legal.back_home", locale)),
       LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
       LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
       LANG_ITEMS_PAGE: languageItems(locale, page),
       HREFLANG_LINKS: hreflangLinks(page),
+      NAV_ABOUT: escapeHtml(t("nav.about", locale)),
+      NAV_BUY: escapeHtml(t("nav.buy", locale)),
+      NAV_MEDIA: escapeHtml(t("nav.media", locale)),
+      NAV_CONTACT: escapeHtml(t("nav.contact", locale)),
+      NAV_MENU: escapeHtml(t("nav.menu", locale)),
+      NAV_TEAM: escapeHtml(t("nav.team", locale)),
+      NAV_CAST: escapeHtml(t("nav.cast", locale)),
+      NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
+      LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
+      LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
+      SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
+      SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
+      SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
     });
     write(`${locale}/${page}/index.html`, pageHtml);
   }
