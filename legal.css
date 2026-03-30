@@ -50,8 +50,16 @@
   padding: 0 0.15rem;
 }
 
+.secondary-team-page .legal-wrap > h1 {
+  text-align: center;
+}
+
+.secondary-cast-page .legal-wrap > h1 {
+  text-align: center;
+}
+
 .secondary-group + .secondary-group {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .secondary-panel {
@@ -88,8 +96,9 @@
 }
 
 .secondary-group h2 {
-  margin: 0 0 0.45rem;
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.75rem, 3.6vw, 2.45rem);
+  line-height: 1.18;
 }
 
 .secondary-list {

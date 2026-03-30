@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="../../styles.css">
   <link rel="stylesheet" href="../../legal.css">
 </head>
-<body class="secondary-page">
+<body class="secondary-page secondary-{{PAGE_SLUG}}-page">
   <header class="site-header">
     <div class="wrap nav-row">
       <a class="brand" href="../" aria-label="Sushi Ben Home">
