@@ -190,8 +190,14 @@ function readSecondaryBody(locale, page) {
   const localizedAbs = path.join(ROOT, localized);
   const fallbackAbs = path.join(ROOT, fallback);
 
-  if (fs.existsSync(localizedAbs)) return read(localized).trim();
-  if (fs.existsSync(fallbackAbs)) return read(fallback).trim();
+  // Secondary source partials live under i18n/secondary/<locale>/ and use
+  // "../../../assets/..." so editor path resolution works there. Generated
+  // pages live at "<locale>/<page>/index.html" and need "../../assets/...".
+  const normalizeSecondaryPaths = (html) =>
+    html.replace(/\.\.\/\.\.\/\.\.\/assets\//g, "../../assets/");
+
+  if (fs.existsSync(localizedAbs)) return normalizeSecondaryPaths(read(localized).trim());
+  if (fs.existsSync(fallbackAbs)) return normalizeSecondaryPaths(read(fallback).trim());
 
   return `<p class="secondary-stub">${escapeHtml(t(`page.${page}.stub_body`, locale))}</p>`;
 }

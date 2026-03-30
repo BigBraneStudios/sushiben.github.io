@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css">
-  <link rel="stylesheet" href="../../legal.css">
+  <link rel="stylesheet" href="../../secondary.css">
 </head>
 <body class="secondary-page secondary-{{PAGE_SLUG}}-page">
   <header class="site-header">
@@ -55,7 +55,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p>© <span id="year"></span> Big Brane Studios. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Big Brane Studios. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="../eula/">{{LEGAL_EULA_LABEL}}</a>
         <a href="../privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
