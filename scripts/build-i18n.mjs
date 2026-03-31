@@ -5,7 +5,8 @@ const ROOT = process.cwd();
 const SITE_URL = "https://www.sushiben.com";
 const SITE_NAME = "Sushi Ben";
 const SHARE_IMAGE_PATH = "/assets/images/share-card.jpg";
-const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}`;
+const SHARE_IMAGE_VERSION = "20260331-coverart";
+const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}?v=${SHARE_IMAGE_VERSION}`;
 const TRAILER_EMBED_URL = "https://www.youtube.com/embed/FnIscA4M4rQ";
 const SAME_AS_URLS = [
   "https://x.com/SushiBenGame",
