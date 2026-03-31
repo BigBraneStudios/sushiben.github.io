@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: www.sushiben.com
+Sitemap: https://www.sushiben.com/sitemap.xml

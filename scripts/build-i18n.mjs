@@ -2,6 +2,11 @@
 import path from "node:path";
 
 const ROOT = process.cwd();
+const SITE_URL = "https://www.sushiben.com";
+const SITE_NAME = "Sushi Ben";
+const SHARE_IMAGE_PATH = "/assets/images/share-card.jpg";
+const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}`;
+const TRAILER_EMBED_URL = "https://www.youtube.com/embed/FnIscA4M4rQ";
 const LOCALES = ["en", "de", "es", "fr", "it", "pt-br", "ja", "ko", "zh-hans", "zh-hant"];
 const DEFAULT_LOCALE = "en";
 const SECONDARY_PAGES = ["team", "cast", "press-kit"];
@@ -166,14 +171,77 @@ function hreflangLinks(page) {
   const suffix = page === "home" ? "/" : `/${page}/`;
   const items = LOCALES.map((loc) => {
     const hreflang = HREFLANG[loc] || loc;
-    return `<link rel="alternate" hreflang="${hreflang}" href="https://www.sushiben.com/${loc}${suffix}">`;
+    return `<link rel="alternate" hreflang="${hreflang}" href="${SITE_URL}/${loc}${suffix}">`;
   });
-  items.push(`<link rel="alternate" hreflang="x-default" href="https://www.sushiben.com/${DEFAULT_LOCALE}${suffix}">`);
+  items.push(`<link rel="alternate" hreflang="x-default" href="${SITE_URL}/${DEFAULT_LOCALE}${suffix}">`);
   return items.join("\n  ");
 }
 
 function htmlLang(locale) {
   return HREFLANG[locale] || locale;
+}
+
+function canonicalUrl(locale, page) {
+  if (page === "home") return `${SITE_URL}/${locale}/`;
+  return `${SITE_URL}/${locale}/${page}/`;
+}
+
+function jsonLd(value) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+function organizationJsonLd() {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Big Brane Studios, Inc.",
+    url: SITE_URL,
+    logo: `${SITE_URL}/assets/images/SushiBen_Logo_H.png`,
+  });
+}
+
+function websiteJsonLd(locale) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: htmlLang(locale),
+  });
+}
+
+function webpageJsonLd(title, description, url) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: title,
+    description,
+    url,
+  });
+}
+
+function videoGameJsonLd(locale, description) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    name: SITE_NAME,
+    description,
+    url: canonicalUrl(locale, "home"),
+    image: SHARE_IMAGE_URL,
+    genre: ["Narrative Adventure"],
+    playMode: "SinglePlayer",
+    gamePlatform: ["Steam", "PlayStation 5", "Meta Quest", "HTC VIVEPORT", "PICO", "STOVE"],
+    publisher: {
+      "@type": "Organization",
+      name: "Big Brane Studios, Inc.",
+    },
+    trailer: {
+      "@type": "VideoObject",
+      name: "Sushi Ben Trailer",
+      embedUrl: TRAILER_EMBED_URL,
+      thumbnailUrl: SHARE_IMAGE_URL,
+    },
+  });
 }
 
 function render(template, replacements) {
@@ -209,15 +277,25 @@ const legalTemplate = read("templates/legal.tpl");
 const secondaryTemplate = read("templates/secondary.tpl");
 
 for (const locale of LOCALES) {
+  const orgJson = organizationJsonLd();
   const translationNote = t("home.translation_note", locale)
     ? `<section class="translation-note">\n      <div class="wrap">\n        <p>${escapeHtml(t("home.translation_note", locale))}</p>\n      </div>\n    </section>`
     : "";
+  const siteTitle = t("site.title", locale);
+  const siteDescription = t("site.description", locale);
+  const homeCanonical = canonicalUrl(locale, "home");
 
   const homeHtml = render(homeTemplate, {
     LANG: locale,
     HTML_LANG: htmlLang(locale),
-    SITE_TITLE: escapeHtml(t("site.title", locale)),
-    SITE_DESCRIPTION: escapeHtml(t("site.description", locale)),
+    SITE_TITLE: escapeHtml(siteTitle),
+    SITE_DESCRIPTION: escapeHtml(siteDescription),
+    CANONICAL_URL: homeCanonical,
+    SHARE_IMAGE_URL: SHARE_IMAGE_URL,
+    ORG_JSON_LD: orgJson,
+    WEBSITE_JSON_LD: websiteJsonLd(locale),
+    WEBPAGE_JSON_LD: webpageJsonLd(siteTitle, siteDescription, homeCanonical),
+    VIDEOGAME_JSON_LD: videoGameJsonLd(locale, siteDescription),
     NAV_ABOUT: escapeHtml(t("nav.about", locale)),
     NAV_FEATURES: escapeHtml(t("nav.features", locale)),
     NAV_BUY: escapeHtml(t("nav.buy", locale)),
@@ -300,13 +378,22 @@ for (const locale of LOCALES) {
     const legalBody = fs.existsSync(path.join(ROOT, legalBodyPath))
       ? read(legalBodyPath)
       : read(fallbackBodyPath);
+    const legalTitle = t(`legal.${page}.title`, locale);
+    const legalDescription = t(`legal.${page}.description`, locale);
+    const fullLegalTitle = `${SITE_NAME} | ${legalTitle}`;
+    const legalCanonical = canonicalUrl(locale, page);
 
     const legalHtml = render(legalTemplate, {
       LANG: locale,
       HTML_LANG: htmlLang(locale),
       LEGAL_SLUG: page,
-      LEGAL_TITLE: escapeHtml(t(`legal.${page}.title`, locale)),
-      LEGAL_DESCRIPTION: escapeHtml(t(`legal.${page}.description`, locale)),
+      LEGAL_TITLE: escapeHtml(legalTitle),
+      FULL_TITLE: escapeHtml(fullLegalTitle),
+      LEGAL_DESCRIPTION: escapeHtml(legalDescription),
+      CANONICAL_URL: legalCanonical,
+      SHARE_IMAGE_URL: SHARE_IMAGE_URL,
+      ORG_JSON_LD: orgJson,
+      WEBPAGE_JSON_LD: webpageJsonLd(fullLegalTitle, legalDescription, legalCanonical),
       LEGAL_BACK_HOME: escapeHtml(t("legal.back_home", locale)),
       LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
       LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
@@ -336,12 +423,21 @@ for (const locale of LOCALES) {
   }
 
   for (const page of SECONDARY_PAGES) {
+    const pageTitle = t(`page.${page}.title`, locale);
+    const pageDescription = t(`page.${page}.description`, locale);
+    const fullPageTitle = `${SITE_NAME} | ${pageTitle}`;
+    const pageCanonical = canonicalUrl(locale, page);
     const pageHtml = render(secondaryTemplate, {
       LANG: locale,
       HTML_LANG: htmlLang(locale),
       PAGE_SLUG: page,
-      PAGE_TITLE: escapeHtml(t(`page.${page}.title`, locale)),
-      PAGE_DESCRIPTION: escapeHtml(t(`page.${page}.description`, locale)),
+      PAGE_TITLE: escapeHtml(pageTitle),
+      FULL_TITLE: escapeHtml(fullPageTitle),
+      PAGE_DESCRIPTION: escapeHtml(pageDescription),
+      CANONICAL_URL: pageCanonical,
+      SHARE_IMAGE_URL: SHARE_IMAGE_URL,
+      ORG_JSON_LD: orgJson,
+      WEBPAGE_JSON_LD: webpageJsonLd(fullPageTitle, pageDescription, pageCanonical),
       PAGE_BODY: readSecondaryBody(locale, page),
       LEGAL_BACK_HOME: escapeHtml(t("legal.back_home", locale)),
       LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
@@ -365,5 +461,23 @@ for (const locale of LOCALES) {
     write(`${locale}/${page}/index.html`, pageHtml);
   }
 }
+
+const sitemapUrls = [];
+for (const locale of LOCALES) {
+  sitemapUrls.push(canonicalUrl(locale, "home"));
+  sitemapUrls.push(canonicalUrl(locale, "eula"));
+  sitemapUrls.push(canonicalUrl(locale, "privacy"));
+  for (const page of SECONDARY_PAGES) {
+    sitemapUrls.push(canonicalUrl(locale, page));
+  }
+}
+
+const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n")}
+</urlset>
+`;
+
+write("sitemap.xml", sitemapXml);
 
 console.log("Localized pages generated:", LOCALES.join(", "));
