@@ -16,9 +16,10 @@ function applyTheme(theme, persist = false) {
       // Ignore storage failures (private mode, strict privacy settings, etc).
     }
   }
+
   themeButtons.forEach((btn) => {
     const isDark = finalTheme === "dark";
-    btn.textContent = isDark ? "☀" : "☾";
+    btn.textContent = isDark ? "\u2600" : "\u263E";
     btn.setAttribute("aria-pressed", isDark ? "true" : "false");
     btn.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
     btn.setAttribute("title", isDark ? "Switch to light theme" : "Switch to dark theme");
@@ -34,6 +35,16 @@ function applyTheme(theme, persist = false) {
       discordWidget.setAttribute("src", nextSrc);
     }
   }
+
+  document.querySelectorAll("iframe[data-spotify-widget]").forEach((spotifyWidget) => {
+    const base = spotifyWidget.getAttribute("data-spotify-src");
+    if (!base) return;
+    const joiner = base.includes("?") ? "&" : "?";
+    const nextSrc = finalTheme === "dark" ? `${base}${joiner}theme=0` : base;
+    if (spotifyWidget.getAttribute("src") !== nextSrc) {
+      spotifyWidget.setAttribute("src", nextSrc);
+    }
+  });
 }
 
 themeButtons.forEach((btn) => {

@@ -11,6 +11,8 @@
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta property="og:site_name" content="Sushi Ben">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{OG_LOCALE}}">
+  {{OG_LOCALE_ALTERNATES}}
   <meta property="og:title" content="{{SITE_TITLE}}">
   <meta property="og:description" content="{{SITE_DESCRIPTION}}">
   <meta property="og:url" content="{{CANONICAL_URL}}">
@@ -156,6 +158,26 @@
     </section>
 
     <section class="section">
+      <div class="wrap soft-panel soundtrack-panel">
+        <h2>{{HOME_SOUNDTRACK_TITLE}}</h2>
+        {{HOME_SOUNDTRACK_BODY_BLOCK}}
+        <div class="spotify-embed-wrap">
+          <iframe
+            data-spotify-widget
+            data-spotify-src="https://open.spotify.com/embed/album/0d3HqxaVExA5LMOFDsAotM?utm_source=generator"
+            src="https://open.spotify.com/embed/album/0d3HqxaVExA5LMOFDsAotM?utm_source=generator"
+            title="Sushi Ben soundtrack on Spotify"
+            loading="lazy"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://open.spotify.com/album/0d3HqxaVExA5LMOFDsAotM" target="_blank" rel="noopener noreferrer">{{HOME_SOUNDTRACK_CTA}}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="wrap narrow soft-panel">
         <h2 id="about">{{HOME_ABOUT_TITLE}}</h2>
         <p>{{HOME_ABOUT_BODY}}</p>
@@ -283,6 +305,7 @@
         <a href="./team/">{{NAV_TEAM}}</a>
         <a href="./cast/">{{NAV_CAST}}</a>
         <a href="./press-kit/">{{NAV_PRESS_KIT}}</a>
+        <a href="https://open.spotify.com/album/0d3HqxaVExA5LMOFDsAotM" target="_blank" rel="noopener noreferrer">{{FOOTER_SOUNDTRACK}}</a>
       </div>
       <div class="social-row" aria-label="Social links">
         <a href="https://x.com/SushiBenGame" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>

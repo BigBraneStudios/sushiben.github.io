@@ -7,6 +7,17 @@ const SITE_NAME = "Sushi Ben";
 const SHARE_IMAGE_PATH = "/assets/images/share-card.jpg";
 const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}`;
 const TRAILER_EMBED_URL = "https://www.youtube.com/embed/FnIscA4M4rQ";
+const SAME_AS_URLS = [
+  "https://x.com/SushiBenGame",
+  "https://www.youtube.com/watch?v=1lA0ssiHHxM",
+  "https://discord.gg/sushiben",
+  "https://store.steampowered.com/app/2419240/Sushi_Ben/",
+  "https://store.playstation.com/concept/10010735",
+  "https://www.meta.com/experiences/5459391390744272/",
+  "https://www.viveport.com/apps/1e1eb547-c759-4266-89bb-64bcc6f6294e?hl=en-US",
+  "https://store-global.picoxr.com/global/detail/1/7345233212618080262",
+  "https://store.onstove.com/en/games/103625",
+];
 const LOCALES = ["en", "de", "es", "fr", "it", "pt-br", "ja", "ko", "zh-hans", "zh-hant"];
 const DEFAULT_LOCALE = "en";
 const SECONDARY_PAGES = ["team", "cast", "press-kit"];
@@ -21,6 +32,18 @@ const HREFLANG = {
   ko: "ko",
   "zh-hans": "zh-Hans",
   "zh-hant": "zh-Hant",
+};
+const OG_LOCALE = {
+  en: "en_US",
+  de: "de_DE",
+  es: "es_ES",
+  fr: "fr_FR",
+  it: "it_IT",
+  "pt-br": "pt_BR",
+  ja: "ja_JP",
+  ko: "ko_KR",
+  "zh-hans": "zh_CN",
+  "zh-hant": "zh_TW",
 };
 
 function read(filePath) {
@@ -197,6 +220,7 @@ function organizationJsonLd() {
     name: "Big Brane Studios, Inc.",
     url: SITE_URL,
     logo: `${SITE_URL}/assets/images/SushiBen_Logo_H.png`,
+    sameAs: SAME_AS_URLS,
   });
 }
 
@@ -208,6 +232,16 @@ function websiteJsonLd(locale) {
     url: SITE_URL,
     inLanguage: htmlLang(locale),
   });
+}
+
+function ogLocale(locale) {
+  return OG_LOCALE[locale] || "en_US";
+}
+
+function ogLocaleAlternates(locale) {
+  return LOCALES.filter((loc) => loc !== locale)
+    .map((loc) => `<meta property="og:locale:alternate" content="${ogLocale(loc)}">`)
+    .join("\n  ");
 }
 
 function webpageJsonLd(title, description, url) {
@@ -290,6 +324,8 @@ for (const locale of LOCALES) {
     HTML_LANG: htmlLang(locale),
     SITE_TITLE: escapeHtml(siteTitle),
     SITE_DESCRIPTION: escapeHtml(siteDescription),
+    OG_LOCALE: ogLocale(locale),
+    OG_LOCALE_ALTERNATES: ogLocaleAlternates(locale),
     CANONICAL_URL: homeCanonical,
     SHARE_IMAGE_URL: SHARE_IMAGE_URL,
     ORG_JSON_LD: orgJson,
@@ -329,6 +365,11 @@ for (const locale of LOCALES) {
     HOME_MEDIA_TITLE: escapeHtml(t("home.media.title", locale)),
     HOME_CONTACT_TITLE: escapeHtml(t("home.contact.title", locale)),
     HOME_CONTACT_SUBTITLE: escapeHtml(t("home.contact.subtitle", locale)),
+    HOME_SOUNDTRACK_TITLE: escapeHtml(t("home.soundtrack.title", locale)),
+    HOME_SOUNDTRACK_BODY_BLOCK: t("home.soundtrack.body", locale)
+      ? `<p>${escapeHtml(t("home.soundtrack.body", locale))}</p>`
+      : "",
+    HOME_SOUNDTRACK_CTA: escapeHtml(t("home.soundtrack.cta", locale)),
     SUPPORT_DISCORD_TITLE: escapeHtml(t("home.support.discord.title", locale)),
     SUPPORT_DISCORD_BODY: escapeHtml(t("home.support.discord.body", locale)),
     SUPPORT_DISCORD_CTA: escapeHtml(t("home.support.discord.cta", locale)),
@@ -345,6 +386,7 @@ for (const locale of LOCALES) {
     FORM_SUBMIT: escapeHtml(t("home.form.submit", locale)),
     LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
     LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
+    FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
     SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
     SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
     SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
@@ -390,6 +432,8 @@ for (const locale of LOCALES) {
       LEGAL_TITLE: escapeHtml(legalTitle),
       FULL_TITLE: escapeHtml(fullLegalTitle),
       LEGAL_DESCRIPTION: escapeHtml(legalDescription),
+      OG_LOCALE: ogLocale(locale),
+      OG_LOCALE_ALTERNATES: ogLocaleAlternates(locale),
       CANONICAL_URL: legalCanonical,
       SHARE_IMAGE_URL: SHARE_IMAGE_URL,
       ORG_JSON_LD: orgJson,
@@ -410,6 +454,7 @@ for (const locale of LOCALES) {
       NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
       LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
       LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
+      FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
       LEGAL_EULA_BUTTON_CLASS: page === "eula" ? "btn btn-primary" : "btn btn-secondary",
       LEGAL_PRIVACY_BUTTON_CLASS: page === "privacy" ? "btn btn-primary" : "btn btn-secondary",
       LEGAL_EULA_CURRENT_ATTR: page === "eula" ? ' aria-current="page"' : "",
@@ -434,6 +479,8 @@ for (const locale of LOCALES) {
       PAGE_TITLE: escapeHtml(pageTitle),
       FULL_TITLE: escapeHtml(fullPageTitle),
       PAGE_DESCRIPTION: escapeHtml(pageDescription),
+      OG_LOCALE: ogLocale(locale),
+      OG_LOCALE_ALTERNATES: ogLocaleAlternates(locale),
       CANONICAL_URL: pageCanonical,
       SHARE_IMAGE_URL: SHARE_IMAGE_URL,
       ORG_JSON_LD: orgJson,
@@ -454,6 +501,7 @@ for (const locale of LOCALES) {
       NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
       LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
       LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
+      FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
       SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
       SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
       SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),

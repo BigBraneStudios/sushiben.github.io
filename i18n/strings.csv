@@ -10,6 +10,7 @@
 "footer.legal.eula","EULA","EULA","EULA","EULA","EULA","EULA","EULA","EULA","EULA","EULA"
 "footer.legal.privacy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy","Privacy Policy"
 "footer.social.discord","Discord","Discord","Discord","Discord","Discord","Discord","Discord","Discord","Discord","Discord"
+"footer.soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack","Soundtrack"
 "footer.social.x","X","X","X","X","X","X","X","X","X","X"
 "footer.social.youtube","YouTube","YouTube","YouTube","YouTube","YouTube","YouTube","YouTube","YouTube","YouTube","YouTube"
 "home.about.body","Welcome to Kotobuki town, a quaint community currently being gobbled up acre by acre by dastardly big-city landsharks. It’s also your new home. Do you have what it takes to bring the locals together and save their beloved sushi bar?
@@ -107,6 +108,9 @@ Hato Moa (Hatoful Boyfriend])의 스토리와 Laura Post (Little Witch Academia)
 "home.hero.title","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks","Save a Sushi Bar from greedy landsharks"
 "home.kicker","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure","Narrative VR Adventure"
 "home.media.title","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer","Watch the Trailer"
+"home.soundtrack.title","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack","Listen to the Soundtrack"
+"home.soundtrack.body","","","","","","","","","",""
+"home.soundtrack.cta","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify","Listen on Spotify"
 "home.translation_note","","","","","","","","","",""
 "lang.aria_label","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language"
 "lang.summary","Language: {language}","Language: {language}","Language: {language}","Language: {language}","Language: {language}","Language: {language}","Language: {language}","Language: {language}","Language: {language}","Language: {language}"

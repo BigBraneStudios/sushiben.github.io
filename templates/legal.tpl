@@ -11,6 +11,8 @@
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta property="og:site_name" content="Sushi Ben">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{OG_LOCALE}}">
+  {{OG_LOCALE_ALTERNATES}}
   <meta property="og:title" content="{{FULL_TITLE}}">
   <meta property="og:description" content="{{LEGAL_DESCRIPTION}}">
   <meta property="og:url" content="{{CANONICAL_URL}}">
@@ -88,6 +90,7 @@
         <a href="../team/">{{NAV_TEAM}}</a>
         <a href="../cast/">{{NAV_CAST}}</a>
         <a href="../press-kit/">{{NAV_PRESS_KIT}}</a>
+        <a href="https://open.spotify.com/album/0d3HqxaVExA5LMOFDsAotM" target="_blank" rel="noopener noreferrer">{{FOOTER_SOUNDTRACK}}</a>
       </div>
       <div class="social-row" aria-label="Social links">
         <a href="https://x.com/SushiBenGame" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>

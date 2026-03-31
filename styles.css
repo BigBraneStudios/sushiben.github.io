@@ -493,6 +493,26 @@ h2[id] {
   border: 0;
 }
 
+.soundtrack-panel {
+  max-width: 980px;
+}
+
+.spotify-embed-wrap {
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--panel) 84%, #ffffff);
+  box-shadow: 0 10px 24px rgb(17 46 64 / 10%);
+}
+
+.spotify-embed-wrap iframe {
+  display: block;
+  width: 100%;
+  min-height: 352px;
+  border: 0;
+}
+
 .shots-grid {
   display: grid;
   gap: 0.7rem;
@@ -1031,6 +1051,12 @@ select option:checked {
 
 :root[data-theme="dark"] .shot {
   background: color-mix(in srgb, #152334 82%, var(--paper));
+}
+
+:root[data-theme="dark"] .spotify-embed-wrap {
+  background: color-mix(in srgb, #132436 90%, #0e1b2a);
+  border-color: var(--line);
+  box-shadow: 0 10px 24px rgb(3 8 12 / 24%);
 }
 
 :root[data-theme="dark"] .shot-lightbox-close {
