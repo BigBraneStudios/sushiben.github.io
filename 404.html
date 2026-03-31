@@ -8,6 +8,16 @@
   <title>Sushi Ben | 404</title>
   <meta name="description" content="The page you requested could not be found. Return to the Sushi Ben homepage.">
   <link rel="canonical" href="https://www.sushiben.com/en/">
+  <script>
+    (function () {
+      var projectBase = "/sushiben.github.io/";
+      var isProjectPages =
+        location.hostname.endsWith(".github.io") &&
+        location.pathname.indexOf(projectBase) === 0;
+      var base = isProjectPages ? projectBase : "/";
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
   <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -144,11 +154,11 @@
   <script>try{const t=localStorage.getItem("sb_theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(_err){}</script>
   <header class="site-header">
     <div class="wrap nav-row">
-      <a class="brand" href="/en/" aria-label="Sushi Ben Home">
+      <a class="brand" href="en/" aria-label="Sushi Ben Home">
         <img class="brand-logo" src="./assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
       </a>
       <div class="header-controls">
-        <a class="btn btn-secondary" href="/en/">Back To Home</a>
+        <a class="btn btn-secondary" href="en/">Back To Home</a>
       </div>
     </div>
   </header>
@@ -163,9 +173,9 @@
           <p>The page you were looking for has wandered off somewhere in Kotobuki Town.</p>
           <p>You can head back to the main site, browse the press kit, or jump straight into the contact section.</p>
           <div class="cta-row">
-            <a class="btn btn-primary" href="/en/">Go Home</a>
-            <a class="btn btn-secondary" href="/en/press-kit/">Press Kit</a>
-            <a class="btn btn-secondary" href="/en/index.html#contact">Contact</a>
+            <a class="btn btn-primary" href="en/">Go Home</a>
+            <a class="btn btn-secondary" href="en/press-kit/">Press Kit</a>
+            <a class="btn btn-secondary" href="en/index.html#contact">Contact</a>
           </div>
         </div>
         <div class="error-art">
@@ -179,13 +189,13 @@
     <div class="wrap footer-row">
       <p>© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
-        <a href="/en/eula/">EULA</a>
-        <a href="/en/privacy/">Privacy Policy</a>
+        <a href="en/eula/">EULA</a>
+        <a href="en/privacy/">Privacy Policy</a>
       </div>
       <div class="meta-row" aria-label="Site links">
-        <a href="/en/team/">Team</a>
-        <a href="/en/cast/">Cast</a>
-        <a href="/en/press-kit/">Press Kit</a>
+        <a href="en/team/">Team</a>
+        <a href="en/cast/">Cast</a>
+        <a href="en/press-kit/">Press Kit</a>
       </div>
     </div>
   </footer>
