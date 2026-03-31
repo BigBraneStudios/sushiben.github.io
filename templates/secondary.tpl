@@ -1,8 +1,11 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="{{HTML_LANG}}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="light dark">
+  <script>try{const t=localStorage.getItem("sb_theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(_err){}</script>
   <title>Sushi Ben | {{PAGE_TITLE}}</title>
   <meta name="description" content="{{PAGE_DESCRIPTION}}">
   <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
@@ -44,6 +47,7 @@
             {{LANG_ITEMS_PAGE}}
           </ul>
         </details>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">&#9790;</button>
       </div>
     </div>
   </header>
@@ -55,7 +59,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p>&copy; <span id="year"></span> Big Brane Studios. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="../eula/">{{LEGAL_EULA_LABEL}}</a>
         <a href="../privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
@@ -72,6 +76,7 @@
       </div>
     </div>
   </footer>
-  <script src="../../script.js"></script>
+  <script src="../../script.js?v=20260331-theme3"></script>
 </body>
 </html>
+

@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="light dark">
+  <script>try{const t=localStorage.getItem("sb_theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(_err){}</script>
   <title>Sushi Ben | EULA</title>
   <meta name="description" content="End User License Agreement for Sushi Ben.">
   <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
@@ -63,12 +66,17 @@
           <li><a href="../../zh-hant/eula/">中文（繁體）</a></li>
           </ul>
         </details>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">&#9790;</button>
       </div>
     </div>
   </header>
 
   <main class="legal-wrap">
     <h1>EULA</h1>
+    <nav class="legal-switch" aria-label="Legal page switcher">
+      <a class="btn btn-primary" href="../eula/" aria-current="page">EULA</a>
+      <a class="btn btn-secondary" href="../privacy/">Privacy Policy</a>
+    </nav>
     <pre class="legal-text">END USER LIcense Agreement
 
 LAST UPDATED:
@@ -214,7 +222,7 @@ If you have any concerns or questions regarding this EULA, please contact us at 
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p>© <span id="year"></span> Big Brane Studios. All rights reserved.</p>
+      <p>© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="../eula/">EULA</a>
         <a href="../privacy/">Privacy Policy</a>
@@ -231,6 +239,6 @@ If you have any concerns or questions regarding this EULA, please contact us at 
       </div>
     </div>
   </footer>
-  <script src="../../script.js"></script>
+  <script src="../../script.js?v=20260331-theme3"></script>
 </body>
 </html>

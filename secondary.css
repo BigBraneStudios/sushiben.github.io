@@ -7,6 +7,17 @@
   border-radius: 14px;
 }
 
+.legal-switch {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+}
+
+.legal-switch .btn {
+  padding: 0.48rem 0.9rem;
+}
+
 .legal-back {
   display: inline-block;
   margin-bottom: 1rem;
@@ -62,8 +73,34 @@
   text-align: center;
 }
 
+.secondary-press-kit-page .legal-wrap > h1 {
+  font-size: 0;
+  line-height: 0;
+  margin: 0 auto 1rem;
+  width: min(540px, 94vw);
+}
+
+.secondary-press-kit-page .legal-wrap > h1::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: clamp(84px, 20vw, 168px);
+  background: url("./assets/images/SushiBen_Logo.png") center center / contain no-repeat;
+}
+
 .secondary-group + .secondary-group {
   margin-top: var(--secondary-section-gap);
+}
+
+.secondary-page .legal-wrap a:not(.btn) {
+  color: #214f92;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.16em;
+}
+
+.secondary-page .legal-wrap a:not(.btn):hover,
+.secondary-page .legal-wrap a:not(.btn):focus-visible {
+  color: var(--link-hover-accent);
 }
 
 .secondary-panel {
@@ -136,11 +173,28 @@
   padding: 0.6rem 0.7rem;
 }
 
+.secondary-team-page .credit-card {
+  min-height: 114px;
+  display: grid;
+  align-content: center;
+  row-gap: 0.12rem;
+}
+
+.secondary-team-page .credit-card .credit-name,
+.secondary-team-page .credit-card .credit-role {
+  margin: 0;
+}
+
 .credit-name {
   margin: 0;
   font-weight: 700;
   color: var(--ink);
   line-height: 1.3;
+}
+
+.secondary-team-page .credit-name {
+  font-size: 1.2rem;
+  line-height: 1.25;
 }
 
 
@@ -207,4 +261,30 @@
   .secondary-page {
     --secondary-section-gap: 4rem;
   }
+}
+
+:root[data-theme="dark"] .secondary-panel::before {
+  background: linear-gradient(
+    94deg,
+    rgb(13 24 35 / 78%) 0%,
+    rgb(14 26 38 / 60%) 58%,
+    rgb(14 26 38 / 30%) 100%
+  );
+}
+
+:root[data-theme="dark"] .credit-card {
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, #1a2b3b 88%, var(--paper-2)) 0%,
+    color-mix(in srgb, #142433 90%, var(--paper)) 100%
+  );
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .legal-text {
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .secondary-page .legal-wrap a:not(.btn) {
+  color: #8fc0ff;
 }

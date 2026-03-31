@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="light dark">
+  <script>try{const t=localStorage.getItem("sb_theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(_err){}</script>
   <title>{{SITE_TITLE}}</title>
   <meta name="description" content="{{SITE_DESCRIPTION}}">
   <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
@@ -43,6 +46,7 @@
             {{LANG_ITEMS_HOME}}
           </ul>
         </details>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">&#9790;</button>
       </div>
     </div>
   </header>
@@ -188,6 +192,8 @@
             <a class="btn btn-primary support-discord-btn" href="https://discord.gg/sushiben" target="_blank" rel="noopener noreferrer">{{SUPPORT_DISCORD_CTA}}</a>
             <div class="discord-widget-wrap">
               <iframe
+                data-discord-widget
+                class="darkreader-ignore"
                 src="https://discord.com/widget?id=1102657848393093152&theme=light"
                 title="Sushi Ben Discord Server"
                 loading="lazy"
@@ -235,6 +241,7 @@
     <section class="section section-final-cta">
       <div class="wrap narrow soft-panel">
         <h2>{{HOME_FINAL_CTA_TITLE}}</h2>
+        <img class="final-cta-logo" src="../assets/images/SushiBen_Logo.png" alt="Sushi Ben logo">
         <div class="cta-row">
           <a class="btn btn-primary" href="#buy">{{HOME_FINAL_CTA_BUY}}</a>
         </div>
@@ -249,7 +256,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p>© <span id="year"></span> Big Brane Studios. All rights reserved.</p>
+      <p>© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="./eula/">{{LEGAL_EULA_LABEL}}</a>
         <a href="./privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
@@ -267,6 +274,6 @@
     </div>
   </footer>
 
-  <script src="../script.js"></script>
+  <script src="../script.js?v=20260331-theme3"></script>
 </body>
 </html>

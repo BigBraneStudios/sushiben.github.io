@@ -3,6 +3,49 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
+const THEME_KEY = "sb_theme";
+const themeButtons = Array.from(document.querySelectorAll("[data-theme-toggle]"));
+
+function applyTheme(theme, persist = false) {
+  const finalTheme = theme === "dark" ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", finalTheme);
+  if (persist) {
+    try {
+      localStorage.setItem(THEME_KEY, finalTheme);
+    } catch (_err) {
+      // Ignore storage failures (private mode, strict privacy settings, etc).
+    }
+  }
+  themeButtons.forEach((btn) => {
+    const isDark = finalTheme === "dark";
+    btn.textContent = isDark ? "☀" : "☾";
+    btn.setAttribute("aria-pressed", isDark ? "true" : "false");
+    btn.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
+    btn.setAttribute("title", isDark ? "Switch to light theme" : "Switch to dark theme");
+    btn.classList.toggle("is-dark", isDark);
+  });
+
+  const discordWidget = document.querySelector("iframe[data-discord-widget]");
+  if (discordWidget) {
+    const themeParam = finalTheme === "dark" ? "dark" : "light";
+    const base = "https://discord.com/widget?id=1102657848393093152";
+    const nextSrc = `${base}&theme=${themeParam}`;
+    if (discordWidget.getAttribute("src") !== nextSrc) {
+      discordWidget.setAttribute("src", nextSrc);
+    }
+  }
+}
+
+themeButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    applyTheme(next, true);
+  });
+});
+
+const initialTheme = document.documentElement.getAttribute("data-theme") || "light";
+applyTheme(initialTheme, false);
+
 document.querySelectorAll("details.nav-menu, details.lang-switcher").forEach((menu) => {
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
@@ -18,6 +61,24 @@ dropdowns.forEach((menu) => {
     dropdowns.forEach((other) => {
       if (other !== menu) other.open = false;
     });
+  });
+});
+
+document.addEventListener("click", (event) => {
+  const target = event.target;
+  if (!(target instanceof Element)) return;
+  dropdowns.forEach((menu) => {
+    if (!menu.open) return;
+    if (!menu.contains(target)) {
+      menu.open = false;
+    }
+  });
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  dropdowns.forEach((menu) => {
+    menu.open = false;
   });
 });
 

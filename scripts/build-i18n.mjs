@@ -194,7 +194,9 @@ function readSecondaryBody(locale, page) {
   // "../../../assets/..." so editor path resolution works there. Generated
   // pages live at "<locale>/<page>/index.html" and need "../../assets/...".
   const normalizeSecondaryPaths = (html) =>
-    html.replace(/\.\.\/\.\.\/\.\.\/assets\//g, "../../assets/");
+    html
+      .replace(/\.\.\/\.\.\/\.\.\/assets\//g, "../../assets/")
+      .replace(/\.\.\/\.\.\/\.\.\/en\/index\.html#contact/g, "../index.html#contact");
 
   if (fs.existsSync(localizedAbs)) return normalizeSecondaryPaths(read(localized).trim());
   if (fs.existsSync(fallbackAbs)) return normalizeSecondaryPaths(read(fallback).trim());
@@ -321,6 +323,10 @@ for (const locale of LOCALES) {
       NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
       LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
       LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
+      LEGAL_EULA_BUTTON_CLASS: page === "eula" ? "btn btn-primary" : "btn btn-secondary",
+      LEGAL_PRIVACY_BUTTON_CLASS: page === "privacy" ? "btn btn-primary" : "btn btn-secondary",
+      LEGAL_EULA_CURRENT_ATTR: page === "eula" ? ' aria-current="page"' : "",
+      LEGAL_PRIVACY_CURRENT_ATTR: page === "privacy" ? ' aria-current="page"' : "",
       SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
       SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
       SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),

@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="light dark">
+  <script>try{const t=localStorage.getItem("sb_theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(_err){}</script>
   <title>Sushi Ben | Meet the Team</title>
   <meta name="description" content="Meet the team behind Sushi Ben.">
   <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
@@ -63,6 +66,7 @@
           <li><a href="../../zh-hant/team/">中文（繁體）</a></li>
           </ul>
         </details>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">&#9790;</button>
       </div>
     </div>
   </header>
@@ -156,7 +160,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p>&copy; <span id="year"></span> Big Brane Studios. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="../eula/">EULA</a>
         <a href="../privacy/">Privacy Policy</a>
@@ -173,6 +177,7 @@
       </div>
     </div>
   </footer>
-  <script src="../../script.js"></script>
+  <script src="../../script.js?v=20260331-theme3"></script>
 </body>
 </html>
+
