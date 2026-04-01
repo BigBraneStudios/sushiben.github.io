@@ -151,6 +151,22 @@
   margin-top: 0.3rem;
 }
 
+.press-quote-line {
+  display: block;
+}
+
+.press-quote-summary {
+  display: block;
+  margin-top: 0.32rem;
+  color: var(--soft-ink);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.press-quote-summary:empty {
+  display: none;
+}
+
 .credit-grid {
   margin: 0;
   padding: 0;
@@ -403,4 +419,8 @@
 
 :root[data-theme="dark"] .secondary-page .legal-wrap a:not(.btn) {
   color: #8fc0ff;
+}
+
+:root[data-theme="dark"] .press-quote-summary {
+  color: #d4e4f2;
 }

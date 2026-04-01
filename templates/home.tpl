@@ -21,7 +21,7 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Sushi Ben promotional artwork">
+  <meta property="og:image:alt" content="{{SHARE_IMAGE_ALT}}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{SITE_TITLE}}">
   <meta name="twitter:description" content="{{SITE_DESCRIPTION}}">
@@ -43,7 +43,7 @@
   <header class="site-header">
     <div class="wrap nav-row">
       <a class="brand" href="#top" aria-label="Sushi Ben Home">
-        <img class="brand-logo" src="../assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
+        <img class="brand-logo" src="../assets/images/SushiBen_Logo_H.png" alt="{{IMAGE_LOGO_HORIZONTAL_ALT}}">
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#buy">{{NAV_BUY}}</a>
@@ -77,8 +77,6 @@
   </header>
 
   <main id="top">
-    {{TRANSLATION_NOTE}}
-
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
@@ -91,7 +89,7 @@
           </div>
         </div>
         <div class="hero-art">
-          <img src="../assets/images/Minami_Hero.png" alt="Minami from Sushi Ben">
+          <img src="../assets/images/Minami_Hero.png" alt="{{IMAGE_HERO_MINAMI_ALT}}">
         </div>
       </div>
     </section>
@@ -101,27 +99,27 @@
         <h2 id="buy">{{HOME_BUY_TITLE}}</h2>
         <div class="store-grid" role="list">
           <a role="listitem" class="store-link" href="https://store.steampowered.com/app/2419240/Sushi_Ben/" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/Linktree_Logo_Steam.png" alt="Steam logo">
+            <img src="../assets/images/Linktree_Logo_Steam.png" alt="{{IMAGE_STORE_STEAM_ALT}}">
             <span>Steam</span>
           </a>
           <a role="listitem" class="store-link" href="https://store.playstation.com/en-us/concept/10007924/" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/Linktree_Logo_PS.png" alt="PlayStation logo">
+            <img src="../assets/images/Linktree_Logo_PS.png" alt="{{IMAGE_STORE_PLAYSTATION_ALT}}">
             <span>PlayStation 5</span>
           </a>
           <a role="listitem" class="store-link" href="https://www.meta.com/experiences/5459391390744272/" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/Linktree_Logo_Meta.png" alt="Meta Quest logo">
+            <img src="../assets/images/Linktree_Logo_Meta.png" alt="{{IMAGE_STORE_META_ALT}}">
             <span>Meta Quest</span>
           </a>
           <a role="listitem" class="store-link" href="https://www.viveport.com/apps/1e1eb547-c759-4266-89bb-64bcc6f6294e?hl=en-US" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/Linktree_Logo_Viveport.png" alt="HTC VIVEPORT logo">
+            <img src="../assets/images/Linktree_Logo_Viveport.png" alt="{{IMAGE_STORE_VIVEPORT_ALT}}">
             <span>HTC VIVEPORT</span>
           </a>
           <a role="listitem" class="store-link" href="https://store-global.picoxr.com/global/detail/1/7345233212618080262" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/Linktree_Logo_Pico.png" alt="PICO logo">
+            <img src="../assets/images/Linktree_Logo_Pico.png" alt="{{IMAGE_STORE_PICO_ALT}}">
             <span>PICO</span>
           </a>
           <a role="listitem" class="store-link" href="https://store.onstove.com/en/games/103625" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/Linktree_Logo_Stove.png" alt="STOVE logo">
+            <img src="../assets/images/Linktree_Logo_Stove.png" alt="{{IMAGE_STORE_STOVE_ALT}}">
             <span>STOVE</span>
           </a>
         </div>
@@ -141,17 +139,17 @@
               allowfullscreen></iframe>
           </div>
           <div class="shots-grid">
-            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_1.png" aria-label="Open screenshot 1">
-              <img src="../assets/images/SushiBen_ScreenShot_1.png" alt="Sushi Ben screenshot 1">
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_1.png" aria-label="{{IMAGE_SCREENSHOT_OPEN_1}}">
+              <img src="../assets/images/SushiBen_ScreenShot_1.png" alt="{{IMAGE_SCREENSHOT_ALT_1}}">
             </button>
-            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_2.png" aria-label="Open screenshot 2">
-              <img src="../assets/images/SushiBen_ScreenShot_2.png" alt="Sushi Ben screenshot 2">
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_2.png" aria-label="{{IMAGE_SCREENSHOT_OPEN_2}}">
+              <img src="../assets/images/SushiBen_ScreenShot_2.png" alt="{{IMAGE_SCREENSHOT_ALT_2}}">
             </button>
-            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_4.png" aria-label="Open screenshot 4">
-              <img src="../assets/images/SushiBen_ScreenShot_4.png" alt="Sushi Ben screenshot 4">
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_4.png" aria-label="{{IMAGE_SCREENSHOT_OPEN_4}}">
+              <img src="../assets/images/SushiBen_ScreenShot_4.png" alt="{{IMAGE_SCREENSHOT_ALT_4}}">
             </button>
-            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_5.png" aria-label="Open screenshot 5">
-              <img src="../assets/images/SushiBen_ScreenShot_5.png" alt="Sushi Ben screenshot 5">
+            <button class="shot" type="button" data-shot="../assets/images/SushiBen_ScreenShot_5.png" aria-label="{{IMAGE_SCREENSHOT_OPEN_5}}">
+              <img src="../assets/images/SushiBen_ScreenShot_5.png" alt="{{IMAGE_SCREENSHOT_ALT_5}}">
             </button>
           </div>
         </div>
@@ -165,7 +163,6 @@
     <section class="section">
       <div class="wrap soft-panel soundtrack-panel">
         <h2>{{HOME_SOUNDTRACK_TITLE}}</h2>
-        {{HOME_SOUNDTRACK_BODY_BLOCK}}
         <div class="spotify-embed-wrap">
           <iframe
             data-spotify-widget
@@ -189,9 +186,13 @@
         <ul class="about-bullets">
           <li>{{HIGHLIGHT_1}}</li>
           <li>{{HIGHLIGHT_2}}</li>
+          <li>{{HIGHLIGHT_3}}</li>
+          <li>{{HIGHLIGHT_4}}</li>
           <li>{{HIGHLIGHT_5}}</li>
           <li>{{HIGHLIGHT_6}}</li>
+          <li>{{HIGHLIGHT_7}}</li>
           <li>{{HIGHLIGHT_8}}</li>
+          <li>{{HIGHLIGHT_9}}</li>
         </ul>
         <div class="cta-row about-cta-row">
           <a class="btn btn-primary" href="./cast/">{{NAV_CAST}}</a>
@@ -206,18 +207,22 @@
         <div class="review-grid">
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_1}}"</p>
+            <p class="review-card-summary">{{HOME_REVIEW_SUMMARY_1}}</p>
             <cite><a href="{{HOME_REVIEW_URL_1}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_1}}</a></cite>
           </blockquote>
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_2}}"</p>
+            <p class="review-card-summary">{{HOME_REVIEW_SUMMARY_2}}</p>
             <cite><a href="{{HOME_REVIEW_URL_2}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_2}}</a></cite>
           </blockquote>
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_3}}"</p>
+            <p class="review-card-summary">{{HOME_REVIEW_SUMMARY_3}}</p>
             <cite><a href="{{HOME_REVIEW_URL_3}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_3}}</a></cite>
           </blockquote>
           <blockquote class="review-card">
             <p>"{{HOME_REVIEW_QUOTE_4}}"</p>
+            <p class="review-card-summary">{{HOME_REVIEW_SUMMARY_4}}</p>
             <cite><a href="{{HOME_REVIEW_URL_4}}" target="_blank" rel="noopener noreferrer">{{HOME_REVIEW_SOURCE_4}}</a></cite>
           </blockquote>
         </div>
@@ -290,7 +295,7 @@
     <section class="section section-final-cta">
       <div class="wrap narrow soft-panel">
         <h2>{{HOME_FINAL_CTA_TITLE}}</h2>
-        <img class="final-cta-logo" src="../assets/images/SushiBen_Logo.png" alt="Sushi Ben logo">
+        <img class="final-cta-logo" src="../assets/images/SushiBen_Logo.png" alt="{{IMAGE_LOGO_PRIMARY_ALT}}">
         <div class="cta-row">
           <a class="btn btn-primary" href="#buy">{{HOME_FINAL_CTA_BUY}}</a>
         </div>
@@ -308,6 +313,7 @@
       <p>© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="./eula/">{{LEGAL_EULA_LABEL}}</a>
+        <a href="./fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
         <a href="./privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
       </div>
       <div class="meta-row" aria-label="More links">

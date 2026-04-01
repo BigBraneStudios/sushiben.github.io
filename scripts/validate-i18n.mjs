@@ -2,7 +2,14 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const CSV_PATH = path.join(ROOT, "i18n/strings.csv");
+const CSV_PATHS = [
+  path.join(ROOT, "i18n/strings-main.csv"),
+  path.join(ROOT, "i18n/strings-team-cast.csv"),
+  path.join(ROOT, "i18n/strings-presskit.csv"),
+  path.join(ROOT, "i18n/strings-eula.csv"),
+  path.join(ROOT, "i18n/strings-fan-content.csv"),
+  path.join(ROOT, "i18n/strings-privacy.csv"),
+];
 
 function read(filePath) {
   return fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, "");
@@ -89,28 +96,29 @@ function findCellIssues(value) {
 }
 
 function main() {
-  if (!fs.existsSync(CSV_PATH)) {
-    console.error(`Missing file: ${CSV_PATH}`);
-    process.exit(1);
-  }
-
-  const parsed = parseCsv(read(CSV_PATH));
-  if (!parsed.headers.length || !parsed.headers.includes("key")) {
-    console.error("Invalid CSV format: missing header row or key column.");
-    process.exit(1);
-  }
-
-  const localeColumns = parsed.headers.filter((h) => h !== "key");
   const findings = [];
+  for (const csvPath of CSV_PATHS) {
+    if (!fs.existsSync(csvPath)) {
+      console.error(`Missing file: ${csvPath}`);
+      process.exit(1);
+    }
 
-  for (const row of parsed.rows) {
-    const key = row.key || "(missing key)";
-    for (const locale of localeColumns) {
-      const value = row[locale] ?? "";
-      if (!value) continue;
-      const issues = findCellIssues(value);
-      for (const issue of issues) {
-        findings.push({ key, locale, ...issue });
+    const parsed = parseCsv(read(csvPath));
+    if (!parsed.headers.length || !parsed.headers.includes("key")) {
+      console.error(`Invalid CSV format in ${path.basename(csvPath)}: missing header row or key column.`);
+      process.exit(1);
+    }
+
+    const localeColumns = parsed.headers.filter((h) => h !== "key" && h !== "context");
+    for (const row of parsed.rows) {
+      const key = row.key || "(missing key)";
+      for (const locale of localeColumns) {
+        const value = row[locale] ?? "";
+        if (!value) continue;
+        const issues = findCellIssues(value);
+        for (const issue of issues) {
+          findings.push({ file: path.basename(csvPath), key, locale, ...issue });
+        }
       }
     }
   }
@@ -120,10 +128,10 @@ function main() {
     return;
   }
 
-  console.error(`i18n validation failed: ${findings.length} issue(s) found in i18n/strings.csv`);
+  console.error(`i18n validation failed: ${findings.length} issue(s) found in i18n CSV files`);
   findings.forEach((f, idx) => {
     console.error(
-      `${idx + 1}. key=${f.key} locale=${f.locale} type=${f.code} :: ${f.note}\n   snippet: ${JSON.stringify(f.snippet)}`
+      `${idx + 1}. file=${f.file} key=${f.key} locale=${f.locale} type=${f.code} :: ${f.note}\n   snippet: ${JSON.stringify(f.snippet)}`
     );
   });
   process.exit(1);

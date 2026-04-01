@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const CSV_PATH = path.join(ROOT, "i18n/strings.csv");
+const CSV_PATH = path.join(ROOT, "i18n/strings-main.csv");
 const STEAM_JSON_PATH = "C:/Users/Brian/Downloads/storepage_564018_all (1).json";
 
 const LOCALE_TO_STEAM = {
@@ -154,4 +154,4 @@ for (const [locale, steamKey] of Object.entries(LOCALE_TO_STEAM)) {
 }
 
 writeCsv(CSV_PATH, csv.headers, csv.rows);
-console.log("Updated Steam-derived localized copy in i18n/strings.csv");
+console.log("Updated Steam-derived localized copy in i18n/strings-main.csv");

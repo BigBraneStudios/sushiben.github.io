@@ -722,6 +722,18 @@ select {
   font-weight: 700;
 }
 
+.review-card-summary {
+  margin: 0 0 0.5rem;
+  font-weight: 500;
+  color: var(--soft-ink);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.review-card-summary:empty {
+  display: none;
+}
+
 .review-card cite {
   font-style: normal;
   color: var(--soft-ink);
@@ -1081,6 +1093,10 @@ select option:checked {
 
 :root[data-theme="dark"] .review-card p {
   color: var(--ink);
+}
+
+:root[data-theme="dark"] .review-card-summary {
+  color: #d4e4f2;
 }
 
 :root[data-theme="dark"] .review-card cite {

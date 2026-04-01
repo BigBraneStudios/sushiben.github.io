@@ -2,8 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const INPUT = path.join(ROOT, "i18n/strings.csv");
-const OUTPUT = path.join(ROOT, "i18n/strings-clean.csv");
+const FILES = [
+  ["i18n/strings-main.csv", "i18n/strings-main-clean.csv"],
+  ["i18n/strings-team-cast.csv", "i18n/strings-team-cast-clean.csv"],
+  ["i18n/strings-presskit.csv", "i18n/strings-presskit-clean.csv"],
+  ["i18n/strings-eula.csv", "i18n/strings-eula-clean.csv"],
+  ["i18n/strings-privacy.csv", "i18n/strings-privacy-clean.csv"],
+];
 
 function read(filePath) {
   return fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, "");
@@ -60,7 +65,11 @@ function toCsvCell(value) {
   return `"${normalized.replace(/"/g, "\"\"")}"`;
 }
 
-const rows = parseCsv(read(INPUT));
-const output = rows.map((row) => row.map(toCsvCell).join(",")).join("\r\n") + "\r\n";
-fs.writeFileSync(OUTPUT, `\uFEFF${output}`, "utf8");
-console.log(`Wrote ${path.relative(ROOT, OUTPUT)}`);
+for (const [inputRel, outputRel] of FILES) {
+  const input = path.join(ROOT, inputRel);
+  const outputPath = path.join(ROOT, outputRel);
+  const rows = parseCsv(read(input));
+  const output = rows.map((row) => row.map(toCsvCell).join(",")).join("\r\n") + "\r\n";
+  fs.writeFileSync(outputPath, `\uFEFF${output}`, "utf8");
+  console.log(`Wrote ${path.relative(ROOT, outputPath)}`);
+}

@@ -21,7 +21,7 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Sushi Ben promotional artwork">
+  <meta property="og:image:alt" content="{{SHARE_IMAGE_ALT}}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{FULL_TITLE}}">
   <meta name="twitter:description" content="{{LEGAL_DESCRIPTION}}">
@@ -41,7 +41,7 @@
   <header class="site-header">
     <div class="wrap nav-row">
       <a class="brand" href="../" aria-label="Sushi Ben Home">
-        <img class="brand-logo" src="../../assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
+        <img class="brand-logo" src="../../assets/images/SushiBen_Logo_H.png" alt="{{IMAGE_LOGO_HORIZONTAL_ALT}}">
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="../index.html#buy">{{NAV_BUY}}</a>
@@ -78,6 +78,7 @@
     <h1>{{LEGAL_TITLE}}</h1>
     <nav class="legal-switch" aria-label="Legal page switcher">
       <a class="{{LEGAL_EULA_BUTTON_CLASS}}" href="../eula/"{{LEGAL_EULA_CURRENT_ATTR}}>{{LEGAL_EULA_LABEL}}</a>
+      <a class="{{LEGAL_FAN_CONTENT_BUTTON_CLASS}}" href="../fan-content-policy/"{{LEGAL_FAN_CONTENT_CURRENT_ATTR}}>{{LEGAL_FAN_CONTENT_LABEL}}</a>
       <a class="{{LEGAL_PRIVACY_BUTTON_CLASS}}" href="../privacy/"{{LEGAL_PRIVACY_CURRENT_ATTR}}>{{LEGAL_PRIVACY_LABEL}}</a>
     </nav>
     <pre class="legal-text">{{LEGAL_BODY}}</pre>
@@ -88,6 +89,7 @@
       <p>© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="../eula/">{{LEGAL_EULA_LABEL}}</a>
+        <a href="../fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
         <a href="../privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
       </div>
       <div class="meta-row" aria-label="More links">

@@ -37,7 +37,8 @@
       var candidates = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"])
         .map(mapLocale);
       var locale = candidates.find(function (item) { return supported.indexOf(item) !== -1; }) || "en";
-      window.location.replace("./" + locale + "/");
+      var suffix = window.location.search + window.location.hash;
+      window.location.replace("./" + locale + "/" + suffix);
     })();
   </script>
   <noscript>

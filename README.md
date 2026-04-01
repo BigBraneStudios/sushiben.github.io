@@ -1,77 +1,57 @@
-﻿# Sushi Ben Static Site (GitHub Pages)
+# Sushi Ben Site
 
-This repo contains a plain HTML/CSS/JS site scaffolded for GitHub Pages with path-based localization.
+Static marketing site for Sushi Ben, built from HTML templates and CSV-based localization data.
 
-## Files
+## Main Files
 
-- `index.html`: Root redirect to `/en/`
-- `styles.css`: Styling
-- `script.js`: Minimal client behavior
-- `.nojekyll`: Disables Jekyll processing on GitHub Pages
-- `CNAME`: Optional custom domain file
-- `<locale>/`: Localized pages for `en`, `de`, `es`, `fr`, `it`, `pt-br`, `ja`, `ko`, `zh-hans`, `zh-hant`
-- `eula/` and `privacy/`: Backward-compatible redirects to `/en/*`
-- `i18n/strings.csv`: Translation table (source of truth for UI copy)
-- `i18n/legal/<locale>/*.txt`: Legal body text per locale/page
-- `templates/`: Shared page templates for consistent formatting
-- `scripts/build-i18n.mjs`: Generator that builds localized pages from table/text sources
+- `templates/`
+  Source templates for home, legal, and secondary pages.
+- `i18n/strings-main.csv`
+  Shared site/UI/homepage copy.
+- `i18n/strings-team-cast.csv`
+  Team and Cast page copy.
+- `i18n/strings-presskit.csv`
+  Press Kit copy.
+- `i18n/strings-eula.csv`
+  EULA copy.
+- `i18n/strings-fan-content.csv`
+  Fan Content Policy copy.
+- `i18n/strings-privacy.csv`
+  Privacy Policy copy.
+- `scripts/build-i18n.mjs`
+  Generates the localized pages.
+- `scripts/validate-i18n.mjs`
+  Checks the CSV files for suspicious encoding/markup issues.
+- `scripts/i18n-constants.mjs`
+  Shared non-localized constants and branding.
 
-## Localization Workflow
-
-1. Edit `i18n/strings.csv`.
-2. Edit legal files in `i18n/legal/<locale>/`:
-   - `eula.txt`
-   - `privacy.txt`
-3. Regenerate localized pages:
+## Build
 
 ```powershell
 node scripts/validate-i18n.mjs
 node scripts/build-i18n.mjs
 ```
 
-`validate-i18n` is a safety check that warns/fails on suspicious mojibake/control characters or leftover Steam image markup in `i18n/strings.csv`.
+## Localization
 
-English (`en`) is the default/fallback source language when a translation value is missing.
+Translate these files directly:
 
-Supported languages:
-- English (`en`)
-- German (`de`)
-- Spanish (`es`)
-- French (`fr`)
-- Italian (`it`)
-- Portuguese (Brazil) (`pt-br`)
-- Japanese (`ja`)
-- Korean (`ko`)
-- Chinese Simplified (`zh-hans`)
-- Chinese Traditional (`zh-hant`)
+- `i18n/strings-main.csv`
+- `i18n/strings-team-cast.csv`
+- `i18n/strings-presskit.csv`
+- `i18n/strings-eula.csv`
+- `i18n/strings-fan-content.csv`
+- `i18n/strings-privacy.csv`
 
-## Deploy To GitHub Pages
+Then regenerate:
 
-1. Push this repo to GitHub.
-2. In GitHub: `Settings` -> `Pages`.
-3. Under `Build and deployment`, choose `Deploy from a branch`.
-4. Select branch `main` and folder `/ (root)`.
-5. Save.
+```powershell
+node scripts/validate-i18n.mjs
+node scripts/build-i18n.mjs
+```
 
-## Custom Domain
+## Notes
 
-1. Put your domain in `CNAME` (example: `www.sushiben.com`).
-2. In your DNS provider:
-   - `www` CNAME -> `<your-github-username>.github.io`
-   - Apex domain (`sushiben.com`) use ALIAS/ANAME (or A records per GitHub docs)
-3. Enable `Enforce HTTPS` in GitHub Pages settings after DNS resolves.
-
-## Contact Form
-
-Current form points to Formspree placeholder:
-
-`https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID`
-
-Replace with your actual Formspree form endpoint.
-
-## Content Still Needed
-
-- Final logo and hero art
-- Final screenshots
-- Final social URLs
-- Final support/contact email and policy links
+- `context` columns are translator guidance only. Do not edit keys.
+- Some shared non-localized strings live in `scripts/i18n-constants.mjs`.
+- Generated locale pages live under `en/`, `de/`, `es/`, `fr/`, `it/`, `pt-br/`, `ja/`, `ko/`, `zh-hans/`, and `zh-hant/`.

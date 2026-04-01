@@ -1,28 +1,41 @@
 ﻿import fs from "node:fs";
 import path from "node:path";
+import {
+  FIXED_TEXT,
+  LANGUAGE_NAMES_NATIVE,
+  PLACEHOLDER_VALUES,
+  PUBLISHER_NAME,
+  REVIEW_QUOTES,
+  REVIEW_SOURCES,
+  REVIEW_URLS,
+  SAME_AS_URLS,
+  SHARE_IMAGE_PATH,
+  SHARE_IMAGE_VERSION,
+  SITE_NAME,
+  SITE_URL,
+  SOCIAL_LABELS,
+  TRAILER_EMBED_URL,
+  TURNSTILE_SITE_KEY,
+} from "./i18n-constants.mjs";
 
 const ROOT = process.cwd();
-const SITE_URL = "https://www.sushiben.com";
-const SITE_NAME = "Sushi Ben";
-const SHARE_IMAGE_PATH = "/assets/images/share-card-cover.png";
-const SHARE_IMAGE_VERSION = "20260331-coverart-png";
-const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}?v=${SHARE_IMAGE_VERSION}`;
-const TRAILER_EMBED_URL = "https://www.youtube.com/embed/FnIscA4M4rQ";
-const TURNSTILE_SITE_KEY = "0x4AAAAAACysjnCgiwuIZ0kL";
-const SAME_AS_URLS = [
-  "https://x.com/SushiBenGame",
-  "https://www.youtube.com/watch?v=1lA0ssiHHxM",
-  "https://discord.gg/sushiben",
-  "https://store.steampowered.com/app/2419240/Sushi_Ben/",
-  "https://store.playstation.com/concept/10010735",
-  "https://www.meta.com/experiences/5459391390744272/",
-  "https://www.viveport.com/apps/1e1eb547-c759-4266-89bb-64bcc6f6294e?hl=en-US",
-  "https://store-global.picoxr.com/global/detail/1/7345233212618080262",
-  "https://store.onstove.com/en/games/103625",
+const CSV_FILES = [
+  "i18n/strings-main.csv",
+  "i18n/strings-team-cast.csv",
+  "i18n/strings-presskit.csv",
+  "i18n/strings-eula.csv",
+  "i18n/strings-fan-content.csv",
+  "i18n/strings-privacy.csv",
 ];
+const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}?v=${SHARE_IMAGE_VERSION}`;
 const LOCALES = ["en", "de", "es", "fr", "it", "pt-br", "ja", "ko", "zh-hans", "zh-hant"];
 const DEFAULT_LOCALE = "en";
 const SECONDARY_PAGES = ["team", "cast", "press-kit"];
+const LEGAL_PAGES = [
+  { slug: "eula", key: "eula" },
+  { slug: "fan-content-policy", key: "fan_content" },
+  { slug: "privacy", key: "privacy" },
+];
 const HREFLANG = {
   en: "en",
   de: "de",
@@ -133,6 +146,14 @@ function decodeHtmlEntities(value) {
     .replace(/&gt;/g, ">");
 }
 
+function replacePlaceholders(value) {
+  let out = String(value ?? "");
+  for (const [token, replacement] of Object.entries(PLACEHOLDER_VALUES)) {
+    out = out.split(token).join(replacement);
+  }
+  return out;
+}
+
 function textToHtmlParagraphs(value) {
   return escapeHtml(value)
     .replace(/\r\n/g, "\n")
@@ -170,23 +191,28 @@ function formatHeroLedeHtml(value) {
   return html;
 }
 
-const csv = parseCsv(read("i18n/strings.csv"));
 const dict = new Map();
-csv.rows.forEach((r) => dict.set(r.key, r));
+for (const csvFile of CSV_FILES) {
+  const csv = parseCsv(read(csvFile));
+  csv.rows.forEach((r) => {
+    if (dict.has(r.key)) throw new Error(`Duplicate translation key: ${r.key} in ${csvFile}`);
+    dict.set(r.key, r);
+  });
+}
 
 function t(key, locale) {
   const row = dict.get(key);
   if (!row) throw new Error(`Missing translation key: ${key}`);
-  return decodeHtmlEntities(row[locale] || row[DEFAULT_LOCALE] || "");
+  return replacePlaceholders(decodeHtmlEntities(row[locale] || row[DEFAULT_LOCALE] || ""));
 }
 
 function currentLanguageName(locale) {
-  return t(`locale.name.${locale}`, locale);
+  return LANGUAGE_NAMES_NATIVE[locale] || locale;
 }
 
 function languageItems(locale, page) {
   return LOCALES.map((loc) => {
-    const label = escapeHtml(t(`locale.name.${loc}`, locale));
+    const label = escapeHtml(currentLanguageName(loc));
     const href = page === "home" ? `../${loc}/` : `../../${loc}/${page}/`;
     return `<li><a href="${href}">${label}</a></li>`;
   }).join("\n          ");
@@ -219,7 +245,7 @@ function organizationJsonLd() {
   return jsonLd({
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Big Brane Studios, Inc.",
+    name: PUBLISHER_NAME,
     url: SITE_URL,
     logo: `${SITE_URL}/assets/images/SushiBen_Logo_H.png`,
     sameAs: SAME_AS_URLS,
@@ -269,7 +295,7 @@ function videoGameJsonLd(locale, description) {
     gamePlatform: ["Steam", "PlayStation 5", "Meta Quest", "HTC VIVEPORT", "PICO", "STOVE"],
     publisher: {
       "@type": "Organization",
-      name: "Big Brane Studios, Inc.",
+      name: PUBLISHER_NAME,
     },
     trailer: {
       "@type": "VideoObject",
@@ -288,6 +314,36 @@ function render(template, replacements) {
   return out;
 }
 
+function reviewSummary(summaryKey, locale) {
+  if (locale === DEFAULT_LOCALE) return "";
+  const summary = t(summaryKey, locale);
+  if (!summary) return "";
+  return `${t("home.reviews.summary_label", locale)} ${summary}`;
+}
+
+function renderSecondaryTokens(template, locale) {
+  return template.replace(/{{\s*([a-z0-9._-]+)\s*}}/gi, (_match, key) => {
+    if (key === "home.about.body.html") {
+      return formatAboutHtml(t("home.about.body", locale));
+    }
+    if (key === "home.hero.lede.html") {
+      return formatHeroLedeHtml(t("home.hero.lede", locale));
+    }
+    if (FIXED_TEXT[key]) {
+      return escapeHtml(FIXED_TEXT[key]);
+    }
+    const reviewQuoteMatch = key.match(/^home\.reviews\.quote([1-4])$/);
+    if (reviewQuoteMatch) {
+      return escapeHtml(REVIEW_QUOTES[Number(reviewQuoteMatch[1]) - 1]);
+    }
+    const reviewSummaryMatch = key.match(/^home\.reviews\.summary([1-4])$/);
+    if (reviewSummaryMatch) {
+      return escapeHtml(reviewSummary(key, locale));
+    }
+    return escapeHtml(t(key, locale));
+  });
+}
+
 function readSecondaryBody(locale, page) {
   const localized = `i18n/secondary/${locale}/${page}.html`;
   const fallback = `i18n/secondary/${DEFAULT_LOCALE}/${page}.html`;
@@ -302,8 +358,12 @@ function readSecondaryBody(locale, page) {
       .replace(/\.\.\/\.\.\/\.\.\/assets\//g, "../../assets/")
       .replace(/\.\.\/\.\.\/\.\.\/en\/index\.html#contact/g, "../index.html#contact");
 
-  if (fs.existsSync(localizedAbs)) return normalizeSecondaryPaths(read(localized).trim());
-  if (fs.existsSync(fallbackAbs)) return normalizeSecondaryPaths(read(fallback).trim());
+  if (fs.existsSync(localizedAbs)) {
+    return renderSecondaryTokens(normalizeSecondaryPaths(read(localized).trim()), locale);
+  }
+  if (fs.existsSync(fallbackAbs)) {
+    return renderSecondaryTokens(normalizeSecondaryPaths(read(fallback).trim()), locale);
+  }
 
   return `<p class="secondary-stub">${escapeHtml(t(`page.${page}.stub_body`, locale))}</p>`;
 }
@@ -314,9 +374,6 @@ const secondaryTemplate = read("templates/secondary.tpl");
 
 for (const locale of LOCALES) {
   const orgJson = organizationJsonLd();
-  const translationNote = t("home.translation_note", locale)
-    ? `<section class="translation-note">\n      <div class="wrap">\n        <p>${escapeHtml(t("home.translation_note", locale))}</p>\n      </div>\n    </section>`
-    : "";
   const siteTitle = t("site.title", locale);
   const siteDescription = t("site.description", locale);
   const homeCanonical = canonicalUrl(locale, "home");
@@ -330,6 +387,7 @@ for (const locale of LOCALES) {
     OG_LOCALE_ALTERNATES: ogLocaleAlternates(locale),
     CANONICAL_URL: homeCanonical,
     SHARE_IMAGE_URL: SHARE_IMAGE_URL,
+    SHARE_IMAGE_ALT: escapeHtml(t("image.share_card.alt", locale)),
     ORG_JSON_LD: orgJson,
     WEBSITE_JSON_LD: websiteJsonLd(locale),
     WEBPAGE_JSON_LD: webpageJsonLd(siteTitle, siteDescription, homeCanonical),
@@ -344,7 +402,23 @@ for (const locale of LOCALES) {
     LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
     LANG_ITEMS_HOME: languageItems(locale, "home"),
     HREFLANG_LINKS: hreflangLinks("home"),
-    TRANSLATION_NOTE: translationNote,
+    IMAGE_LOGO_HORIZONTAL_ALT: escapeHtml(t("image.logo.horizontal.alt", locale)),
+    IMAGE_LOGO_PRIMARY_ALT: escapeHtml(t("image.logo.primary.alt", locale)),
+    IMAGE_HERO_MINAMI_ALT: escapeHtml(t("image.hero.minami.alt", locale)),
+    IMAGE_STORE_STEAM_ALT: escapeHtml(t("image.store.steam.alt", locale)),
+    IMAGE_STORE_PLAYSTATION_ALT: escapeHtml(t("image.store.playstation.alt", locale)),
+    IMAGE_STORE_META_ALT: escapeHtml(t("image.store.meta.alt", locale)),
+    IMAGE_STORE_VIVEPORT_ALT: escapeHtml(t("image.store.viveport.alt", locale)),
+    IMAGE_STORE_PICO_ALT: escapeHtml(t("image.store.pico.alt", locale)),
+    IMAGE_STORE_STOVE_ALT: escapeHtml(t("image.store.stove.alt", locale)),
+    IMAGE_SCREENSHOT_OPEN_1: escapeHtml(t("image.screenshot.1.open", locale)),
+    IMAGE_SCREENSHOT_ALT_1: escapeHtml(t("image.screenshot.1.alt", locale)),
+    IMAGE_SCREENSHOT_OPEN_2: escapeHtml(t("image.screenshot.2.open", locale)),
+    IMAGE_SCREENSHOT_ALT_2: escapeHtml(t("image.screenshot.2.alt", locale)),
+    IMAGE_SCREENSHOT_OPEN_4: escapeHtml(t("image.screenshot.4.open", locale)),
+    IMAGE_SCREENSHOT_ALT_4: escapeHtml(t("image.screenshot.4.alt", locale)),
+    IMAGE_SCREENSHOT_OPEN_5: escapeHtml(t("image.screenshot.5.open", locale)),
+    IMAGE_SCREENSHOT_ALT_5: escapeHtml(t("image.screenshot.5.alt", locale)),
     HOME_KICKER: escapeHtml(t("home.kicker", locale)),
     HOME_HERO_TITLE: escapeHtml(t("home.hero.title", locale)),
     HOME_HERO_LEDE: formatHeroLedeHtml(t("home.hero.lede", locale)),
@@ -363,14 +437,10 @@ for (const locale of LOCALES) {
     HIGHLIGHT_8: escapeHtml(t("home.highlights.item8", locale)),
     HIGHLIGHT_9: escapeHtml(t("home.highlights.item9", locale)),
     HOME_BUY_TITLE: escapeHtml(t("home.buy.title", locale)),
-    HOME_BUY_SUBTITLE: escapeHtml(t("home.buy.subtitle", locale)),
     HOME_MEDIA_TITLE: escapeHtml(t("home.media.title", locale)),
     HOME_CONTACT_TITLE: escapeHtml(t("home.contact.title", locale)),
     HOME_CONTACT_SUBTITLE: escapeHtml(t("home.contact.subtitle", locale)),
     HOME_SOUNDTRACK_TITLE: escapeHtml(t("home.soundtrack.title", locale)),
-    HOME_SOUNDTRACK_BODY_BLOCK: t("home.soundtrack.body", locale)
-      ? `<p>${escapeHtml(t("home.soundtrack.body", locale))}</p>`
-      : "",
     HOME_SOUNDTRACK_CTA: escapeHtml(t("home.soundtrack.cta", locale)),
     SUPPORT_DISCORD_TITLE: escapeHtml(t("home.support.discord.title", locale)),
     SUPPORT_DISCORD_BODY: escapeHtml(t("home.support.discord.body", locale)),
@@ -388,50 +458,51 @@ for (const locale of LOCALES) {
     FORM_SUBMIT: escapeHtml(t("home.form.submit", locale)),
     TURNSTILE_SITE_KEY: escapeHtml(TURNSTILE_SITE_KEY),
     LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
+    LEGAL_FAN_CONTENT_LABEL: escapeHtml(t("footer.legal.fan_content", locale)),
     LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
     FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
-    SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
-    SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
-    SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
+    SOCIAL_X: SOCIAL_LABELS.x,
+    SOCIAL_YOUTUBE: SOCIAL_LABELS.youtube,
+    SOCIAL_DISCORD: SOCIAL_LABELS.discord,
     NAV_TEAM: escapeHtml(t("nav.team", locale)),
     NAV_CAST: escapeHtml(t("nav.cast", locale)),
     NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
     HOME_REVIEWS_TITLE: escapeHtml(t("home.reviews.title", locale)),
-    HOME_REVIEW_QUOTE_1: escapeHtml(t("home.reviews.quote1", locale)),
-    HOME_REVIEW_SOURCE_1: escapeHtml(t("home.reviews.source1", locale)),
-    HOME_REVIEW_URL_1: escapeHtml(t("home.reviews.url1", locale)),
-    HOME_REVIEW_QUOTE_2: escapeHtml(t("home.reviews.quote2", locale)),
-    HOME_REVIEW_SOURCE_2: escapeHtml(t("home.reviews.source2", locale)),
-    HOME_REVIEW_URL_2: escapeHtml(t("home.reviews.url2", locale)),
-    HOME_REVIEW_QUOTE_3: escapeHtml(t("home.reviews.quote3", locale)),
-    HOME_REVIEW_SOURCE_3: escapeHtml(t("home.reviews.source3", locale)),
-    HOME_REVIEW_URL_3: escapeHtml(t("home.reviews.url3", locale)),
-    HOME_REVIEW_QUOTE_4: escapeHtml(t("home.reviews.quote4", locale)),
-    HOME_REVIEW_SOURCE_4: escapeHtml(t("home.reviews.source4", locale)),
-    HOME_REVIEW_URL_4: escapeHtml(t("home.reviews.url4", locale)),
+    HOME_REVIEW_QUOTE_1: escapeHtml(REVIEW_QUOTES[0]),
+    HOME_REVIEW_SUMMARY_1: escapeHtml(reviewSummary("home.reviews.summary1", locale)),
+    HOME_REVIEW_SOURCE_1: REVIEW_SOURCES[0],
+    HOME_REVIEW_URL_1: REVIEW_URLS[0],
+    HOME_REVIEW_QUOTE_2: escapeHtml(REVIEW_QUOTES[1]),
+    HOME_REVIEW_SUMMARY_2: escapeHtml(reviewSummary("home.reviews.summary2", locale)),
+    HOME_REVIEW_SOURCE_2: REVIEW_SOURCES[1],
+    HOME_REVIEW_URL_2: REVIEW_URLS[1],
+    HOME_REVIEW_QUOTE_3: escapeHtml(REVIEW_QUOTES[2]),
+    HOME_REVIEW_SUMMARY_3: escapeHtml(reviewSummary("home.reviews.summary3", locale)),
+    HOME_REVIEW_SOURCE_3: REVIEW_SOURCES[2],
+    HOME_REVIEW_URL_3: REVIEW_URLS[2],
+    HOME_REVIEW_QUOTE_4: escapeHtml(REVIEW_QUOTES[3]),
+    HOME_REVIEW_SUMMARY_4: escapeHtml(reviewSummary("home.reviews.summary4", locale)),
+    HOME_REVIEW_SOURCE_4: REVIEW_SOURCES[3],
+    HOME_REVIEW_URL_4: REVIEW_URLS[3],
     HOME_FINAL_CTA_TITLE: escapeHtml(t("home.final_cta.title", locale)),
     HOME_FINAL_CTA_BODY: escapeHtml(t("home.final_cta.body", locale)),
-    HOME_FINAL_CTA_BUY: escapeHtml(t("home.final_cta.buy", locale)),
-    HOME_FINAL_CTA_WATCH: escapeHtml(t("home.final_cta.watch", locale)),
+    HOME_FINAL_CTA_BUY: escapeHtml(t("home.cta.buy", locale)),
+    HOME_FINAL_CTA_WATCH: escapeHtml(t("home.cta.watch", locale)),
   });
 
   write(`${locale}/index.html`, homeHtml);
 
-  for (const page of ["eula", "privacy"]) {
-    const legalBodyPath = `i18n/legal/${locale}/${page}.txt`;
-    const fallbackBodyPath = `i18n/legal/${DEFAULT_LOCALE}/${page}.txt`;
-    const legalBody = fs.existsSync(path.join(ROOT, legalBodyPath))
-      ? read(legalBodyPath)
-      : read(fallbackBodyPath);
-    const legalTitle = t(`legal.${page}.title`, locale);
-    const legalDescription = t(`legal.${page}.description`, locale);
+  for (const page of LEGAL_PAGES) {
+    const legalBody = t(`legal.${page.key}.body`, locale);
+    const legalTitle = t(`legal.${page.key}.title`, locale);
+    const legalDescription = t(`legal.${page.key}.description`, locale);
     const fullLegalTitle = `${SITE_NAME} | ${legalTitle}`;
-    const legalCanonical = canonicalUrl(locale, page);
+    const legalCanonical = canonicalUrl(locale, page.slug);
 
     const legalHtml = render(legalTemplate, {
       LANG: locale,
       HTML_LANG: htmlLang(locale),
-      LEGAL_SLUG: page,
+      LEGAL_SLUG: page.slug,
       LEGAL_TITLE: escapeHtml(legalTitle),
       FULL_TITLE: escapeHtml(fullLegalTitle),
       LEGAL_DESCRIPTION: escapeHtml(legalDescription),
@@ -439,13 +510,15 @@ for (const locale of LOCALES) {
       OG_LOCALE_ALTERNATES: ogLocaleAlternates(locale),
       CANONICAL_URL: legalCanonical,
       SHARE_IMAGE_URL: SHARE_IMAGE_URL,
+      SHARE_IMAGE_ALT: escapeHtml(t("image.share_card.alt", locale)),
       ORG_JSON_LD: orgJson,
       WEBPAGE_JSON_LD: webpageJsonLd(fullLegalTitle, legalDescription, legalCanonical),
       LEGAL_BACK_HOME: escapeHtml(t("legal.back_home", locale)),
       LANG_CURRENT_NAME: escapeHtml(currentLanguageName(locale)),
       LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
-      LANG_ITEMS_LEGAL: languageItems(locale, page),
-      HREFLANG_LINKS: hreflangLinks(page),
+      LANG_ITEMS_LEGAL: languageItems(locale, page.slug),
+      HREFLANG_LINKS: hreflangLinks(page.slug),
+      IMAGE_LOGO_HORIZONTAL_ALT: escapeHtml(t("image.logo.horizontal.alt", locale)),
       LEGAL_BODY: escapeHtml(legalBody),
       NAV_ABOUT: escapeHtml(t("nav.about", locale)),
       NAV_BUY: escapeHtml(t("nav.buy", locale)),
@@ -456,18 +529,21 @@ for (const locale of LOCALES) {
       NAV_CAST: escapeHtml(t("nav.cast", locale)),
       NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
       LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
+      LEGAL_FAN_CONTENT_LABEL: escapeHtml(t("footer.legal.fan_content", locale)),
       LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
       FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
-      LEGAL_EULA_BUTTON_CLASS: page === "eula" ? "btn btn-primary" : "btn btn-secondary",
-      LEGAL_PRIVACY_BUTTON_CLASS: page === "privacy" ? "btn btn-primary" : "btn btn-secondary",
-      LEGAL_EULA_CURRENT_ATTR: page === "eula" ? ' aria-current="page"' : "",
-      LEGAL_PRIVACY_CURRENT_ATTR: page === "privacy" ? ' aria-current="page"' : "",
-      SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
-      SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
-      SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
+      LEGAL_EULA_BUTTON_CLASS: page.slug === "eula" ? "btn btn-primary" : "btn btn-secondary",
+      LEGAL_FAN_CONTENT_BUTTON_CLASS: page.slug === "fan-content-policy" ? "btn btn-primary" : "btn btn-secondary",
+      LEGAL_PRIVACY_BUTTON_CLASS: page.slug === "privacy" ? "btn btn-primary" : "btn btn-secondary",
+      LEGAL_EULA_CURRENT_ATTR: page.slug === "eula" ? ' aria-current="page"' : "",
+      LEGAL_FAN_CONTENT_CURRENT_ATTR: page.slug === "fan-content-policy" ? ' aria-current="page"' : "",
+      LEGAL_PRIVACY_CURRENT_ATTR: page.slug === "privacy" ? ' aria-current="page"' : "",
+      SOCIAL_X: SOCIAL_LABELS.x,
+      SOCIAL_YOUTUBE: SOCIAL_LABELS.youtube,
+      SOCIAL_DISCORD: SOCIAL_LABELS.discord,
     });
 
-    write(`${locale}/${page}/index.html`, legalHtml);
+    write(`${locale}/${page.slug}/index.html`, legalHtml);
   }
 
   for (const page of SECONDARY_PAGES) {
@@ -486,6 +562,7 @@ for (const locale of LOCALES) {
       OG_LOCALE_ALTERNATES: ogLocaleAlternates(locale),
       CANONICAL_URL: pageCanonical,
       SHARE_IMAGE_URL: SHARE_IMAGE_URL,
+      SHARE_IMAGE_ALT: escapeHtml(t("image.share_card.alt", locale)),
       ORG_JSON_LD: orgJson,
       WEBPAGE_JSON_LD: webpageJsonLd(fullPageTitle, pageDescription, pageCanonical),
       PAGE_BODY: readSecondaryBody(locale, page),
@@ -494,6 +571,7 @@ for (const locale of LOCALES) {
       LANG_ARIA_LABEL: escapeHtml(t("lang.aria_label", locale)),
       LANG_ITEMS_PAGE: languageItems(locale, page),
       HREFLANG_LINKS: hreflangLinks(page),
+      IMAGE_LOGO_HORIZONTAL_ALT: escapeHtml(t("image.logo.horizontal.alt", locale)),
       NAV_ABOUT: escapeHtml(t("nav.about", locale)),
       NAV_BUY: escapeHtml(t("nav.buy", locale)),
       NAV_MEDIA: escapeHtml(t("nav.media", locale)),
@@ -503,11 +581,12 @@ for (const locale of LOCALES) {
       NAV_CAST: escapeHtml(t("nav.cast", locale)),
       NAV_PRESS_KIT: escapeHtml(t("nav.press_kit", locale)),
       LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
+      LEGAL_FAN_CONTENT_LABEL: escapeHtml(t("footer.legal.fan_content", locale)),
       LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
       FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
-      SOCIAL_X: escapeHtml(t("footer.social.x", locale)),
-      SOCIAL_YOUTUBE: escapeHtml(t("footer.social.youtube", locale)),
-      SOCIAL_DISCORD: escapeHtml(t("footer.social.discord", locale)),
+      SOCIAL_X: SOCIAL_LABELS.x,
+      SOCIAL_YOUTUBE: SOCIAL_LABELS.youtube,
+      SOCIAL_DISCORD: SOCIAL_LABELS.discord,
     });
     write(`${locale}/${page}/index.html`, pageHtml);
   }
@@ -516,8 +595,9 @@ for (const locale of LOCALES) {
 const sitemapUrls = [];
 for (const locale of LOCALES) {
   sitemapUrls.push(canonicalUrl(locale, "home"));
-  sitemapUrls.push(canonicalUrl(locale, "eula"));
-  sitemapUrls.push(canonicalUrl(locale, "privacy"));
+  for (const page of LEGAL_PAGES) {
+    sitemapUrls.push(canonicalUrl(locale, page.slug));
+  }
   for (const page of SECONDARY_PAGES) {
     sitemapUrls.push(canonicalUrl(locale, page));
   }

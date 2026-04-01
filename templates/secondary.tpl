@@ -21,7 +21,7 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Sushi Ben promotional artwork">
+  <meta property="og:image:alt" content="{{SHARE_IMAGE_ALT}}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{FULL_TITLE}}">
   <meta name="twitter:description" content="{{PAGE_DESCRIPTION}}">
@@ -41,7 +41,7 @@
   <header class="site-header">
     <div class="wrap nav-row">
       <a class="brand" href="../" aria-label="Sushi Ben Home">
-        <img class="brand-logo" src="../../assets/images/SushiBen_Logo_H.png" alt="Sushi Ben">
+        <img class="brand-logo" src="../../assets/images/SushiBen_Logo_H.png" alt="{{IMAGE_LOGO_HORIZONTAL_ALT}}">
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="../index.html#buy">{{NAV_BUY}}</a>
@@ -84,6 +84,7 @@
       <p>&copy; <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
       <div class="legal-row" aria-label="Legal links">
         <a href="../eula/">{{LEGAL_EULA_LABEL}}</a>
+        <a href="../fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
         <a href="../privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
       </div>
       <div class="meta-row" aria-label="More links">
