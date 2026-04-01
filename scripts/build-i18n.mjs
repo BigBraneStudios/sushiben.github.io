@@ -8,6 +8,7 @@ const SHARE_IMAGE_PATH = "/assets/images/share-card-cover.png";
 const SHARE_IMAGE_VERSION = "20260331-coverart-png";
 const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}?v=${SHARE_IMAGE_VERSION}`;
 const TRAILER_EMBED_URL = "https://www.youtube.com/embed/FnIscA4M4rQ";
+const TURNSTILE_SITE_KEY = "0x4AAAAAACysjnCgiwuIZ0kL";
 const SAME_AS_URLS = [
   "https://x.com/SushiBenGame",
   "https://www.youtube.com/watch?v=1lA0ssiHHxM",
@@ -385,6 +386,7 @@ for (const locale of LOCALES) {
     FORM_EMAIL: escapeHtml(t("home.form.email", locale)),
     FORM_MESSAGE: escapeHtml(t("home.form.message", locale)),
     FORM_SUBMIT: escapeHtml(t("home.form.submit", locale)),
+    TURNSTILE_SITE_KEY: escapeHtml(TURNSTILE_SITE_KEY),
     LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),
     LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
     FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),

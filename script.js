@@ -121,6 +121,7 @@ if (supportForm) {
     const email = supportForm.querySelector('input[name="email"]');
     const category = supportForm.querySelector('select[name="category"]');
     const message = supportForm.querySelector('textarea[name="message"]');
+    const turnstileResponse = supportForm.querySelector('input[name="cf-turnstile-response"], textarea[name="cf-turnstile-response"]');
 
     if (!name?.value.trim()) {
       setFormStatus("Please enter your name.", "error");
@@ -142,6 +143,10 @@ if (supportForm) {
       message?.focus();
       return;
     }
+    if (!turnstileResponse?.value.trim()) {
+      setFormStatus("Please complete the verification challenge.", "error");
+      return;
+    }
 
     const action = supportForm.getAttribute("action") || "";
     const payload = {
@@ -149,6 +154,7 @@ if (supportForm) {
       email: email.value.trim(),
       category: category.value,
       message: message.value.trim(),
+      token: turnstileResponse.value.trim(),
       website: honey ? honey.value.trim() : "",
       page: "support",
       locale: document.documentElement.lang || "en",

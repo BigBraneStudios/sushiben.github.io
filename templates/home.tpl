@@ -33,6 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script type="application/ld+json">{{ORG_JSON_LD}}</script>
   <script type="application/ld+json">{{WEBSITE_JSON_LD}}</script>
   <script type="application/ld+json">{{WEBPAGE_JSON_LD}}</script>
@@ -246,7 +247,7 @@
           <div class="support-card">
             <h3>{{SUPPORT_EMAIL_TITLE}}</h3>
             <p>{{SUPPORT_EMAIL_BODY}}</p>
-            <form id="support-form" class="contact-form" action="https://REPLACE_WITH_YOUR_WORKER.workers.dev/contact" method="POST" novalidate>
+            <form id="support-form" class="contact-form" action="https://sushiben-resend.bigbranestudios.workers.dev/" method="POST" novalidate>
               <label for="name">{{FORM_NAME}}</label>
               <input id="name" name="name" type="text" autocomplete="name" required>
 
@@ -271,6 +272,10 @@
 
               <input type="hidden" name="page" value="support">
               <input type="hidden" name="locale" value="{{LANG}}">
+
+              <div class="turnstile-wrap">
+                <div class="cf-turnstile" data-sitekey="{{TURNSTILE_SITE_KEY}}" data-theme="auto"></div>
+              </div>
 
               <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
               <button class="btn btn-primary" type="submit">{{FORM_SUBMIT}}</button>

@@ -661,6 +661,10 @@ select {
   font-weight: 600;
 }
 
+.turnstile-wrap {
+  margin-top: 0.15rem;
+}
+
 .form-status.is-error {
   color: #8f2037;
 }

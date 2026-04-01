@@ -51,6 +51,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Big Brane Studios, Inc.","url":"https://www.sushiben.com","logo":"https://www.sushiben.com/assets/images/SushiBen_Logo_H.png","sameAs":["https://x.com/SushiBenGame","https://www.youtube.com/watch?v=1lA0ssiHHxM","https://discord.gg/sushiben","https://store.steampowered.com/app/2419240/Sushi_Ben/","https://store.playstation.com/concept/10010735","https://www.meta.com/experiences/5459391390744272/","https://www.viveport.com/apps/1e1eb547-c759-4266-89bb-64bcc6f6294e?hl=en-US","https://store-global.picoxr.com/global/detail/1/7345233212618080262","https://store.onstove.com/en/games/103625"]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Sushi Ben","url":"https://www.sushiben.com","inLanguage":"ja"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Sushi Ben | A Cozy, Anime-Inspired Adventure","description":"Sushi Ben is a narrative adventure set in Kotobuki Town. Explore, meet locals, and help save a beloved sushi bar.","url":"https://www.sushiben.com/ja/"}</script>
@@ -273,7 +274,7 @@
           <div class="support-card">
             <h3>Prefer email? Send us a message</h3>
             <p>Use the form and we will route your message to the right team member as quickly as possible.</p>
-            <form id="support-form" class="contact-form" action="https://REPLACE_WITH_YOUR_WORKER.workers.dev/contact" method="POST" novalidate>
+            <form id="support-form" class="contact-form" action="https://sushiben-resend.bigbranestudios.workers.dev/" method="POST" novalidate>
               <label for="name">Name</label>
               <input id="name" name="name" type="text" autocomplete="name" required>
 
@@ -298,6 +299,10 @@
 
               <input type="hidden" name="page" value="support">
               <input type="hidden" name="locale" value="ja">
+
+              <div class="turnstile-wrap">
+                <div class="cf-turnstile" data-sitekey="0x4AAAAAACysjnCgiwuIZ0kL" data-theme="auto"></div>
+              </div>
 
               <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
               <button class="btn btn-primary" type="submit">Send Message</button>
