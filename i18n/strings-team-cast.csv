@@ -1,51 +1,51 @@
-"key","context","en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"
-"cast.label.en","Short label | Cast credit language label (use very short abbreviation)","EN","","","","","","","","",""
-"cast.label.jp","Short label | Cast credit language label (use very short abbreviation)","JP","","","","","","","","",""
-"cast.section.additional","Heading | Cast page section","Additional Characters","","","","","","","","",""
-"cast.section.customers","Heading | Cast page section","Customers","","","","","","","","",""
-"cast.section.main","Heading | Cast page section","Main Characters","","","","","","","","",""
-"cast.section.suppliers","Heading | Cast page section","Suppliers","","","","","","","","",""
-"cast.section.supporting","Heading | Cast page section","Supporting Characters","","","","","","","","",""
-"page.cast.title","Page title | Cast page","Cast","","","","","","","","",""
-"page.cast.description","Meta description | Cast page","Meet the English and Japanese voice cast of {Sushi Ben}'s colorful Kotobuki Town characters.","","","","","","","","",""
-"page.team.title","Page title | Team page","Meet the Team","Team kennenlernen","Conoce al equipo","Rencontrer l'équipe","Incontra il team","Conheça a equipe","チーム紹介","팀 소개","团队介绍","團隊介紹"
-"page.team.description","Meta description | Team page","Meet the developers, artists, and creative team behind {Sushi Ben}.","","","","","","","","",""
-"team.partner.bigbrane.body","Body text | Team page partner card","{Big Brane Studios, Inc.} is the creator, developer, and publisher of {Sushi Ben}.","","","","","","","","",""
-"team.partner.smg.body","Body text | Team page partner card","{SMG Studio} is the executive producer of {Sushi Ben}. {SMG Studio} is dedicated to producing games with original and licenced IP for all platforms.","","","","","","","","",""
-"team.role.2d_artist","Role label | Team page credit","2D Artist","","","","","","","","",""
-"team.role.3d_animator","Role label | Team page credit","3D Animator","","","","","","","","",""
-"team.role.3d_artist","Role label | Team page credit","3D Artist","","","","","","","","",""
-"team.role.3d_artist_concept_artist","Role label | Team page credit","3D Artist / Concept Artist","","","","","","","","",""
-"team.role.3d_artist_manga_panel_artist","Role label | Team page credit","3D Artist / Manga Panel Artist","","","","","","","","",""
-"team.role.3d_character_artist","Role label | Team page credit","3D Character Artist","","","","","","","","",""
-"team.role.additional_programming","Role label | Team page credit","Additional Programming","","","","","","","","",""
-"team.role.character_designer","Role label | Team page credit","Character Designer","","","","","","","","",""
-"team.role.character_rigger","Role label | Team page credit","Character Rigger","","","","","","","","",""
-"team.role.community_manager","Role label | Team page credit","Community Manager","","","","","","","","",""
-"team.role.composer_sound_designer","Role label | Team page credit","Composer / Sound Designer","","","","","","","","",""
-"team.role.director","Role label | Team page credit","Director","","","","","","","","",""
-"team.role.english_casting_director","Role label | Team page credit","English Casting Director","","","","","","","","",""
-"team.role.english_translator","Role label | Team page credit","English Translator","","","","","","","","",""
-"team.role.english_voice_direction","Role label | Team page credit","English Voice Direction","","","","","","","","",""
-"team.role.executive_producers","Role label | Team page credit","Executive Producers","","","","","","","","",""
-"team.role.gameplay_programmer","Role label | Team page credit","Gameplay Programmer","","","","","","","","",""
-"team.role.gameplay_programmer_junior","Role label | Team page credit","Gameplay Programmer (Junior)","","","","","","","","",""
-"team.role.lead_3d_animator","Role label | Team page credit","Lead 3D Animator","","","","","","","","",""
-"team.role.lead_technical_artist","Role label | Team page credit","Lead Technical Artist","","","","","","","","",""
-"team.role.location_scout","Role label | Team page credit","Location Scout","","","","","","","","",""
-"team.role.marketing_producer","Role label | Team page credit","Marketing Producer","","","","","","","","",""
-"team.role.portuguese_translator","Role label | Team page credit","Portuguese Translator","","","","","","","","",""
-"team.role.production_assistant","Role label | Team page credit","Production Assistant","","","","","","","","",""
-"team.role.social_media_manager","Role label | Team page credit","Social Media Manager","","","","","","","","",""
-"team.role.technical_artist","Role label | Team page credit","Technical Artist","","","","","","","","",""
-"team.role.technical_director","Role label | Team page credit","Technical Director","","","","","","","","",""
-"team.role.video_storyboard_artist","Role label | Team page credit","Video Storyboard Artist","","","","","","","","",""
-"team.role.writer_2d_artist","Role label | Team page credit","Writer / 2D Artist","","","","","","","","",""
-"team.section.animation_rigging","Heading | Team page section","Animation and Rigging","","","","","","","","",""
-"team.section.art_design","Heading | Team page section","Art and Design","","","","","","","","",""
-"team.section.audio_marketing","Heading | Team page section","Audio and Marketing","","","","","","","","",""
-"team.section.direction","Heading | Team page section","Leadership and Direction","","","","","","","","",""
-"team.section.engineering_technical","Heading | Team page section","Engineering and Technical","","","","","","","","",""
-"team.section.memory","Heading | Team page section","In Memory Of","","","","","","","","",""
-"team.section.story_production","Heading | Team page section","Story and Production","","","","","","","","",""
-"team.section.technology_partners","Heading | Team page section","Technology and Partners","","","","","","","","",""
+﻿key,context,en,de,es,fr,it,pt-br,ja,ko,zh-hans,zh-hant
+cast.label.en,Short label | Cast credit language label (use very short abbreviation),EN,EN,EN,EN,EN,EN,EN,EN,EN,EN
+cast.label.jp,Short label | Cast credit language label (use very short abbreviation),JP,JP,JP,JP,JP,JP,JP,JP,JP,JP
+cast.section.additional,Heading | Cast page section,Additional Characters,Weitere Figuren,Personajes adicionales,Personnages additionnels,Personaggi aggiuntivi,Personagens adicionais,追加キャラクター,추가 캐릭터,其他角色,其他角色
+cast.section.customers,Heading | Cast page section,Customers,Kunden,Clientes,Clients,Clienti,Clientes,お客さん,손님들,顾客,顧客
+cast.section.main,Heading | Cast page section,Main Characters,Hauptfiguren,Personajes principales,Personnages principaux,Personaggi principali,Personagens principais,メインキャラクター,주요 캐릭터,主要角色,主要角色
+cast.section.suppliers,Heading | Cast page section,Suppliers,Lieferanten,Proveedores,Fournisseurs,Fornitori,Fornecedores,仕入れ先,공급업체,供应商,供應商
+cast.section.supporting,Heading | Cast page section,Supporting Characters,Nebenfiguren,Personajes secundarios,Personnages secondaires,Personaggi di supporto,Personagens de apoio,サブキャラクター,조연 캐릭터,配角,配角
+page.cast.title,Page title | Cast page,Cast,Besetzung,Reparto,Distribution,Cast,Elenco,キャスト,출연진,配音阵容,配音陣容
+page.cast.description,Meta description | Cast page,Meet the English and Japanese voice cast of {Sushi Ben}'s colorful Kotobuki Town characters.,Lernen Sie die englische und japanische Sprecherbesetzung der farbenfrohen Figuren aus Kotobuki Town in {Sushi Ben} kennen.,Conoce al reparto de voces en inglés y japonés de los coloridos personajes de Kotobuki Town en {Sushi Ben}.,Découvrez les comédiens et comédiennes de doublage anglais et japonais des personnages hauts en couleur de Kotobuki Town dans {Sushi Ben}.,Scopri il cast vocale inglese e giapponese dei colorati personaggi di Kotobuki Town in {Sushi Ben}.,Conheça o elenco de voz em inglês e japonês dos personagens coloridos de Kotobuki Town em {Sushi Ben}.,{Sushi Ben}に登場する、個性豊かなコトブキタウンの住人たちを演じる英語版・日本語版ボイスキャストをご紹介します。,{Sushi Ben}의 개성 넘치는 코토부키 타운 캐릭터들을 연기한 영어 및 일본어 성우진을 만나보세요.,认识一下在 {Sushi Ben} 中为寿吹镇个性鲜明角色献声的英语和日语配音演员阵容。,來認識一下在 {Sushi Ben} 中為壽吹鎮個性鮮明角色獻聲的英語與日語配音演員陣容。
+page.team.title,Page title | Team page,Meet the Team,Team kennenlernen,Conoce al equipo,Rencontrer l'équipe,Incontra il team,Conheça a equipe,チーム紹介,팀 소개,团队介绍,團隊介紹
+page.team.description,Meta description | Team page,"Meet the developers, artists, and creative team behind {Sushi Ben}.","Lernen Sie die Entwickler, Künstler und das Kreativteam hinter {Sushi Ben} kennen.","Conoce a los desarrolladores, artistas y al equipo creativo detrás de {Sushi Ben}.","Découvrez les développeurs, artistes et l’équipe créative derrière {Sushi Ben}.","Scopri gli sviluppatori, gli artisti e il team creativo dietro {Sushi Ben}.","Conheça os desenvolvedores, artistas e a equipe criativa por trás de {Sushi Ben}.",{Sushi Ben}を手がけた開発者、アーティスト、クリエイティブチームをご紹介します。,"{Sushi Ben}를 만든 개발자, 아티스트, 그리고 크리에이티브 팀을 만나보세요.",认识一下打造 {Sushi Ben} 的开发者、艺术家与创意团队。,來認識一下打造 {Sushi Ben} 的開發者、藝術家與創意團隊。
+team.partner.bigbrane.body,Body text | Team page partner card,"{Big Brane Studios, Inc.} is the creator, developer, and publisher of {Sushi Ben}.","{Big Brane Studios, Inc.} ist der Schöpfer, Entwickler und Publisher von {Sushi Ben}.","{Big Brane Studios, Inc.} es el creador, desarrollador y editor de {Sushi Ben}.","{Big Brane Studios, Inc.} est le créateur, développeur et éditeur de {Sushi Ben}.","{Big Brane Studios, Inc.} è il creatore, sviluppatore e publisher di {Sushi Ben}.","{Big Brane Studios, Inc.} é a criadora, desenvolvedora e publicadora de {Sushi Ben}.","{Big Brane Studios, Inc.}は、{Sushi Ben}の企画、開発、販売を手がけています。","{Big Brane Studios, Inc.}는 {Sushi Ben}의 제작사이자 개발사이며 퍼블리셔입니다.","{Big Brane Studios, Inc.} 是 {Sushi Ben} 的创作者、开发商和发行商。","{Big Brane Studios, Inc.} 是 {Sushi Ben} 的創作者、開發商與發行商。"
+team.partner.smg.body,Body text | Team page partner card,{SMG Studio} is the executive producer of {Sushi Ben}. {SMG Studio} is dedicated to producing games with original and licenced IP for all platforms.,{SMG Studio} ist der Executive Producer von {Sushi Ben}. {SMG Studio} widmet sich der Produktion von Spielen mit originalen und lizenzierten Marken für alle Plattformen.,{SMG Studio} es el productor ejecutivo de {Sushi Ben}. {SMG Studio} se dedica a producir juegos con propiedad intelectual original y licenciada para todas las plataformas.,{SMG Studio} est le producteur exécutif de {Sushi Ben}. {SMG Studio} se consacre à la production de jeux reposant sur des licences originales et licenciées pour toutes les plateformes.,{SMG Studio} è il produttore esecutivo di {Sushi Ben}. {SMG Studio} si dedica alla produzione di giochi con IP originali e su licenza per tutte le piattaforme.,{SMG Studio} é o produtor executivo de {Sushi Ben}. {SMG Studio} se dedica à produção de jogos com IPs originais e licenciadas para todas as plataformas.,{SMG Studio}は、{Sushi Ben}のエグゼクティブプロデューサーです。{SMG Studio}は、あらゆるプラットフォーム向けにオリジナルIPおよびライセンスIPのゲーム制作に取り組んでいます。,{SMG Studio}는 {Sushi Ben}의 총괄 프로듀서입니다. {SMG Studio}는 모든 플랫폼을 대상으로 오리지널 IP 및 라이선스 IP 게임 제작에 전념하고 있습니다.,{SMG Studio} 是 {Sushi Ben} 的执行制作方。{SMG Studio} 致力于为各个平台制作基于原创 IP 和授权 IP 的游戏。,{SMG Studio} 是 {Sushi Ben} 的執行製作方。{SMG Studio} 致力於為各平台製作基於原創 IP 與授權 IP 的遊戲。
+team.role.2d_artist,Role label | Team page credit,2D Artist,2D-Künstler,Artista 2D,Artiste 2D,Artista 2D,Artista 2D,2Dアーティスト,2D 아티스트,2D 美术师,2D 美術師
+team.role.3d_animator,Role label | Team page credit,3D Animator,3D-Animator,Animador 3D,Animateur 3D,Animatore 3D,Animador 3D,3Dアニメーター,3D 애니메이터,3D 动画师,3D 動畫師
+team.role.3d_artist,Role label | Team page credit,3D Artist,3D-Künstler,Artista 3D,Artiste 3D,Artista 3D,Artista 3D,3Dアーティスト,3D 아티스트,3D 美术师,3D 美術師
+team.role.3d_artist_concept_artist,Role label | Team page credit,3D Artist / Concept Artist,3D-Künstler / Concept Artist,Artista 3D / Artista conceptual,Artiste 3D / Concept artist,Artista 3D / Concept artist,Artista 3D / Concept artist,3Dアーティスト / コンセプトアーティスト,3D 아티스트 / 컨셉 아티스트,3D 美术师 / 概念美术师,3D 美術師 / 概念美術師
+team.role.3d_artist_manga_panel_artist,Role label | Team page credit,3D Artist / Manga Panel Artist,3D-Künstler / Manga-Panel-Künstler,Artista 3D / Artista de paneles manga,Artiste 3D / Artiste de planches manga,Artista 3D / Artista pannelli manga,Artista 3D / Artista de painéis de mangá,3Dアーティスト / 漫画パネルアーティスト,3D 아티스트 / 만화 패널 아티스트,3D 美术师 / 漫画分镜美术师,3D 美術師 / 漫畫分鏡美術師
+team.role.3d_character_artist,Role label | Team page credit,3D Character Artist,3D-Charakterkünstler,Artista de personajes 3D,Artiste personnages 3D,Artista dei personaggi 3D,Artista de personagens 3D,3Dキャラクターアーティスト,3D 캐릭터 아티스트,3D 角色美术师,3D 角色美術師
+team.role.additional_programming,Role label | Team page credit,Additional Programming,Zusätzliche Programmierung,Programación adicional,Programmation additionnelle,Programmazione aggiuntiva,Programação adicional,追加プログラミング,추가 프로그래밍,额外程序支持,額外程式支援
+team.role.character_designer,Role label | Team page credit,Character Designer,Charakterdesigner,Diseñador de personajes,Character designer,Character designer,Designer de personagens,キャラクターデザイナー,캐릭터 디자이너,角色设计师,角色設計師
+team.role.character_rigger,Role label | Team page credit,Character Rigger,Character Rigger,Rigging de personajes,Rigger personnages,Rigger dei personaggi,Rigger de personagens,キャラクターリガー,캐릭터 리거,角色绑定师,角色綁定師
+team.role.community_manager,Role label | Team page credit,Community Manager,Community-Manager,Community Manager,Community manager,Community manager,Gerente de comunidade,コミュニティマネージャー,커뮤니티 매니저,社区经理,社群經理
+team.role.composer_sound_designer,Role label | Team page credit,Composer / Sound Designer,Komponist / Sounddesigner,Compositor / Diseñador de sonido,Compositeur / Sound designer,Compositore / Sound designer,Compositor / Sound designer,作曲 / サウンドデザイン,작곡 / 사운드 디자인,作曲 / 音效设计,作曲 / 音效設計
+team.role.director,Role label | Team page credit,Director,Regisseur,Director,Directeur,Direttore,Diretor,ディレクター,디렉터,导演,導演
+team.role.english_casting_director,Role label | Team page credit,English Casting Director,Casting-Regisseur (Englisch),Director de casting en inglés,Directeur de casting anglais,Direttore casting inglese,Diretor de elenco em inglês,英語版キャスティングディレクター,영어 캐스팅 디렉터,英语配音选角导演,英語配音選角導演
+team.role.english_translator,Role label | Team page credit,English Translator,Englisch-Übersetzer,Traductor de inglés,Traducteur anglais,Traduttore inglese,Tradutor de inglês,英語翻訳,영어 번역,英语翻译,英語翻譯
+team.role.english_voice_direction,Role label | Team page credit,English Voice Direction,Sprechregie (Englisch),Dirección de voz en inglés,Direction vocale anglaise,Direzione voci inglesi,Direção de voz em inglês,英語版ボイスディレクション,영어 음성 디렉션,英语配音指导,英語配音指導
+team.role.executive_producers,Role label | Team page credit,Executive Producers,Executive Producer,Productores ejecutivos,Producteurs exécutifs,Produttori esecutivi,Produtores executivos,エグゼクティブプロデューサー,총괄 프로듀서,执行制作人,執行製作人
+team.role.gameplay_programmer,Role label | Team page credit,Gameplay Programmer,Gameplay-Programmierer,Programador de jugabilidad,Programmeur gameplay,Programmatore gameplay,Programador de gameplay,ゲームプレイプログラマー,게임플레이 프로그래머,玩法程序员,玩法程式設計師
+team.role.gameplay_programmer_junior,Role label | Team page credit,Gameplay Programmer (Junior),Gameplay-Programmierer (Junior),Programador de jugabilidad (junior),Programmeur gameplay (junior),Programmatore gameplay (junior),Programador de gameplay (júnior),ゲームプレイプログラマー（ジュニア）,게임플레이 프로그래머 (주니어),玩法程序员（初级）,玩法程式設計師（初階）
+team.role.lead_3d_animator,Role label | Team page credit,Lead 3D Animator,Lead 3D Animator,Animador 3D principal,Lead animateur 3D,Lead animatore 3D,Animador 3D principal,リード3Dアニメーター,리드 3D 애니메이터,首席 3D 动画师,首席 3D 動畫師
+team.role.lead_technical_artist,Role label | Team page credit,Lead Technical Artist,Leitender Technical Artist,Artista técnico principal,Lead technical artist,Lead technical artist,Artista técnico principal,リードテクニカルアーティスト,리드 테크니컬 아티스트,首席技术美术,首席技術美術
+team.role.location_scout,Role label | Team page credit,Location Scout,Location-Scout,Buscador de localizaciones,Repéreur de lieux,Location scout,Olheiro de locações,ロケーションスカウト,로케이션 스카우트,场景勘察,場景勘察
+team.role.marketing_producer,Role label | Team page credit,Marketing Producer,Marketing Producer,Productor de marketing,Producteur marketing,Produttore marketing,Produtor de marketing,マーケティングプロデューサー,마케팅 프로듀서,市场制作人,行銷製作人
+team.role.portuguese_translator,Role label | Team page credit,Portuguese Translator,Portugiesisch-Übersetzer,Traductor de portugués,Traducteur portugais,Traduttore portoghese,Tradutor de português,ポルトガル語翻訳,포르투갈어 번역,葡萄牙语翻译,葡萄牙語翻譯
+team.role.production_assistant,Role label | Team page credit,Production Assistant,Produktionsassistent,Asistente de producción,Assistant de production,Assistente di produzione,Assistente de produção,制作アシスタント,제작 보조,制作助理,製作助理
+team.role.social_media_manager,Role label | Team page credit,Social Media Manager,Social-Media-Manager,Responsable de redes sociales,Responsable réseaux sociaux,Responsabile social media,Gerente de redes sociais,ソーシャルメディアマネージャー,소셜 미디어 매니저,社交媒体经理,社群媒體經理
+team.role.technical_artist,Role label | Team page credit,Technical Artist,Technical Artist,Artista técnico,Technical artist,Technical artist,Artista técnico,テクニカルアーティスト,테크니컬 아티스트,技术美术,技術美術
+team.role.technical_director,Role label | Team page credit,Technical Director,Technischer Direktor,Director técnico,Directeur technique,Direttore tecnico,Diretor técnico,テクニカルディレクター,테크니컬 디렉터,技术总监,技術總監
+team.role.video_storyboard_artist,Role label | Team page credit,Video Storyboard Artist,Storyboard-Künstler (Video),Artista de storyboard de video,Artiste storyboard vidéo,Artista storyboard video,Artista de storyboard de vídeo,ビデオストーリーボードアーティスト,비디오 스토리보드 아티스트,视频分镜美术师,影片分鏡美術師
+team.role.writer_2d_artist,Role label | Team page credit,Writer / 2D Artist,Autor / 2D-Künstler,Guionista / Artista 2D,Scénariste / Artiste 2D,Sceneggiatore / Artista 2D,Roteirista / Artista 2D,ライター / 2Dアーティスト,작가 / 2D 아티스트,编剧 / 2D 美术师,編劇 / 2D 美術師
+team.section.animation_rigging,Heading | Team page section,Animation and Rigging,Animation und Rigging,Animación y rigging,Animation et rigging,Animazione e rigging,Animação e rigging,アニメーション & リギング,애니메이션 및 리깅,动画与绑定,動畫與綁定
+team.section.art_design,Heading | Team page section,Art and Design,Kunst und Design,Arte y diseño,Art et design,Arte e design,Arte e design,アート & デザイン,아트 및 디자인,美术与设计,美術與設計
+team.section.audio_marketing,Heading | Team page section,Audio and Marketing,Audio und Marketing,Audio y marketing,Audio et marketing,Audio e marketing,Áudio e marketing,オーディオ & マーケティング,오디오 및 마케팅,音频与市场,音訊與行銷
+team.section.direction,Heading | Team page section,Leadership and Direction,Leitung und Regie,Liderazgo y dirección,Leadership et direction,Leadership e direzione,Liderança e direção,リーダーシップ & ディレクション,리더십 및 디렉션,领导与指导,領導與指導
+team.section.engineering_technical,Heading | Team page section,Engineering and Technical,Engineering und Technik,Ingeniería y área técnica,Ingénierie et technique,Ingegneria e area tecnica,Engenharia e área técnica,エンジニアリング & テクニカル,엔지니어링 및 테크니컬,工程与技术,工程與技術
+team.section.memory,Heading | Team page section,In Memory Of,In Gedenken an,En memoria de,En mémoire de,In memoria di,Em memória de,追悼,추모,缅怀,緬懷
+team.section.story_production,Heading | Team page section,Story and Production,Story und Produktion,Historia y producción,Histoire et production,Storia e produzione,História e produção,ストーリー & プロダクション,스토리 및 제작,故事与制作,故事與製作
+team.section.technology_partners,Heading | Team page section,Technology and Partners,Technologie und Partner,Tecnología y socios,Technologie et partenaires,Tecnologia e partner,Tecnologia e parceiros,テクノロジー & パートナー,기술 및 파트너,技术与合作伙伴,技術與合作夥伴
