@@ -88,7 +88,6 @@
       </div>
       <div class="meta-row" aria-label="More links">
         <a href="../team/">{{NAV_TEAM}}</a>
-        <a href="../cast/">{{NAV_CAST}}</a>
         <a href="../press-kit/">{{NAV_PRESS_KIT}}</a>
         <a href="https://open.spotify.com/album/0d3HqxaVExA5LMOFDsAotM" target="_blank" rel="noopener noreferrer">{{FOOTER_SOUNDTRACK}}</a>
       </div>

@@ -257,9 +257,107 @@
     0 8px 18px rgb(17 46 64 / 0.16);
 }
 
+.logo-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.logo-card {
+  display: grid;
+  grid-template-columns: minmax(120px, 210px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem;
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, #ffffff 92%, var(--paper-2)) 0%,
+    color-mix(in srgb, #ffffff 84%, var(--paper)) 100%
+  );
+}
+
+.logo-card-bigbrane {
+  grid-template-columns: minmax(120px, 210px) minmax(0, 1fr);
+}
+
+.partner-logo {
+  display: block;
+  width: min(210px, 100%);
+  height: auto;
+  max-height: 68px;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  background: transparent;
+  filter: brightness(0) saturate(100%);
+  align-self: center;
+}
+
+.partner-logo-ue {
+  width: min(170px, 100%);
+  max-height: 132px;
+  justify-self: center;
+}
+
+.partner-logo-smg {
+  filter: none;
+  width: min(240px, 100%);
+  max-height: 124px;
+  justify-self: center;
+}
+
+.partner-logo-smg-wrap {
+  position: relative;
+  width: min(240px, 100%);
+  justify-self: center;
+  align-self: center;
+}
+
+.partner-logo-smg-wrap .partner-logo-smg {
+  width: 100%;
+}
+
+.partner-logo-smg-tint {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(70% 0 0 0);
+  filter: brightness(0) saturate(100%);
+  pointer-events: none;
+}
+
+.partner-logo-bigbrane {
+  width: min(320px, 100%);
+  max-height: 116px;
+  justify-self: start;
+  filter: none;
+}
+
+.logo-copy {
+  min-width: 0;
+}
+
+.logo-card p {
+  margin: 0;
+}
+
+.logo-card p + p {
+  margin-top: 0.65rem;
+}
+
 @media (max-width: 880px) {
   .secondary-page {
     --secondary-section-gap: 4rem;
+  }
+
+  .logo-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .partner-logo {
+    margin: 0 auto;
   }
 }
 
@@ -279,6 +377,24 @@
     color-mix(in srgb, #142433 90%, var(--paper)) 100%
   );
   border-color: var(--line);
+}
+
+:root[data-theme="dark"] .logo-card {
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, #1a2b3b 88%, var(--paper-2)) 0%,
+    color-mix(in srgb, #142433 90%, var(--paper)) 100%
+  );
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .partner-logo {
+  filter: none;
+}
+
+:root[data-theme="dark"] .partner-logo-smg {
+  background: transparent;
+  padding: 0;
 }
 
 :root[data-theme="dark"] .legal-text {
