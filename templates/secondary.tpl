@@ -47,6 +47,7 @@
         <a href="../index.html#buy">{{NAV_BUY}}</a>
         <a href="../index.html#media">{{NAV_MEDIA}}</a>
         <a href="../index.html#about">{{NAV_ABOUT}}</a>
+        <a href="../cast/">{{NAV_CAST}}</a>
         <a href="../press-kit/">{{NAV_PRESS_KIT}}</a>
         <a href="../index.html#contact">{{NAV_CONTACT}}</a>
       </nav>
@@ -57,6 +58,7 @@
             <li><a href="../index.html#buy">{{NAV_BUY}}</a></li>
             <li><a href="../index.html#media">{{NAV_MEDIA}}</a></li>
             <li><a href="../index.html#about">{{NAV_ABOUT}}</a></li>
+            <li><a href="../cast/">{{NAV_CAST}}</a></li>
             <li><a href="../press-kit/">{{NAV_PRESS_KIT}}</a></li>
             <li><a href="../index.html#contact">{{NAV_CONTACT}}</a></li>
           </ul>
