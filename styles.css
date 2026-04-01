@@ -799,20 +799,40 @@ select {
 
 .footer-row {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 1rem;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.social-row,
+.meta-row,
+.legal-row {
+  display: flex;
+  gap: 0.8rem;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .social-row {
-  display: flex;
-  gap: 0.8rem;
+  justify-content: flex-start;
+  justify-self: start;
+}
+
+.meta-row {
+  justify-content: center;
+  justify-self: center;
 }
 
 .legal-row {
-  display: flex;
-  gap: 0.8rem;
+  justify-content: flex-end;
+  justify-self: end;
 }
 
 .legal-row a {
@@ -845,6 +865,22 @@ select {
 .social-row a:focus-visible {
   color: var(--link-hover-accent);
   text-decoration: underline;
+}
+
+.meta-row a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+  text-underline-offset: 0.26em;
+  text-decoration-thickness: 4px;
+  transition: color 120ms ease, text-decoration-color 120ms ease;
+}
+
+.footer-copy {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--soft-ink);
 }
 
 @media (max-width: 880px) {
@@ -917,7 +953,10 @@ select {
     height: 34px;
   }
 
-  .footer-row {
+  .footer-main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
   }

@@ -310,22 +310,24 @@
 
   <footer class="site-footer">
     <div class="wrap footer-row">
-      <p>© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
-      <div class="legal-row" aria-label="Legal links">
-        <a href="./eula/">{{LEGAL_EULA_LABEL}}</a>
-        <a href="./fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
-        <a href="./privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
+      <div class="footer-main">
+        <div class="social-row" aria-label="Social links">
+          <a href="https://x.com/SushiBenGame" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>
+          <a href="https://www.youtube.com/watch?v=1lA0ssiHHxM" target="_blank" rel="noopener noreferrer">{{SOCIAL_YOUTUBE}}</a>
+          <a href="https://discord.gg/sushiben" target="_blank" rel="noopener noreferrer">{{SOCIAL_DISCORD}}</a>
+        </div>
+        <div class="legal-row" aria-label="Legal links">
+          <a href="./eula/">{{LEGAL_EULA_LABEL}}</a>
+          <a href="./fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
+          <a href="./privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
+        </div>
+        <div class="meta-row" aria-label="More links">
+          <a href="./team/">{{NAV_TEAM}}</a>
+          <a href="./press-kit/">{{NAV_PRESS_KIT}}</a>
+          <a href="https://open.spotify.com/album/0d3HqxaVExA5LMOFDsAotM" target="_blank" rel="noopener noreferrer">{{FOOTER_SOUNDTRACK}}</a>
+        </div>
       </div>
-      <div class="meta-row" aria-label="More links">
-        <a href="./team/">{{NAV_TEAM}}</a>
-        <a href="./press-kit/">{{NAV_PRESS_KIT}}</a>
-        <a href="https://open.spotify.com/album/0d3HqxaVExA5LMOFDsAotM" target="_blank" rel="noopener noreferrer">{{FOOTER_SOUNDTRACK}}</a>
-      </div>
-      <div class="social-row" aria-label="Social links">
-        <a href="https://x.com/SushiBenGame" target="_blank" rel="noopener noreferrer">{{SOCIAL_X}}</a>
-        <a href="https://www.youtube.com/watch?v=1lA0ssiHHxM" target="_blank" rel="noopener noreferrer">{{SOCIAL_YOUTUBE}}</a>
-        <a href="https://discord.gg/sushiben" target="_blank" rel="noopener noreferrer">{{SOCIAL_DISCORD}}</a>
-      </div>
+      <p class="footer-copy">© <span id="year"></span> Big Brane Studios, Inc. All rights reserved.</p>
     </div>
   </footer>
 
