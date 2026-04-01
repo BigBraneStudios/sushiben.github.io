@@ -1,7 +1,8 @@
-"key","context","en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"
-"legal.eula.description","Meta description | EULA page","End User License Agreement for Sushi Ben.","Endbenutzer-Lizenzvereinbarung für Sushi Ben.","Acuerdo de licencia de usuario final de Sushi Ben.","Contrat de licence utilisateur final de Sushi Ben.","Contratto di licenza con l’utente finale di Sushi Ben.","Contrato de Licença de Usuário Final do Sushi Ben.","Sushi Benのエンドユーザー使用許諾契約。","Sushi Ben 최종 사용자 사용권 계약입니다.","Sushi Ben 最终用户许可协议。","Sushi Ben 最終使用者授權合約。"
-"legal.eula.title","Page title | EULA page","EULA","EULA","EULA","CLUF","EULA","EULA","EULA","EULA","EULA","EULA"
-"legal.eula.body","Legal body | EULA page","END USER LICENSE AGREEMENT (EULA)
+﻿key,context,en,de,es,fr,it,pt-br,ja,ko,zh-hans,zh-hant
+legal.eula.description,Meta description | EULA page,End User License Agreement for Sushi Ben.,Endbenutzer-Lizenzvereinbarung für Sushi Ben.,Acuerdo de licencia de usuario final de Sushi Ben.,Contrat de licence utilisateur final de Sushi Ben.,Contratto di licenza con l’utente finale di Sushi Ben.,Contrato de Licença de Usuário Final do Sushi Ben.,Sushi Benのエンドユーザー使用許諾契約です。,Sushi Ben 최종 사용자 사용권 계약입니다.,Sushi Ben 最终用户许可协议。,Sushi Ben 最終使用者授權合約。
+legal.eula.title,Page title | EULA page,EULA,EULA,EULA,CLUF,EULA,EULA,EULA,EULA,EULA,EULA
+legal.eula.body,Legal body | EULA page,"END USER LICENSE AGREEMENT (EULA)
+
 Last Updated: April 1, 2026
 
 Notice: This document may be translated into multiple languages for convenience. Translations may be generated automatically and may contain inaccuracies. The legally binding English version is available at:
@@ -28,7 +29,7 @@ In the event of any inconsistency, ambiguity, or discrepancy, the English versio
 
 3. Privacy and Personal Information
 
-Your use of the Game may involve the collection and use of personal information. Please review our Privacy & Data Collection Policy available at:
+Your use of the Game may involve the collection, use, or disclosure of personal information as described in our Privacy & Data Collection Policy. Please review that Policy at:
 https://www.sushiben.com/privacy
 
 4. Health and Safety Information
@@ -63,12 +64,12 @@ All rights, title, and interest in and to the Game and its content are owned by 
 
 6. Fan Content
 
-6.1. “Fan Content” means content created by users based on the Game.
+6.1. Any unofficial fan content based on the Game must comply with this EULA and our Fan Content Policy.
 
-6.2. Fan Content must comply with this EULA and our Fan Content Policy available at:
-http://www.sushiben.com/fan-content
+6.2. The Fan Content Policy is available at:
+https://www.sushiben.com/fan-content
 
-6.3. Big Brane may revoke permission for Fan Content at any time.
+6.3. Big Brane may revoke permission for fan content at any time in accordance with that policy.
 
 7. License Grant and Restrictions
 
@@ -89,21 +90,21 @@ http://www.sushiben.com/fan-content
 
 8.1. We may provide updates that are required to continue using the Game.
 
-8.2. We may modify or withdraw the Game at any time without notice.
+8.2. We may modify, suspend, or discontinue the Game, in whole or in part, at any time without notice.
 
 8.3. We are not obligated to support prior versions of the Game.
 
 9. Warranties and Disclaimers
 
-9.1. To the fullest extent permitted by law, the Game is provided “as is” and “as available,” without warranties of any kind.
+9.1. To the fullest extent permitted by law, the Game is provided “as is” and “as available,” without warranties of any kind, whether express, implied, statutory, or otherwise, including any implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement.
 
 9.2. We do not guarantee that the Game will be uninterrupted, error-free, or meet your expectations.
 
 10. Limitation of Liability
 
-10.1. To the fullest extent permitted by law, Big Brane and its affiliates shall not be liable for any indirect, incidental, consequential, special, or punitive damages.
+10.1. To the fullest extent permitted by law, Big Brane and its affiliates, licensors, and service providers shall not be liable for any indirect, incidental, consequential, special, exemplary, or punitive damages arising out of or relating to this EULA, the Game, or your use of or inability to use the Game.
 
-10.2. Big Brane shall not be liable for damages resulting from misuse, negligence, or unauthorized modifications of the Game.
+10.2. Big Brane shall not be liable for damages arising from misuse of the Game, your negligence, or any unauthorized modification of the Game.
 
 10.3. In no event shall Big Brane’s total liability exceed the amount actually paid by you to Big Brane or an authorized distributor for the Game.
 
@@ -120,6 +121,8 @@ You agree to defend, indemnify, and hold harmless Big Brane and its affiliates f
 12.2. We may terminate this EULA if you breach its terms.
 
 12.3. Upon termination, you must stop using the Game and delete all copies.
+
+12.4. Any provisions of this EULA that by their nature should survive termination shall survive termination, including Sections 5, 9, 10, 11, 13, 14, and 15.
 
 13. Governing Law and Jurisdiction
 
@@ -139,12 +142,13 @@ You agree to defend, indemnify, and hold harmless Big Brane and its affiliates f
 
 14.4. This EULA shall not be construed against Big Brane as drafter.
 
-14.5. The English version is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, the English version shall prevail.
+14.5. The English version of this EULA is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, ambiguity, or conflict between a translated version and the English version, the English version shall prevail.
 
-15. Contact
+15. Contact Us
 
-legal@bigbranestudios.com
-","ENDNUTZER-LIZENZVEREINBARUNG (EULA)
+If you have any questions or concerns regarding this EULA, please contact:
+legal@bigbranestudios.com","ENDNUTZER-LIZENZVEREINBARUNG (EULA)
+
 Zuletzt aktualisiert: 1. April 2026
 
 Hinweis: Dieses Dokument kann aus Gründen der Benutzerfreundlichkeit in mehrere Sprachen übersetzt werden. Übersetzungen können automatisch erstellt werden und Ungenauigkeiten enthalten. Die rechtsverbindliche englische Fassung ist verfügbar unter:
@@ -153,141 +157,144 @@ Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Abweichungen hat die englisc
 
 1. Geltungsbereich
 
-1.1 Diese Endnutzer-Lizenzvereinbarung („EULA“) regelt Ihre Nutzung von Sushi Ben (das „Spiel“), bereitgestellt von Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“).
+1.1. Diese Endnutzer-Lizenzvereinbarung („EULA“) regelt Ihre Nutzung von Sushi Ben (dem „Spiel“), bereitgestellt von Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“).
 
-1.2 Durch den Kauf, Download, die Installation, den Zugriff oder die Nutzung des Spiels erklären Sie sich mit dieser EULA einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie das Spiel nicht. Wir können diese EULA von Zeit zu Zeit aktualisieren; die fortgesetzte Nutzung nach solchen Aktualisierungen gilt als Zustimmung zu den geänderten Bedingungen.
+1.2. Durch den Kauf, Download, die Installation, den Zugriff oder die Nutzung des Spiels erklären Sie sich mit dieser EULA einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie das Spiel nicht. Wir können diese EULA von Zeit zu Zeit aktualisieren; die fortgesetzte Nutzung des Spiels nach solchen Aktualisierungen gilt als Zustimmung zu den geänderten Bedingungen.
 
-1.3 Um dieser EULA zuzustimmen, müssen Sie (a) mindestens 18 Jahre alt sein oder die Zustimmung eines Elternteils/Erziehungsberechtigten haben und (b) die rechtliche Fähigkeit besitzen, einen bindenden Vertrag abzuschließen.
+1.3. Um dieser EULA zuzustimmen, müssen Sie (a) mindestens 18 Jahre alt sein oder die Zustimmung eines Elternteils oder Erziehungsberechtigten haben und (b) die rechtliche Fähigkeit besitzen, einen bindenden Vertrag abzuschließen.
 
 2. Store-Bedingungen
 
-2.1 Das Spiel kann über Drittplattformen angeboten werden, einschließlich, aber nicht beschränkt auf Steam, PlayStation, HTC und Meta Quest (jeweils ein „Store“).
+2.1. Das Spiel kann über Drittplattformen angeboten werden, einschließlich, aber nicht beschränkt auf Steam, PlayStation, HTC und Meta Quest (jeweils ein „Store“).
 
-2.2 Ihre Nutzung des Spiels über einen Store kann den Bedingungen dieses Stores unterliegen.
+2.2. Ihre Nutzung des Spiels über einen Store kann den Bedingungen dieses Stores unterliegen.
 
-2.3 Im Falle eines Widerspruchs zwischen dieser EULA und den Store-Bedingungen gehen die Store-Bedingungen im Umfang des Widerspruchs vor.
+2.3. Im Falle eines Widerspruchs zwischen dieser EULA und den Store-Bedingungen gehen die Store-Bedingungen im Umfang des Widerspruchs vor.
 
-2.4 Alle an den Kauf gebundenen Anfragen (einschließlich Rückerstattungen) sind an den Store zu richten, über den das Spiel erworben wurde.
+2.4. Alle an den Kauf gebundenen Anfragen, einschließlich Rückerstattungen, sind an den Store zu richten, über den das Spiel erworben wurde.
 
 3. Datenschutz und personenbezogene Informationen
 
-Ihre Nutzung des Spiels kann die Erhebung und Verwendung personenbezogener Daten beinhalten. Bitte lesen Sie unsere Datenschutz- und Datenerhebungsrichtlinie:
+Ihre Nutzung des Spiels kann die Erhebung, Verwendung oder Offenlegung personenbezogener Daten beinhalten, wie in unserer Datenschutz- und Datenerhebungsrichtlinie beschrieben. Bitte lesen Sie diese Richtlinie unter:
 https://www.sushiben.com/privacy
 
 4. Gesundheits- und Sicherheitshinweise
 
-4.1 Lesen Sie diesen Abschnitt vor der Nutzung. Er ist nicht abschließend.
+4.1. Lesen Sie diesen Abschnitt vor der Nutzung des Spiels. Er ist nicht abschließend.
 
-4.2 Epilepsie-Warnhinweis  
-Bestimmte Personen können bei Lichteffekten Anfälle erleiden. Konsultieren Sie bei entsprechender Vorgeschichte vor der Nutzung einen Arzt.
+4.2. Epilepsie-Warnhinweis.
+Bestimmte Personen können bei der Einwirkung von blinkenden Lichtern oder Mustern Anfälle oder Bewusstseinsverlust erleiden. Wenn Sie oder ein Familienmitglied eine Vorgeschichte mit Epilepsie haben, konsultieren Sie vor der Nutzung einen Arzt.
 
-Beenden Sie die Nutzung und konsultieren Sie einen Arzt bei:
-- Krämpfen  
-- Augen- oder Muskelzucken  
-- Bewusstseinsverlust  
-- Sehstörungen  
-- Unwillkürlichen Bewegungen  
-- Desorientierung  
+Beenden Sie die Nutzung des Spiels sofort und konsultieren Sie einen Arzt, wenn bei Ihnen folgende Symptome auftreten:
+- Krämpfe
+- Augen- oder Muskelzucken
+- Verlust des Bewusstseins
+- Sehstörungen
+- Unwillkürliche Bewegungen
+- Desorientierung
 
-4.3 Reisekrankheit  
-VR kann Schwindel oder Übelkeit verursachen. Beenden Sie die Nutzung bei Unwohlsein.
+4.3. Reisekrankheit.
+Die Nutzung von Virtual Reality kann Schwindel oder Übelkeit verursachen. Beenden Sie die Nutzung und ruhen Sie sich aus, wenn Symptome auftreten.
 
-4.4 Wiederholungsbelastung und Augenbelastung  
-Machen Sie regelmäßige Pausen und beenden Sie die Nutzung bei Beschwerden.
+4.4. Wiederholungsbelastung und Augenbelastung.
+Machen Sie regelmäßig Pausen und beenden Sie die Nutzung, wenn Beschwerden auftreten.
 
-4.5 Spielbereich  
-Sorgen Sie für eine sichere Umgebung ohne Hindernisse.
+4.5. Vorsichtsmaßnahmen für den Spielbereich.
+Stellen Sie sicher, dass Ihr Spielbereich frei von Gefahren ist. Verwenden Sie das Spiel nicht in der Nähe von Hindernissen, scharfen Gegenständen oder unter unsicheren Bedingungen.
 
-4.6 Weitere Hinweise können durch Plattformen bereitgestellt werden.
+4.6. Zusätzliche Warnhinweise können von Plattformanbietern bereitgestellt werden.
 
 5. Geistiges Eigentum
 
-Alle Rechte am Spiel und seinen Inhalten gehören Big Brane oder seinen Lizenzgebern und sind gesetzlich geschützt.
+Alle Rechte, Titel und Interessen an dem Spiel und seinen Inhalten gehören Big Brane oder seinen Lizenzgebern und sind durch geltende Gesetze zum geistigen Eigentum geschützt.
 
 6. Fan-Inhalte
 
-6.1 „Fan-Inhalte“ sind Inhalte, die auf dem Spiel basieren.
+6.1. Jegliche inoffiziellen Fan-Inhalte auf Grundlage des Spiels müssen dieser EULA und unserer Richtlinie für Fan-Inhalte entsprechen.
 
-6.2 Fan-Inhalte müssen dieser EULA und der Fan-Content-Richtlinie entsprechen:
-http://www.sushiben.com/fan-content
+6.2. Die Richtlinie für Fan-Inhalte ist verfügbar unter:
+https://www.sushiben.com/fan-content
 
-6.3 Big Brane kann die Erlaubnis jederzeit widerrufen.
+6.3. Big Brane kann die Erlaubnis für Fan-Inhalte jederzeit gemäß dieser Richtlinie widerrufen.
 
-7. Lizenz und Beschränkungen
+7. Lizenzerteilung und Beschränkungen
 
-7.1 Big Brane gewährt Ihnen eine beschränkte, nicht-exklusive, nicht übertragbare und widerrufbare Lizenz zur persönlichen, nicht kommerziellen Nutzung einer Kopie des Spiels.
+7.1. Vorbehaltlich dieser EULA gewährt Big Brane Ihnen eine beschränkte, nicht-exklusive, nicht übertragbare und widerrufliche Lizenz zur Nutzung einer (1) Kopie des Spiels für persönliche, nicht-kommerzielle Zwecke.
 
-7.2 Sie dürfen:
-- das Spiel spielen  
-- nicht-kommerzielle Inhalte teilen  
+7.2. Sie dürfen:
+- das Spiel spielen
+- nicht-kommerzielle Screenshots und Videos des Spiels teilen
 
-7.3 Sie dürfen nicht:
-- kopieren, ändern, verbreiten, verkaufen oder vermieten  
-- Reverse Engineering durchführen  
-- das Spiel kommerziell nutzen  
+7.3. Sie dürfen nicht:
+- das Spiel kopieren, ändern, verbreiten, verkaufen, vermieten, unterlizenzieren oder übertragen
+- Reverse Engineering durchführen, dekompilieren oder versuchen, den Quellcode zu extrahieren, soweit dies nicht gesetzlich erlaubt ist
+- das Spiel ohne Genehmigung für kommerzielle Zwecke nutzen
 
-7.4 Es wird kein Eigentum übertragen.
+7.4. Diese Lizenz überträgt kein Eigentum. Alle Rechte verbleiben bei Big Brane und seinen Lizenzgebern.
 
-8. Updates
+8. Aktualisierungen und Änderungen
 
-8.1 Updates können bereitgestellt werden.
+8.1. Wir können Aktualisierungen bereitstellen, die erforderlich sind, um das Spiel weiterhin nutzen zu können.
 
-8.2 Das Spiel kann jederzeit geändert oder eingestellt werden.
+8.2. Wir können das Spiel ganz oder teilweise jederzeit ohne Vorankündigung ändern, aussetzen oder einstellen.
 
-8.3 Keine Verpflichtung zur Unterstützung älterer Versionen.
+8.3. Wir sind nicht verpflichtet, frühere Versionen des Spiels zu unterstützen.
 
-9. Haftungsausschluss
+9. Gewährleistungsausschlüsse und Haftungsausschlüsse
 
-9.1 Das Spiel wird „wie besehen“ bereitgestellt.
+9.1. Soweit gesetzlich zulässig, wird das Spiel „wie besehen“ und „wie verfügbar“ bereitgestellt, ohne Gewährleistungen jeglicher Art, gleich ob ausdrücklich, stillschweigend, gesetzlich oder anderweitig, einschließlich stillschweigender Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck, Eigentumsfreiheit und Nichtverletzung von Rechten.
 
-9.2 Keine Garantie für Fehlerfreiheit.
+9.2. Wir garantieren nicht, dass das Spiel ununterbrochen, fehlerfrei oder Ihren Erwartungen entsprechend funktioniert.
 
 10. Haftungsbeschränkung
 
-10.1 Keine Haftung für indirekte, zufällige, besondere oder Strafschäden.
+10.1. Soweit gesetzlich zulässig, haften Big Brane und seine verbundenen Unternehmen, Lizenzgeber und Dienstleister nicht für indirekte, zufällige, Folgeschäden, besondere, beispielhafte oder Strafschäden, die aus oder im Zusammenhang mit dieser EULA, dem Spiel oder Ihrer Nutzung oder Unmöglichkeit der Nutzung des Spiels entstehen.
 
-10.2 Keine Haftung bei Missbrauch.
+10.2. Big Brane haftet nicht für Schäden, die aus dem Missbrauch des Spiels, Ihrer Fahrlässigkeit oder einer unbefugten Änderung des Spiels entstehen.
 
-10.3 Haftung ist auf den gezahlten Betrag beschränkt.
+10.3. In keinem Fall übersteigt die Gesamthaftung von Big Brane den Betrag, den Sie tatsächlich an Big Brane oder einen autorisierten Vertriebspartner für das Spiel gezahlt haben.
 
-10.4 Gesetzliche Rechte bleiben unberührt.
+10.4. Nichts in dieser EULA beschränkt Rechte, die nach geltendem Recht nicht ausgeschlossen werden können.
 
 11. Freistellung
 
-Sie verpflichten sich, Big Brane freizustellen.
+Sie erklären sich damit einverstanden, Big Brane und seine verbundenen Unternehmen gegen Ansprüche freizustellen und schadlos zu halten, die aus Ihrem Verstoß gegen diese EULA oder Ihrem Missbrauch des Spiels entstehen.
 
-12. Kündigung
+12. Beendigung
 
-12.1 Gilt bis zur Beendigung.
+12.1. Diese EULA bleibt bis zu ihrer Beendigung in Kraft.
 
-12.2 Kündigung bei Verstoß möglich.
+12.2. Wir können diese EULA beenden, wenn Sie gegen ihre Bedingungen verstoßen.
 
-12.3 Nutzung muss eingestellt werden.
+12.3. Mit der Beendigung müssen Sie die Nutzung des Spiels einstellen und alle Kopien löschen.
 
-13. Anwendbares Recht
+12.4. Alle Bestimmungen dieser EULA, die ihrer Natur nach nach der Beendigung fortgelten sollen, bleiben in Kraft, einschließlich der Abschnitte 5, 9, 10, 11, 13, 14 und 15.
 
-13.1 Recht des Commonwealth of Commonwealth da Virgínia, Estados Unidos.
+13. Geltendes Recht und Gerichtsstand
 
-13.2 Gerichtsstand Loudoun County.
+13.1. Diese EULA unterliegt den Gesetzen des Commonwealth of Virginia, Vereinigte Staaten, unter Ausschluss seiner kollisionsrechtlichen Bestimmungen, und ist nach diesen auszulegen.
 
-13.3 Zustimmung zur Gerichtsbarkeit.
+13.2. Jegliche rechtlichen Schritte sind ausschließlich vor den staatlichen oder bundesstaatlichen Gerichten in Loudoun County, Virginia, Vereinigte Staaten, zu erheben.
 
-14. Sonstiges
+13.3. Sie stimmen der Zuständigkeit und dem Gerichtsstand dieser Gerichte zu und verzichten auf Einwände.
 
-14.1 Gesamte Vereinbarung.
+14. Verschiedenes
 
-14.2 Teilunwirksamkeit.
+14.1. Diese EULA stellt die gesamte Vereinbarung zwischen Ihnen und Big Brane dar.
 
-14.3 Schriftform für Verzicht.
+14.2. Wenn eine Bestimmung unwirksam ist, bleibt der Rest durchsetzbar.
 
-14.4 Keine Auslegung gegen Verfasser.
+14.3. Ein Verzicht ist nur wirksam, wenn er schriftlich erfolgt.
 
-14.5 Englische Version maßgeblich.
+14.4. Diese EULA ist nicht gegen Big Brane als ihren Verfasser auszulegen.
+
+14.5. Die englische Fassung dieser EULA ist die einzig rechtsverbindliche Fassung. Übersetzungen werden ausschließlich der Bequemlichkeit halber bereitgestellt. Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Widersprüchen zwischen einer übersetzten Fassung und der englischen Fassung hat die englische Fassung Vorrang.
 
 15. Kontakt
 
-legal@bigbranestudios.com
-","ACUERDO DE LICENCIA DE USUARIO FINAL (EULA)
+Wenn Sie Fragen oder Bedenken zu dieser EULA haben, kontaktieren Sie bitte:
+legal@bigbranestudios.com","ACUERDO DE LICENCIA DE USUARIO FINAL (EULA)
+
 Última actualización: 1 de abril de 2026
 
 Aviso: Este documento puede traducirse a varios idiomas por conveniencia. Las traducciones pueden generarse automáticamente y pueden contener imprecisiones. La versión en inglés legalmente vinculante está disponible en:
@@ -296,141 +303,144 @@ En caso de cualquier inconsistencia, ambigüedad o discrepancia, prevalecerá la
 
 1. Alcance
 
-1.1 Este Acuerdo de Licencia de Usuario Final (“EULA”) regula su uso de Sushi Ben (el “Juego”), proporcionado por Big Brane Studios, Inc. (“Big Brane”, “nosotros”).
+1.1. Este Acuerdo de Licencia de Usuario Final (“EULA”) regula su uso de Sushi Ben (el “Juego”), proporcionado por Big Brane Studios, Inc. (“Big Brane”, “nosotros”, “nos” o “nuestro”).
 
-1.2 Al comprar, descargar, instalar, acceder o usar el Juego, usted acepta este EULA. Si no está de acuerdo, no utilice el Juego. Podemos actualizar este EULA; el uso continuo implica aceptación.
+1.2. Al comprar, descargar, instalar, acceder o usar el Juego, usted acepta este EULA. Si no está de acuerdo, no utilice el Juego. Podemos actualizar este EULA ocasionalmente, y el uso continuado del Juego después de dichas actualizaciones constituye la aceptación de los términos revisados.
 
-1.3 Debe ser mayor de edad o contar con consentimiento parental y tener capacidad legal para contratar.
+1.3. Para aceptar este EULA, usted debe (a) tener al menos 18 años o contar con el consentimiento de un padre, madre o tutor legal, y (b) tener la capacidad legal para celebrar un acuerdo vinculante.
 
-2. Condiciones de la tienda
+2. Términos de la tienda
 
-2.1 El Juego puede distribuirse a través de plataformas de terceros (“Tiendas”).
+2.1. El Juego puede ofrecerse a través de plataformas de terceros, incluidas, entre otras, Steam, PlayStation, HTC y Meta Quest (cada una, una “Tienda”).
 
-2.2 Su uso puede estar sujeto a sus condiciones.
+2.2. Su uso del Juego a través de una Tienda puede estar sujeto a los términos y condiciones de dicha Tienda.
 
-2.3 En caso de conflicto, prevalecerán las condiciones de la Tienda.
+2.3. En caso de conflicto entre este EULA y los términos de una Tienda, prevalecerán los términos de la Tienda en la medida del conflicto.
 
-2.4 Las solicitudes relacionadas con compras deben dirigirse a la Tienda.
+2.4. Todas las consultas relacionadas con la compra, incluidos los reembolsos, deben dirigirse a la Tienda a través de la cual se adquirió el Juego.
 
-3. Privacidad y datos personales
+3. Privacidad e información personal
 
-El uso del Juego puede implicar datos personales. Consulte:
+Su uso del Juego puede implicar la recopilación, el uso o la divulgación de información personal, tal como se describe en nuestra Política de Privacidad y Recopilación de Datos. Revise dicha Política en:
 https://www.sushiben.com/privacy
 
-4. Salud y seguridad
+4. Información de salud y seguridad
 
-4.1 Lea esta sección antes de usar.
+4.1. Revise esta sección antes de usar el Juego. No es exhaustiva.
 
-4.2 Advertencia de epilepsia  
-Algunos efectos pueden provocar convulsiones.
+4.2. Advertencia sobre ataques epilépticos.
+Determinadas personas pueden sufrir ataques o pérdida del conocimiento al exponerse a luces o patrones parpadeantes. Si usted o algún miembro de su familia tiene antecedentes de epilepsia, consulte a un médico antes de usar el Juego.
 
-Deje de usar inmediatamente si presenta:
-- convulsiones  
-- espasmos  
-- pérdida de conciencia  
-- alteraciones visuales  
-- movimientos involuntarios  
-- desorientación  
+Deje de usar el Juego inmediatamente y consulte a un médico si experimenta:
+- Convulsiones
+- Espasmos o contracciones en ojos o músculos
+- Pérdida de conciencia
+- Alteraciones visuales
+- Movimientos involuntarios
+- Desorientación
 
-4.3 Mareo  
-La realidad virtual puede causar náuseas.
+4.3. Mareo.
+El uso de realidad virtual puede provocar mareo o náuseas. Deje de usar el Juego y descanse si aparecen síntomas.
 
-4.4 Fatiga  
-Descanse regularmente.
+4.4. Lesiones por movimientos repetitivos y fatiga visual.
+Tome descansos regulares y deje de usar el Juego si siente molestias.
 
-4.5 Seguridad  
-Mantenga un entorno seguro.
+4.5. Precauciones sobre el área de juego.
+Asegúrese de que el área de juego esté libre de peligros. No utilice el Juego cerca de obstáculos, objetos afilados o en condiciones inseguras.
 
-4.6 Puede haber advertencias adicionales.
+4.6. Los proveedores de plataforma pueden proporcionar advertencias adicionales.
 
 5. Propiedad intelectual
 
-Todos los derechos pertenecen a Big Brane.
+Todos los derechos, títulos e intereses sobre el Juego y su contenido pertenecen a Big Brane o a sus licenciantes y están protegidos por las leyes aplicables de propiedad intelectual.
 
 6. Contenido de fans
 
-6.1 Contenido basado en el Juego.
+6.1. Todo contenido de fans no oficial basado en el Juego debe cumplir con este EULA y con nuestra Política de Contenido de Fans.
 
-6.2 Debe cumplir:
-http://www.sushiben.com/fan-content
+6.2. La Política de Contenido de Fans está disponible en:
+https://www.sushiben.com/fan-content
 
-6.3 Permiso revocable.
+6.3. Big Brane podrá revocar en cualquier momento el permiso para contenido de fans de conformidad con dicha política.
 
-7. Licencia
+7. Concesión de licencia y restricciones
 
-7.1 Licencia limitada no comercial.
+7.1. Sujeto a este EULA, Big Brane le concede una licencia limitada, no exclusiva, intransferible y revocable para utilizar una (1) copia del Juego con fines personales y no comerciales.
 
-7.2 Puede:
-- jugar  
-- compartir contenido no comercial  
+7.2. Usted puede:
+- Jugar al Juego
+- Compartir capturas de pantalla y videos no comerciales del Juego
 
-7.3 No puede:
-- copiar, vender o modificar  
-- ingeniería inversa  
-- uso comercial  
+7.3. Usted no puede:
+- Copiar, modificar, distribuir, vender, alquilar, sublicenciar o transferir el Juego
+- Realizar ingeniería inversa, descompilar o intentar extraer el código fuente, salvo en la medida permitida por la ley
+- Utilizar el Juego con fines comerciales sin autorización
 
-7.4 No se transfiere propiedad.
+7.4. Esta licencia no transfiere la propiedad. Todos los derechos permanecen en Big Brane y sus licenciantes.
 
-8. Actualizaciones
+8. Actualizaciones y modificaciones
 
-8.1 Puede haber actualizaciones.
+8.1. Podemos proporcionar actualizaciones necesarias para continuar usando el Juego.
 
-8.2 El Juego puede cambiar o retirarse.
+8.2. Podemos modificar, suspender o interrumpir el Juego, en todo o en parte, en cualquier momento y sin previo aviso.
 
-8.3 Sin soporte para versiones antiguas.
+8.3. No estamos obligados a dar soporte a versiones anteriores del Juego.
 
-9. Exención de garantías
+9. Garantías y exenciones de responsabilidad
 
-9.1 “tal cual”
+9.1. En la máxima medida permitida por la ley, el Juego se proporciona “tal cual” y “según disponibilidad”, sin garantías de ningún tipo, ya sean expresas, implícitas, legales o de otro tipo, incluidas cualesquiera garantías implícitas de comerciabilidad, idoneidad para un fin determinado, titularidad y no infracción.
 
-9.2 sin garantías
+9.2. No garantizamos que el Juego sea ininterrumpido, esté libre de errores o cumpla con sus expectativas.
 
 10. Limitación de responsabilidad
 
-10.1 Sin responsabilidad por daños indirectos, incidentales, especiales o punitivos.
+10.1. En la máxima medida permitida por la ley, Big Brane y sus afiliadas, licenciantes y proveedores de servicios no serán responsables por daños indirectos, incidentales, consecuenciales, especiales, ejemplares o punitivos que surjan de o estén relacionados con este EULA, el Juego o su uso o imposibilidad de uso del Juego.
 
-10.2 Sin responsabilidad por uso indebido.
+10.2. Big Brane no será responsable por daños derivados del uso indebido del Juego, de su negligencia o de cualquier modificación no autorizada del Juego.
 
-10.3 Límite = monto pagado.
+10.3. En ningún caso la responsabilidad total de Big Brane excederá el importe efectivamente pagado por usted a Big Brane o a un distribuidor autorizado por el Juego.
 
-10.4 Derechos legales intactos.
+10.4. Nada en este EULA limita derechos que no puedan excluirse conforme a la ley aplicable.
 
 11. Indemnización
 
-Usted indemniza a Big Brane.
+Usted acepta defender, indemnizar y mantener indemne a Big Brane y sus afiliadas frente a cualquier reclamación derivada de su incumplimiento de este EULA o de su uso indebido del Juego.
 
 12. Terminación
 
-12.1 Vigente hasta terminación.
+12.1. Este EULA permanecerá vigente hasta que sea terminado.
 
-12.2 Puede terminarse.
+12.2. Podemos terminar este EULA si usted incumple sus términos.
 
-12.3 Debe cesar uso.
+12.3. Tras la terminación, debe dejar de usar el Juego y eliminar todas las copias.
 
-13. Ley aplicable
+12.4. Cualquier disposición de este EULA que por su naturaleza deba sobrevivir a la terminación sobrevivirá a la terminación, incluidas las Secciones 5, 9, 10, 11, 13, 14 y 15.
 
-13.1 Commonwealth da Virgínia, Estados Unidos.
+13. Ley aplicable y jurisdicción
 
-13.2 Loudoun County.
+13.1. Este EULA se rige e interpreta de conformidad con las leyes del Commonwealth de Virginia, Estados Unidos, excluyendo sus normas sobre conflicto de leyes.
 
-13.3 Jurisdicción aceptada.
+13.2. Toda acción legal deberá interponerse exclusivamente ante los tribunales estatales o federales ubicados en Loudoun County, Virginia, Estados Unidos.
 
-14. Disposiciones generales
+13.3. Usted acepta la jurisdicción y competencia de dichos tribunales y renuncia a cualquier objeción.
 
-14.1 Acuerdo completo.
+14. Disposiciones varias
 
-14.2 Cláusulas separables.
+14.1. Este EULA constituye el acuerdo completo entre usted y Big Brane.
 
-14.3 Renuncia por escrito.
+14.2. Si alguna disposición es inválida, el resto seguirá siendo exigible.
 
-14.4 Sin interpretación contra redactor.
+14.3. Ninguna renuncia será válida salvo que conste por escrito.
 
-14.5 Prevalece inglés.
+14.4. Este EULA no se interpretará en perjuicio de Big Brane por haber sido su redactor.
 
-15. Contacto
+14.5. La versión en inglés de este EULA es la única versión legalmente vinculante. Las traducciones se proporcionan únicamente por conveniencia. En caso de cualquier inconsistencia, ambigüedad o conflicto entre una versión traducida y la versión en inglés, prevalecerá la versión en inglés.
 
-legal@bigbranestudios.com
-","CONTRAT DE LICENCE UTILISATEUR FINAL (EULA)
+15. Contáctenos
+
+Si tiene alguna pregunta o inquietud sobre este EULA, comuníquese con:
+legal@bigbranestudios.com","CONTRAT DE LICENCE UTILISATEUR FINAL (CLUF)
+
 Dernière mise à jour : 1 avril 2026
 
 Avis : Le présent document peut être traduit en plusieurs langues pour des raisons de commodité. Les traductions peuvent être générées automatiquement et peuvent contenir des inexactitudes. La version anglaise juridiquement contraignante est disponible à l’adresse suivante :
@@ -439,141 +449,144 @@ En cas d’incohérence, d’ambiguïté ou de divergence, la version anglaise p
 
 1. Portée
 
-1.1 Le présent Contrat de licence utilisateur final (« EULA ») régit votre utilisation de Sushi Ben (le « Jeu »), fourni par Big Brane Studios, Inc. (« Big Brane », « nous »).
+1.1. Le présent Contrat de licence utilisateur final (« CLUF ») régit votre utilisation de Sushi Ben (le « Jeu »), fourni par Big Brane Studios, Inc. (« Big Brane », « nous », « notre » ou « nos »).
 
-1.2 En achetant, téléchargeant, installant, accédant ou utilisant le Jeu, vous acceptez le présent EULA. Si vous n’êtes pas d’accord, n’utilisez pas le Jeu. Nous pouvons mettre à jour cet EULA ; l’utilisation continue constitue une acceptation.
+1.2. En achetant, téléchargeant, installant, accédant ou utilisant le Jeu, vous acceptez le présent CLUF. Si vous n’êtes pas d’accord, n’utilisez pas le Jeu. Nous pouvons mettre à jour le présent CLUF de temps à autre, et la poursuite de l’utilisation du Jeu après de telles mises à jour constitue une acceptation des conditions révisées.
 
-1.3 Vous devez être majeur ou avoir le consentement parental et être juridiquement capable de contracter.
+1.3. Pour accepter le présent CLUF, vous devez (a) avoir au moins 18 ans ou disposer du consentement d’un parent ou tuteur légal, et (b) avoir la capacité juridique de conclure un accord contraignant.
 
 2. Conditions des boutiques
 
-2.1 Le Jeu peut être fourni via des plateformes tierces (« Boutiques »).
+2.1. Le Jeu peut être proposé par l’intermédiaire de plateformes tierces, y compris, sans s’y limiter, Steam, PlayStation, HTC et Meta Quest (chacune, une « Boutique »).
 
-2.2 Votre utilisation peut être soumise à leurs conditions.
+2.2. Votre utilisation du Jeu par l’intermédiaire d’une Boutique peut être soumise aux conditions générales de cette Boutique.
 
-2.3 En cas de conflit, les conditions des Boutiques prévalent.
+2.3. En cas de conflit entre le présent CLUF et les conditions d’une Boutique, les conditions de la Boutique prévaudront dans la mesure du conflit.
 
-2.4 Les demandes liées à l’achat doivent être adressées à la Boutique.
+2.4. Toute demande liée à l’achat, y compris les remboursements, doit être adressée à la Boutique par l’intermédiaire de laquelle le Jeu a été acheté.
 
-3. Données personnelles
+3. Confidentialité et informations personnelles
 
-Votre utilisation peut impliquer des données personnelles. Consultez :
+Votre utilisation du Jeu peut impliquer la collecte, l’utilisation ou la divulgation d’informations personnelles, comme décrit dans notre Politique de confidentialité et de collecte des données. Veuillez consulter cette Politique à l’adresse suivante :
 https://www.sushiben.com/privacy
 
-4. Santé et sécurité
+4. Informations relatives à la santé et à la sécurité
 
-4.1 Lisez cette section avant utilisation.
+4.1. Consultez la présente section avant d’utiliser le Jeu. Elle n’est pas exhaustive.
 
-4.2 Avertissement épilepsie  
-Certains effets peuvent provoquer des crises.
+4.2. Avertissement relatif aux crises d’épilepsie.
+Certaines personnes peuvent être victimes de crises ou d’une perte de connaissance lorsqu’elles sont exposées à des lumières ou motifs clignotants. Si vous ou un membre de votre famille avez des antécédents d’épilepsie, consultez un médecin avant utilisation.
 
-Arrêtez immédiatement en cas de :
-- convulsions  
-- spasmes  
-- perte de conscience  
-- troubles visuels  
-- mouvements involontaires  
-- désorientation  
+Arrêtez immédiatement d’utiliser le Jeu et consultez un médecin si vous présentez :
+- des convulsions
+- des spasmes des yeux ou des muscles
+- une perte de conscience
+- des troubles visuels
+- des mouvements involontaires
+- une désorientation
 
-4.3 Mal des transports  
-La VR peut causer des nausées.
+4.3. Mal des transports.
+L’utilisation de la réalité virtuelle peut provoquer des vertiges ou des nausées. Arrêtez l’utilisation et reposez-vous si des symptômes apparaissent.
 
-4.4 Fatigue  
-Faites des pauses.
+4.4. Troubles liés aux mouvements répétitifs et fatigue visuelle.
+Faites des pauses régulières et cessez d’utiliser le Jeu en cas d’inconfort.
 
-4.5 Sécurité  
-Assurez un espace sûr.
+4.5. Précautions concernant l’aire de jeu.
+Assurez-vous que votre aire de jeu est dégagée de tout danger. N’utilisez pas le Jeu à proximité d’obstacles, d’objets tranchants ou dans des conditions dangereuses.
 
-4.6 D'autres avertissements peuvent exister.
+4.6. Des avertissements supplémentaires peuvent être fournis par les fournisseurs de plateforme.
 
 5. Propriété intellectuelle
 
-Tous les droits appartiennent à Big Brane.
+L’ensemble des droits, titres et intérêts relatifs au Jeu et à son contenu appartiennent à Big Brane ou à ses concédants et sont protégés par les lois applicables en matière de propriété intellectuelle.
 
 6. Contenu de fans
 
-6.1 Contenu basé sur le Jeu.
+6.1. Tout contenu de fans non officiel basé sur le Jeu doit être conforme au présent CLUF et à notre Politique relative au contenu de fans.
 
-6.2 Doit respecter :
-http://www.sushiben.com/fan-content
+6.2. La Politique relative au contenu de fans est disponible à l’adresse suivante :
+https://www.sushiben.com/fan-content
 
-6.3 Autorisation révocable.
+6.3. Big Brane peut révoquer l’autorisation relative au contenu de fans à tout moment conformément à cette politique.
 
-7. Licence
+7. Octroi de licence et restrictions
 
-7.1 Licence limitée non commerciale.
+7.1. Sous réserve du présent CLUF, Big Brane vous accorde une licence limitée, non exclusive, non transférable et révocable vous permettant d’utiliser une (1) copie du Jeu à des fins personnelles et non commerciales.
 
-7.2 Autorisé :
-- jouer  
-- partager contenu non commercial  
+7.2. Vous pouvez :
+- jouer au Jeu
+- partager des captures d’écran et vidéos du Jeu à des fins non commerciales
 
-7.3 Interdit :
-- copier, vendre, modifier  
-- rétro-ingénierie  
-- usage commercial  
+7.3. Vous ne pouvez pas :
+- copier, modifier, distribuer, vendre, louer, concéder en sous-licence ou transférer le Jeu
+- procéder à de l’ingénierie inverse, décompiler ou tenter d’extraire le code source, sauf dans la mesure autorisée par la loi
+- utiliser le Jeu à des fins commerciales sans autorisation
 
-7.4 Pas de transfert de propriété.
+7.4. La présente licence ne transfère aucun droit de propriété. Tous les droits demeurent la propriété de Big Brane et de ses concédants.
 
-8. Mises à jour
+8. Mises à jour et modifications
 
-8.1 Mises à jour possibles.
+8.1. Nous pouvons fournir des mises à jour nécessaires pour continuer à utiliser le Jeu.
 
-8.2 Jeu modifiable ou supprimé.
+8.2. Nous pouvons modifier, suspendre ou interrompre le Jeu, en tout ou en partie, à tout moment et sans préavis.
 
-8.3 Pas de support des anciennes versions.
+8.3. Nous ne sommes pas tenus d’assurer la prise en charge des versions antérieures du Jeu.
 
-9. Clause de non-garantie
+9. Garanties et exclusions de responsabilité
 
-9.1 « tel quel »
+9.1. Dans toute la mesure permise par la loi, le Jeu est fourni « en l’état » et « selon disponibilité », sans garantie d’aucune sorte, expresse, implicite, légale ou autre, y compris toute garantie implicite de qualité marchande, d’adéquation à un usage particulier, de titre et de non-contrefaçon.
 
-9.2 aucune garantie
+9.2. Nous ne garantissons pas que le Jeu sera ininterrompu, exempt d’erreurs ou conforme à vos attentes.
 
 10. Limitation de responsabilité
 
-10.1 Aucune responsabilité pour des dommages indirects, accessoires, spéciaux ou punitifs.
+10.1. Dans toute la mesure permise par la loi, Big Brane, ses sociétés affiliées, ses concédants et ses prestataires de services ne seront pas responsables des dommages indirects, accessoires, consécutifs, spéciaux, exemplaires ou punitifs découlant du présent CLUF, du Jeu, ou de votre utilisation ou impossibilité d’utiliser le Jeu, ou s’y rapportant.
 
-10.2 Pas de responsabilité pour abus.
+10.2. Big Brane ne sera pas responsable des dommages découlant d’une mauvaise utilisation du Jeu, de votre négligence ou de toute modification non autorisée du Jeu.
 
-10.3 Limite = montant payé.
+10.3. En aucun cas la responsabilité totale de Big Brane n’excédera le montant effectivement payé par vous à Big Brane ou à un distributeur autorisé pour le Jeu.
 
-10.4 Droits légaux maintenus.
+10.4. Aucune disposition du présent CLUF ne limite les droits qui ne peuvent être exclus en vertu du droit applicable.
 
 11. Indemnisation
 
-Vous indemnisez Big Brane.
+Vous acceptez de défendre, indemniser et dégager Big Brane et ses sociétés affiliées de toute responsabilité à l’égard de toute réclamation découlant de votre violation du présent CLUF ou de votre mauvaise utilisation du Jeu.
 
 12. Résiliation
 
-12.1 Jusqu’à résiliation.
+12.1. Le présent CLUF reste en vigueur jusqu’à sa résiliation.
 
-12.2 Résiliation possible.
+12.2. Nous pouvons résilier le présent CLUF si vous en violez les conditions.
 
-12.3 Cesser utilisation.
+12.3. En cas de résiliation, vous devez cesser d’utiliser le Jeu et supprimer toutes les copies.
 
-13. Droit applicable
+12.4. Toute disposition du présent CLUF qui, par sa nature, devrait survivre à la résiliation survivra à la résiliation, y compris les Sections 5, 9, 10, 11, 13, 14 et 15.
 
-13.1 Virginie.
+13. Droit applicable et juridiction
 
-13.2 Loudoun County.
+13.1. Le présent CLUF est régi et interprété conformément aux lois du Commonwealth de Virginie, États-Unis, à l’exclusion de ses règles de conflit de lois.
 
-13.3 Compétence acceptée.
+13.2. Toute action en justice devra être intentée exclusivement devant les juridictions d’État ou fédérales situées dans le comté de Loudoun, Virginie, États-Unis.
+
+13.3. Vous acceptez la compétence et le lieu de juridiction de ces tribunaux et renoncez à toute objection.
 
 14. Divers
 
-14.1 Accord complet.
+14.1. Le présent CLUF constitue l’intégralité de l’accord entre vous et Big Brane.
 
-14.2 Clauses séparables.
+14.2. Si une disposition est invalide, le reste demeure applicable.
 
-14.3 Renonciation écrite.
+14.3. Aucune renonciation n’est valable si elle n’est pas faite par écrit.
 
-14.4 Pas d’interprétation contre le rédacteur.
+14.4. Le présent CLUF ne sera pas interprété à l’encontre de Big Brane en tant que rédacteur.
 
-14.5 Version anglaise prévaut.
+14.5. La version anglaise du présent CLUF est la seule version juridiquement contraignante. Les traductions sont fournies uniquement à titre de commodité. En cas d’incohérence, d’ambiguïté ou de conflit entre une version traduite et la version anglaise, la version anglaise prévaudra.
 
-15. Contact
+15. Nous contacter
 
-legal@bigbranestudios.com
-","CONTRATTO DI LICENZA CON L’UTENTE FINALE (EULA)
+Si vous avez des questions ou des préoccupations concernant le présent CLUF, veuillez contacter :
+legal@bigbranestudios.com","CONTRATTO DI LICENZA CON L’UTENTE FINALE (EULA)
+
 Ultimo aggiornamento: 1 aprile 2026
 
 Avviso: Il presente documento può essere tradotto in più lingue per comodità. Le traduzioni possono essere generate automaticamente e possono contenere imprecisioni. La versione inglese legalmente vincolante è disponibile all’indirizzo:
@@ -582,141 +595,144 @@ In caso di incongruenze, ambiguità o discrepanze, prevarrà la versione inglese
 
 1. Ambito
 
-1.1 Il presente Contratto di Licenza con l’Utente Finale (“EULA”) disciplina l’uso di Sushi Ben (il “Gioco”), fornito da Big Brane Studios, Inc. (“Big Brane”, “noi”).
+1.1. Il presente Contratto di Licenza con l’Utente Finale (“EULA”) disciplina l’uso di Sushi Ben (il “Gioco”), fornito da Big Brane Studios, Inc. (“Big Brane”, “noi”, “ci” o “nostro”).
 
-1.2 Acquistando, scaricando, installando, accedendo o utilizzando il Gioco, accetti il presente EULA. Se non accetti, non utilizzare il Gioco. Possiamo aggiornare il presente EULA; l’uso continuato implica accettazione.
+1.2. Acquistando, scaricando, installando, accedendo o utilizzando il Gioco, accetti il presente EULA. Se non accetti, non utilizzare il Gioco. Possiamo aggiornare il presente EULA di tanto in tanto e l’uso continuato del Gioco dopo tali aggiornamenti costituisce accettazione dei termini rivisti.
 
-1.3 Devi essere maggiorenne o avere il consenso dei genitori ed essere legalmente in grado di stipulare un contratto.
+1.3. Per accettare il presente EULA, devi (a) avere almeno 18 anni oppure il consenso di un genitore o tutore legale e (b) avere la capacità legale di stipulare un accordo vincolante.
 
-2. Condizioni dello store
+2. Termini dello store
 
-2.1 Il Gioco può essere distribuito tramite piattaforme di terze parti (“Store”).
+2.1. Il Gioco può essere offerto tramite piattaforme di terzi, inclusi, a titolo esemplificativo e non esaustivo, Steam, PlayStation, HTC e Meta Quest (ciascuno, uno “Store”).
 
-2.2 Il tuo utilizzo può essere soggetto ai loro termini.
+2.2. Il tuo utilizzo del Gioco tramite uno Store può essere soggetto ai termini e alle condizioni di tale Store.
 
-2.3 In caso di conflitto, prevalgono i termini dello Store.
+2.3. In caso di conflitto tra il presente EULA e i termini di uno Store, prevarranno i termini dello Store nella misura del conflitto.
 
-2.4 Le richieste relative agli acquisti devono essere rivolte allo Store.
+2.4. Tutte le richieste relative all’acquisto, inclusi i rimborsi, devono essere indirizzate allo Store tramite il quale il Gioco è stato acquistato.
 
-3. Privacy e dati personali
+3. Privacy e informazioni personali
 
-L’utilizzo del Gioco può comportare dati personali. Consulta:
+L’utilizzo del Gioco può comportare la raccolta, l’uso o la divulgazione di informazioni personali come descritto nella nostra Informativa sulla privacy e sulla raccolta dei dati. Ti invitiamo a consultare tale Informativa all’indirizzo:
 https://www.sushiben.com/privacy
 
-4. Salute e sicurezza
+4. Informazioni su salute e sicurezza
 
-4.1 Leggi questa sezione prima dell’uso.
+4.1. Consulta questa sezione prima di utilizzare il Gioco. Non è esaustiva.
 
-4.2 Avvertenza epilessia  
-Alcuni effetti possono causare crisi.
+4.2. Avvertenza sulle crisi epilettiche.
+Alcune persone possono subire crisi o perdita di coscienza quando esposte a luci o motivi lampeggianti. Se tu o un membro della tua famiglia avete precedenti di epilessia, consulta un medico prima dell’uso.
 
-Interrompi immediatamente in caso di:
-- convulsioni  
-- spasmi  
-- perdita di coscienza  
-- disturbi visivi  
-- movimenti involontari  
-- disorientamento  
+Interrompi immediatamente l’uso del Gioco e consulta un medico se avverti:
+- Convulsioni
+- Contrazioni oculari o muscolari
+- Perdita di coscienza
+- Alterazioni della vista
+- Movimenti involontari
+- Disorientamento
 
-4.3 Nausea  
-La realtà virtuale può causare malessere.
+4.3. Chinetosi.
+L’uso della realtà virtuale può causare vertigini o nausea. Interrompi l’uso e riposa se si manifestano sintomi.
 
-4.4 Affaticamento  
-Fai pause regolari.
+4.4. Lesioni da movimenti ripetitivi e affaticamento visivo.
+Fai pause regolari e interrompi l’uso se avverti disagio.
 
-4.5 Sicurezza  
-Mantieni un ambiente sicuro.
+4.5. Precauzioni relative all’area di gioco.
+Assicurati che l’area di gioco sia libera da pericoli. Non utilizzare il Gioco vicino a ostacoli, oggetti taglienti o in condizioni non sicure.
 
-4.6 Possono esserci ulteriori avvisi.
+4.6. Ulteriori avvertenze possono essere fornite dai fornitori della piattaforma.
 
 5. Proprietà intellettuale
 
-Tutti i diritti appartengono a Big Brane.
+Tutti i diritti, titoli e interessi relativi al Gioco e ai suoi contenuti appartengono a Big Brane o ai suoi licenzianti e sono protetti dalle leggi applicabili in materia di proprietà intellettuale.
 
 6. Contenuti dei fan
 
-6.1 Contenuti basati sul Gioco.
+6.1. Qualsiasi contenuto dei fan non ufficiale basato sul Gioco deve rispettare il presente EULA e la nostra Informativa sui contenuti dei fan.
 
-6.2 Devono rispettare:
-http://www.sushiben.com/fan-content
+6.2. L’Informativa sui contenuti dei fan è disponibile all’indirizzo:
+https://www.sushiben.com/fan-content
 
-6.3 Autorizzazione revocabile.
+6.3. Big Brane può revocare in qualsiasi momento il permesso relativo ai contenuti dei fan in conformità con tale informativa.
 
-7. Licenza
+7. Concessione della licenza e restrizioni
 
-7.1 Licenza limitata non commerciale.
+7.1. Subordinatamente al presente EULA, Big Brane ti concede una licenza limitata, non esclusiva, non trasferibile e revocabile per utilizzare una (1) copia del Gioco per finalità personali e non commerciali.
 
-7.2 Puoi:
-- giocare  
-- condividere contenuti non commerciali  
+7.2. Puoi:
+- Giocare al Gioco
+- Condividere screenshot e video non commerciali del Gioco
 
-7.3 Non puoi:
-- copiare, vendere o modificare  
-- reverse engineering  
-- uso commerciale  
+7.3. Non puoi:
+- Copiare, modificare, distribuire, vendere, concedere in locazione, sublicenziare o trasferire il Gioco
+- Effettuare reverse engineering, decompilare o tentare di estrarre il codice sorgente, salvo nella misura consentita dalla legge
+- Utilizzare il Gioco per finalità commerciali senza autorizzazione
 
-7.4 Nessun trasferimento di proprietà.
+7.4. Questa licenza non trasferisce la proprietà. Tutti i diritti rimangono a Big Brane e ai suoi licenzianti.
 
-8. Aggiornamenti
+8. Aggiornamenti e modifiche
 
-8.1 Possono essere forniti aggiornamenti.
+8.1. Possiamo fornire aggiornamenti necessari per continuare a utilizzare il Gioco.
 
-8.2 Il Gioco può essere modificato o ritirato.
+8.2. Possiamo modificare, sospendere o interrompere il Gioco, in tutto o in parte, in qualsiasi momento e senza preavviso.
 
-8.3 Nessun supporto per versioni precedenti.
+8.3. Non siamo obbligati a supportare versioni precedenti del Gioco.
 
-9. Esclusione di garanzia
+9. Garanzie ed esclusioni di responsabilità
 
-9.1 “così com’è”
+9.1. Nella misura massima consentita dalla legge, il Gioco è fornito “così com’è” e “come disponibile”, senza garanzie di alcun tipo, espresse, implicite, legali o di altro genere, incluse eventuali garanzie implicite di commerciabilità, idoneità per uno scopo particolare, titolarità e non violazione.
 
-9.2 nessuna garanzia
+9.2. Non garantiamo che il Gioco sarà ininterrotto, privo di errori o conforme alle tue aspettative.
 
 10. Limitazione di responsabilità
 
-10.1 Nessuna responsabilità per danni indiretti, incidentali, speciali o punitivi.
+10.1. Nella misura massima consentita dalla legge, Big Brane e le sue affiliate, i suoi licenzianti e fornitori di servizi non saranno responsabili per danni indiretti, incidentali, consequenziali, speciali, esemplari o punitivi derivanti da o relativi al presente EULA, al Gioco o al tuo uso o impossibilità di usare il Gioco.
 
-10.2 Nessuna responsabilità per uso improprio.
+10.2. Big Brane non sarà responsabile per danni derivanti da uso improprio del Gioco, dalla tua negligenza o da qualsiasi modifica non autorizzata del Gioco.
 
-10.3 Limite = importo pagato.
+10.3. In nessun caso la responsabilità totale di Big Brane supererà l’importo effettivamente pagato da te a Big Brane o a un distributore autorizzato per il Gioco.
 
-10.4 Diritti legali non esclusi.
+10.4. Nulla nel presente EULA limita i diritti che non possono essere esclusi ai sensi della legge applicabile.
 
-11. Indennizzo
+11. Manleva
 
-Accetti di indennizzare Big Brane.
+Accetti di difendere, manlevare e tenere indenne Big Brane e le sue affiliate da qualsiasi pretesa derivante dalla tua violazione del presente EULA o dal tuo uso improprio del Gioco.
 
 12. Risoluzione
 
-12.1 Valido fino a risoluzione.
+12.1. Il presente EULA resta in vigore fino alla sua risoluzione.
 
-12.2 Può essere risolto.
+12.2. Possiamo risolvere il presente EULA se violi i suoi termini.
 
-12.3 Devi cessare l’uso.
+12.3. In caso di risoluzione, devi interrompere l’uso del Gioco ed eliminare tutte le copie.
 
-13. Legge applicabile
+12.4. Qualsiasi disposizione del presente EULA che per sua natura debba sopravvivere alla risoluzione sopravvivrà alla risoluzione, incluse le Sezioni 5, 9, 10, 11, 13, 14 e 15.
 
-13.1 Commonwealth da Virgínia, Estados Unidos.
+13. Legge applicabile e foro competente
 
-13.2 Loudoun County.
+13.1. Il presente EULA è disciplinato e interpretato in conformità alle leggi del Commonwealth della Virginia, Stati Uniti, con esclusione delle relative norme sui conflitti di legge.
 
-13.3 Giurisdizione accettata.
+13.2. Qualsiasi azione legale dovrà essere promossa esclusivamente presso i tribunali statali o federali situati nella Contea di Loudoun, Virginia, Stati Uniti.
 
-14. Varie
+13.3. Acconsenti alla giurisdizione e alla competenza di tali tribunali e rinunci a qualsiasi obiezione.
 
-14.1 Accordo completo.
+14. Disposizioni varie
 
-14.2 Clausole separabili.
+14.1. Il presente EULA costituisce l’intero accordo tra te e Big Brane.
 
-14.3 Rinuncia scritta.
+14.2. Se una disposizione è invalida, il resto rimane applicabile.
 
-14.4 Nessuna interpretazione contro il redattore.
+14.3. Nessuna rinuncia è valida se non effettuata per iscritto.
 
-14.5 Prevale inglese.
+14.4. Il presente EULA non deve essere interpretato a sfavore di Big Brane in quanto redattore.
+
+14.5. La versione inglese del presente EULA è l’unica versione legalmente vincolante. Le traduzioni sono fornite esclusivamente per comodità. In caso di incongruenze, ambiguità o conflitti tra una versione tradotta e la versione inglese, prevarrà la versione inglese.
 
 15. Contatti
 
-legal@bigbranestudios.com
-","CONTRATO DE LICENÇA DE USUÁRIO FINAL (EULA)
+Per qualsiasi domanda o dubbio riguardante il presente EULA, contatta:
+legal@bigbranestudios.com","CONTRATO DE LICENÇA DE USUÁRIO FINAL (EULA)
+
 Última atualização: 1º de abril de 2026
 
 Aviso: Este documento pode ser traduzido para vários idiomas por conveniência. As traduções podem ser geradas automaticamente e podem conter imprecisões. A versão em inglês legalmente vinculante está disponível em:
@@ -725,284 +741,290 @@ Em caso de qualquer inconsistência, ambiguidade ou discrepância, prevalecerá 
 
 1. Escopo
 
-1.1 Este Contrato de Licença de Usuário Final (“EULA”) rege o uso de Sushi Ben (o “Jogo”), fornecido pela Big Brane Studios, Inc. (“Big Brane”, “nós”).
+1.1. Este Contrato de Licença de Usuário Final (“EULA”) rege o uso de Sushi Ben (o “Jogo”), fornecido pela Big Brane Studios, Inc. (“Big Brane”, “nós”, “nos” ou “nosso”).
 
-1.2 Ao comprar, baixar, instalar, acessar ou usar o Jogo, você concorda com este EULA. Se não concordar, não utilize o Jogo. Podemos atualizar este EULA; o uso contínuo implica aceitação.
+1.2. Ao comprar, baixar, instalar, acessar ou usar o Jogo, você concorda com este EULA. Se não concordar, não utilize o Jogo. Podemos atualizar este EULA periodicamente, e o uso contínuo do Jogo após tais atualizações constitui aceitação dos termos revisados.
 
-1.3 Você deve ser maior de idade ou ter consentimento dos pais e capacidade legal para contratar.
+1.3. Para concordar com este EULA, você deve (a) ter pelo menos 18 anos ou o consentimento de um dos pais ou responsável legal, e (b) ter capacidade legal para celebrar um acordo vinculante.
 
 2. Termos da loja
 
-2.1 O Jogo pode ser distribuído por plataformas de terceiros (“Lojas”).
+2.1. O Jogo pode ser oferecido por meio de plataformas de terceiros, incluindo, entre outras, Steam, PlayStation, HTC e Meta Quest (cada uma, uma “Loja”).
 
-2.2 Seu uso pode estar sujeito aos termos dessas Lojas.
+2.2. Seu uso do Jogo por meio de uma Loja pode estar sujeito aos termos e condições dessa Loja.
 
-2.3 Em caso de conflito, prevalecem os termos da Loja.
+2.3. Em caso de conflito entre este EULA e os termos de uma Loja, prevalecerão os termos da Loja na medida do conflito.
 
-2.4 Questões relacionadas à compra devem ser tratadas com a Loja.
+2.4. Todas as questões relacionadas à compra, incluindo reembolsos, devem ser dirigidas à Loja por meio da qual o Jogo foi adquirido.
 
-3. Privacidade e dados pessoais
+3. Privacidade e informações pessoais
 
-O uso do Jogo pode envolver dados pessoais. Consulte:
+Seu uso do Jogo pode envolver a coleta, o uso ou a divulgação de informações pessoais, conforme descrito em nossa Política de Privacidade e Coleta de Dados. Consulte essa Política em:
 https://www.sushiben.com/privacy
 
-4. Saúde e segurança
+4. Informações de saúde e segurança
 
-4.1 Leia esta seção antes de usar.
+4.1. Revise esta seção antes de usar o Jogo. Ela não é exaustiva.
 
-4.2 Aviso de epilepsia  
-Alguns efeitos podem causar convulsões.
+4.2. Aviso sobre crises epilépticas.
+Determinadas pessoas podem sofrer convulsões ou perda de consciência quando expostas a luzes ou padrões piscantes. Se você ou alguém da sua família tiver histórico de epilepsia, consulte um médico antes do uso.
 
-Interrompa imediatamente em caso de:
-- convulsões  
-- espasmos  
-- perda de consciência  
-- alterações visuais  
-- movimentos involuntários  
-- desorientação  
+Interrompa imediatamente o uso do Jogo e consulte um médico se apresentar:
+- Convulsões
+- Espasmos nos olhos ou músculos
+- Perda de consciência
+- Alterações visuais
+- Movimentos involuntários
+- Desorientação
 
-4.3 Náusea  
-A realidade virtual pode causar desconforto.
+4.3. Enjoo de movimento.
+O uso de realidade virtual pode causar tontura ou náusea. Interrompa o uso e descanse se surgirem sintomas.
 
-4.4 Fadiga  
-Faça pausas regulares.
+4.4. Lesões por esforço repetitivo e fadiga ocular.
+Faça pausas regulares e interrompa o uso se sentir desconforto.
 
-4.5 Segurança  
-Mantenha um ambiente seguro.
+4.5. Precauções na área de jogo.
+Certifique-se de que sua área de jogo esteja livre de perigos. Não utilize o Jogo perto de obstáculos, objetos cortantes ou em condições inseguras.
 
-4.6 Avisos adicionais podem existir.
+4.6. Avisos adicionais podem ser fornecidos pelos provedores de plataforma.
 
 5. Propriedade intelectual
 
-Todos os direitos pertencem à Big Brane.
+Todos os direitos, títulos e interesses relativos ao Jogo e ao seu conteúdo pertencem à Big Brane ou aos seus licenciadores e são protegidos pelas leis aplicáveis de propriedade intelectual.
 
 6. Conteúdo de fãs
 
-6.1 Conteúdo baseado no Jogo.
+6.1. Qualquer conteúdo de fãs não oficial baseado no Jogo deve cumprir este EULA e nossa Política de Conteúdo de Fãs.
 
-6.2 Deve seguir:
-http://www.sushiben.com/fan-content
+6.2. A Política de Conteúdo de Fãs está disponível em:
+https://www.sushiben.com/fan-content
 
-6.3 Permissão revogável.
+6.3. A Big Brane pode revogar a permissão para conteúdo de fãs a qualquer momento, de acordo com essa política.
 
-7. Licença
+7. Concessão de licença e restrições
 
-7.1 Licença limitada não comercial.
+7.1. Sujeito a este EULA, a Big Brane concede a você uma licença limitada, não exclusiva, intransferível e revogável para usar uma (1) cópia do Jogo para fins pessoais e não comerciais.
 
-7.2 Você pode:
-- jogar  
-- compartilhar conteúdo não comercial  
+7.2. Você pode:
+- Jogar o Jogo
+- Compartilhar capturas de tela e vídeos não comerciais do Jogo
 
-7.3 Você não pode:
-- copiar, vender ou modificar  
-- engenharia reversa  
-- uso comercial  
+7.3. Você não pode:
+- Copiar, modificar, distribuir, vender, alugar, sublicenciar ou transferir o Jogo
+- Realizar engenharia reversa, descompilar ou tentar extrair o código-fonte, salvo na medida permitida por lei
+- Utilizar o Jogo para fins comerciais sem autorização
 
-7.4 Nenhuma transferência de propriedade.
+7.4. Esta licença não transfere a propriedade. Todos os direitos permanecem com a Big Brane e seus licenciadores.
 
-8. Atualizações
+8. Atualizações e modificações
 
-8.1 Atualizações podem ser fornecidas.
+8.1. Podemos fornecer atualizações necessárias para que o Jogo continue sendo utilizado.
 
-8.2 O Jogo pode ser modificado ou encerrado.
+8.2. Podemos modificar, suspender ou descontinuar o Jogo, no todo ou em parte, a qualquer momento e sem aviso prévio.
 
-8.3 Sem suporte para versões antigas.
+8.3. Não somos obrigados a dar suporte a versões anteriores do Jogo.
 
-9. Isenção de garantias
+9. Garantias e isenções de responsabilidade
 
-9.1 “no estado em que se encontra”
+9.1. Na máxima medida permitida por lei, o Jogo é fornecido “no estado em que se encontra” e “conforme disponível”, sem garantias de qualquer tipo, sejam expressas, implícitas, legais ou de outra natureza, incluindo quaisquer garantias implícitas de comercialização, adequação a uma finalidade específica, titularidade e não violação.
 
-9.2 sem garantias
+9.2. Não garantimos que o Jogo será ininterrupto, livre de erros ou atenderá às suas expectativas.
 
 10. Limitação de responsabilidade
 
-10.1 Sem responsabilidade por danos indiretos, incidentais, especiais ou punitivos.
+10.1. Na máxima medida permitida por lei, a Big Brane e suas afiliadas, licenciadores e prestadores de serviços não serão responsáveis por quaisquer danos indiretos, incidentais, consequenciais, especiais, exemplares ou punitivos decorrentes de ou relacionados a este EULA, ao Jogo ou ao seu uso ou incapacidade de usar o Jogo.
 
-10.2 Sem responsabilidade por uso indevido.
+10.2. A Big Brane não será responsável por danos decorrentes do uso indevido do Jogo, da sua negligência ou de qualquer modificação não autorizada do Jogo.
 
-10.3 Limite = valor pago.
+10.3. Em nenhuma hipótese a responsabilidade total da Big Brane excederá o valor efetivamente pago por você à Big Brane ou a um distribuidor autorizado pelo Jogo.
 
-10.4 Direitos legais preservados.
+10.4. Nada neste EULA limita direitos que não possam ser excluídos pela lei aplicável.
 
 11. Indenização
 
-Você concorda em indenizar a Big Brane.
+Você concorda em defender, indenizar e isentar a Big Brane e suas afiliadas de quaisquer reivindicações decorrentes da sua violação deste EULA ou do seu uso indevido do Jogo.
 
 12. Rescisão
 
-12.1 Vigente até rescisão.
+12.1. Este EULA permanece em vigor até ser rescindido.
 
-12.2 Pode ser rescindido.
+12.2. Podemos rescindir este EULA se você violar seus termos.
 
-12.3 Deve cessar uso.
+12.3. Em caso de rescisão, você deve cessar o uso do Jogo e excluir todas as cópias.
 
-13. Lei aplicável
+12.4. Quaisquer disposições deste EULA que, por sua natureza, devam sobreviver à rescisão permanecerão em vigor após a rescisão, incluindo as Seções 5, 9, 10, 11, 13, 14 e 15.
 
-13.1 Virgínia.
+13. Lei aplicável e jurisdição
 
-13.2 Condado de Loudoun.
+13.1. Este EULA será regido e interpretado de acordo com as leis do Commonwealth da Virgínia, Estados Unidos, excluindo suas regras de conflito de leis.
 
-13.3 Jurisdição aceita.
+13.2. Qualquer ação judicial deverá ser proposta exclusivamente nos tribunais estaduais ou federais localizados no Condado de Loudoun, Virgínia, Estados Unidos.
+
+13.3. Você concorda com a jurisdição e o foro desses tribunais e renuncia a qualquer objeção.
 
 14. Disposições gerais
 
-14.1 Acordo completo.
+14.1. Este EULA constitui o acordo integral entre você e a Big Brane.
 
-14.2 Cláusulas separáveis.
+14.2. Se qualquer disposição for inválida, o restante permanecerá exequível.
 
-14.3 Renúncia por escrito.
+14.3. Nenhuma renúncia será válida, salvo se feita por escrito.
 
-14.4 Sem interpretação contra o redator.
+14.4. Este EULA não será interpretado contra a Big Brane por ter sido sua redatora.
 
-14.5 Prevalece o inglês.
+14.5. A versão em inglês deste EULA é a única versão legalmente vinculante. As traduções são fornecidas apenas por conveniência. Em caso de qualquer inconsistência, ambiguidade ou conflito entre uma versão traduzida e a versão em inglês, prevalecerá a versão em inglês.
 
-15. Contato
+15. Fale conosco
 
-legal@bigbranestudios.com
-","エンドユーザー使用許諾契約（EULA）
+Se você tiver dúvidas ou preocupações sobre este EULA, entre em contato com:
+legal@bigbranestudios.com","エンドユーザー使用許諾契約（EULA）
+
 最終更新日：2026年4月1日
 
 注意：本書は利便性のため複数の言語に翻訳される場合があります。翻訳は自動生成されることがあり、不正確な表現を含む可能性があります。法的拘束力を有する英語版は以下でご覧いただけます：
 https://www.sushiben.com/en/eula
 翻訳版と英語版との間に不一致、曖昧さ、または相違がある場合は、英語版が優先されます。
 
-1. 範囲
+1. 適用範囲
 
-1.1 本エンドユーザー使用許諾契約（「EULA」）は、Big Brane Studios, Inc.（「Big Brane」「当社」）が提供する Sushi Ben（「本ゲーム」）の利用について規定します。
+1.1. 本エンドユーザー使用許諾契約（以下「本EULA」といいます。）は、Big Brane Studios, Inc.（以下「Big Brane」「当社」）が提供する Sushi Ben（以下「本ゲーム」）の利用について規定します。
 
-1.2 本ゲームを購入、ダウンロード、インストール、アクセス、または使用することにより、お客様は本EULAに同意したものとみなされます。同意されない場合は、本ゲームを使用しないでください。当社は本EULAを随時更新する場合があり、更新後に本ゲームを継続して使用することにより、改訂後の条項に同意したものとみなされます。
+1.2. 本ゲームを購入、ダウンロード、インストール、アクセス、または使用することにより、お客様は本EULAに同意したものとみなされます。同意されない場合は、本ゲームを使用しないでください。当社は本EULAを随時更新する場合があり、更新後に本ゲームを継続して使用することにより、改訂後の条項に同意したものとみなされます。
 
-1.3 本EULAに同意するには、(a)18歳以上であるか、または親もしくは法定後見人の同意を得ていること、および(b)法的拘束力のある契約を締結する能力を有している必要があります。
+1.3. 本EULAに同意するには、(a)18歳以上であるか、または親もしくは法定後見人の同意を得ていること、および(b)法的拘束力のある契約を締結する能力を有している必要があります。
 
 2. ストア規約
 
-2.1 本ゲームは、Steam、PlayStation、HTC、Meta Questを含む第三者プラットフォーム（それぞれ「ストア」）を通じて提供される場合があります。
+2.1. 本ゲームは、Steam、PlayStation、HTC、Meta Questを含む第三者プラットフォーム（それぞれ「ストア」）を通じて提供される場合があります。
 
-2.2 ストアを通じた本ゲームの利用には、当該ストアの利用規約が適用される場合があります。
+2.2. ストアを通じた本ゲームの利用には、当該ストアの利用規約が適用される場合があります。
 
-2.3 本EULAとストア規約に矛盾がある場合、当該矛盾の範囲においてストア規約が優先されます。
+2.3. 本EULAとストア規約に矛盾がある場合、当該矛盾の範囲においてストア規約が優先されます。
 
-2.4 購入に関するすべての問い合わせ（返金を含む）は、本ゲームを購入したストアに対して行う必要があります。
+2.4. 購入に関するすべての問い合わせ（返金を含む）は、本ゲームを購入したストアに対して行う必要があります。
 
 3. プライバシーおよび個人情報
 
-本ゲームの利用には個人情報の収集および利用が含まれる場合があります。詳細については、当社の「プライバシーおよびデータ収集ポリシー」をご確認ください：
+本ゲームの利用には、当社のプライバシーおよびデータ収集ポリシーに記載されているとおり、個人情報の収集、利用または開示が含まれる場合があります。当該ポリシーについては、以下をご確認ください。
 https://www.sushiben.com/privacy
 
 4. 健康および安全に関する情報
 
-4.1 本ゲームを使用する前に本項を確認してください。本項は網羅的なものではありません。
+4.1. 本ゲームを使用する前に本項を確認してください。本項は網羅的なものではありません。
 
-4.2 てんかん発作に関する警告  
+4.2. てんかん発作に関する警告。
 特定の光の点滅やパターンにより、発作や意識喪失が生じる場合があります。該当する既往歴がある場合は、使用前に医師に相談してください。
 
-以下の症状が現れた場合は、直ちに使用を中止し医師に相談してください：
-- けいれん  
-- 目または筋肉のけいれん  
-- 意識喪失  
-- 視覚の異常  
-- 不随意運動  
-- 見当識障害  
+以下の症状が現れた場合は、直ちに本ゲームの使用を中止し、医師に相談してください。
+- けいれん
+- 目または筋肉のけいれん
+- 意識喪失
+- 視覚の異常
+- 不随意運動
+- 見当識障害
 
-4.3 乗り物酔い  
-バーチャルリアリティの使用により、めまいや吐き気が生じる場合があります。不快感がある場合は使用を中止してください。
+4.3. 乗り物酔い。
+バーチャルリアリティの使用により、めまいや吐き気が生じる場合があります。症状が現れた場合は使用を中止し、休息を取ってください。
 
-4.4 反復動作による障害および眼精疲労  
+4.4. 反復動作による障害および眼精疲労。
 定期的に休憩を取り、不快感がある場合は使用を中止してください。
 
-4.5 プレイエリアの安全  
-周囲に障害物がないことを確認し、安全でない環境での使用は避けてください。
+4.5. プレイエリアの安全上の注意。
+プレイエリアに危険物がないことを確認してください。障害物、鋭利な物体、または危険な条件の近くで本ゲームを使用しないでください。
 
-4.6 その他の警告はプラットフォームにより提供される場合があります。
+4.6. 追加の警告はプラットフォーム提供者によって提供される場合があります。
 
 5. 知的財産
 
-本ゲームおよびその内容に関するすべての権利はBig Braneまたはそのライセンサーに帰属し、適用法により保護されます。
+本ゲームおよびその内容に関するすべての権利、権原および利益はBig Braneまたはそのライセンサーに帰属し、適用法により保護されます。
 
 6. ファンコンテンツ
 
-6.1 「ファンコンテンツ」とは、本ゲームに基づいて作成されたコンテンツを指します。
+6.1. 本ゲームに基づく非公式なファンコンテンツは、すべて本EULAおよび当社のファンコンテンツポリシーに従う必要があります。
 
-6.2 ファンコンテンツは本EULAおよび当社のファンコンテンツポリシーに従う必要があります：
-http://www.sushiben.com/fan-content
+6.2. ファンコンテンツポリシーは以下でご覧いただけます。
+https://www.sushiben.com/fan-content
 
-6.3 Big Braneはいつでも許可を取り消すことができます。
+6.3. Big Braneは、当該ポリシーに従い、ファンコンテンツに関する許可をいつでも撤回することができます。
 
 7. ライセンスの付与および制限
 
-7.1 本EULAに従い、Big Braneは、本ゲームの1部のコピーを個人的かつ非商業的目的で使用するための、限定的、非独占的、譲渡不可、取消可能なライセンスを付与します。
+7.1. 本EULAに従い、Big Braneは、本ゲームの1部のコピーを個人的かつ非商業的目的で使用するための、限定的、非独占的、譲渡不可、取消可能なライセンスを付与します。
 
-7.2 お客様は以下を行うことができます：
-- 本ゲームをプレイする  
-- 非商業目的でスクリーンショットや動画を共有する  
+7.2. お客様は以下を行うことができます。
+- 本ゲームをプレイすること
+- 本ゲームの非商業目的のスクリーンショットや動画を共有すること
 
-7.3 お客様は以下を行ってはなりません：
-- 本ゲームの複製、変更、配布、販売、貸与、譲渡  
-- 逆コンパイル、リバースエンジニアリング、ソースコードの抽出  
-- 商業目的での利用  
+7.3. お客様は以下を行ってはなりません。
+- 本ゲームの複製、変更、配布、販売、貸与、サブライセンスまたは譲渡
+- 法律で認められる場合を除き、リバースエンジニアリング、逆コンパイルまたはソースコードの抽出を試みること
+- 許可なく本ゲームを商業目的で使用すること
 
-7.4 本ライセンスは所有権を移転しません。すべての権利はBig Braneに留保されます。
+7.4. 本ライセンスは所有権を移転しません。すべての権利はBig Braneおよびそのライセンサーに留保されます。
 
 8. 更新および変更
 
-8.1 当社は更新を提供する場合があります。
+8.1. 当社は、本ゲームの継続利用に必要な更新を提供する場合があります。
 
-8.2 当社はいつでも本ゲームを変更または終了することができます。
+8.2. 当社は、いつでも予告なく、本ゲームの全部または一部を変更、停止または終了することができます。
 
-8.3 旧バージョンのサポート義務はありません。
+8.3. 当社は、本ゲームの旧バージョンをサポートする義務を負いません。
 
-9. 免責事項
+9. 保証および免責
 
-9.1 本ゲームは「現状のまま」提供され、いかなる保証もありません。
+9.1. 法律で認められる最大限の範囲において、本ゲームは「現状有姿」かつ「提供可能な状態」で提供され、明示的、黙示的、法定その他を問わず、いかなる保証もありません。これには、商品性、特定目的適合性、権原および非侵害に関する黙示の保証を含みますが、これらに限られません。
 
-9.2 当社は本ゲームの完全性や適合性を保証しません。
+9.2. 当社は、本ゲームが中断されないこと、エラーがないこと、またはお客様の期待を満たすことを保証しません。
 
 10. 責任の制限
 
-10.1 当社は間接的損害等について責任を負いません。
+10.1. 法律で認められる最大限の範囲において、Big Brane、その関連会社、ライセンサーおよびサービス提供者は、本EULA、本ゲーム、または本ゲームの使用もしくは使用不能に起因または関連して生じる間接的、付随的、結果的、特別、懲罰的または示範的損害について責任を負いません。
 
-10.2 不正使用や改変による損害について責任を負いません。
+10.2. Big Braneは、本ゲームの誤用、お客様の過失、または本ゲームに対する無許可の変更に起因する損害について責任を負いません。
 
-10.3 当社の責任は、実際に支払われた金額を上限とします。
+10.3. いかなる場合でも、Big Braneの総責任額は、お客様が本ゲームについてBig Braneまたは認定販売業者に実際に支払った金額を超えないものとします。
 
-10.4 法律により制限できない権利は除外されません。
+10.4. 本EULAのいかなる規定も、適用法により除外できない権利を制限するものではありません。
 
 11. 補償
 
-お客様は、本EULA違反に関連して当社を補償することに同意します。
+お客様は、本EULA違反または本ゲームの誤用に起因する請求について、Big Braneおよびその関連会社を防御し、補償し、損害を与えないことに同意します。
 
 12. 終了
 
-12.1 本EULAは終了まで有効です。
+12.1. 本EULAは終了するまで有効に存続します。
 
-12.2 違反があった場合、当社は終了できます。
+12.2. お客様が本EULAの条項に違反した場合、当社は本EULAを終了することができます。
 
-12.3 終了後は使用を停止してください。
+12.3. 終了後、お客様は本ゲームの使用を中止し、すべてのコピーを削除しなければなりません。
 
-13. 準拠法および管轄
+12.4. その性質上終了後も存続すべき本EULAの各条項は、終了後も存続するものとし、これには第5条、第9条、第10条、第11条、第13条、第14条および第15条が含まれます。
 
-13.1 本EULAはバージニア州法に準拠します。
+13. 準拠法および裁判管轄
 
-13.2 紛争はバージニア州ラウドン郡で処理されます。
+13.1. 本EULAは、抵触法の原則を除き、アメリカ合衆国バージニア州コモンウェルスの法律に準拠し、これに従って解釈されます。
 
-13.3 管轄に同意するものとします。
+13.2. いかなる法的措置も、アメリカ合衆国バージニア州ラウドン郡に所在する州裁判所または連邦裁判所に専属的に提起されるものとします。
 
-14. その他
+13.3. お客様は、当該裁判所の管轄および裁判地に同意し、異議を放棄します。
 
-14.1 本EULAは完全合意です。
+14. 雑則
 
-14.2 一部無効でも他は有効です。
+14.1. 本EULAは、お客様とBig Braneとの間の完全な合意を構成します。
 
-14.3 放棄は書面で行われます。
+14.2. いずれかの規定が無効であっても、残りの規定は引き続き有効とします。
 
-14.4 作成者不利解釈は適用されません。
+14.3. いかなる権利放棄も、書面によらない限り有効ではありません。
 
-14.5 英語版のみが法的に有効です。
+14.4. 本EULAは、起草者がBig Braneであることを理由としてBig Braneに不利に解釈されません。
 
-15. 連絡先
+14.5. 本EULAの英語版のみが法的拘束力を有する正式版です。翻訳版は便宜のためにのみ提供されます。翻訳版と英語版との間に不一致、曖昧さ、または抵触がある場合は、英語版が優先されます。
 
-legal@bigbranestudios.com
-","최종 사용자 사용권 계약(EULA)
+15. お問い合わせ
+
+本EULAに関するご質問やご懸念がある場合は、以下までご連絡ください。
+legal@bigbranestudios.com","최종 사용자 사용권 계약(EULA)
+
 최종 업데이트: 2026년 4월 1일
 
 고지: 본 문서는 편의를 위해 여러 언어로 번역될 수 있습니다. 번역은 자동으로 생성될 수 있으며 부정확한 내용이 포함될 수 있습니다. 법적 구속력이 있는 영어 버전은 다음에서 확인할 수 있습니다:
@@ -1011,141 +1033,144 @@ https://www.sushiben.com/en/eula
 
 1. 범위
 
-1.1 본 최종 사용자 사용권 계약(“EULA”)은 Big Brane Studios, Inc.(“Big Brane”, “당사”)가 제공하는 Sushi Ben(“본 게임”)의 이용을 규정합니다.
+1.1. 본 최종 사용자 사용권 계약(“EULA”)은 Big Brane Studios, Inc.(“Big Brane”, “당사”, “당사를” 또는 “당사의”)가 제공하는 Sushi Ben(“게임”)의 이용을 규정합니다.
 
-1.2 본 게임을 구매, 다운로드, 설치, 접근 또는 이용함으로써 귀하는 본 EULA에 동의한 것으로 간주됩니다. 동의하지 않는 경우 본 게임을 이용하지 마십시오. 당사는 본 EULA를 수시로 업데이트할 수 있으며, 업데이트 이후 계속 이용하는 경우 변경된 내용에 동의한 것으로 간주됩니다.
+1.2. 게임을 구매, 다운로드, 설치, 접근 또는 이용함으로써 귀하는 본 EULA에 동의한 것으로 간주됩니다. 동의하지 않는 경우 게임을 이용하지 마십시오. 당사는 본 EULA를 수시로 업데이트할 수 있으며, 업데이트 이후에도 게임을 계속 이용하는 경우 수정된 약관에 동의한 것으로 간주됩니다.
 
-1.3 본 EULA에 동의하려면 (a) 만 18세 이상이거나 부모 또는 법정 보호자의 동의를 받아야 하며, (b) 법적으로 구속력 있는 계약을 체결할 능력이 있어야 합니다.
+1.3. 본 EULA에 동의하려면 (a) 만 18세 이상이거나 부모 또는 법정 보호자의 동의를 받아야 하며, (b) 법적으로 구속력 있는 계약을 체결할 능력이 있어야 합니다.
 
 2. 스토어 약관
 
-2.1 본 게임은 Steam, PlayStation, HTC, Meta Quest 등 제3자 플랫폼(각각 “스토어”)을 통해 제공될 수 있습니다.
+2.1. 게임은 Steam, PlayStation, HTC 및 Meta Quest를 포함하되 이에 한정되지 않는 제3자 플랫폼(각각 “스토어”)을 통해 제공될 수 있습니다.
 
-2.2 스토어를 통한 이용은 해당 스토어의 약관이 적용될 수 있습니다.
+2.2. 스토어를 통한 게임 이용은 해당 스토어의 이용 약관이 적용될 수 있습니다.
 
-2.3 본 EULA와 스토어 약관 간에 충돌이 있는 경우, 해당 충돌 범위 내에서 스토어 약관이 우선합니다.
+2.3. 본 EULA와 스토어 약관이 충돌하는 경우, 충돌 범위 내에서 스토어 약관이 우선합니다.
 
-2.4 구매 관련 문의(환불 포함)는 구매한 스토어에 문의해야 합니다.
+2.4. 환불을 포함한 모든 구매 관련 문의는 게임을 구매한 스토어에 해야 합니다.
 
-3. 개인정보 및 프라이버시
+3. 프라이버시 및 개인정보
 
-본 게임 이용에는 개인정보의 수집 및 사용이 포함될 수 있습니다. 자세한 내용은 당사의 개인정보 및 데이터 수집 정책을 확인하십시오:
+게임 이용에는 당사의 개인정보 및 데이터 수집 정책에 설명된 바와 같이 개인정보의 수집, 이용 또는 공개가 포함될 수 있습니다. 해당 정책은 다음에서 확인하십시오:
 https://www.sushiben.com/privacy
 
 4. 건강 및 안전 정보
 
-4.1 사용 전에 본 항목을 확인하십시오. 모든 위험을 포함하지 않습니다.
+4.1. 게임을 사용하기 전에 이 항목을 검토하십시오. 이 항목은 모든 내용을 포함하지 않습니다.
 
-4.2 발작 경고  
-특정 빛이나 패턴에 의해 발작 또는 의식 상실이 발생할 수 있습니다. 병력이 있는 경우 사용 전에 의사와 상담하십시오.
+4.2. 간질 발작 경고.
+일부 사람들은 깜박이는 빛이나 패턴에 노출될 때 발작이나 의식 상실을 경험할 수 있습니다. 귀하 또는 가족 구성원 중 간질 병력이 있는 사람이 있다면 사용 전에 의사와 상담하십시오.
 
-다음 증상이 나타나면 즉시 사용을 중단하고 의사와 상담하십시오:
-- 경련  
-- 눈 또는 근육 경련  
-- 의식 상실  
-- 시각 이상  
-- 비자발적 움직임  
-- 방향 감각 상실  
+다음 증상이 나타나면 즉시 게임 사용을 중단하고 의사와 상담하십시오:
+- 경련
+- 눈 또는 근육 경련
+- 의식 상실
+- 시각 이상
+- 비자발적 움직임
+- 방향 감각 상실
 
-4.3 멀미  
-가상 현실 사용 시 어지러움이나 메스꺼움이 발생할 수 있습니다. 불편함이 있으면 사용을 중단하십시오.
+4.3. 멀미.
+가상 현실 사용 시 어지러움이나 메스꺼움이 발생할 수 있습니다. 증상이 나타나면 사용을 중단하고 휴식을 취하십시오.
 
-4.4 반복 동작 및 눈 피로  
-정기적으로 휴식을 취하고 불편 시 중단하십시오.
+4.4. 반복 동작 부상 및 눈의 피로.
+정기적으로 휴식을 취하고 불편함이 있으면 사용을 중단하십시오.
 
-4.5 플레이 공간 안전  
-주변 장애물을 제거하고 안전한 환경에서 사용하십시오.
+4.5. 플레이 공간 주의사항.
+플레이 공간에 위험 요소가 없는지 확인하십시오. 장애물, 날카로운 물체 또는 위험한 환경 근처에서는 게임을 사용하지 마십시오.
 
-4.6 추가 경고는 플랫폼에서 제공될 수 있습니다.
+4.6. 추가 경고는 플랫폼 제공자가 제공할 수 있습니다.
 
-5. 지적 재산권
+5. 지식재산권
 
-본 게임 및 콘텐츠에 대한 모든 권리는 Big Brane 또는 그 라이선스 제공자에게 있으며 법으로 보호됩니다.
+게임 및 그 콘텐츠에 대한 모든 권리, 소유권 및 이익은 Big Brane 또는 그 라이선스 제공자에게 있으며 관련 지식재산권 법률의 보호를 받습니다.
 
 6. 팬 콘텐츠
 
-6.1 “팬 콘텐츠”는 본 게임 기반 콘텐츠를 의미합니다.
+6.1. 게임을 기반으로 한 모든 비공식 팬 콘텐츠는 본 EULA 및 당사의 팬 콘텐츠 정책을 준수해야 합니다.
 
-6.2 팬 콘텐츠는 본 EULA 및 팬 콘텐츠 정책을 준수해야 합니다:
-http://www.sushiben.com/fan-content
+6.2. 팬 콘텐츠 정책은 다음에서 확인할 수 있습니다:
+https://www.sushiben.com/fan-content
 
-6.3 Big Brane은 언제든지 허가를 철회할 수 있습니다.
+6.3. Big Brane은 해당 정책에 따라 언제든지 팬 콘텐츠에 대한 허가를 철회할 수 있습니다.
 
 7. 라이선스 부여 및 제한
 
-7.1 본 EULA에 따라 Big Brane은 개인적, 비상업적 용도로 1개의 사본을 사용할 수 있는 제한적, 비독점적, 양도 불가, 철회 가능한 라이선스를 부여합니다.
+7.1. 본 EULA에 따라 Big Brane은 개인적이고 비상업적인 목적으로 게임 사본 1개를 사용할 수 있는 제한적, 비독점적, 양도 불가, 철회 가능한 라이선스를 부여합니다.
 
-7.2 귀하는 다음을 할 수 있습니다:
-- 게임 플레이  
-- 비상업적 스크린샷 및 영상 공유  
+7.2. 귀하는 다음을 할 수 있습니다:
+- 게임을 플레이하는 것
+- 게임의 비상업적 스크린샷 및 영상을 공유하는 것
 
-7.3 다음 행위는 금지됩니다:
-- 복제, 수정, 배포, 판매, 대여, 양도  
-- 리버스 엔지니어링, 디컴파일, 소스코드 추출  
-- 상업적 이용  
+7.3. 귀하는 다음을 할 수 없습니다:
+- 게임을 복제, 수정, 배포, 판매, 대여, 서브라이선스 또는 양도하는 것
+- 법적으로 허용되는 경우를 제외하고 리버스 엔지니어링, 디컴파일 또는 소스코드 추출을 시도하는 것
+- 허가 없이 게임을 상업적 목적으로 사용하는 것
 
-7.4 본 라이선스는 소유권을 이전하지 않습니다. 모든 권리는 Big Brane에 있습니다.
+7.4. 이 라이선스는 소유권을 이전하지 않습니다. 모든 권리는 Big Brane 및 그 라이선스 제공자에게 남습니다.
 
 8. 업데이트 및 변경
 
-8.1 업데이트가 제공될 수 있습니다.
+8.1. 당사는 게임을 계속 사용하기 위해 필요한 업데이트를 제공할 수 있습니다.
 
-8.2 당사는 언제든지 게임을 변경 또는 중단할 수 있습니다.
+8.2. 당사는 언제든지 사전 통지 없이 게임의 전부 또는 일부를 수정, 중단 또는 종료할 수 있습니다.
 
-8.3 이전 버전 지원 의무는 없습니다.
+8.3. 당사는 이전 버전의 게임을 지원할 의무가 없습니다.
 
-9. 면책 조항
+9. 보증 및 면책
 
-9.1 본 게임은 “있는 그대로” 제공되며 보증이 없습니다.
+9.1. 법이 허용하는 최대 한도 내에서, 게임은 “있는 그대로” 및 “이용 가능한 상태로” 제공되며, 명시적, 묵시적, 법정 또는 기타 어떠한 형태의 보증도 제공되지 않습니다. 여기에는 상품성, 특정 목적 적합성, 권원 및 비침해에 대한 묵시적 보증이 포함되나 이에 한정되지 않습니다.
 
-9.2 당사는 완전성이나 적합성을 보장하지 않습니다.
+9.2. 당사는 게임이 중단 없이 제공되거나, 오류가 없거나, 귀하의 기대를 충족할 것이라고 보장하지 않습니다.
 
 10. 책임 제한
 
-10.1 당사는 간접적 손해 등에 대해 책임을 지지 않습니다.
+10.1. 법이 허용하는 최대 한도 내에서, Big Brane 및 그 계열사, 라이선스 제공자 및 서비스 제공자는 본 EULA, 게임 또는 귀하의 게임 사용 또는 사용 불능으로부터 발생하거나 이와 관련된 간접적, 부수적, 결과적, 특별, 징벌적 또는 예시적 손해에 대해 책임을 지지 않습니다.
 
-10.2 오용 또는 수정으로 인한 손해에 대해 책임지지 않습니다.
+10.2. Big Brane은 게임의 오용, 귀하의 과실 또는 게임의 무단 수정으로 인해 발생하는 손해에 대해 책임을 지지 않습니다.
 
-10.3 책임 한도는 실제 지불 금액입니다.
+10.3. 어떠한 경우에도 Big Brane의 총 책임은 귀하가 게임에 대해 Big Brane 또는 공인 유통업체에 실제로 지불한 금액을 초과하지 않습니다.
 
-10.4 법적으로 제한 불가능한 권리는 제외되지 않습니다.
+10.4. 본 EULA의 어떠한 내용도 적용 법률상 배제될 수 없는 권리를 제한하지 않습니다.
 
 11. 면책
 
-귀하는 EULA 위반으로 발생한 청구에 대해 당사를 면책하는 데 동의합니다.
+귀하는 본 EULA 위반 또는 게임의 오용으로 인해 발생하는 모든 청구로부터 Big Brane 및 그 계열사를 방어하고, 면책하며, 손해가 없도록 하는 데 동의합니다.
 
 12. 종료
 
-12.1 본 EULA는 종료 시까지 유효합니다.
+12.1. 본 EULA는 종료될 때까지 유효합니다.
 
-12.2 위반 시 종료될 수 있습니다.
+12.2. 귀하가 본 EULA의 조건을 위반하는 경우 당사는 본 EULA를 종료할 수 있습니다.
 
-12.3 종료 시 사용을 중단해야 합니다.
+12.3. 종료 시 귀하는 게임 사용을 중단하고 모든 사본을 삭제해야 합니다.
+
+12.4. 그 성질상 종료 후에도 존속되어야 하는 본 EULA의 모든 조항은 종료 후에도 존속하며, 여기에는 제5조, 제9조, 제10조, 제11조, 제13조, 제14조 및 제15조가 포함됩니다.
 
 13. 준거법 및 관할
 
-13.1 본 EULA는 버지니아주 법에 따릅니다.
+13.1. 본 EULA는 미국 버지니아주 커먼웰스의 법률에 따라 규율되고 해석되며, 그 저촉법 규정은 제외됩니다.
 
-13.2 분쟁은 버지니아주 라우던 카운티에서 해결됩니다.
+13.2. 모든 법적 조치는 미국 버지니아주 라우던 카운티에 위치한 주 또는 연방 법원에만 제기되어야 합니다.
 
-13.3 관할에 동의합니다.
+13.3. 귀하는 해당 법원의 관할 및 재판지에 동의하고 이에 대한 이의를 포기합니다.
 
 14. 기타
 
-14.1 본 EULA는 완전한 합의입니다.
+14.1. 본 EULA는 귀하와 Big Brane 간의 완전한 합의를 구성합니다.
 
-14.2 일부 무효 시 나머지는 유효합니다.
+14.2. 어떤 조항이 무효인 경우에도 나머지 조항은 계속 효력을 유지합니다.
 
-14.3 포기는 서면으로만 유효합니다.
+14.3. 어떠한 권리 포기도 서면으로 이루어지지 않는 한 유효하지 않습니다.
 
-14.4 작성자 불이익 해석 적용 없음.
+14.4. 본 EULA는 작성자가 Big Brane이라는 이유만으로 Big Brane에게 불리하게 해석되지 않습니다.
 
-14.5 영어 버전만 법적 효력이 있습니다.
+14.5. 본 EULA의 영어 버전만이 법적 구속력이 있는 유일한 버전입니다. 번역본은 편의를 위해서만 제공됩니다. 번역본과 영어 버전 사이에 불일치, 모호성 또는 충돌이 있는 경우 영어 버전이 우선합니다.
 
-15. 연락처
+15. 문의처
 
-legal@bigbranestudios.com
-","最终用户许可协议（EULA）
+본 EULA에 관한 질문이나 우려 사항이 있는 경우 다음으로 연락해 주십시오:
+legal@bigbranestudios.com","最终用户许可协议（EULA）
+
 最后更新：2026年4月1日
 
 提示：为方便阅读，本文件可能会被翻译成多种语言。译文可能由自动方式生成，且可能包含不准确之处。具有法律约束力的英文版本可在以下地址查看：
@@ -1154,281 +1179,286 @@ https://www.sushiben.com/en/eula
 
 1. 范围
 
-1.1 本最终用户许可协议（“EULA”）规范您对 Sushi Ben（“本游戏”）的使用。本游戏由 Big Brane Studios, Inc.（“Big Brane”“我们”“本公司”）提供。
+1.1. 本最终用户许可协议（“EULA”）规范您对 Sushi Ben（“本游戏”）的使用。本游戏由 Big Brane Studios, Inc.（“Big Brane”“我们”“本公司”）提供。
 
-1.2 通过购买、下载、安装、访问或使用本游戏，即表示您同意本 EULA。如果您不同意本 EULA，请不要使用本游戏。我们可能不时更新本 EULA，在更新后继续使用本游戏即表示您接受修订后的条款。
+1.2. 通过购买、下载、安装、访问或使用本游戏，即表示您同意本 EULA。如果您不同意本 EULA，请不要使用本游戏。我们可能会不时更新本 EULA，在更新后继续使用本游戏即表示您接受修订后的条款。
 
-1.3 为同意本 EULA，您必须（a）年满18周岁，或已获得父母或法定监护人的同意；并且（b）具备订立具有法律约束力协议的法律能力。
+1.3. 为同意本 EULA，您必须（a）年满18周岁，或已获得父母或法定监护人的同意；并且（b）具备订立具有法律约束力协议的法律能力。
 
 2. 商店条款
 
-2.1 本游戏可能通过第三方平台提供，包括但不限于 Steam、PlayStation、HTC 和 Meta Quest（各称为“商店”）。
+2.1. 本游戏可能通过第三方平台提供，包括但不限于 Steam、PlayStation、HTC 和 Meta Quest（各称为“商店”）。
 
-2.2 您通过商店使用本游戏可能受到该商店条款和条件的约束。
+2.2. 您通过商店使用本游戏可能受到该商店条款和条件的约束。
 
-2.3 如果本 EULA 与商店条款之间存在冲突，则以商店条款为准，但仅限于冲突部分。
+2.3. 如果本 EULA 与商店条款之间存在冲突，则以商店条款为准，但仅限于冲突部分。
 
-2.4 与购买相关的所有问题（包括退款）必须向您购买本游戏的商店提出。
+2.4. 与购买相关的所有问题（包括退款）必须向您购买本游戏的商店提出。
 
 3. 隐私与个人信息
 
-您对本游戏的使用可能涉及个人信息的收集和使用。请查阅我们的《隐私与数据收集政策》：
+您对本游戏的使用可能涉及我们的《隐私与数据收集政策》中所述的个人信息收集、使用或披露。请在以下地址查阅该政策：
 https://www.sushiben.com/privacy
 
 4. 健康与安全信息
 
-4.1 在使用本游戏之前，请阅读本节内容。本节内容并非详尽无遗。
+4.1. 在使用本游戏之前，请阅读本节内容。本节内容并非详尽无遗。
 
-4.2 癫痫发作警告  
-部分人员在接触闪烁灯光或图案时可能会出现癫痫发作或意识丧失。如果您或您的家人曾有相关病史，请在使用本游戏前咨询医生。
+4.2. 癫痫发作警告。
+部分人员在接触闪烁灯光或图案时可能会出现癫痫发作或意识丧失。如果您或您的家人曾有癫痫病史，请在使用前咨询医生。
 
 如出现以下症状，请立即停止使用本游戏并咨询医生：
-- 抽搐  
-- 眼部或肌肉抽动  
-- 意识丧失  
-- 视觉异常  
-- 不自主运动  
-- 定向障碍  
+- 抽搐
+- 眼部或肌肉抽动
+- 意识丧失
+- 视觉异常
+- 不自主运动
+- 定向障碍
 
-4.3 晕动症  
-使用虚拟现实可能导致头晕或恶心。如出现不适，请停止使用并休息。
+4.3. 晕动症。
+使用虚拟现实可能导致头晕或恶心。如出现症状，请停止使用并休息。
 
-4.4 重复性运动损伤与视疲劳  
+4.4. 重复性运动损伤与视疲劳。
 请定期休息，如出现不适应立即停止使用。
 
-4.5 游戏区域安全  
-请确保游戏区域无障碍物，不要在危险环境中使用本游戏。
+4.5. 游戏区域注意事项。
+请确保游戏区域无危险物。请勿在靠近障碍物、尖锐物品或不安全环境的情况下使用本游戏。
 
-4.6 其他警告可能由平台提供。
+4.6. 平台提供方可能会提供其他警告。
 
 5. 知识产权
 
-本游戏及其内容的所有权利、所有权及利益均归 Big Brane 或其许可方所有，并受适用法律保护。
+本游戏及其内容的所有权利、所有权及利益均归 Big Brane 或其许可方所有，并受适用知识产权法律保护。
 
 6. 粉丝内容
 
-6.1 “粉丝内容”指基于本游戏创作的内容。
+6.1. 任何基于本游戏的非官方粉丝内容都必须遵守本 EULA 以及我们的《粉丝内容政策》。
 
-6.2 粉丝内容必须遵守本 EULA 及我们的粉丝内容政策：
-http://www.sushiben.com/fan-content
+6.2. 《粉丝内容政策》可在以下地址查看：
+https://www.sushiben.com/fan-content
 
-6.3 Big Brane 可随时撤销相关许可。
+6.3. Big Brane 可随时根据该政策撤销粉丝内容相关许可。
 
 7. 许可授予与限制
 
-7.1 在遵守本 EULA 的前提下，Big Brane 向您授予一项有限的、非独占的、不可转让的、可撤销的许可，仅供个人非商业用途使用一份本游戏副本。
+7.1. 在遵守本 EULA 的前提下，Big Brane 向您授予一项有限的、非独占的、不可转让的、可撤销的许可，仅供个人非商业用途使用一份本游戏副本。
 
-7.2 您可以：
-- 游玩本游戏  
-- 分享非商业用途的截图和视频  
+7.2. 您可以：
+- 游玩本游戏
+- 分享本游戏的非商业用途截图和视频
 
-7.3 您不得：
-- 复制、修改、分发、出售、出租或转让本游戏  
-- 进行反向工程、反编译或试图提取源代码（法律允许的除外）  
-- 将本游戏用于商业用途  
+7.3. 您不得：
+- 复制、修改、分发、出售、出租、再许可或转让本游戏
+- 在法律允许范围外进行反向工程、反编译或试图提取源代码
+- 未经授权将本游戏用于商业用途
 
-7.4 本许可不转让所有权。所有权利均归 Big Brane 及其许可方所有。
+7.4. 本许可不转让所有权。所有权利均归 Big Brane 及其许可方所有。
 
 8. 更新与修改
 
-8.1 我们可能提供更新，并可能要求您更新后方可继续使用本游戏。
+8.1. 我们可能提供继续使用本游戏所必需的更新。
 
-8.2 我们可随时修改或停止提供本游戏，且无需另行通知。
+8.2. 我们可随时在不另行通知的情况下修改、暂停或终止本游戏的全部或部分内容。
 
-8.3 我们没有义务支持旧版本。
+8.3. 我们没有义务支持本游戏的旧版本。
 
-9. 免责声明
+9. 保证与免责声明
 
-9.1 在法律允许的最大范围内，本游戏按“现状”和“可用状态”提供，不提供任何形式的保证。
+9.1. 在法律允许的最大范围内，本游戏按“现状”和“可用状态”提供，不提供任何形式的明示、默示、法定或其他保证，包括但不限于适销性、特定用途适用性、所有权和不侵权的默示保证。
 
-9.2 我们不保证本游戏不会中断、无错误或符合您的期望。
+9.2. 我们不保证本游戏不会中断、无错误或符合您的期望。
 
 10. 责任限制
 
-10.1 在法律允许的最大范围内，Big Brane 及其关联方不对任何间接、附带、特殊或惩罚性损害承担责任。
+10.1. 在法律允许的最大范围内，Big Brane 及其关联方、许可方和服务提供商不对因本 EULA、本游戏或您对本游戏的使用或无法使用而引起或与之相关的任何间接、附带、后果性、特殊、示范性或惩罚性损害承担责任。
 
-10.2 对因滥用、过失或未经授权修改导致的损害，我们不承担责任。
+10.2. 对因误用本游戏、您的过失或对本游戏的任何未经授权修改而产生的损害，Big Brane 不承担责任。
 
-10.3 在任何情况下，Big Brane 的总责任不超过您向 Big Brane 或授权分销商实际支付的金额。
+10.3. 在任何情况下，Big Brane 的总责任不超过您就本游戏实际支付给 Big Brane 或授权分销商的金额。
 
-10.4 本 EULA 不限制法律不可排除的权利。
+10.4. 本 EULA 的任何内容均不限制适用法律下不得排除的权利。
 
 11. 赔偿
 
-您同意对因违反本 EULA 或不当使用本游戏而产生的索赔对 Big Brane 进行赔偿并使其免责。
+您同意就因违反本 EULA 或误用本游戏而产生的任何索赔，为 Big Brane 及其关联方进行抗辩、赔偿并使其免受损害。
 
 12. 终止
 
-12.1 本 EULA 在终止前持续有效。
+12.1. 本 EULA 在终止前持续有效。
 
-12.2 如您违反本 EULA，我们可终止您的权利。
+12.2. 如您违反本 EULA 的条款，我们可终止本 EULA。
 
-12.3 终止后，您必须停止使用并删除所有副本。
+12.3. 终止后，您必须停止使用本游戏并删除所有副本。
+
+12.4. 凡依其性质应在终止后继续有效的本 EULA 条款，在终止后仍然有效，包括第5、9、10、11、13、14和15条。
 
 13. 适用法律与管辖
 
-13.1 本 EULA 受美国弗吉尼亚州法律管辖，并依其解释（不适用冲突法规则）。
+13.1. 本 EULA 受美国弗吉尼亚州法律管辖并依其解释，但不适用其法律冲突规则。
 
-13.2 所有争议应提交至美国弗吉尼亚州劳登县的州或联邦法院。
+13.2. 任何法律诉讼均应仅向位于美国弗吉尼亚州劳登县的州法院或联邦法院提起。
 
-13.3 您同意该等法院的管辖权并放弃异议。
+13.3. 您同意该等法院的管辖权和审判地，并放弃任何异议。
 
 14. 其他条款
 
-14.1 本 EULA 构成完整协议。
+14.1. 本 EULA 构成您与 Big Brane 之间的完整协议。
 
-14.2 如部分条款无效，其余条款仍然有效。
+14.2. 如任何条款无效，其余条款仍然有效。
 
-14.3 任何放弃必须以书面形式作出。
+14.3. 任何弃权均须以书面形式作出方为有效。
 
-14.4 本 EULA 不应因由 Big Brane 起草而对其不利解释。
+14.4. 本 EULA 不应因由 Big Brane 起草而对其作不利解释。
 
-14.5 本 EULA 的英文版本为唯一具有法律约束力的版本。翻译版本仅供参考。如有不一致，以英文版本为准。
+14.5. 本 EULA 的英文版本为唯一具有法律约束力的版本。翻译版本仅供参考。如有任何翻译版本与英文版本之间存在不一致、歧义或冲突，应以英文版本为准。
 
-15. 联系方式
+15. 联系我们
 
-legal@bigbranestudios.com
-","最終使用者授權合約（EULA）
+如果您对本 EULA 有任何问题或疑虑，请联系：
+legal@bigbranestudios.com","最終使用者授權合約（EULA）
+
 最後更新：2026年4月1日
 
-提示：為方便閱讀，本文件可能會被翻譯成多種語言。翻譯可能由自動方式產生，且可能包含不準確之處。具有法律拘束力的英文版本可於以下網址查閱：
+提示：為方便閱讀，本文件可能會被翻譯成多種語言。譯文可能由自動方式產生，且可能包含不準確之處。具有法律拘束力的英文版本可於以下網址查閱：
 https://www.sushiben.com/en/eula
 如翻譯版本與英文版本之間存在任何不一致、歧義或差異，應以英文版本為準。
 
 1. 範圍
 
-1.1 本最終使用者授權合約（「EULA」）規範您對 Sushi Ben（「本遊戲」）的使用。本遊戲由 Big Brane Studios, Inc.（「Big Brane」、「我們」、「本公司」）提供。
+1.1. 本最終使用者授權合約（「EULA」）規範您對 Sushi Ben（「本遊戲」）的使用。本遊戲由 Big Brane Studios, Inc.（「Big Brane」、「我們」、「本公司」）提供。
 
-1.2 透過購買、下載、安裝、存取或使用本遊戲，即表示您同意本 EULA。如果您不同意本 EULA，請勿使用本遊戲。我們可能不時更新本 EULA，於更新後繼續使用本遊戲即表示您接受修訂後的條款。
+1.2. 透過購買、下載、安裝、存取或使用本遊戲，即表示您同意本 EULA。如果您不同意本 EULA，請勿使用本遊戲。我們可能會不時更新本 EULA，於更新後繼續使用本遊戲即表示您接受修訂後的條款。
 
-1.3 為同意本 EULA，您必須（a）年滿18歲，或已獲得父母或法定監護人同意；以及（b）具備訂立具法律拘束力協議的能力。
+1.3. 為同意本 EULA，您必須（a）年滿18歲，或已獲得父母或法定監護人同意；以及（b）具備訂立具法律拘束力協議的能力。
 
 2. 商店條款
 
-2.1 本遊戲可能透過第三方平台提供，包括但不限於 Steam、PlayStation、HTC 與 Meta Quest（各稱為「商店」）。
+2.1. 本遊戲可能透過第三方平台提供，包括但不限於 Steam、PlayStation、HTC 與 Meta Quest（各稱為「商店」）。
 
-2.2 您透過商店使用本遊戲可能受該商店之條款與條件約束。
+2.2. 您透過商店使用本遊戲可能受該商店之條款與條件約束。
 
-2.3 如本 EULA 與商店條款之間存在衝突，則以商店條款為準，但僅限於衝突部分。
+2.3. 如本 EULA 與商店條款之間存在衝突，則以商店條款為準，但僅限於衝突部分。
 
-2.4 所有與購買相關的問題（包括退款）須向您購買本遊戲的商店提出。
+2.4. 所有與購買相關的問題（包括退款）須向您購買本遊戲的商店提出。
 
 3. 隱私與個人資訊
 
-您使用本遊戲可能涉及個人資訊的蒐集與使用。請參閱我們的《隱私與資料蒐集政策》：
+您使用本遊戲可能涉及我們的《隱私與資料蒐集政策》中所述之個人資訊蒐集、使用或揭露。請於以下網址查閱該政策：
 https://www.sushiben.com/privacy
 
 4. 健康與安全資訊
 
-4.1 使用本遊戲前請先閱讀本節內容。本節內容並非詳盡。
+4.1. 使用本遊戲前請先閱讀本節內容。本節內容並非詳盡。
 
-4.2 癲癇發作警告  
-部分人士在接觸閃爍光線或圖案時可能會出現癲癇發作或失去意識。如您或家人曾有相關病史，請於使用前諮詢醫師。
+4.2. 癲癇發作警告。
+部分人士在接觸閃爍光線或圖案時可能會出現癲癇發作或失去意識。如您或家人曾有癲癇病史，請於使用前諮詢醫師。
 
-如出現以下症狀，請立即停止使用並諮詢醫師：
-- 抽搐  
-- 眼部或肌肉抽動  
-- 意識喪失  
-- 視覺異常  
-- 不自主動作  
-- 定向障礙  
+如出現以下症狀，請立即停止使用本遊戲並諮詢醫師：
+- 抽搐
+- 眼部或肌肉抽動
+- 意識喪失
+- 視覺異常
+- 不自主動作
+- 定向障礙
 
-4.3 暈動症  
-使用虛擬實境可能引起頭暈或噁心。如出現不適，請停止使用並休息。
+4.3. 暈動症。
+使用虛擬實境可能引起頭暈或噁心。如出現症狀，請停止使用並休息。
 
-4.4 重複性動作傷害與視疲勞  
+4.4. 重複性動作傷害與視疲勞。
 請定期休息，如出現不適請停止使用。
 
-4.5 遊戲區域安全  
-請確保遊戲區域無障礙物，避免在危險環境中使用本遊戲。
+4.5. 遊戲區域注意事項。
+請確保遊戲區域無危險物。請勿在靠近障礙物、尖銳物品或不安全環境的情況下使用本遊戲。
 
-4.6 其他警告可能由平台提供。
+4.6. 其他警告可能由平台提供者提供。
 
 5. 智慧財產權
 
-本遊戲及其內容之所有權利、所有權與利益均歸 Big Brane 或其授權方所有，並受適用法律保護。
+本遊戲及其內容之所有權利、所有權與利益均歸 Big Brane 或其授權方所有，並受適用智慧財產權法律保護。
 
 6. 粉絲內容
 
-6.1 「粉絲內容」指基於本遊戲創作之內容。
+6.1. 任何基於本遊戲的非官方粉絲內容都必須遵守本 EULA 及我們的《粉絲內容政策》。
 
-6.2 粉絲內容須遵守本 EULA 及我們的粉絲內容政策：
-http://www.sushiben.com/fan-content
+6.2. 《粉絲內容政策》可於以下網址查閱：
+https://www.sushiben.com/fan-content
 
-6.3 Big Brane 可隨時撤銷相關許可。
+6.3. Big Brane 得隨時依該政策撤銷粉絲內容相關許可。
 
 7. 授權與限制
 
-7.1 在遵守本 EULA 之前提下，Big Brane 授予您一項有限、非專屬、不可轉讓且可撤銷之授權，僅供個人非商業用途使用一份本遊戲副本。
+7.1. 在遵守本 EULA 之前提下，Big Brane 授予您一項有限、非專屬、不可轉讓且可撤銷之授權，僅供個人非商業用途使用一份本遊戲副本。
 
-7.2 您可以：
-- 遊玩本遊戲  
-- 分享非商業用途之截圖與影片  
+7.2. 您可以：
+- 遊玩本遊戲
+- 分享本遊戲的非商業用途截圖與影片
 
-7.3 您不得：
-- 複製、修改、散布、出售、出租或轉讓本遊戲  
-- 進行反向工程、反編譯或試圖提取原始碼（法律允許者除外）  
-- 將本遊戲用於商業用途  
+7.3. 您不得：
+- 複製、修改、散布、出售、出租、再授權或轉讓本遊戲
+- 除法律允許外，進行反向工程、反編譯或試圖提取原始碼
+- 未經授權將本遊戲用於商業用途
 
-7.4 本授權不轉移所有權。所有權利仍歸 Big Brane 及其授權方所有。
+7.4. 本授權不轉移所有權。所有權利仍歸 Big Brane 及其授權方所有。
 
 8. 更新與修改
 
-8.1 我們可能提供更新，並可能要求您更新後方可繼續使用。
+8.1. 我們可能提供繼續使用本遊戲所必需的更新。
 
-8.2 我們可隨時修改或停止提供本遊戲，且無須事先通知。
+8.2. 我們可隨時在不另行通知的情況下修改、暫停或終止本遊戲之全部或部分內容。
 
-8.3 我們無義務支援舊版本。
+8.3. 我們無義務支援本遊戲的舊版本。
 
-9. 免責聲明
+9. 保證與免責聲明
 
-9.1 在法律允許的最大範圍內，本遊戲按「現狀」與「可用」提供，不提供任何形式之保證。
+9.1. 在法律允許的最大範圍內，本遊戲按「現狀」及「可用狀態」提供，不提供任何形式之明示、默示、法定或其他保證，包括但不限於適銷性、特定用途適用性、所有權及不侵權之默示保證。
 
-9.2 我們不保證本遊戲不中斷、無錯誤或符合您的期望。
+9.2. 我們不保證本遊戲不中斷、無錯誤或符合您的期望。
 
 10. 責任限制
 
-10.1 在法律允許的最大範圍內，Big Brane 及其關聯方不對任何間接、附帶、特殊或懲罰性損害負責。
+10.1. 在法律允許的最大範圍內，Big Brane 及其關聯方、授權方與服務提供者不對因本 EULA、本遊戲或您對本遊戲的使用或無法使用而引起或與之相關之任何間接、附帶、後果性、特殊、示範性或懲罰性損害負責。
 
-10.2 對於因濫用、過失或未經授權修改所導致之損害，我們不負責任。
+10.2. 對因誤用本遊戲、您的過失或對本遊戲之任何未經授權修改所導致的損害，Big Brane 不負責任。
 
-10.3 在任何情況下，Big Brane 的總責任不超過您向 Big Brane 或授權經銷商實際支付的金額。
+10.3. 在任何情況下，Big Brane 之總責任不超過您就本遊戲實際支付給 Big Brane 或授權經銷商之金額。
 
-10.4 本 EULA 不限制法律不可排除之權利。
+10.4. 本 EULA 之任何內容均不限制適用法律下不得排除之權利。
 
 11. 賠償
 
-您同意就因違反本 EULA 或不當使用本遊戲所引起之索賠，對 Big Brane 進行賠償並使其免受損害。
+您同意就因違反本 EULA 或誤用本遊戲而產生之任何請求，為 Big Brane 及其關聯方提供抗辯、賠償並使其免受損害。
 
 12. 終止
 
-12.1 本 EULA 在終止前持續有效。
+12.1. 本 EULA 在終止前持續有效。
 
-12.2 如您違反本 EULA，我們可終止您的權利。
+12.2. 如您違反本 EULA 之條款，我們可終止本 EULA。
 
-12.3 終止後，您必須停止使用並刪除所有副本。
+12.3. 終止後，您必須停止使用本遊戲並刪除所有副本。
+
+12.4. 凡依其性質應於終止後繼續有效之本 EULA 條款，於終止後仍然有效，包括第5、9、10、11、13、14與15條。
 
 13. 準據法與管轄
 
-13.1 本 EULA 受美國維吉尼亞州法律管轄並依其解釋（不適用衝突法規則）。
+13.1. 本 EULA 應受美國維吉尼亞州聯邦之法律管轄並依其解釋，但不適用其法律衝突規則。
 
-13.2 所有爭議應提交至美國維吉尼亞州勞登郡之州或聯邦法院。
+13.2. 任何法律訴訟均應僅向位於美國維吉尼亞州勞登郡之州法院或聯邦法院提起。
 
-13.3 您同意該等法院之管轄並放棄異議。
+13.3. 您同意該等法院之管轄權與審判地，並放棄任何異議。
 
 14. 其他條款
 
-14.1 本 EULA 構成完整協議。
+14.1. 本 EULA 構成您與 Big Brane 之間的完整協議。
 
-14.2 如任何條款無效，其餘條款仍然有效。
+14.2. 如任何條款無效，其餘條款仍然有效。
 
-14.3 任何放棄須以書面形式作出。
+14.3. 任何棄權均須以書面形式作出方為有效。
 
-14.4 本 EULA 不應因由 Big Brane 起草而對其不利解釋。
+14.4. 本 EULA 不應因由 Big Brane 起草而對其作不利解釋。
 
-14.5 本 EULA 的英文版本為唯一具有法律拘束力的版本。翻譯版本僅供參考。如有不一致，以英文版本為準。
+14.5. 本 EULA 的英文版本為唯一具有法律拘束力的版本。翻譯版本僅供參考。如翻譯版本與英文版本之間存在任何不一致、歧義或衝突，應以英文版本為準。
 
-15. 聯絡方式
+15. 聯絡我們
 
-legal@bigbranestudios.com
-"
+如果您對本 EULA 有任何問題或疑慮，請聯絡：
+legal@bigbranestudios.com"

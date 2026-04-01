@@ -1,15 +1,13 @@
-"key","context","en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"
-"legal.privacy.description","Meta description | Privacy Policy page","Privacy Policy for Sushi Ben.","Datenschutzerklärung für Sushi Ben.","Política de privacidad de Sushi Ben.","Politique de confidentialité de Sushi Ben.","Informativa sulla privacy di Sushi Ben.","Política de Privacidade de Sushi Ben.","Sushi Ben のプライバシーポリシーです。","Sushi Ben의 개인정보 처리방침입니다.","Sushi Ben 的隐私政策。","Sushi Ben 的隱私政策。"
-"legal.privacy.title","Page title | Privacy Policy page","Privacy Policy","Datenschutzerklärung","Política de privacidad","Politique de confidentialité","Informativa sulla privacy","Política de Privacidade","プライバシーポリシー","개인정보 처리방침","隐私政策","隱私政策"
-"legal.privacy.body","Legal body | Privacy Policy page","PRIVACY & DATA COLLECTION POLICY
+﻿key,context,en,de,es,fr,it,pt-br,ja,ko,zh-hans,zh-hant
+legal.privacy.description,Meta description | Privacy Policy page,Privacy & Data Collection Policy for Sushi Ben.,Datenschutz- und Datenerhebungsrichtlinie für Sushi Ben.,Política de privacidad y recopilación de datos de Sushi Ben.,Politique de confidentialité et de collecte des données de Sushi Ben.,Informativa sulla privacy e sulla raccolta dei dati di Sushi Ben.,Política de Privacidade e Coleta de Dados do Sushi Ben.,Sushi Ben のプライバシーおよびデータ収集ポリシーです。,Sushi Ben 개인정보 및 데이터 수집 정책입니다.,Sushi Ben 隐私与数据收集政策。,Sushi Ben 隱私與資料蒐集政策。
+legal.privacy.title,Page title | Privacy Policy page,Privacy Policy,Datenschutzerklärung,Política de privacidad,Politique de confidentialité,Informativa sulla privacy,Política de Privacidade,プライバシーポリシー,개인정보 처리방침,隐私政策,隱私政策
+legal.privacy.body,Legal body | Privacy Policy page,"PRIVACY & DATA COLLECTION POLICY
 
 Last Updated: April 1, 2026
 
 Notice: This document may be translated into multiple languages for convenience. Translations may be generated automatically and may contain inaccuracies. The legally binding English version is available at:
 https://www.sushiben.com/en/privacy
 In the event of any inconsistency, ambiguity, or discrepancy, the English version shall prevail.
-
-
 
 1. Scope
 
@@ -20,39 +18,40 @@ This Privacy & Data Collection Policy (“Policy”) governs how Big Brane Studi
 2.1 Big Brane does not collect personal data through gameplay. However, personal data may be collected through other interactions as described below.
 
 2.2 Personal data may be collected when voluntarily provided by users through:
-- Direct communications such as email, support requests, surveys, or bug reports
-- Public or private interactions on social media
-- Online forms or similar submissions
+- direct communications such as email, support requests, surveys, or bug reports;
+- public or private interactions on social media; and
+- online forms or similar submissions.
 
-2.3 Certain information (such as purchase history, gameplay activity, or location data) may be collected and processed by third-party platforms (e.g., Steam, PlayStation, Meta). Big Brane does not directly collect this data but may receive limited information from such platforms as necessary to operate and support the Game.
+2.3 Certain information may be collected and processed by third-party platforms or services, including storefronts, website hosts, video or music embeds, social platforms, and similar services. Big Brane does not directly collect all such data and may receive only limited information from such third parties when necessary to operate, maintain, support, or improve the Game or related services.
 
 2.4 Personal information that may be collected includes:
-- Name
-- Email address
-- Social media identifiers
-- Profile information voluntarily provided by users
+- name;
+- email address;
+- social media identifiers; and
+- profile information voluntarily provided by users.
 
 2.5 We use personal information to:
-- Provide support
-- Respond to inquiries
-- Improve the Game
-- Enforce legal terms
-- Prevent harmful or illegal activity
+- provide support;
+- respond to inquiries;
+- improve the Game and related services;
+- enforce legal terms; and
+- prevent harmful or illegal activity.
 
-2.6 We do not sell or share personal information with third parties except:
-- With your consent
-- To comply with legal obligations
-- To protect rights, safety, or property
+2.6 We do not sell personal information. We may disclose personal information:
+- with your consent;
+- to service providers or vendors acting on our behalf;
+- to comply with legal obligations; or
+- to protect rights, safety, or property.
 
 2.7 The Game is not intended for children under 13. We do not knowingly collect personal information from children under 13. If we become aware that such data has been collected, we will take reasonable steps to delete it.
 
 3. Legal Basis for Processing
 
 We process personal information based on:
-- Your consent
-- Contractual necessity
-- Legitimate business interests such as support and security
-- Compliance with legal obligations
+- your consent;
+- contractual necessity;
+- legitimate business interests, such as support, maintenance, and security; and
+- compliance with legal obligations.
 
 4. Data Retention
 
@@ -69,12 +68,12 @@ We may disclose personal information if required by law or in response to valid 
 7. Your Rights
 
 Depending on your jurisdiction, you may have rights including:
-- Access to your data
-- Correction of inaccurate data
-- Deletion of your data
-- Restriction or objection to processing
-- Data portability
-- Withdrawal of consent
+- access to your data;
+- correction of inaccurate data;
+- deletion of your data;
+- restriction of or objection to processing;
+- data portability; and
+- withdrawal of consent.
 
 To exercise your rights, contact:
 legal@bigbranestudios.com
@@ -83,11 +82,11 @@ We may need to verify your identity before processing requests.
 
 8. Third-Party Services
 
-We may link to or rely on third-party services that we do not control. We are not responsible for their privacy practices. We encourage you to review their policies.
+We may link to, embed, or rely on third-party services that we do not control. Those third parties may collect, process, or store information under their own terms and privacy policies. We are not responsible for their privacy practices, and we encourage you to review their policies.
 
 9. Changes to This Policy
 
-We may update this Policy from time to time. Updates will be posted on this page and reflected by the “Last Updated” date. Continued use of the Game after updates constitutes acceptance of the revised Policy.
+We may update this Policy from time to time. Any updates will be posted on this page and reflected by the “Last Updated” date at the top of the Policy.
 
 10. Governing Law
 
@@ -100,57 +99,57 @@ legal@bigbranestudios.com
 
 12. Language
 
-The English version of this Policy is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, ambiguity, or conflict between a translated version and the English version, the English version shall prevail.
-","DATENSCHUTZRICHTLINIE
+The English version of this Policy is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, ambiguity, or conflict between a translated version and the English version, the English version shall prevail.","DATENSCHUTZ- UND DATENERHEBUNGSRICHTLINIE
 
 Zuletzt aktualisiert: 1. April 2026
 
-Hinweis: Dieses Dokument kann aus Gründen der Benutzerfreundlichkeit in mehrere Sprachen übersetzt werden. Die Übersetzungen können automatisch erstellt werden und Ungenauigkeiten enthalten. Die rechtsverbindliche englische Fassung ist verfügbar unter:
+Hinweis: Dieses Dokument kann aus Gründen der Benutzerfreundlichkeit in mehrere Sprachen übersetzt werden. Übersetzungen können automatisch erstellt werden und Ungenauigkeiten enthalten. Die rechtsverbindliche englische Fassung ist verfügbar unter:
 https://www.sushiben.com/en/privacy
 Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Abweichungen hat die englische Fassung Vorrang.
 
 1. Geltungsbereich
 
-Diese Datenschutzrichtlinie („Richtlinie“) regelt, wie Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“) Informationen im Zusammenhang mit Sushi Ben (dem „Spiel“) erhebt, verwendet und schützt.
+Diese Datenschutz- und Datenerhebungsrichtlinie („Richtlinie“) regelt, wie Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“) Informationen im Zusammenhang mit Sushi Ben (dem „Spiel“) erhebt, verwendet und schützt.
 
 2. Datenerhebung und -verwendung
 
 2.1 Big Brane erhebt keine personenbezogenen Daten durch das Gameplay. Personenbezogene Daten können jedoch durch andere nachstehend beschriebene Interaktionen erhoben werden.
 
-2.2 Personenbezogene Daten können erhoben werden, wenn Nutzer sie freiwillig übermitteln, insbesondere durch:
-- direkte Kommunikation wie E-Mails, Supportanfragen, Umfragen oder Fehlerberichte
-- öffentliche oder private Interaktionen in sozialen Medien
-- Online-Formulare oder ähnliche Einsendungen
+2.2 Personenbezogene Daten können erhoben werden, wenn Nutzer sie freiwillig bereitstellen, insbesondere durch:
+- direkte Kommunikation wie E-Mails, Supportanfragen, Umfragen oder Fehlerberichte;
+- öffentliche oder private Interaktionen in sozialen Medien; und
+- Online-Formulare oder ähnliche Einsendungen.
 
-2.3 Bestimmte Informationen (wie Kaufhistorie, Spielaktivität oder Standortdaten) können von Drittplattformen (z. B. Steam, PlayStation oder Meta) erhoben und verarbeitet werden. Big Brane erhebt diese Daten nicht direkt, kann jedoch in dem Umfang, der für den Betrieb und die Unterstützung des Spiels erforderlich ist, begrenzte Informationen von solchen Plattformen erhalten.
+2.3 Bestimmte Informationen können von Drittplattformen oder -diensten erhoben und verarbeitet werden, einschließlich Storefronts, Website-Hosts, eingebetteter Video- oder Musikdienste, sozialer Plattformen und ähnlicher Dienste. Big Brane erhebt nicht alle derartigen Daten direkt und kann von solchen Dritten nur begrenzte Informationen erhalten, soweit dies für den Betrieb, die Wartung, den Support oder die Verbesserung des Spiels oder damit verbundener Dienste erforderlich ist.
 
 2.4 Zu den personenbezogenen Daten, die erhoben werden können, gehören:
-- Name
-- E-Mail-Adresse
-- Social-Media-Kennungen
-- Profilinformationen, die Nutzer freiwillig bereitstellen
+- Name;
+- E-Mail-Adresse;
+- Social-Media-Kennungen; und
+- Profilinformationen, die Nutzer freiwillig bereitstellen.
 
 2.5 Wir verwenden personenbezogene Daten, um:
-- Support bereitzustellen
-- auf Anfragen zu antworten
-- das Spiel zu verbessern
-- rechtliche Bedingungen durchzusetzen
-- schädliche oder rechtswidrige Aktivitäten zu verhindern
+- Support bereitzustellen;
+- auf Anfragen zu antworten;
+- das Spiel und damit verbundene Dienste zu verbessern;
+- rechtliche Bedingungen durchzusetzen; und
+- schädliche oder rechtswidrige Aktivitäten zu verhindern.
 
-2.6 Wir verkaufen oder teilen personenbezogene Daten nicht mit Dritten, außer:
-- mit Ihrer Einwilligung
-- zur Erfüllung gesetzlicher Verpflichtungen
-- zum Schutz von Rechten, Sicherheit oder Eigentum
+2.6 Wir verkaufen keine personenbezogenen Daten. Wir können personenbezogene Daten offenlegen:
+- mit Ihrer Einwilligung;
+- gegenüber Dienstleistern oder Anbietern, die in unserem Auftrag handeln;
+- zur Erfüllung gesetzlicher Verpflichtungen; oder
+- zum Schutz von Rechten, Sicherheit oder Eigentum.
 
 2.7 Das Spiel ist nicht für Kinder unter 13 Jahren bestimmt. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn uns bekannt wird, dass solche Daten erhoben wurden, werden wir angemessene Schritte unternehmen, um sie zu löschen.
 
 3. Rechtsgrundlage der Verarbeitung
 
 Wir verarbeiten personenbezogene Daten auf Grundlage von:
-- Ihrer Einwilligung
-- vertraglicher Erforderlichkeit
-- berechtigten geschäftlichen Interessen, wie Support und Sicherheit
-- der Einhaltung gesetzlicher Verpflichtungen
+- Ihrer Einwilligung;
+- vertraglicher Erforderlichkeit;
+- berechtigten geschäftlichen Interessen, wie Support, Wartung und Sicherheit; und
+- der Einhaltung gesetzlicher Verpflichtungen.
 
 4. Datenspeicherung
 
@@ -167,12 +166,12 @@ Wir können personenbezogene Daten offenlegen, wenn dies gesetzlich vorgeschrieb
 7. Ihre Rechte
 
 Abhängig von Ihrer Gerichtsbarkeit haben Sie möglicherweise folgende Rechte:
-- Zugriff auf Ihre Daten
-- Berichtigung unrichtiger Daten
-- Löschung Ihrer Daten
-- Einschränkung oder Widerspruch gegen die Verarbeitung
-- Datenübertragbarkeit
-- Widerruf einer Einwilligung
+- Zugriff auf Ihre Daten;
+- Berichtigung unrichtiger Daten;
+- Löschung Ihrer Daten;
+- Einschränkung der Verarbeitung oder Widerspruch gegen die Verarbeitung;
+- Datenübertragbarkeit; und
+- Widerruf einer Einwilligung.
 
 Zur Ausübung Ihrer Rechte kontaktieren Sie bitte:
 legal@bigbranestudios.com
@@ -181,11 +180,11 @@ Möglicherweise müssen wir Ihre Identität überprüfen, bevor wir Anfragen bea
 
 8. Dienste Dritter
 
-Wir können auf Dienste Dritter verlinken oder uns auf solche stützen, die wir nicht kontrollieren. Für deren Datenschutzpraktiken sind wir nicht verantwortlich. Wir empfehlen Ihnen, deren Richtlinien zu prüfen.
+Wir können auf Dienste Dritter verlinken, solche einbetten oder uns auf solche stützen, die wir nicht kontrollieren. Diese Dritten können Informationen nach ihren eigenen Bedingungen und Datenschutzrichtlinien erheben, verarbeiten oder speichern. Für deren Datenschutzpraktiken sind wir nicht verantwortlich, und wir empfehlen Ihnen, deren Richtlinien zu prüfen.
 
 9. Änderungen dieser Richtlinie
 
-Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Aktualisierungen werden auf dieser Seite veröffentlicht und durch das Datum „Zuletzt aktualisiert“ kenntlich gemacht. Die fortgesetzte Nutzung des Spiels nach solchen Aktualisierungen gilt als Annahme der überarbeiteten Richtlinie.
+Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Etwaige Aktualisierungen werden auf dieser Seite veröffentlicht und durch das Datum „Zuletzt aktualisiert“ am Anfang der Richtlinie kenntlich gemacht.
 
 10. Geltendes Recht
 
@@ -215,39 +214,40 @@ Esta Política de Privacidad y Recopilación de Datos (la “Política”) regul
 2.1 Big Brane no recopila datos personales a través de la jugabilidad. Sin embargo, los datos personales pueden recopilarse a través de otras interacciones descritas a continuación.
 
 2.2 Los datos personales pueden recopilarse cuando los usuarios los proporcionan voluntariamente mediante:
-- comunicaciones directas como correos electrónicos, solicitudes de asistencia, encuestas o informes de errores
-- interacciones públicas o privadas en redes sociales
-- formularios en línea u otros envíos similares
+- comunicaciones directas como correos electrónicos, solicitudes de asistencia, encuestas o informes de errores;
+- interacciones públicas o privadas en redes sociales; y
+- formularios en línea u otros envíos similares.
 
-2.3 Determinada información (como historial de compras, actividad de juego o datos de ubicación) puede ser recopilada y procesada por plataformas de terceros (por ejemplo, Steam, PlayStation o Meta). Big Brane no recopila directamente estos datos, pero puede recibir información limitada de dichas plataformas cuando sea necesario para operar y dar soporte al Juego.
+2.3 Cierta información puede ser recopilada y tratada por plataformas o servicios de terceros, incluidos escaparates digitales, servicios de alojamiento web, contenidos integrados de video o música, plataformas sociales y servicios similares. Big Brane no recopila directamente todos esos datos y puede recibir de dichos terceros únicamente información limitada cuando sea necesario para operar, mantener, dar soporte o mejorar el Juego o los servicios relacionados.
 
 2.4 La información personal que puede recopilarse incluye:
-- nombre
-- dirección de correo electrónico
-- identificadores de redes sociales
-- información de perfil proporcionada voluntariamente por los usuarios
+- nombre;
+- dirección de correo electrónico;
+- identificadores de redes sociales; y
+- información de perfil proporcionada voluntariamente por los usuarios.
 
 2.5 Utilizamos la información personal para:
-- proporcionar asistencia
-- responder a consultas
-- mejorar el Juego
-- hacer cumplir los términos legales
-- prevenir actividades dañinas o ilegales
+- proporcionar asistencia;
+- responder a consultas;
+- mejorar el Juego y los servicios relacionados;
+- hacer cumplir los términos legales; y
+- prevenir actividades dañinas o ilegales.
 
-2.6 No vendemos ni compartimos información personal con terceros, excepto:
-- con su consentimiento
-- para cumplir obligaciones legales
-- para proteger derechos, seguridad o propiedad
+2.6 No vendemos información personal. Podemos divulgar información personal:
+- con su consentimiento;
+- a proveedores de servicios o vendedores que actúen en nuestro nombre;
+- para cumplir obligaciones legales; o
+- para proteger derechos, seguridad o propiedad.
 
 2.7 El Juego no está destinado a niños menores de 13 años. No recopilamos deliberadamente información personal de niños menores de 13 años. Si llegamos a tener conocimiento de que se han recopilado dichos datos, adoptaremos medidas razonables para eliminarlos.
 
 3. Base legal del tratamiento
 
 Tratamos la información personal sobre la base de:
-- su consentimiento
-- la necesidad contractual
-- intereses comerciales legítimos, como asistencia y seguridad
-- el cumplimiento de obligaciones legales
+- su consentimiento;
+- la necesidad contractual;
+- intereses comerciales legítimos, como asistencia, mantenimiento y seguridad; y
+- el cumplimiento de obligaciones legales.
 
 4. Conservación de datos
 
@@ -264,12 +264,12 @@ Podemos divulgar información personal si la ley lo exige o en respuesta a solic
 7. Sus derechos
 
 Dependiendo de su jurisdicción, usted puede tener derechos que incluyen:
-- acceso a sus datos
-- corrección de datos inexactos
-- eliminación de sus datos
-- restricción u oposición al tratamiento
-- portabilidad de los datos
-- retirada del consentimiento
+- acceso a sus datos;
+- corrección de datos inexactos;
+- eliminación de sus datos;
+- restricción del tratamiento u oposición al tratamiento;
+- portabilidad de los datos; y
+- retirada del consentimiento.
 
 Para ejercer sus derechos, póngase en contacto con:
 legal@bigbranestudios.com
@@ -278,11 +278,11 @@ Es posible que necesitemos verificar su identidad antes de tramitar solicitudes.
 
 8. Servicios de terceros
 
-Podemos incluir enlaces a servicios de terceros o depender de ellos, y no los controlamos. No somos responsables de sus prácticas de privacidad. Le recomendamos revisar sus políticas.
+Podemos enlazar, incrustar o depender de servicios de terceros que no controlamos. Dichos terceros pueden recopilar, tratar o almacenar información conforme a sus propios términos y políticas de privacidad. No somos responsables de sus prácticas de privacidad y le recomendamos revisar sus políticas.
 
 9. Cambios en esta Política
 
-Podemos actualizar esta Política ocasionalmente. Las actualizaciones se publicarán en esta página y se reflejarán mediante la fecha de “Última actualización”. El uso continuado del Juego después de dichas actualizaciones constituye la aceptación de la Política revisada.
+Podemos actualizar esta Política ocasionalmente. Cualquier actualización se publicará en esta página y se reflejará mediante la fecha de “Última actualización” en la parte superior de la Política.
 
 10. Legislación aplicable
 
@@ -312,39 +312,40 @@ La présente Politique de confidentialité et de collecte des données (la « Po
 2.1 Big Brane ne collecte pas de données personnelles par le biais du gameplay. Toutefois, des données personnelles peuvent être collectées par d’autres interactions décrites ci-dessous.
 
 2.2 Des données personnelles peuvent être collectées lorsque les utilisateurs les fournissent volontairement, notamment par :
-- des communications directes telles que des e-mails, des demandes d’assistance, des enquêtes ou des signalements de bogues
-- des interactions publiques ou privées sur les réseaux sociaux
-- des formulaires en ligne ou des soumissions similaires
+- des communications directes telles que des e-mails, des demandes d’assistance, des enquêtes ou des signalements de bogues ;
+- des interactions publiques ou privées sur les réseaux sociaux ; et
+- des formulaires en ligne ou des soumissions similaires.
 
-2.3 Certaines informations (telles que l’historique des achats, l’activité de jeu ou les données de localisation) peuvent être collectées et traitées par des plateformes tierces (par exemple Steam, PlayStation ou Meta). Big Brane ne collecte pas directement ces données, mais peut recevoir des informations limitées de ces plateformes lorsque cela est nécessaire pour exploiter et prendre en charge le Jeu.
+2.3 Certaines informations peuvent être collectées et traitées par des plateformes ou services tiers, y compris des vitrines numériques, des hébergeurs de sites web, des contenus vidéo ou musicaux intégrés, des plateformes sociales et des services similaires. Big Brane ne collecte pas directement l’ensemble de ces données et peut ne recevoir de tels tiers que des informations limitées lorsque cela est nécessaire pour exploiter, maintenir, prendre en charge ou améliorer le Jeu ou les services connexes.
 
 2.4 Les informations personnelles pouvant être collectées comprennent :
-- le nom
-- l’adresse e-mail
-- les identifiants de réseaux sociaux
-- les informations de profil fournies volontairement par les utilisateurs
+- le nom ;
+- l’adresse e-mail ;
+- les identifiants de réseaux sociaux ; et
+- les informations de profil fournies volontairement par les utilisateurs.
 
 2.5 Nous utilisons les informations personnelles afin de :
-- fournir une assistance
-- répondre aux demandes
-- améliorer le Jeu
-- faire respecter les conditions juridiques
-- prévenir les activités nuisibles ou illégales
+- fournir une assistance ;
+- répondre aux demandes ;
+- améliorer le Jeu et les services connexes ;
+- faire respecter les conditions juridiques ; et
+- prévenir les activités nuisibles ou illégales.
 
-2.6 Nous ne vendons ni ne partageons les informations personnelles avec des tiers, sauf :
-- avec votre consentement
-- pour respecter des obligations légales
-- pour protéger des droits, la sécurité ou des biens
+2.6 Nous ne vendons pas d’informations personnelles. Nous pouvons divulguer des informations personnelles :
+- avec votre consentement ;
+- à des prestataires de services ou fournisseurs agissant pour notre compte ;
+- pour respecter des obligations légales ; ou
+- pour protéger des droits, la sécurité ou des biens.
 
 2.7 Le Jeu n’est pas destiné aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d’informations personnelles auprès d’enfants de moins de 13 ans. Si nous apprenons que de telles données ont été collectées, nous prendrons des mesures raisonnables pour les supprimer.
 
 3. Base juridique du traitement
 
 Nous traitons les informations personnelles sur la base :
-- de votre consentement
-- de la nécessité contractuelle
-- d’intérêts commerciaux légitimes, tels que l’assistance et la sécurité
-- du respect des obligations légales
+- de votre consentement ;
+- de la nécessité contractuelle ;
+- d’intérêts commerciaux légitimes, tels que l’assistance, la maintenance et la sécurité ; et
+- du respect des obligations légales.
 
 4. Conservation des données
 
@@ -361,12 +362,12 @@ Nous pouvons divulguer des informations personnelles si la loi l’exige ou en r
 7. Vos droits
 
 Selon votre juridiction, vous pouvez disposer notamment des droits suivants :
-- accès à vos données
-- rectification de données inexactes
-- suppression de vos données
-- limitation du traitement ou opposition au traitement
-- portabilité des données
-- retrait du consentement
+- accès à vos données ;
+- rectification de données inexactes ;
+- suppression de vos données ;
+- limitation du traitement ou opposition au traitement ;
+- portabilité des données ; et
+- retrait du consentement.
 
 Pour exercer vos droits, veuillez contacter :
 legal@bigbranestudios.com
@@ -375,11 +376,11 @@ Nous pouvons être amenés à vérifier votre identité avant de traiter une dem
 
 8. Services tiers
 
-Nous pouvons inclure des liens vers des services tiers ou nous appuyer sur ceux-ci sans les contrôler. Nous ne sommes pas responsables de leurs pratiques en matière de confidentialité. Nous vous encourageons à consulter leurs politiques.
+Nous pouvons inclure des liens vers des services tiers, intégrer ces services ou nous appuyer sur eux sans les contrôler. Ces tiers peuvent collecter, traiter ou conserver des informations selon leurs propres conditions et politiques de confidentialité. Nous ne sommes pas responsables de leurs pratiques en matière de confidentialité et nous vous encourageons à consulter leurs politiques.
 
 9. Modifications de la présente Politique
 
-Nous pouvons mettre à jour la présente Politique de temps à autre. Les mises à jour seront publiées sur cette page et reflétées par la date de « Dernière mise à jour ». La poursuite de l’utilisation du Jeu après de telles mises à jour constitue une acceptation de la Politique révisée.
+Nous pouvons mettre à jour la présente Politique de temps à autre. Toute mise à jour sera publiée sur cette page et reflétée par la date de « Dernière mise à jour » figurant en haut de la Politique.
 
 10. Droit applicable
 
@@ -409,39 +410,40 @@ La presente Informativa sulla privacy e sulla raccolta dei dati (l’“Informat
 2.1 Big Brane non raccoglie dati personali tramite il gameplay. Tuttavia, i dati personali possono essere raccolti tramite altre interazioni descritte di seguito.
 
 2.2 I dati personali possono essere raccolti quando gli utenti li forniscono volontariamente attraverso:
-- comunicazioni dirette come e-mail, richieste di assistenza, sondaggi o segnalazioni di bug
-- interazioni pubbliche o private sui social media
-- moduli online o invii simili
+- comunicazioni dirette come e-mail, richieste di assistenza, sondaggi o segnalazioni di bug;
+- interazioni pubbliche o private sui social media; e
+- moduli online o invii simili.
 
-2.3 Alcune informazioni (come cronologia degli acquisti, attività di gioco o dati sulla posizione) possono essere raccolte ed elaborate da piattaforme di terzi (ad esempio Steam, PlayStation o Meta). Big Brane non raccoglie direttamente tali dati, ma può ricevere informazioni limitate da tali piattaforme nella misura necessaria per gestire e supportare il Gioco.
+2.3 Alcune informazioni possono essere raccolte ed elaborate da piattaforme o servizi di terzi, inclusi storefront, host di siti web, contenuti video o musicali incorporati, piattaforme sociali e servizi simili. Big Brane non raccoglie direttamente tutti questi dati e può ricevere da tali terzi solo informazioni limitate quando necessario per gestire, mantenere, supportare o migliorare il Gioco o i servizi correlati.
 
 2.4 Le informazioni personali che possono essere raccolte includono:
-- nome
-- indirizzo e-mail
-- identificativi dei social media
-- informazioni del profilo fornite volontariamente dagli utenti
+- nome;
+- indirizzo e-mail;
+- identificativi dei social media; e
+- informazioni del profilo fornite volontariamente dagli utenti.
 
 2.5 Utilizziamo le informazioni personali per:
-- fornire assistenza
-- rispondere alle richieste
-- migliorare il Gioco
-- far rispettare i termini legali
-- prevenire attività dannose o illegali
+- fornire assistenza;
+- rispondere alle richieste;
+- migliorare il Gioco e i servizi correlati;
+- far rispettare i termini legali; e
+- prevenire attività dannose o illegali.
 
-2.6 Non vendiamo né condividiamo informazioni personali con terzi, salvo:
-- con il tuo consenso
-- per adempiere a obblighi di legge
-- per proteggere diritti, sicurezza o proprietà
+2.6 Non vendiamo informazioni personali. Possiamo divulgare informazioni personali:
+- con il tuo consenso;
+- a fornitori di servizi o venditori che agiscono per nostro conto;
+- per adempiere a obblighi di legge; o
+- per proteggere diritti, sicurezza o proprietà.
 
 2.7 Il Gioco non è destinato ai minori di 13 anni. Non raccogliamo consapevolmente informazioni personali da minori di 13 anni. Se veniamo a conoscenza del fatto che tali dati sono stati raccolti, adotteremo misure ragionevoli per eliminarli.
 
 3. Base giuridica del trattamento
 
 Trattiamo le informazioni personali sulla base di:
-- tuo consenso
-- necessità contrattuale
-- legittimi interessi commerciali, quali assistenza e sicurezza
-- adempimento di obblighi di legge
+- tuo consenso;
+- necessità contrattuale;
+- legittimi interessi commerciali, quali assistenza, manutenzione e sicurezza; e
+- adempimento di obblighi di legge.
 
 4. Conservazione dei dati
 
@@ -458,12 +460,12 @@ Possiamo divulgare informazioni personali se richiesto dalla legge o in risposta
 7. I tuoi diritti
 
 A seconda della tua giurisdizione, potresti avere diritti che includono:
-- accesso ai tuoi dati
-- correzione di dati inesatti
-- cancellazione dei tuoi dati
-- limitazione o opposizione al trattamento
-- portabilità dei dati
-- revoca del consenso
+- accesso ai tuoi dati;
+- correzione di dati inesatti;
+- cancellazione dei tuoi dati;
+- limitazione o opposizione al trattamento;
+- portabilità dei dati; e
+- revoca del consenso.
 
 Per esercitare i tuoi diritti, contatta:
 legal@bigbranestudios.com
@@ -472,11 +474,11 @@ Potremmo dover verificare la tua identità prima di elaborare le richieste.
 
 8. Servizi di terzi
 
-Possiamo fornire collegamenti a servizi di terzi o fare affidamento su di essi senza controllarli. Non siamo responsabili delle loro pratiche in materia di privacy. Ti invitiamo a consultare le loro informative.
+Possiamo collegarci a servizi di terzi, incorporarli o fare affidamento su di essi senza controllarli. Tali terzi possono raccogliere, elaborare o conservare informazioni secondo i propri termini e le proprie informative sulla privacy. Non siamo responsabili delle loro pratiche in materia di privacy e ti invitiamo a consultare le loro politiche.
 
 9. Modifiche alla presente Informativa
 
-Possiamo aggiornare la presente Informativa di tanto in tanto. Gli aggiornamenti saranno pubblicati su questa pagina e indicati tramite la data di “Ultimo aggiornamento”. L’uso continuato del Gioco dopo tali aggiornamenti costituisce accettazione dell’Informativa aggiornata.
+Possiamo aggiornare la presente Informativa di tanto in tanto. Eventuali aggiornamenti saranno pubblicati su questa pagina e indicati tramite la data di “Ultimo aggiornamento” riportata nella parte superiore dell’Informativa.
 
 10. Legge applicabile
 
@@ -506,39 +508,40 @@ Esta Política de Privacidade e Coleta de Dados (“Política”) rege a forma c
 2.1 A Big Brane não coleta dados pessoais por meio da jogabilidade. No entanto, dados pessoais podem ser coletados por meio de outras interações descritas abaixo.
 
 2.2 Dados pessoais podem ser coletados quando os usuários os fornecem voluntariamente por meio de:
-- comunicações diretas, como e-mails, solicitações de suporte, pesquisas ou relatórios de bugs
-- interações públicas ou privadas em redes sociais
-- formulários on-line ou envios semelhantes
+- comunicações diretas, como e-mails, solicitações de suporte, pesquisas ou relatórios de bugs;
+- interações públicas ou privadas em redes sociais; e
+- formulários on-line ou envios semelhantes.
 
-2.3 Certas informações (como histórico de compras, atividade de jogo ou dados de localização) podem ser coletadas e processadas por plataformas de terceiros (por exemplo, Steam, PlayStation ou Meta). A Big Brane não coleta esses dados diretamente, mas pode receber informações limitadas dessas plataformas quando necessário para operar e dar suporte ao Jogo.
+2.3 Certas informações podem ser coletadas e tratadas por plataformas ou serviços de terceiros, incluindo vitrines digitais, hospedagem de sites, conteúdos de vídeo ou música incorporados, plataformas sociais e serviços semelhantes. A Big Brane não coleta diretamente todos esses dados e pode receber dessas terceiras partes apenas informações limitadas quando necessário para operar, manter, dar suporte ou melhorar o Jogo ou os serviços relacionados.
 
 2.4 As informações pessoais que podem ser coletadas incluem:
-- nome
-- endereço de e-mail
-- identificadores de redes sociais
-- informações de perfil fornecidas voluntariamente pelos usuários
+- nome;
+- endereço de e-mail;
+- identificadores de redes sociais; e
+- informações de perfil fornecidas voluntariamente pelos usuários.
 
 2.5 Usamos informações pessoais para:
-- fornecer suporte
-- responder a dúvidas e solicitações
-- melhorar o Jogo
-- fazer cumprir termos legais
-- prevenir atividades nocivas ou ilegais
+- fornecer suporte;
+- responder a dúvidas e solicitações;
+- melhorar o Jogo e os serviços relacionados;
+- fazer cumprir termos legais; e
+- prevenir atividades nocivas ou ilegais.
 
-2.6 Não vendemos nem compartilhamos informações pessoais com terceiros, exceto:
-- com o seu consentimento
-- para cumprir obrigações legais
-- para proteger direitos, segurança ou propriedade
+2.6 Não vendemos informações pessoais. Podemos divulgar informações pessoais:
+- com o seu consentimento;
+- a prestadores de serviços ou fornecedores que atuem em nosso nome;
+- para cumprir obrigações legais; ou
+- para proteger direitos, segurança ou propriedade.
 
 2.7 O Jogo não se destina a crianças menores de 13 anos. Não coletamos conscientemente informações pessoais de crianças menores de 13 anos. Se tomarmos conhecimento de que tais dados foram coletados, tomaremos medidas razoáveis para excluí-los.
 
 3. Base legal para o tratamento
 
 Tratamos informações pessoais com base em:
-- seu consentimento
-- necessidade contratual
-- interesses comerciais legítimos, como suporte e segurança
-- cumprimento de obrigações legais
+- seu consentimento;
+- necessidade contratual;
+- interesses comerciais legítimos, como suporte, manutenção e segurança; e
+- cumprimento de obrigações legais.
 
 4. Retenção de dados
 
@@ -555,12 +558,12 @@ Podemos divulgar informações pessoais se exigido por lei ou em resposta a soli
 7. Seus direitos
 
 Dependendo da sua jurisdição, você pode ter direitos que incluem:
-- acesso aos seus dados
-- correção de dados imprecisos
-- exclusão dos seus dados
-- restrição ou objeção ao tratamento
-- portabilidade dos dados
-- retirada do consentimento
+- acesso aos seus dados;
+- correção de dados imprecisos;
+- exclusão dos seus dados;
+- restrição ou objeção ao tratamento;
+- portabilidade dos dados; e
+- retirada do consentimento.
 
 Para exercer seus direitos, entre em contato com:
 legal@bigbranestudios.com
@@ -569,11 +572,11 @@ Podemos precisar verificar sua identidade antes de processar solicitações.
 
 8. Serviços de terceiros
 
-Podemos fornecer links para serviços de terceiros ou depender deles, sem controlá-los. Não somos responsáveis por suas práticas de privacidade. Incentivamos você a revisar suas políticas.
+Podemos criar links para serviços de terceiros, incorporá-los ou depender deles sem controlá-los. Esses terceiros podem coletar, tratar ou armazenar informações de acordo com seus próprios termos e políticas de privacidade. Não somos responsáveis por suas práticas de privacidade e incentivamos você a revisar suas políticas.
 
 9. Alterações nesta Política
 
-Podemos atualizar esta Política periodicamente. As atualizações serão publicadas nesta página e refletidas na data de “Última atualização”. O uso contínuo do Jogo após tais atualizações constitui aceitação da Política revisada.
+Podemos atualizar esta Política periodicamente. Quaisquer atualizações serão publicadas nesta página e refletidas na data de “Última atualização” no topo da Política.
 
 10. Lei aplicável
 
@@ -586,17 +589,17 @@ legal@bigbranestudios.com
 
 12. Idioma
 
-A versão em inglês desta Política é a única versão legalmente vinculante. As traduções são fornecidas apenas por conveniência. Em caso de inconsistência, ambiguidade ou conflito entre uma versão traduzida e a versão em inglês, prevalecerá a versão em inglês.","プライバシーおよびデータ収集ポリシー
+A versão em inglês desta Política é a única versão legalmente vinculante. As traduções são fornecidas apenas por conveniência. Em caso de qualquer inconsistência, ambiguidade ou conflito entre uma versão traduzida e a versão em inglês, prevalecerá a versão em inglês.","プライバシーおよびデータ収集ポリシー
 
 最終更新日：2026年4月1日
 
-注意: 本文書は便宜上、複数の言語に翻訳される場合があります。翻訳は自動生成される場合があり、不正確な表現を含むことがあります。法的拘束力を有する英語版は以下でご覧いただけます。
+注意：本書は利便性のため複数の言語に翻訳される場合があります。翻訳は自動生成されることがあり、不正確な表現を含む可能性があります。法的拘束力を有する英語版は以下でご覧いただけます：
 https://www.sushiben.com/en/privacy
 翻訳版と英語版との間に不一致、曖昧さ、または相違がある場合は、英語版が優先されます。
 
 1. 適用範囲
 
-本プライバシーおよびデータ収集ポリシー（以下「本ポリシー」といいます。）は、Big Brane Studios, Inc.（以下「Big Brane」、「当社」）が、Sushi Ben（以下「本ゲーム」）に関連する情報をどのように収集、使用および保護するかを定めるものです。
+本プライバシーおよびデータ収集ポリシー（以下「本ポリシー」といいます。）は、Big Brane Studios, Inc.（以下「Big Brane」「当社」）が、Sushi Ben（以下「本ゲーム」）に関連する情報をどのように収集、使用および保護するかを定めるものです。
 
 2. データの収集および利用
 
@@ -607,7 +610,7 @@ https://www.sushiben.com/en/privacy
 - ソーシャルメディア上での公開または非公開のやり取り
 - オンラインフォームまたはこれに類する送信
 
-2.3 購入履歴、ゲームプレイ状況、位置情報などの一定の情報は、第三者プラットフォーム（Steam、PlayStation、Meta など）によって収集および処理される場合があります。Big Brane はこれらのデータを直接収集しませんが、本ゲームの運営およびサポートに必要な範囲で、当該プラットフォームから限定的な情報を受領する場合があります。
+2.3 一定の情報は、ストアフロント、ウェブサイトホスト、動画または音楽の埋め込み、ソーシャルプラットフォーム、その他これらに類する第三者のプラットフォームまたはサービスによって収集および処理される場合があります。Big Brane はそのようなデータのすべてを直接収集するわけではなく、本ゲームまたは関連サービスの運営、維持、サポート、または改善のために必要な範囲で、当該第三者から限定的な情報を受領する場合があります。
 
 2.4 収集される可能性のある個人情報には、以下が含まれます。
 - 氏名
@@ -618,12 +621,13 @@ https://www.sushiben.com/en/privacy
 2.5 当社は、個人情報を以下の目的で利用します。
 - サポートの提供
 - お問い合わせへの対応
-- 本ゲームの改善
+- 本ゲームおよび関連サービスの改善
 - 法的条件の執行
 - 有害または違法な行為の防止
 
-2.6 当社は、以下の場合を除き、個人情報を第三者に販売または共有しません。
+2.6 当社は、個人情報を販売しません。当社は、以下の場合に個人情報を開示することがあります。
 - お客様の同意がある場合
+- 当社のために業務を行うサービス提供者またはベンダーに対して開示する場合
 - 法的義務を遵守するために必要な場合
 - 権利、安全または財産を保護するために必要な場合
 
@@ -634,7 +638,7 @@ https://www.sushiben.com/en/privacy
 当社は、以下の根拠に基づいて個人情報を処理します。
 - お客様の同意
 - 契約上の必要性
-- サポートおよびセキュリティなどの正当な事業上の利益
+- サポート、保守およびセキュリティなどの正当な事業上の利益
 - 法的義務の遵守
 
 4. データ保持
@@ -666,11 +670,11 @@ legal@bigbranestudios.com
 
 8. 第三者サービス
 
-当社は、当社が管理していない第三者サービスへのリンクを掲載したり、それらに依拠したりする場合があります。当社は、それらのプライバシー慣行について責任を負いません。お客様には、それらのポリシーを確認されることをお勧めします。
+当社は、当社が管理していない第三者サービスへのリンクを掲載したり、それらを埋め込んだり、それらに依拠したりする場合があります。これらの第三者は、自らの条件およびプライバシーポリシーに従って情報を収集、処理または保存する場合があります。当社は、それらのプライバシー慣行について責任を負わず、お客様にはそれらのポリシーを確認されることをお勧めします。
 
 9. 本ポリシーの変更
 
-当社は、本ポリシーを随時更新することがあります。更新内容は本ページに掲載され、「最終更新日」に反映されます。更新後も本ゲームを継続して利用した場合、改定後の本ポリシーに同意したものとみなされます。
+当社は、本ポリシーを随時更新することがあります。更新内容は本ページに掲載され、本ポリシーの上部に記載された「最終更新日」に反映されます。
 
 10. 準拠法
 
@@ -693,46 +697,47 @@ https://www.sushiben.com/en/privacy
 
 1. 적용 범위
 
-본 개인정보 및 데이터 수집 정책(이하 “정책”)은 Big Brane Studios, Inc.(이하 “Big Brane”, “당사”, “당사를”)가 Sushi Ben(이하 “게임”)과 관련된 정보를 어떻게 수집, 사용 및 보호하는지를 규정합니다.
+본 개인정보 및 데이터 수집 정책(이하 “본 정책”)은 Big Brane Studios, Inc.(이하 “Big Brane”, “당사”)가 Sushi Ben(이하 “게임”)과 관련된 정보를 어떻게 수집, 사용 및 보호하는지를 규정합니다.
 
 2. 데이터 수집 및 이용
 
 2.1 Big Brane은 게임 플레이를 통해 개인정보를 수집하지 않습니다. 다만, 아래에 설명된 다른 상호작용을 통해 개인정보가 수집될 수 있습니다.
 
 2.2 개인정보는 사용자가 다음과 같은 방식으로 자발적으로 제공하는 경우 수집될 수 있습니다:
-- 이메일, 고객지원 요청, 설문조사 또는 버그 제보와 같은 직접적인 연락
-- 소셜 미디어에서의 공개 또는 비공개 상호작용
-- 온라인 양식 또는 이와 유사한 제출
+- 이메일, 고객지원 요청, 설문조사 또는 버그 제보와 같은 직접적인 연락;
+- 소셜 미디어에서의 공개 또는 비공개 상호작용; 및
+- 온라인 양식 또는 이와 유사한 제출.
 
-2.3 구매 내역, 게임 활동 또는 위치 정보와 같은 일부 정보는 제3자 플랫폼(예: Steam, PlayStation, Meta)에 의해 수집 및 처리될 수 있습니다. Big Brane은 이러한 데이터를 직접 수집하지 않지만, 게임의 운영 및 지원에 필요한 범위 내에서 해당 플랫폼으로부터 제한된 정보를 제공받을 수 있습니다.
+2.3 일부 정보는 디지털 스토어, 웹사이트 호스팅 서비스, 동영상 또는 음악 임베드, 소셜 플랫폼 및 이와 유사한 제3자 플랫폼 또는 서비스에 의해 수집 및 처리될 수 있습니다. Big Brane은 이러한 모든 데이터를 직접 수집하지 않으며, 게임 또는 관련 서비스의 운영, 유지, 지원 또는 개선을 위해 필요한 경우에 한해 해당 제3자로부터 제한된 정보만 제공받을 수 있습니다.
 
 2.4 수집될 수 있는 개인정보에는 다음이 포함됩니다:
-- 이름
-- 이메일 주소
-- 소셜 미디어 식별 정보
-- 사용자가 자발적으로 제공한 프로필 정보
+- 이름;
+- 이메일 주소;
+- 소셜 미디어 식별 정보; 및
+- 사용자가 자발적으로 제공한 프로필 정보.
 
 2.5 당사는 개인정보를 다음 목적으로 사용합니다:
-- 지원 제공
-- 문의 대응
-- 게임 개선
-- 법적 조건 집행
-- 유해하거나 불법적인 활동 방지
+- 지원 제공;
+- 문의 대응;
+- 게임 및 관련 서비스 개선;
+- 법적 조건 집행; 및
+- 유해하거나 불법적인 활동 방지.
 
-2.6 당사는 다음의 경우를 제외하고 개인정보를 제3자에게 판매하거나 공유하지 않습니다:
-- 귀하의 동의가 있는 경우
-- 법적 의무를 준수하기 위해 필요한 경우
-- 권리, 안전 또는 재산을 보호하기 위해 필요한 경우
+2.6 당사는 개인정보를 판매하지 않습니다. 당사는 다음의 경우 개인정보를 공개할 수 있습니다:
+- 귀하의 동의가 있는 경우;
+- 당사를 대신하여 업무를 수행하는 서비스 제공자 또는 공급업체에게 공개하는 경우;
+- 법적 의무를 준수하기 위해 필요한 경우; 또는
+- 권리, 안전 또는 재산을 보호하기 위해 필요한 경우.
 
 2.7 게임은 13세 미만 아동을 대상으로 하지 않습니다. 당사는 13세 미만 아동의 개인정보를 고의로 수집하지 않습니다. 그러한 데이터가 수집된 사실을 알게 되는 경우, 당사는 이를 삭제하기 위해 합리적인 조치를 취합니다.
 
 3. 처리의 법적 근거
 
 당사는 다음에 근거하여 개인정보를 처리합니다:
-- 귀하의 동의
-- 계약상 필요성
-- 지원 및 보안과 같은 정당한 사업상 이익
-- 법적 의무 준수
+- 귀하의 동의;
+- 계약상 필요성;
+- 지원, 유지보수 및 보안과 같은 정당한 사업상 이익; 및
+- 법적 의무 준수.
 
 4. 데이터 보유
 
@@ -749,12 +754,12 @@ https://www.sushiben.com/en/privacy
 7. 귀하의 권리
 
 귀하의 관할 지역에 따라 다음과 같은 권리를 가질 수 있습니다:
-- 귀하의 데이터에 대한 접근
-- 부정확한 데이터의 정정
-- 귀하의 데이터 삭제
-- 처리 제한 또는 처리에 대한 이의 제기
-- 데이터 이동권
-- 동의 철회
+- 귀하의 데이터에 대한 접근;
+- 부정확한 데이터의 정정;
+- 귀하의 데이터 삭제;
+- 처리 제한 또는 처리에 대한 이의 제기;
+- 데이터 이동권; 및
+- 동의 철회.
 
 귀하의 권리를 행사하려면 다음으로 연락해 주십시오:
 legal@bigbranestudios.com
@@ -763,11 +768,11 @@ legal@bigbranestudios.com
 
 8. 제3자 서비스
 
-당사는 당사가 통제하지 않는 제3자 서비스에 대한 링크를 제공하거나 이를 이용할 수 있습니다. 당사는 해당 서비스의 개인정보 보호 관행에 대해 책임을 지지 않습니다. 해당 서비스의 정책을 검토하시기를 권장합니다.
+당사는 당사가 통제하지 않는 제3자 서비스에 대한 링크를 제공하거나, 이를 삽입하거나, 이에 의존할 수 있습니다. 이러한 제3자는 자체 약관 및 개인정보처리방침에 따라 정보를 수집, 처리 또는 저장할 수 있습니다. 당사는 해당 서비스의 개인정보 보호 관행에 대해 책임을 지지 않으며, 해당 정책을 검토하시기를 권장합니다.
 
 9. 본 정책의 변경
 
-당사는 수시로 본 정책을 업데이트할 수 있습니다. 업데이트는 이 페이지에 게시되며 “최종 업데이트” 날짜에 반영됩니다. 업데이트 이후에도 게임을 계속 사용하는 경우, 개정된 정책에 동의한 것으로 간주됩니다.
+당사는 수시로 본 정책을 업데이트할 수 있습니다. 모든 업데이트는 이 페이지에 게시되며, 정책 상단의 “최종 업데이트” 날짜에 반영됩니다.
 
 10. 준거법
 
@@ -797,39 +802,40 @@ https://www.sushiben.com/en/privacy
 2.1 Big Brane 不会通过游戏玩法收集个人数据。但是，个人数据可能会通过下述其他互动方式被收集。
 
 2.2 当用户自愿通过以下方式提供个人数据时，我们可能会收集该等个人数据：
-- 电子邮件、支持请求、问卷调查或错误报告等直接沟通
-- 社交媒体上的公开或私下互动
-- 在线表单或类似提交方式
+- 电子邮件、支持请求、问卷调查或错误报告等直接沟通；
+- 社交媒体上的公开或私下互动；以及
+- 在线表单或类似提交方式。
 
-2.3 某些信息（例如购买记录、游戏活动或位置信息）可能由第三方平台（例如 Steam、PlayStation 或 Meta）收集和处理。Big Brane 不会直接收集这些数据，但在运营和支持本游戏所必需的范围内，可能会从该等平台接收有限的信息。
+2.3 某些信息可能由第三方平台或服务收集和处理，包括数字商店、网站托管服务、嵌入式视频或音乐内容、社交平台以及类似服务。Big Brane 不会直接收集所有此类数据，但在运营、维护、支持或改进本游戏或相关服务所必需的范围内，可能会从该等第三方接收有限的信息。
 
 2.4 可能被收集的个人信息包括：
-- 姓名
-- 电子邮箱地址
-- 社交媒体标识信息
-- 用户自愿提供的个人资料信息
+- 姓名；
+- 电子邮箱地址；
+- 社交媒体标识信息；以及
+- 用户自愿提供的个人资料信息。
 
 2.5 我们使用个人信息的目的包括：
-- 提供支持服务
-- 回复咨询
-- 改进本游戏
-- 执行法律条款
-- 防止有害或非法活动
+- 提供支持服务；
+- 回复咨询；
+- 改进本游戏及相关服务；
+- 执行法律条款；以及
+- 防止有害或非法活动。
 
-2.6 除以下情况外，我们不会向第三方出售或共享个人信息：
-- 经您同意
-- 为履行法律义务
-- 为保护权利、安全或财产
+2.6 我们不出售个人信息。我们可能会披露个人信息：
+- 经您同意；
+- 向代表我们行事的服务提供商或供应商披露；
+- 为履行法律义务；或
+- 为保护权利、安全或财产。
 
 2.7 本游戏不面向13岁以下儿童。我们不会故意收集13岁以下儿童的个人信息。如果我们发现已收集此类数据，我们将采取合理措施予以删除。
 
 3. 处理的法律依据
 
 我们基于以下依据处理个人信息：
-- 您的同意
-- 合同上的必要性
-- 合法商业利益，例如支持与安全
-- 遵守法律义务
+- 您的同意；
+- 合同上的必要性；
+- 合法商业利益，例如支持、维护与安全；以及
+- 遵守法律义务。
 
 4. 数据保留
 
@@ -846,12 +852,12 @@ https://www.sushiben.com/en/privacy
 7. 您的权利
 
 根据您所在的司法辖区，您可能享有以下权利：
-- 访问您的数据
-- 更正不准确的数据
-- 删除您的数据
-- 限制处理或反对处理
-- 数据可携带权
-- 撤回同意
+- 访问您的数据；
+- 更正不准确的数据；
+- 删除您的数据；
+- 限制处理或反对处理；
+- 数据可携带权；以及
+- 撤回同意。
 
 如需行使您的权利，请联系：
 legal@bigbranestudios.com
@@ -860,11 +866,11 @@ legal@bigbranestudios.com
 
 8. 第三方服务
 
-我们可能会提供第三方服务的链接，或依赖我们无法控制的第三方服务。对于其隐私做法，我们不承担责任。我们建议您查阅其相关政策。
+我们可能会提供第三方服务的链接、嵌入其内容，或依赖我们无法控制的第三方服务。该等第三方可能会根据其自身条款和隐私政策收集、处理或存储信息。对于其隐私做法，我们不承担责任，并建议您查阅其相关政策。
 
 9. 本政策的变更
 
-我们可能会不时更新本政策。更新内容将发布在本页面，并通过“最后更新”日期体现。您在更新后继续使用本游戏，即表示您接受修订后的政策。
+我们可能会不时更新本政策。任何更新都将发布在本页面，并通过本政策顶部的“最后更新”日期体现。
 
 10. 适用法律
 
@@ -894,39 +900,40 @@ https://www.sushiben.com/en/privacy
 2.1 Big Brane 不會透過遊戲玩法蒐集個人資料。然而，個人資料可能會透過下列其他互動方式被蒐集。
 
 2.2 當使用者自願透過以下方式提供個人資料時，我們可能會蒐集該等個人資料：
-- 電子郵件、支援請求、問卷調查或錯誤回報等直接聯絡
-- 社群媒體上的公開或私人互動
-- 線上表單或類似提交方式
+- 電子郵件、支援請求、問卷調查或錯誤回報等直接聯絡；
+- 社群媒體上的公開或私人互動；以及
+- 線上表單或類似提交方式。
 
-2.3 某些資訊（例如購買紀錄、遊戲活動或位置資料）可能由第三方平台（例如 Steam、PlayStation 或 Meta）蒐集並處理。Big Brane 不會直接蒐集這些資料，但在營運及支援本遊戲所必需的範圍內，可能會自該等平台接收有限資訊。
+2.3 某些資訊可能由第三方平台或服務蒐集並處理，包括數位商店、網站託管服務、嵌入式影片或音樂內容、社群平台以及類似服務。Big Brane 不會直接蒐集所有此類資料，但在營運、維護、支援或改進本遊戲或相關服務所必需的範圍內，可能會自該等第三方接收有限資訊。
 
 2.4 可能被蒐集的個人資訊包括：
-- 姓名
-- 電子郵件地址
-- 社群媒體識別資訊
-- 使用者自願提供的個人檔案資訊
+- 姓名；
+- 電子郵件地址；
+- 社群媒體識別資訊；以及
+- 使用者自願提供的個人檔案資訊。
 
 2.5 我們使用個人資訊的目的包括：
-- 提供支援服務
-- 回覆詢問
-- 改善本遊戲
-- 執行法律條款
-- 防止有害或非法活動
+- 提供支援服務；
+- 回覆詢問；
+- 改善本遊戲及相關服務；
+- 執行法律條款；以及
+- 防止有害或非法活動。
 
-2.6 除下列情況外，我們不會向第三方出售或分享個人資訊：
-- 經您同意
-- 為履行法律義務
-- 為保護權利、安全或財產
+2.6 我們不會出售個人資訊。我們可能會揭露個人資訊：
+- 經您同意；
+- 向代表我們行事的服務提供者或供應商揭露；
+- 為履行法律義務；或
+- 為保護權利、安全或財產。
 
 2.7 本遊戲不面向13歲以下兒童。我們不會故意蒐集13歲以下兒童的個人資訊。如果我們發現已蒐集此類資料，我們將採取合理措施予以刪除。
 
 3. 處理的法律依據
 
 我們基於以下依據處理個人資訊：
-- 您的同意
-- 契約上的必要性
-- 合法商業利益，例如支援與安全
-- 遵守法律義務
+- 您的同意；
+- 契約上的必要性；
+- 合法商業利益，例如支援、維護與安全；以及
+- 遵守法律義務。
 
 4. 資料保存
 
@@ -943,12 +950,12 @@ https://www.sushiben.com/en/privacy
 7. 您的權利
 
 依您所在司法管轄區而定，您可能享有以下權利：
-- 存取您的資料
-- 更正不正確的資料
-- 刪除您的資料
-- 限制處理或反對處理
-- 資料可攜權
-- 撤回同意
+- 存取您的資料；
+- 更正不正確的資料；
+- 刪除您的資料；
+- 限制處理或反對處理；
+- 資料可攜權；以及
+- 撤回同意。
 
 如欲行使您的權利，請聯絡：
 legal@bigbranestudios.com
@@ -957,11 +964,11 @@ legal@bigbranestudios.com
 
 8. 第三方服務
 
-我們可能會提供第三方服務的連結，或依賴我們無法控制的第三方服務。對於其隱私實務，我們不承擔責任。我們建議您查閱其相關政策。
+我們可能會提供第三方服務的連結、嵌入其內容，或依賴我們無法控制的第三方服務。該等第三方可能會依其自身條款及隱私政策蒐集、處理或儲存資訊。對於其隱私實務，我們不承擔責任，並建議您查閱其相關政策。
 
 9. 本政策的變更
 
-我們可能會不時更新本政策。更新內容將發布於本頁面，並透過「最後更新」日期反映。您在更新後繼續使用本遊戲，即表示您接受修訂後的政策。
+我們可能會不時更新本政策。任何更新都將發布於本頁面，並透過本政策頂部的「最後更新」日期反映。
 
 10. 準據法
 

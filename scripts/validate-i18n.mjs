@@ -74,11 +74,23 @@ function parseCsv(content) {
 function findCellIssues(value) {
   const issues = [];
   const checks = [
-    { code: "replacement-char", regex: /\uFFFD/, note: "contains replacement character (�)" },
+    { code: "replacement-char", regex: /\uFFFD/, note: "contains replacement character (???)" },
     { code: "control-char", regex: /[\u0000-\u0008\u000B\u000C\u000E-\u001F]/, note: "contains control character" },
-    { code: "mojibake-c3", regex: /Ã./, note: "possible UTF-8 mojibake sequence (Ãx)" },
-    { code: "mojibake-c2", regex: /Â./, note: "possible UTF-8 mojibake sequence (Âx)" },
-    { code: "mojibake-e2", regex: /â[\u0080-\u00BF]/, note: "possible UTF-8 mojibake punctuation (â...)" },
+    {
+      code: "mojibake-c3",
+      regex: /\u00C3[\u0080-\u00BF]/,
+      note: "possible UTF-8 mojibake sequence (? + Latin-1 supplement byte)",
+    },
+    {
+      code: "mojibake-c2",
+      regex: /\u00C2[\u0080-\u00BF]/,
+      note: "possible UTF-8 mojibake sequence (? + Latin-1 supplement byte)",
+    },
+    {
+      code: "mojibake-e2",
+      regex: /\u00E2[\u0080-\u00BF]{1,2}/,
+      note: "possible UTF-8 mojibake punctuation (? + continuation bytes)",
+    },
     { code: "steam-img-markup", regex: /\[img\s+src=/i, note: "contains Steam [img] markup" },
   ];
 

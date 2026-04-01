@@ -1,90 +1,1004 @@
-"key","context","en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"
-"legal.fan_content.description","Meta description | Fan Content Policy page","Fan Content Policy for Sushi Ben.","","","","","","","","",""
-"legal.fan_content.title","Page title | Fan Content Policy page","Fan Content Policy","","","","","","","","",""
-"legal.fan_content.body","Legal body | Fan Content Policy page","FAN CONTENT POLICY
+﻿key,context,en,de,es,fr,it,pt-br,ja,ko,zh-hans,zh-hant
+legal.fan_content.description,Meta description | Fan Content Policy page,Guidelines for creating and sharing unofficial fan content based on Sushi Ben.,Richtlinien für die Erstellung und Weitergabe inoffizieller Fan-Inhalte auf Grundlage von Sushi Ben.,Directrices para crear y compartir contenido de fans no oficial basado en Sushi Ben.,Lignes directrices pour la création et le partage de contenu de fans non officiel basé sur Sushi Ben.,Linee guida per la creazione e la condivisione di contenuti dei fan non ufficiali basati su Sushi Ben.,Diretrizes para criar e compartilhar conteúdo de fãs não oficial baseado em Sushi Ben.,Sushi Ben に基づく非公式ファンコンテンツの作成および共有に関するガイドラインです。,Sushi Ben을 기반으로 한 비공식 팬 콘텐츠의 제작 및 공유에 관한 지침입니다.,关于创作和分享基于 Sushi Ben 的非官方粉丝内容的指导方针。,關於創作與分享基於 Sushi Ben 的非官方粉絲內容之指引。
+legal.fan_content.title,Page title | Fan Content Policy page,Fan Content Policy,Richtlinie für Fan-Inhalte,Política de Contenido de Fans,Politique relative au contenu de fans,Informativa sui contenuti dei fan,Política de Conteúdo de Fãs,ファンコンテンツポリシー,팬 콘텐츠 정책,粉丝内容政策,粉絲內容政策
+legal.fan_content.body,Legal body | Fan Content Policy page,"FAN CONTENT POLICY
+
 Last Updated: April 1, 2026
 
-NOTICE
-
-This document may be translated into multiple languages for convenience. Translations may be generated automatically and may contain inaccuracies. The legally binding English version is available at:
+Notice: This document may be translated into multiple languages for convenience. Translations may be generated automatically and may contain inaccuracies. The legally binding English version is available at:
 https://www.sushiben.com/en/fan-content-policy
-
 In the event of any inconsistency, ambiguity, or discrepancy, the English version shall prevail.
 
-INTRODUCTION
+1. Scope
 
-Big Brane Studios encourages fans to create and share content inspired by Sushi Ben and the world of Kotobuki Town. We enjoy seeing the creativity of our community and want to support it within clear and reasonable guidelines.
+This Fan Content Policy (“Policy”) governs the creation and sharing of unofficial fan content based on Sushi Ben and related intellectual property owned by Big Brane Studios, Inc. (“Big Brane,” “we,” “us,” or “our”).
 
-This Fan Content Policy outlines what is permitted when using Sushi Ben intellectual property.
+We appreciate the creativity of our community and want to support fan expression within clear and reasonable guidelines. This Policy explains what kinds of fan content are permitted and what restrictions apply.
 
-DEFINITIONS
+2. Definitions
 
-""Big Brane Studios"" means Big Brane Studios, Inc., a Delaware corporation, and its parents, subsidiaries, and affiliates.
+2.1 “Sushi Ben IP” means all intellectual property owned or controlled by Big Brane relating to Sushi Ben, including but not limited to characters, names, locations, story elements, artwork, music, audio, video, logos, and other proprietary content.
 
-""Sushi Ben IP"" means all intellectual property owned by Big Brane Studios related to Sushi Ben, including but not limited to characters, names, locations, story elements, artwork, music, audio, video, logos, and other proprietary content.
+2.2 “Fan Content” means original, unofficial content created by you that is based on or incorporates Sushi Ben IP, including but not limited to artwork, videos, livestreams, gameplay clips, and similar creative works.
 
-""Fan Content"" means original content created by you that incorporates or is based on Sushi Ben IP, including but not limited to artwork, videos, streams, mods, and other creative works.
+3. License Grant
 
-LICENSE GRANT
+3.1 Subject to your compliance with this Policy, Big Brane grants you a limited, non-exclusive, revocable, non-transferable license to create and share Fan Content based on Sushi Ben IP.
 
-Subject to your compliance with this Policy, Big Brane Studios grants you a limited, non-exclusive, revocable, non-transferable license to create and share Fan Content based on Sushi Ben IP.
+3.2 This Policy does not transfer any ownership rights in Sushi Ben IP.
 
-This license does not grant any ownership rights in Sushi Ben IP and may be revoked at any time at Big Brane Studios' sole discretion.
+3.3 Big Brane may revoke this license at any time, for any reason, at its sole discretion.
 
-PERMITTED USES (DO'S)
+4. Permitted Uses
 
-You may:
+Subject to the restrictions in this Policy, you may:
 
-1. Create and share non-commercial Fan Content, subject to the restrictions below.
-2. Stream Sushi Ben on platforms such as Twitch, YouTube, or similar services.
-3. Upload gameplay videos, clips, and VODs to platforms such as YouTube, TikTok, or Twitch.
-4. Monetize videos and streams through platform-supported features, including:
-   - Advertising revenue
-   - Platform partner programs
-   - Subscriptions and donations
+4.1 Create and share non-commercial Fan Content.
 
-If you are unsure whether something is allowed, please contact us at:
-https://www.sushiben.com/#contact
+4.2 Livestream or otherwise publicly display Sushi Ben on platforms such as Twitch, YouTube, or similar services.
 
-RESTRICTIONS (DON'TS)
+4.3 Upload gameplay videos, clips, recordings, or similar content to platforms such as YouTube, TikTok, Twitch, or similar services.
+
+4.4 Monetize videos and streams only through platform-supported features such as:
+- advertising revenue;
+- partner program revenue;
+- subscriptions; and
+- donations.
+
+4.5 Use Sushi Ben IP only in a way that makes clear that your Fan Content is unofficial and not owned, sponsored, or endorsed by Big Brane.
+
+5. Restrictions
 
 You may not:
 
-1. Sell, license, or otherwise commercially exploit Fan Content, including physical or digital merchandise, regardless of scale.
-2. Mass-produce or commercially distribute Fan Content using Sushi Ben IP.
-3. Run crowdfunding campaigns (e.g., Kickstarter, Indiegogo) to create or sell merchandise based on Sushi Ben IP.
-4. Represent Fan Content as official, licensed, or endorsed by Big Brane Studios.
-5. Use Sushi Ben IP in a way that is racist, transphobic, homophobic, defamatory, or otherwise harmful to individuals or groups.
-6. Use Sushi Ben IP in a way that could reasonably harm the reputation of the Sushi Ben brand, including inappropriate or offensive depictions.
-7. Use Sushi Ben IP in connection with religious or political messaging or imagery.
-8. Use Sushi Ben IP to create or promote NFTs, cryptocurrencies, or blockchain-based assets.
+5.1 Sell, license, or otherwise commercially exploit Fan Content, including physical or digital merchandise, regardless of scale.
 
-REQUIRED DISCLAIMER
+5.2 Mass-produce, commercially distribute, or offer for sale any Fan Content that uses Sushi Ben IP.
+
+5.3 Use crowdfunding platforms such as Kickstarter or Indiegogo to create, fund, or sell merchandise or other products based on Sushi Ben IP.
+
+5.4 Represent Fan Content as official, licensed, approved, sponsored, or endorsed by Big Brane.
+
+5.5 Use Sushi Ben IP in connection with content that is unlawful, defamatory, hateful, discriminatory, harassing, or otherwise harmful to individuals or groups.
+
+5.6 Use Sushi Ben IP in a way that could reasonably damage the reputation of Sushi Ben or Big Brane, including through inappropriate, offensive, or misleading depictions.
+
+5.7 Use Sushi Ben IP in connection with religious or political messaging or imagery.
+
+5.8 Use Sushi Ben IP in connection with NFTs, cryptocurrencies, blockchain-based assets, or similar technologies.
+
+6. Required Disclaimer
 
 Fan Content must clearly and reasonably include the following disclaimer:
 
-""This is unofficial fan content and is not affiliated with or endorsed by Big Brane Studios.""
+“This is unofficial fan content and is not affiliated with or endorsed by Big Brane Studios.”
 
-OWNERSHIP
+7. Ownership
 
-You retain ownership of your original contributions to your Fan Content. However, Big Brane Studios retains all rights, title, and interest in and to Sushi Ben IP.
+7.1 You retain ownership of your original contributions to your Fan Content.
 
-By creating and sharing Fan Content, you grant Big Brane Studios a non-exclusive, worldwide, royalty-free license to use, display, reproduce, and share your Fan Content for promotional and business purposes.
+7.2 Big Brane retains all rights, title, and interest in and to Sushi Ben IP.
 
-ENFORCEMENT AND TERMINATION
+7.3 By creating and sharing Fan Content, you grant Big Brane a non-exclusive, worldwide, royalty-free license to use, display, reproduce, and share your Fan Content for promotional and business purposes.
 
-Big Brane Studios reserves the right to:
+8. Enforcement and Termination
 
-- Request removal of any Fan Content that violates this Policy
-- Revoke this license at any time, for any reason
-- Take legal action where appropriate
+8.1 Big Brane reserves the right to:
+- request removal of Fan Content that violates this Policy;
+- revoke this license at any time, for any reason; and
+- take legal action where appropriate.
 
-Failure to comply with this Policy may result in enforcement actions, including content removal requests.
+8.2 Failure to comply with this Policy may result in enforcement action, including requests to remove or disable access to Fan Content.
 
-CHANGES TO THIS POLICY
+9. Changes to This Policy
 
-This Policy may be updated from time to time. Continued creation or use of Fan Content after updates constitutes acceptance of the revised Policy.
+We may update this Policy from time to time. Continued creation, publication, or use of Fan Content after such updates constitutes acceptance of the revised Policy.
 
-LEGAL LANGUAGE REGARDING TRANSLATIONS
+10. Contact Us
 
-The English version is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, the English version shall prevail.","","","","","","","","",""
+If you have any questions about this Policy or whether a particular use is permitted, please contact:
+legal@bigbranestudios.com
+
+11. Language
+
+The English version of this Policy is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, ambiguity, or conflict between a translated version and the English version, the English version shall prevail.","RICHTLINIE FÜR FAN-INHALTE
+
+Zuletzt aktualisiert: 1. April 2026
+
+Hinweis: Dieses Dokument kann aus Gründen der Benutzerfreundlichkeit in mehrere Sprachen übersetzt werden. Übersetzungen können automatisch erstellt werden und Ungenauigkeiten enthalten. Die rechtsverbindliche englische Fassung ist verfügbar unter:
+https://www.sushiben.com/en/fan-content-policy
+Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Abweichungen hat die englische Fassung Vorrang.
+
+1. Geltungsbereich
+
+Diese Richtlinie für Fan-Inhalte („Richtlinie“) regelt die Erstellung und Weitergabe inoffizieller Fan-Inhalte auf Grundlage von Sushi Ben und zugehörigem geistigem Eigentum, das Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“) gehört.
+
+Wir schätzen die Kreativität unserer Community und möchten Fan-Ausdruck innerhalb klarer und angemessener Grenzen unterstützen. Diese Richtlinie erläutert, welche Arten von Fan-Inhalten zulässig sind und welche Beschränkungen gelten.
+
+2. Definitionen
+
+2.1 „Sushi Ben IP“ bezeichnet sämtliches geistiges Eigentum, das Big Brane in Bezug auf Sushi Ben besitzt oder kontrolliert, einschließlich, aber nicht beschränkt auf Figuren, Namen, Orte, Story-Elemente, Grafiken, Musik, Audio, Video, Logos und sonstige geschützte Inhalte.
+
+2.2 „Fan-Inhalte“ bezeichnet originelle, inoffizielle Inhalte, die von Ihnen erstellt werden und auf Sushi Ben IP basieren oder diese enthalten, einschließlich, aber nicht beschränkt auf Grafiken, Videos, Livestreams, Gameplay-Clips und ähnliche kreative Werke.
+
+3. Lizenzerteilung
+
+3.1 Vorbehaltlich Ihrer Einhaltung dieser Richtlinie gewährt Big Brane Ihnen eine beschränkte, nicht-exklusive, widerrufliche und nicht übertragbare Lizenz zur Erstellung und Weitergabe von Fan-Inhalten auf Grundlage von Sushi Ben IP.
+
+3.2 Durch diese Richtlinie werden keine Eigentumsrechte an Sushi Ben IP übertragen.
+
+3.3 Big Brane kann diese Lizenz jederzeit, aus beliebigem Grund und nach eigenem Ermessen widerrufen.
+
+4. Zulässige Nutzungen
+
+Vorbehaltlich der Beschränkungen dieser Richtlinie dürfen Sie:
+
+4.1 nicht-kommerzielle Fan-Inhalte erstellen und weitergeben.
+
+4.2 Sushi Ben auf Plattformen wie Twitch, YouTube oder ähnlichen Diensten livestreamen oder anderweitig öffentlich zeigen.
+
+4.3 Gameplay-Videos, Clips, Aufzeichnungen oder ähnliche Inhalte auf Plattformen wie YouTube, TikTok, Twitch oder ähnlichen Diensten hochladen.
+
+4.4 Videos und Streams ausschließlich über plattformgestützte Funktionen monetarisieren, wie zum Beispiel:
+- Werbeeinnahmen;
+- Partnerprogramm-Einnahmen;
+- Abonnements; und
+- Spenden.
+
+4.5 Sushi Ben IP nur in einer Weise verwenden, die deutlich macht, dass Ihre Fan-Inhalte inoffiziell sind und Big Brane sie weder besitzt, sponsert noch unterstützt.
+
+5. Beschränkungen
+
+Sie dürfen nicht:
+
+5.1 Fan-Inhalte verkaufen, lizenzieren oder anderweitig kommerziell verwerten, einschließlich physischer oder digitaler Waren, unabhängig vom Umfang.
+
+5.2 Fan-Inhalte, die Sushi Ben IP verwenden, in Massenproduktion herstellen, kommerziell vertreiben oder zum Verkauf anbieten.
+
+5.3 Crowdfunding-Plattformen wie Kickstarter oder Indiegogo verwenden, um Waren oder andere Produkte auf Grundlage von Sushi Ben IP zu erstellen, zu finanzieren oder zu verkaufen.
+
+5.4 Fan-Inhalte als offiziell, lizenziert, genehmigt, gesponsert oder von Big Brane unterstützt darstellen.
+
+5.5 Sushi Ben IP in Verbindung mit Inhalten verwenden, die rechtswidrig, verleumderisch, hasserfüllt, diskriminierend, belästigend oder anderweitig für Einzelpersonen oder Gruppen schädlich sind.
+
+5.6 Sushi Ben IP in einer Weise verwenden, die den Ruf von Sushi Ben oder Big Brane vernünftigerweise schädigen könnte, einschließlich unangemessener, anstößiger oder irreführender Darstellungen.
+
+5.7 Sushi Ben IP in Verbindung mit religiösen oder politischen Botschaften oder Bildmaterial verwenden.
+
+5.8 Sushi Ben IP in Verbindung mit NFTs, Kryptowährungen, blockchainbasierten Vermögenswerten oder ähnlichen Technologien verwenden.
+
+6. Erforderlicher Hinweis
+
+Fan-Inhalte müssen den folgenden Hinweis klar und in angemessener Weise enthalten:
+
+„Dies ist inoffizieller Fan-Inhalt und steht in keiner Verbindung zu Big Brane Studios und wird von Big Brane Studios nicht unterstützt.“
+
+7. Eigentum
+
+7.1 Sie behalten das Eigentum an Ihren eigenen originellen Beiträgen zu Ihren Fan-Inhalten.
+
+7.2 Big Brane behält sämtliche Rechte, Titel und Interessen an Sushi Ben IP.
+
+7.3 Durch die Erstellung und Weitergabe von Fan-Inhalten gewähren Sie Big Brane eine nicht-exklusive, weltweite und lizenzgebührenfreie Lizenz zur Nutzung, Anzeige, Vervielfältigung und Weitergabe Ihrer Fan-Inhalte zu Werbe- und Geschäftszwecken.
+
+8. Durchsetzung und Beendigung
+
+8.1 Big Brane behält sich das Recht vor:
+- die Entfernung von Fan-Inhalten zu verlangen, die gegen diese Richtlinie verstoßen;
+- diese Lizenz jederzeit und aus beliebigem Grund zu widerrufen; und
+- gegebenenfalls rechtliche Schritte einzuleiten.
+
+8.2 Die Nichteinhaltung dieser Richtlinie kann zu Durchsetzungsmaßnahmen führen, einschließlich Aufforderungen zur Entfernung oder Sperrung des Zugangs zu Fan-Inhalten.
+
+9. Änderungen dieser Richtlinie
+
+Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Die fortgesetzte Erstellung, Veröffentlichung oder Nutzung von Fan-Inhalten nach solchen Aktualisierungen gilt als Annahme der überarbeiteten Richtlinie.
+
+10. Kontakt
+
+Wenn Sie Fragen zu dieser Richtlinie oder dazu haben, ob eine bestimmte Nutzung zulässig ist, kontaktieren Sie bitte:
+legal@bigbranestudios.com
+
+11. Sprache
+
+Die englische Fassung dieser Richtlinie ist die einzig rechtsverbindliche Fassung. Übersetzungen werden ausschließlich der Bequemlichkeit halber bereitgestellt. Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Widersprüchen zwischen einer übersetzten Fassung und der englischen Fassung hat die englische Fassung Vorrang.","POLÍTICA DE CONTENIDO DE FANS
+
+Última actualización: 1 de abril de 2026
+
+Aviso: Este documento puede traducirse a varios idiomas por conveniencia. Las traducciones pueden generarse automáticamente y pueden contener imprecisiones. La versión en inglés legalmente vinculante está disponible en:
+https://www.sushiben.com/en/fan-content-policy
+En caso de cualquier inconsistencia, ambigüedad o discrepancia, prevalecerá la versión en inglés.
+
+1. Alcance
+
+Esta Política de Contenido de Fans (la “Política”) regula la creación y el intercambio de contenido de fans no oficial basado en Sushi Ben y la propiedad intelectual relacionada, propiedad de Big Brane Studios, Inc. (“Big Brane”, “nosotros”, “nos” o “nuestro”).
+
+Apreciamos la creatividad de nuestra comunidad y queremos apoyar la expresión de los fans dentro de pautas claras y razonables. Esta Política explica qué tipos de contenido de fans están permitidos y qué restricciones se aplican.
+
+2. Definiciones
+
+2.1 “IP de Sushi Ben” significa toda la propiedad intelectual que Big Brane posee o controla en relación con Sushi Ben, incluidos, entre otros, personajes, nombres, ubicaciones, elementos de la historia, ilustraciones, música, audio, video, logotipos y demás contenido de carácter propietario.
+
+2.2 “Contenido de Fans” significa contenido original y no oficial creado por usted que esté basado en la IP de Sushi Ben o la incorpore, incluidos, entre otros, ilustraciones, videos, transmisiones en vivo, clips de jugabilidad y obras creativas similares.
+
+3. Concesión de licencia
+
+3.1 Sujeto a su cumplimiento de esta Política, Big Brane le concede una licencia limitada, no exclusiva, revocable e intransferible para crear y compartir Contenido de Fans basado en la IP de Sushi Ben.
+
+3.2 Esta Política no transfiere ningún derecho de propiedad sobre la IP de Sushi Ben.
+
+3.3 Big Brane podrá revocar esta licencia en cualquier momento, por cualquier motivo y a su entera discreción.
+
+4. Usos permitidos
+
+Sujeto a las restricciones de esta Política, usted podrá:
+
+4.1 Crear y compartir Contenido de Fans no comercial.
+
+4.2 Transmitir en vivo o mostrar públicamente Sushi Ben en plataformas como Twitch, YouTube o servicios similares.
+
+4.3 Subir videos de jugabilidad, clips, grabaciones o contenido similar a plataformas como YouTube, TikTok, Twitch o servicios similares.
+
+4.4 Monetizar videos y transmisiones únicamente a través de funciones compatibles con la plataforma, tales como:
+- ingresos publicitarios;
+- ingresos de programas de socios;
+- suscripciones; y
+- donaciones.
+
+4.5 Utilizar la IP de Sushi Ben únicamente de una manera que deje claro que su Contenido de Fans es no oficial y que no es propiedad de Big Brane ni está patrocinado o respaldado por Big Brane.
+
+5. Restricciones
+
+Usted no podrá:
+
+5.1 Vender, licenciar o explotar comercialmente de cualquier otro modo el Contenido de Fans, incluidos productos físicos o digitales, independientemente de su escala.
+
+5.2 Producir en masa, distribuir comercialmente u ofrecer a la venta cualquier Contenido de Fans que utilice la IP de Sushi Ben.
+
+5.3 Utilizar plataformas de financiación colectiva como Kickstarter o Indiegogo para crear, financiar o vender mercancía u otros productos basados en la IP de Sushi Ben.
+
+5.4 Presentar el Contenido de Fans como oficial, licenciado, aprobado, patrocinado o respaldado por Big Brane.
+
+5.5 Utilizar la IP de Sushi Ben en relación con contenido ilícito, difamatorio, odioso, discriminatorio, acosador o perjudicial de cualquier otro modo para personas o grupos.
+
+5.6 Utilizar la IP de Sushi Ben de una manera que razonablemente pudiera dañar la reputación de Sushi Ben o de Big Brane, incluidas representaciones inapropiadas, ofensivas o engañosas.
+
+5.7 Utilizar la IP de Sushi Ben en relación con mensajes o imágenes de carácter religioso o político.
+
+5.8 Utilizar la IP de Sushi Ben en relación con NFT, criptomonedas, activos basados en blockchain o tecnologías similares.
+
+6. Descargo de responsabilidad obligatorio
+
+El Contenido de Fans debe incluir de forma clara y razonable el siguiente descargo de responsabilidad:
+
+“Este es contenido de fans no oficial y no está afiliado a Big Brane Studios ni respaldado por Big Brane Studios.”
+
+7. Titularidad
+
+7.1 Usted conserva la titularidad de sus contribuciones originales a su Contenido de Fans.
+
+7.2 Big Brane conserva todos los derechos, títulos e intereses sobre la IP de Sushi Ben.
+
+7.3 Al crear y compartir Contenido de Fans, usted concede a Big Brane una licencia no exclusiva, mundial y libre de regalías para utilizar, mostrar, reproducir y compartir su Contenido de Fans con fines promocionales y comerciales.
+
+8. Aplicación y terminación
+
+8.1 Big Brane se reserva el derecho de:
+- solicitar la retirada del Contenido de Fans que infrinja esta Política;
+- revocar esta licencia en cualquier momento y por cualquier motivo; y
+- emprender acciones legales cuando corresponda.
+
+8.2 El incumplimiento de esta Política podrá dar lugar a medidas de aplicación, incluidas solicitudes para retirar o deshabilitar el acceso al Contenido de Fans.
+
+9. Cambios a esta Política
+
+Podemos actualizar esta Política ocasionalmente. La creación, publicación o uso continuado de Contenido de Fans después de dichas actualizaciones constituye la aceptación de la Política revisada.
+
+10. Contáctenos
+
+Si tiene alguna pregunta sobre esta Política o sobre si un uso en particular está permitido, comuníquese con:
+legal@bigbranestudios.com
+
+11. Idioma
+
+La versión en inglés de esta Política es la única versión legalmente vinculante. Las traducciones se proporcionan únicamente por conveniencia. En caso de cualquier inconsistencia, ambigüedad o conflicto entre una versión traducida y la versión en inglés, prevalecerá la versión en inglés.","POLITIQUE RELATIVE AU CONTENU DE FANS
+
+Dernière mise à jour : 1 avril 2026
+
+Avis : Le présent document peut être traduit en plusieurs langues pour des raisons de commodité. Les traductions peuvent être générées automatiquement et peuvent contenir des inexactitudes. La version anglaise juridiquement contraignante est disponible à l’adresse suivante :
+https://www.sushiben.com/en/fan-content-policy
+En cas d’incohérence, d’ambiguïté ou de divergence, la version anglaise prévaudra.
+
+1. Portée
+
+La présente Politique relative au contenu de fans (la « Politique ») régit la création et le partage de contenu de fans non officiel basé sur Sushi Ben et sur la propriété intellectuelle associée appartenant à Big Brane Studios, Inc. (« Big Brane », « nous », « notre » ou « nos »).
+
+Nous apprécions la créativité de notre communauté et souhaitons soutenir l’expression des fans dans le cadre de lignes directrices claires et raisonnables. La présente Politique explique quels types de contenu de fans sont autorisés et quelles restrictions s’appliquent.
+
+2. Définitions
+
+2.1 « Propriété intellectuelle de Sushi Ben » désigne l’ensemble de la propriété intellectuelle détenue ou contrôlée par Big Brane en lien avec Sushi Ben, y compris, sans s’y limiter, les personnages, noms, lieux, éléments d’histoire, illustrations, musique, audio, vidéo, logos et autres contenus exclusifs.
+
+2.2 « Contenu de fans » désigne le contenu original et non officiel créé par vous qui est basé sur la propriété intellectuelle de Sushi Ben ou qui l’incorpore, y compris, sans s’y limiter, les illustrations, vidéos, diffusions en direct, extraits de gameplay et autres œuvres créatives similaires.
+
+3. Octroi de licence
+
+3.1 Sous réserve de votre respect de la présente Politique, Big Brane vous accorde une licence limitée, non exclusive, révocable et non transférable vous permettant de créer et de partager du contenu de fans basé sur la propriété intellectuelle de Sushi Ben.
+
+3.2 La présente Politique ne transfère aucun droit de propriété sur la propriété intellectuelle de Sushi Ben.
+
+3.3 Big Brane peut révoquer cette licence à tout moment, pour quelque raison que ce soit et à sa seule discrétion.
+
+4. Utilisations autorisées
+
+Sous réserve des restrictions prévues par la présente Politique, vous pouvez :
+
+4.1 Créer et partager du contenu de fans non commercial.
+
+4.2 Diffuser en direct ou autrement montrer publiquement Sushi Ben sur des plateformes telles que Twitch, YouTube ou des services similaires.
+
+4.3 Mettre en ligne des vidéos de gameplay, extraits, enregistrements ou contenus similaires sur des plateformes telles que YouTube, TikTok, Twitch ou des services similaires.
+
+4.4 Monétiser des vidéos et des diffusions uniquement par le biais de fonctionnalités prises en charge par la plateforme, telles que :
+- les revenus publicitaires ;
+- les revenus de programmes partenaires ;
+- les abonnements ; et
+- les dons.
+
+4.5 Utiliser la propriété intellectuelle de Sushi Ben uniquement d’une manière indiquant clairement que votre contenu de fans est non officiel et qu’il n’est ni détenu, ni sponsorisé, ni approuvé par Big Brane.
+
+5. Restrictions
+
+Vous ne pouvez pas :
+
+5.1 Vendre, concéder sous licence ou exploiter commercialement de toute autre manière du contenu de fans, y compris des marchandises physiques ou numériques, quelle qu’en soit l’ampleur.
+
+5.2 Produire en masse, distribuer commercialement ou proposer à la vente tout contenu de fans utilisant la propriété intellectuelle de Sushi Ben.
+
+5.3 Utiliser des plateformes de financement participatif telles que Kickstarter ou Indiegogo pour créer, financer ou vendre des marchandises ou d’autres produits basés sur la propriété intellectuelle de Sushi Ben.
+
+5.4 Présenter le contenu de fans comme officiel, sous licence, approuvé, sponsorisé ou soutenu par Big Brane.
+
+5.5 Utiliser la propriété intellectuelle de Sushi Ben en lien avec un contenu illégal, diffamatoire, haineux, discriminatoire, harcelant ou autrement nuisible à des personnes ou à des groupes.
+
+5.6 Utiliser la propriété intellectuelle de Sushi Ben d’une manière susceptible de nuire raisonnablement à la réputation de Sushi Ben ou de Big Brane, notamment par des représentations inappropriées, offensantes ou trompeuses.
+
+5.7 Utiliser la propriété intellectuelle de Sushi Ben en lien avec des messages ou des images à caractère religieux ou politique.
+
+5.8 Utiliser la propriété intellectuelle de Sushi Ben en lien avec des NFT, des cryptomonnaies, des actifs fondés sur la blockchain ou des technologies similaires.
+
+6. Mention obligatoire
+
+Le contenu de fans doit inclure clairement et raisonnablement la mention suivante :
+
+« Ceci est un contenu de fans non officiel et n’est ni affilié à Big Brane Studios ni approuvé par Big Brane Studios. »
+
+7. Propriété
+
+7.1 Vous conservez la propriété de vos contributions originales à votre contenu de fans.
+
+7.2 Big Brane conserve l’ensemble des droits, titres et intérêts relatifs à la propriété intellectuelle de Sushi Ben.
+
+7.3 En créant et en partageant du contenu de fans, vous accordez à Big Brane une licence non exclusive, mondiale et libre de redevances lui permettant d’utiliser, d’afficher, de reproduire et de partager votre contenu de fans à des fins promotionnelles et commerciales.
+
+8. Application et résiliation
+
+8.1 Big Brane se réserve le droit :
+- de demander le retrait de tout contenu de fans qui enfreint la présente Politique ;
+- de révoquer cette licence à tout moment et pour quelque raison que ce soit ; et
+- d’engager des poursuites si cela est approprié.
+
+8.2 Le non-respect de la présente Politique peut entraîner des mesures d’application, y compris des demandes visant à retirer ou à désactiver l’accès au contenu de fans.
+
+9. Modifications de la présente Politique
+
+Nous pouvons mettre à jour la présente Politique de temps à autre. La poursuite de la création, de la publication ou de l’utilisation de contenu de fans après de telles mises à jour constitue une acceptation de la Politique révisée.
+
+10. Nous contacter
+
+Si vous avez des questions concernant la présente Politique ou si vous souhaitez savoir si une utilisation particulière est autorisée, veuillez contacter :
+legal@bigbranestudios.com
+
+11. Langue
+
+La version anglaise de la présente Politique est la seule version juridiquement contraignante. Les traductions sont fournies uniquement à titre de commodité. En cas d’incohérence, d’ambiguïté ou de conflit entre une version traduite et la version anglaise, la version anglaise prévaudra.","INFORMATIVA SUI CONTENUTI DEI FAN
+
+Ultimo aggiornamento: 1 aprile 2026
+
+Avviso: Il presente documento può essere tradotto in più lingue per comodità. Le traduzioni possono essere generate automaticamente e possono contenere imprecisioni. La versione inglese legalmente vincolante è disponibile all’indirizzo:
+https://www.sushiben.com/en/fan-content-policy
+In caso di incongruenze, ambiguità o discrepanze, prevarrà la versione inglese.
+
+1. Ambito
+
+La presente Informativa sui contenuti dei fan (l’“Informativa”) disciplina la creazione e la condivisione di contenuti dei fan non ufficiali basati su Sushi Ben e sulla relativa proprietà intellettuale di proprietà di Big Brane Studios, Inc. (“Big Brane”, “noi”, “ci” o “nostro”).
+
+Apprezziamo la creatività della nostra community e vogliamo sostenere l’espressione dei fan entro linee guida chiare e ragionevoli. La presente Informativa spiega quali tipi di contenuti dei fan sono consentiti e quali restrizioni si applicano.
+
+2. Definizioni
+
+2.1 “IP di Sushi Ben” indica tutta la proprietà intellettuale posseduta o controllata da Big Brane in relazione a Sushi Ben, inclusi, a titolo esemplificativo e non esaustivo, personaggi, nomi, luoghi, elementi narrativi, illustrazioni, musica, audio, video, loghi e altri contenuti proprietari.
+
+2.2 “Contenuti dei fan” indica contenuti originali e non ufficiali creati da te che si basano sull’IP di Sushi Ben o la incorporano, inclusi, a titolo esemplificativo e non esaustivo, illustrazioni, video, livestream, clip di gameplay e opere creative simili.
+
+3. Concessione della licenza
+
+3.1 Subordinatamente al tuo rispetto della presente Informativa, Big Brane ti concede una licenza limitata, non esclusiva, revocabile e non trasferibile per creare e condividere Contenuti dei fan basati sull’IP di Sushi Ben.
+
+3.2 La presente Informativa non trasferisce alcun diritto di proprietà sull’IP di Sushi Ben.
+
+3.3 Big Brane può revocare questa licenza in qualsiasi momento, per qualsiasi motivo e a sua esclusiva discrezione.
+
+4. Usi consentiti
+
+Fatte salve le restrizioni della presente Informativa, puoi:
+
+4.1 Creare e condividere Contenuti dei fan non commerciali.
+
+4.2 Trasmettere in livestream o altrimenti mostrare pubblicamente Sushi Ben su piattaforme come Twitch, YouTube o servizi simili.
+
+4.3 Caricare video di gameplay, clip, registrazioni o contenuti simili su piattaforme come YouTube, TikTok, Twitch o servizi simili.
+
+4.4 Monetizzare video e stream esclusivamente tramite funzionalità supportate dalla piattaforma, quali:
+- introiti pubblicitari;
+- introiti da programmi partner;
+- abbonamenti; e
+- donazioni.
+
+4.5 Utilizzare l’IP di Sushi Ben solo in modo tale da rendere chiaro che i tuoi Contenuti dei fan sono non ufficiali e non sono di proprietà di Big Brane né sponsorizzati o approvati da Big Brane.
+
+5. Restrizioni
+
+Non puoi:
+
+5.1 Vendere, concedere in licenza o altrimenti sfruttare commercialmente i Contenuti dei fan, inclusi prodotti fisici o digitali, indipendentemente dalla scala.
+
+5.2 Produrre in massa, distribuire commercialmente o offrire in vendita Contenuti dei fan che utilizzano l’IP di Sushi Ben.
+
+5.3 Utilizzare piattaforme di crowdfunding come Kickstarter o Indiegogo per creare, finanziare o vendere merchandising o altri prodotti basati sull’IP di Sushi Ben.
+
+5.4 Presentare i Contenuti dei fan come ufficiali, concessi in licenza, approvati, sponsorizzati o sostenuti da Big Brane.
+
+5.5 Utilizzare l’IP di Sushi Ben in relazione a contenuti illeciti, diffamatori, pieni d’odio, discriminatori, molesti o altrimenti dannosi per individui o gruppi.
+
+5.6 Utilizzare l’IP di Sushi Ben in un modo che possa ragionevolmente danneggiare la reputazione di Sushi Ben o di Big Brane, anche tramite rappresentazioni inappropriate, offensive o fuorvianti.
+
+5.7 Utilizzare l’IP di Sushi Ben in relazione a messaggi o immagini di natura religiosa o politica.
+
+5.8 Utilizzare l’IP di Sushi Ben in relazione a NFT, criptovalute, asset basati su blockchain o tecnologie simili.
+
+6. Disclaimer obbligatorio
+
+I Contenuti dei fan devono includere in modo chiaro e ragionevole il seguente disclaimer:
+
+“Questo è contenuto dei fan non ufficiale e non è affiliato a Big Brane Studios né approvato da Big Brane Studios.”
+
+7. Titolarità
+
+7.1 Mantieni la titolarità dei tuoi contributi originali ai tuoi Contenuti dei fan.
+
+7.2 Big Brane conserva tutti i diritti, titoli e interessi relativi all’IP di Sushi Ben.
+
+7.3 Creando e condividendo Contenuti dei fan, concedi a Big Brane una licenza non esclusiva, mondiale e gratuita per utilizzare, mostrare, riprodurre e condividere i tuoi Contenuti dei fan per finalità promozionali e commerciali.
+
+8. Applicazione e cessazione
+
+8.1 Big Brane si riserva il diritto di:
+- richiedere la rimozione di Contenuti dei fan che violano la presente Informativa;
+- revocare questa licenza in qualsiasi momento, per qualsiasi motivo; e
+- intraprendere azioni legali ove opportuno.
+
+8.2 Il mancato rispetto della presente Informativa può comportare misure di applicazione, comprese richieste di rimuovere o disabilitare l’accesso ai Contenuti dei fan.
+
+9. Modifiche alla presente Informativa
+
+Possiamo aggiornare la presente Informativa di tanto in tanto. La continua creazione, pubblicazione o uso di Contenuti dei fan dopo tali aggiornamenti costituisce accettazione dell’Informativa aggiornata.
+
+10. Contattaci
+
+Se hai domande sulla presente Informativa o se una determinata modalità d’uso sia consentita, contatta:
+legal@bigbranestudios.com
+
+11. Lingua
+
+La versione inglese della presente Informativa è l’unica versione legalmente vincolante. Le traduzioni sono fornite esclusivamente per comodità. In caso di incongruenze, ambiguità o conflitti tra una versione tradotta e la versione inglese, prevarrà la versione inglese.","POLÍTICA DE CONTEÚDO DE FÃS
+
+Última atualização: 1º de abril de 2026
+
+Aviso: Este documento pode ser traduzido para vários idiomas por conveniência. As traduções podem ser geradas automaticamente e podem conter imprecisões. A versão em inglês legalmente vinculante está disponível em:
+https://www.sushiben.com/en/fan-content-policy
+Em caso de qualquer inconsistência, ambiguidade ou discrepância, prevalecerá a versão em inglês.
+
+1. Escopo
+
+Esta Política de Conteúdo de Fãs (“Política”) rege a criação e o compartilhamento de conteúdo de fãs não oficial baseado em Sushi Ben e na propriedade intelectual relacionada pertencente à Big Brane Studios, Inc. (“Big Brane”, “nós”, “nos” ou “nosso”).
+
+Apreciamos a criatividade da nossa comunidade e queremos apoiar a expressão dos fãs dentro de diretrizes claras e razoáveis. Esta Política explica quais tipos de conteúdo de fãs são permitidos e quais restrições se aplicam.
+
+2. Definições
+
+2.1 “PI de Sushi Ben” significa toda a propriedade intelectual detida ou controlada pela Big Brane relacionada a Sushi Ben, incluindo, entre outros, personagens, nomes, locais, elementos da história, artes, música, áudio, vídeo, logotipos e outros conteúdos proprietários.
+
+2.2 “Conteúdo de Fãs” significa conteúdo original e não oficial criado por você que seja baseado na PI de Sushi Ben ou a incorpore, incluindo, entre outros, artes, vídeos, transmissões ao vivo, clipes de gameplay e obras criativas semelhantes.
+
+3. Concessão de licença
+
+3.1 Sujeito ao seu cumprimento desta Política, a Big Brane concede a você uma licença limitada, não exclusiva, revogável e intransferível para criar e compartilhar Conteúdo de Fãs baseado na PI de Sushi Ben.
+
+3.2 Esta Política não transfere quaisquer direitos de propriedade sobre a PI de Sushi Ben.
+
+3.3 A Big Brane pode revogar essa licença a qualquer momento, por qualquer motivo e a seu exclusivo critério.
+
+4. Usos permitidos
+
+Sujeito às restrições desta Política, você poderá:
+
+4.1 Criar e compartilhar Conteúdo de Fãs não comercial.
+
+4.2 Fazer transmissões ao vivo ou exibir publicamente Sushi Ben em plataformas como Twitch, YouTube ou serviços semelhantes.
+
+4.3 Enviar vídeos de gameplay, clipes, gravações ou conteúdo semelhante para plataformas como YouTube, TikTok, Twitch ou serviços semelhantes.
+
+4.4 Monetizar vídeos e transmissões somente por meio de recursos compatíveis com a plataforma, tais como:
+- receita de publicidade;
+- receita de programas de parceria;
+- assinaturas; e
+- doações.
+
+4.5 Usar a PI de Sushi Ben somente de uma forma que deixe claro que seu Conteúdo de Fãs é não oficial e não é de propriedade, patrocinado ou endossado pela Big Brane.
+
+5. Restrições
+
+Você não poderá:
+
+5.1 Vender, licenciar ou de outra forma explorar comercialmente Conteúdo de Fãs, incluindo produtos físicos ou digitais, independentemente da escala.
+
+5.2 Produzir em massa, distribuir comercialmente ou oferecer para venda qualquer Conteúdo de Fãs que utilize a PI de Sushi Ben.
+
+5.3 Usar plataformas de financiamento coletivo, como Kickstarter ou Indiegogo, para criar, financiar ou vender mercadorias ou outros produtos baseados na PI de Sushi Ben.
+
+5.4 Apresentar Conteúdo de Fãs como oficial, licenciado, aprovado, patrocinado ou endossado pela Big Brane.
+
+5.5 Usar a PI de Sushi Ben em conexão com conteúdo ilícito, difamatório, odioso, discriminatório, assediador ou de outra forma prejudicial a indivíduos ou grupos.
+
+5.6 Usar a PI de Sushi Ben de uma forma que possa razoavelmente prejudicar a reputação de Sushi Ben ou da Big Brane, inclusive por meio de representações inadequadas, ofensivas ou enganosas.
+
+5.7 Usar a PI de Sushi Ben em conexão com mensagens ou imagens religiosas ou políticas.
+
+5.8 Usar a PI de Sushi Ben em conexão com NFTs, criptomoedas, ativos baseados em blockchain ou tecnologias semelhantes.
+
+6. Aviso obrigatório
+
+O Conteúdo de Fãs deve incluir de forma clara e razoável o seguinte aviso:
+
+“Este é conteúdo de fãs não oficial e não é afiliado nem endossado pela Big Brane Studios.”
+
+7. Propriedade
+
+7.1 Você mantém a propriedade de suas contribuições originais para o seu Conteúdo de Fãs.
+
+7.2 A Big Brane mantém todos os direitos, títulos e interesses relativos à PI de Sushi Ben.
+
+7.3 Ao criar e compartilhar Conteúdo de Fãs, você concede à Big Brane uma licença não exclusiva, mundial e isenta de royalties para usar, exibir, reproduzir e compartilhar seu Conteúdo de Fãs para fins promocionais e comerciais.
+
+8. Aplicação e rescisão
+
+8.1 A Big Brane reserva-se o direito de:
+- solicitar a remoção de Conteúdo de Fãs que viole esta Política;
+- revogar essa licença a qualquer momento, por qualquer motivo; e
+- tomar medidas legais quando apropriado.
+
+8.2 O descumprimento desta Política poderá resultar em medidas de aplicação, incluindo solicitações para remover ou desabilitar o acesso ao Conteúdo de Fãs.
+
+9. Alterações nesta Política
+
+Podemos atualizar esta Política periodicamente. A continuação da criação, publicação ou uso de Conteúdo de Fãs após tais atualizações constitui aceitação da Política revisada.
+
+10. Fale conosco
+
+Se você tiver dúvidas sobre esta Política ou sobre se um determinado uso é permitido, entre em contato com:
+legal@bigbranestudios.com
+
+11. Idioma
+
+A versão em inglês desta Política é a única versão legalmente vinculante. As traduções são fornecidas apenas por conveniência. Em caso de qualquer inconsistência, ambiguidade ou conflito entre uma versão traduzida e a versão em inglês, prevalecerá a versão em inglês.","ファンコンテンツポリシー
+
+最終更新日：2026年4月1日
+
+注意：本書は利便性のため複数の言語に翻訳される場合があります。翻訳は自動生成されることがあり、不正確な表現を含む可能性があります。法的拘束力を有する英語版は以下でご覧いただけます：
+https://www.sushiben.com/en/fan-content-policy
+翻訳版と英語版との間に不一致、曖昧さ、または相違がある場合は、英語版が優先されます。
+
+1. 適用範囲
+
+本ファンコンテンツポリシー（以下「本ポリシー」といいます。）は、Sushi Ben およびそれに関連する Big Brane Studios, Inc.（以下「Big Brane」「当社」）が所有する知的財産に基づく、非公式なファンコンテンツの作成および共有を規定するものです。
+
+当社はコミュニティの創造性を高く評価しており、明確かつ合理的な指針のもとでファンによる表現を支援したいと考えています。本ポリシーでは、どのような種類のファンコンテンツが許可されるか、またどのような制限が適用されるかを説明します。
+
+2. 定義
+
+2.1 「Sushi Ben IP」とは、Sushi Ben に関連して Big Brane が所有または管理するすべての知的財産を意味し、キャラクター、名称、場所、物語要素、アートワーク、音楽、音声、映像、ロゴ、その他の専有的なコンテンツを含みますが、これらに限られません。
+
+2.2 「ファンコンテンツ」とは、Sushi Ben IP に基づく、またはそれを含む、ユーザーが作成したオリジナルかつ非公式のコンテンツを意味し、アートワーク、動画、ライブ配信、ゲームプレイクリップ、その他これらに類する創作物を含みますが、これらに限られません。
+
+3. ライセンスの付与
+
+3.1 お客様が本ポリシーを遵守することを条件として、Big Brane は、お客様に対し、Sushi Ben IP に基づくファンコンテンツを作成および共有するための、限定的、非独占的、取消可能かつ譲渡不能なライセンスを付与します。
+
+3.2 本ポリシーは、Sushi Ben IP に関するいかなる所有権も移転するものではありません。
+
+3.3 Big Brane は、理由のいかんを問わず、いつでもその単独の裁量により本ライセンスを取り消すことができます。
+
+4. 許可される利用
+
+本ポリシーに定める制限に従い、お客様は以下を行うことができます。
+
+4.1 非商用のファンコンテンツを作成し、共有すること。
+
+4.2 Twitch、YouTube、またはこれらに類するサービス上で Sushi Ben をライブ配信し、またはその他の方法で公に表示すること。
+
+4.3 ゲームプレイ動画、クリップ、録画、またはこれらに類するコンテンツを、YouTube、TikTok、Twitch、またはこれらに類するサービスにアップロードすること。
+
+4.4 動画および配信を、以下のようなプラットフォーム対応機能を通じてのみ収益化すること。
+- 広告収益
+- パートナープログラム収益
+- サブスクリプション
+- 寄付
+
+4.5 Sushi Ben IP を、お客様のファンコンテンツが非公式であり、Big Brane によって所有、後援、または承認されていないことが明確になる方法でのみ使用すること。
+
+5. 制限事項
+
+お客様は、以下を行ってはなりません。
+
+5.1 規模を問わず、物理的またはデジタルの商品を含むファンコンテンツを販売、ライセンス供与、またはその他の方法で商業的に利用すること。
+
+5.2 Sushi Ben IP を使用したファンコンテンツを大量生産、商業的に配布、または販売のために提供すること。
+
+5.3 Kickstarter または Indiegogo などのクラウドファンディングプラットフォームを使用して、Sushi Ben IP に基づく商品その他の製品を作成、資金調達、または販売すること。
+
+5.4 ファンコンテンツを、Big Brane により公式、ライセンス済み、承認済み、後援されている、または支持されているものとして表示すること。
+
+5.5 Sushi Ben IP を、違法、名誉毀損的、憎悪的、差別的、嫌がらせ的、または個人もしくは集団に有害なコンテンツと関連付けて使用すること。
+
+5.6 Sushi Ben または Big Brane の評判を合理的に損なうおそれのある方法で、Sushi Ben IP を使用すること。これには、不適切、攻撃的、または誤解を招く表現を含みます。
+
+5.7 Sushi Ben IP を、宗教的または政治的なメッセージまたは画像と関連付けて使用すること。
+
+5.8 Sushi Ben IP を、NFT、暗号資産、ブロックチェーンベースの資産、またはこれらに類する技術と関連付けて使用すること。
+
+6. 必要な免責表示
+
+ファンコンテンツには、以下の免責表示を明確かつ合理的な形で含めなければなりません。
+
+「これは非公式なファンコンテンツであり、Big Brane Studios と提携しておらず、また Big Brane Studios の承認を受けたものではありません。」
+
+7. 権利帰属
+
+7.1 お客様は、自身のファンコンテンツに対するオリジナルな寄与部分の権利を保持します。
+
+7.2 Big Brane は、Sushi Ben IP に関するすべての権利、権原および利益を保持します。
+
+7.3 ファンコンテンツを作成および共有することにより、お客様は Big Brane に対し、宣伝および事業上の目的のために、お客様のファンコンテンツを使用、表示、複製、および共有するための、非独占的、全世界的、ロイヤリティフリーのライセンスを付与するものとします。
+
+8. 執行および終了
+
+8.1 Big Brane は、以下の権利を留保します。
+- 本ポリシーに違反するファンコンテンツの削除を求めること
+- いつでも理由のいかんを問わず本ライセンスを取り消すこと
+- 必要に応じて法的措置を講じること
+
+8.2 本ポリシーに従わない場合、ファンコンテンツの削除またはアクセス停止の要請を含む執行措置の対象となる場合があります。
+
+9. 本ポリシーの変更
+
+当社は、本ポリシーを随時更新する場合があります。更新後もファンコンテンツの作成、公開、または利用を継続した場合、改定後の本ポリシーに同意したものとみなされます。
+
+10. お問い合わせ
+
+本ポリシーまたは特定の利用が許可されるかどうかについてご質問がある場合は、以下までご連絡ください。
+legal@bigbranestudios.com
+
+11. 言語
+
+本ポリシーの英語版のみが法的拘束力を有する正式版です。翻訳版は便宜のためにのみ提供されます。翻訳版と英語版との間に不一致、曖昧さ、または抵触がある場合は、英語版が優先されます。","팬 콘텐츠 정책
+
+최종 업데이트: 2026년 4월 1일
+
+고지: 본 문서는 편의를 위해 여러 언어로 번역될 수 있습니다. 번역은 자동으로 생성될 수 있으며 부정확한 내용이 포함될 수 있습니다. 법적 구속력이 있는 영어 버전은 다음에서 확인할 수 있습니다:
+https://www.sushiben.com/en/fan-content-policy
+번역본과 영어 버전 사이에 불일치, 모호성 또는 차이가 있는 경우 영어 버전이 우선합니다.
+
+1. 적용 범위
+
+본 팬 콘텐츠 정책(이하 “본 정책”)은 Sushi Ben 및 이에 관련된 Big Brane Studios, Inc.(이하 “Big Brane”, “당사”) 소유의 지식재산권을 기반으로 한 비공식 팬 콘텐츠의 제작 및 공유를 규정합니다.
+
+당사는 커뮤니티의 창의성을 높이 평가하며, 명확하고 합리적인 지침 내에서 팬 표현 활동을 지원하고자 합니다. 본 정책은 어떤 종류의 팬 콘텐츠가 허용되는지와 어떤 제한이 적용되는지를 설명합니다.
+
+2. 정의
+
+2.1 “Sushi Ben IP”란 Sushi Ben과 관련하여 Big Brane이 소유하거나 관리하는 모든 지식재산을 의미하며, 여기에는 캐릭터, 명칭, 장소, 스토리 요소, 아트워크, 음악, 오디오, 비디오, 로고 및 기타 독점적 콘텐츠가 포함되나 이에 한정되지 않습니다.
+
+2.2 “팬 콘텐츠”란 Sushi Ben IP를 기반으로 하거나 이를 포함하여 귀하가 제작한 독창적이고 비공식적인 콘텐츠를 의미하며, 여기에는 아트워크, 동영상, 라이브스트림, 게임플레이 클립 및 이와 유사한 창작물이 포함되나 이에 한정되지 않습니다.
+
+3. 라이선스 부여
+
+3.1 귀하가 본 정책을 준수하는 것을 조건으로, Big Brane은 귀하에게 Sushi Ben IP를 기반으로 한 팬 콘텐츠를 제작하고 공유할 수 있는 제한적, 비독점적, 철회 가능하며 양도 불가능한 라이선스를 부여합니다.
+
+3.2 본 정책은 Sushi Ben IP에 대한 어떠한 소유권도 이전하지 않습니다.
+
+3.3 Big Brane은 언제든지, 어떠한 이유로든, 전적인 재량에 따라 이 라이선스를 철회할 수 있습니다.
+
+4. 허용되는 사용
+
+본 정책의 제한 사항을 전제로, 귀하는 다음을 할 수 있습니다.
+
+4.1 비상업적 팬 콘텐츠를 제작하고 공유하는 것.
+
+4.2 Twitch, YouTube 또는 이와 유사한 서비스와 같은 플랫폼에서 Sushi Ben을 라이브스트리밍하거나 그 밖의 방법으로 공개적으로 표시하는 것.
+
+4.3 게임플레이 동영상, 클립, 녹화물 또는 이와 유사한 콘텐츠를 YouTube, TikTok, Twitch 또는 이와 유사한 서비스와 같은 플랫폼에 업로드하는 것.
+
+4.4 다음과 같은 플랫폼 지원 기능을 통해서만 동영상과 스트림을 수익화하는 것.
+- 광고 수익
+- 파트너 프로그램 수익
+- 구독
+- 기부
+
+4.5 귀하의 팬 콘텐츠가 비공식적이며 Big Brane이 소유, 후원 또는 보증하지 않는다는 점이 명확히 드러나는 방식으로만 Sushi Ben IP를 사용하는 것.
+
+5. 제한 사항
+
+귀하는 다음을 해서는 안 됩니다.
+
+5.1 규모와 관계없이, 물리적 또는 디지털 상품을 포함한 팬 콘텐츠를 판매, 라이선스하거나 그 밖의 방식으로 상업적으로 이용하는 것.
+
+5.2 Sushi Ben IP를 사용하는 팬 콘텐츠를 대량 생산, 상업적으로 배포 또는 판매용으로 제공하는 것.
+
+5.3 Kickstarter 또는 Indiegogo와 같은 크라우드펀딩 플랫폼을 사용하여 Sushi Ben IP를 기반으로 한 상품 또는 기타 제품을 제작, 자금 조달 또는 판매하는 것.
+
+5.4 팬 콘텐츠를 Big Brane이 공식적, 라이선스됨, 승인됨, 후원함 또는 보증함으로 표시하는 것.
+
+5.5 Sushi Ben IP를 불법적이거나, 명예훼손적이거나, 혐오적이거나, 차별적이거나, 괴롭힘적이거나, 그 밖에 개인 또는 집단에 해로운 콘텐츠와 관련하여 사용하는 것.
+
+5.6 부적절하거나, 공격적이거나, 오해를 불러일으키는 묘사를 포함하여, Sushi Ben 또는 Big Brane의 평판을 합리적으로 손상시킬 수 있는 방식으로 Sushi Ben IP를 사용하는 것.
+
+5.7 Sushi Ben IP를 종교적 또는 정치적 메시지나 이미지와 관련하여 사용하는 것.
+
+5.8 Sushi Ben IP를 NFT, 암호화폐, 블록체인 기반 자산 또는 이와 유사한 기술과 관련하여 사용하는 것.
+
+6. 필수 고지문
+
+팬 콘텐츠에는 다음 고지문이 명확하고 합리적인 방식으로 포함되어야 합니다.
+
+“이 콘텐츠는 비공식 팬 콘텐츠이며 Big Brane Studios와 제휴되어 있지 않으며 Big Brane Studios의 보증을 받지 않았습니다.”
+
+7. 소유권
+
+7.1 귀하는 귀하의 팬 콘텐츠에 대한 원래 기여분의 소유권을 유지합니다.
+
+7.2 Big Brane은 Sushi Ben IP에 대한 모든 권리, 권원 및 이익을 보유합니다.
+
+7.3 팬 콘텐츠를 제작하고 공유함으로써, 귀하는 Big Brane에 대하여 귀하의 팬 콘텐츠를 홍보 및 사업 목적을 위해 사용, 표시, 복제 및 공유할 수 있는 비독점적이고 전 세계적이며 로열티 없는 라이선스를 부여합니다.
+
+8. 집행 및 종료
+
+8.1 Big Brane은 다음 권리를 보유합니다.
+- 본 정책을 위반하는 팬 콘텐츠의 삭제를 요청할 권리
+- 언제든지 어떠한 이유로든 이 라이선스를 철회할 권리
+- 적절한 경우 법적 조치를 취할 권리
+
+8.2 본 정책을 준수하지 않을 경우, 팬 콘텐츠의 제거 또는 접근 차단 요청을 포함한 집행 조치의 대상이 될 수 있습니다.
+
+9. 본 정책의 변경
+
+당사는 수시로 본 정책을 업데이트할 수 있습니다. 업데이트 이후에도 팬 콘텐츠의 제작, 게시 또는 사용을 계속하는 경우, 개정된 정책에 동의한 것으로 간주됩니다.
+
+10. 문의처
+
+본 정책 또는 특정 사용이 허용되는지 여부에 관해 질문이 있는 경우, 다음으로 연락해 주십시오.
+legal@bigbranestudios.com
+
+11. 언어
+
+본 정책의 영어 버전만이 법적 구속력이 있는 유일한 버전입니다. 번역본은 편의를 위해서만 제공됩니다. 번역본과 영어 버전 사이에 불일치, 모호성 또는 충돌이 있는 경우 영어 버전이 우선합니다.","粉丝内容政策
+
+最后更新：2026年4月1日
+
+提示：为方便阅读，本文件可能会被翻译成多种语言。译文可能由自动方式生成，且可能包含不准确之处。具有法律约束力的英文版本可在以下地址查看：
+https://www.sushiben.com/en/fan-content-policy
+如译文与英文版本之间存在任何不一致、歧义或差异，应以英文版本为准。
+
+1. 适用范围
+
+本《粉丝内容政策》（以下简称“本政策”）规范基于 Sushi Ben 以及 Big Brane Studios, Inc.（以下简称“Big Brane”“我们”）所拥有的相关知识产权所创作和分享的非官方粉丝内容。
+
+我们重视社区的创造力，并希望在明确且合理的指引下支持粉丝表达。本政策说明哪些类型的粉丝内容是允许的，以及适用哪些限制。
+
+2. 定义
+
+2.1 “Sushi Ben IP”是指 Big Brane 就 Sushi Ben 所拥有或控制的全部知识产权，包括但不限于角色、名称、地点、故事元素、美术作品、音乐、音频、视频、标识以及其他专有内容。
+
+2.2 “粉丝内容”是指由您创作的、基于 Sushi Ben IP 或包含 Sushi Ben IP 的原创非官方内容，包括但不限于美术作品、视频、直播、游戏片段以及其他类似创意作品。
+
+3. 许可授予
+
+3.1 在您遵守本政策的前提下，Big Brane 授予您一项有限的、非独占的、可撤销的、不可转让的许可，以创作和分享基于 Sushi Ben IP 的粉丝内容。
+
+3.2 本政策不转让 Sushi Ben IP 的任何所有权。
+
+3.3 Big Brane 可随时以任何理由并自行决定撤销该许可。
+
+4. 允许的使用
+
+在遵守本政策限制的前提下，您可以：
+
+4.1 创作并分享非商业性的粉丝内容。
+
+4.2 在 Twitch、YouTube 或类似服务等平台上直播或以其他方式公开展示 Sushi Ben。
+
+4.3 将游戏视频、片段、录制内容或类似内容上传至 YouTube、TikTok、Twitch 或类似服务等平台。
+
+4.4 仅通过平台支持的功能将视频和直播变现，例如：
+- 广告收入；
+- 合作伙伴计划收入；
+- 订阅；以及
+- 打赏。
+
+4.5 仅以能够明确表明您的粉丝内容是非官方且并非由 Big Brane 拥有、赞助或认可的方式使用 Sushi Ben IP。
+
+5. 限制
+
+您不得：
+
+5.1 销售、许可或以其他方式商业化利用粉丝内容，包括实体或数字商品，无论规模大小。
+
+5.2 对使用 Sushi Ben IP 的粉丝内容进行大规模生产、商业分发或销售。
+
+5.3 使用 Kickstarter 或 Indiegogo 等众筹平台来创作、筹资或销售基于 Sushi Ben IP 的商品或其他产品。
+
+5.4 将粉丝内容表述为由 Big Brane 官方发布、授权、批准、赞助或认可。
+
+5.5 将 Sushi Ben IP 用于与违法、诽谤、仇恨、歧视、骚扰或以其他方式对个人或群体有害的内容相关联的情形。
+
+5.6 以可能合理损害 Sushi Ben 或 Big Brane 声誉的方式使用 Sushi Ben IP，包括不当、冒犯性或误导性的描绘。
+
+5.7 将 Sushi Ben IP 用于与宗教或政治信息或图像相关联的情形。
+
+5.8 将 Sushi Ben IP 用于与 NFT、加密货币、基于区块链的资产或类似技术相关联的情形。
+
+6. 必要声明
+
+粉丝内容必须以清晰且合理的方式包含以下声明：
+
+“这是非官方粉丝内容，与 Big Brane Studios 无关联，也未获得 Big Brane Studios 的认可或支持。”
+
+7. 所有权
+
+7.1 您保留您对自己粉丝内容中原创贡献部分的所有权。
+
+7.2 Big Brane 保留 Sushi Ben IP 的所有权利、所有权和利益。
+
+7.3 通过创作和分享粉丝内容，您授予 Big Brane 一项非独占的、全球性的、免版税的许可，以便出于宣传和业务目的使用、展示、复制和分享您的粉丝内容。
+
+8. 执行与终止
+
+8.1 Big Brane 保留以下权利：
+- 要求移除违反本政策的粉丝内容；
+- 随时以任何理由撤销该许可；以及
+- 在适当情况下采取法律行动。
+
+8.2 未遵守本政策可能导致执行措施，包括要求移除粉丝内容或禁用对粉丝内容的访问。
+
+9. 本政策的变更
+
+我们可能会不时更新本政策。在该等更新后继续创作、发布或使用粉丝内容，即表示您接受修订后的政策。
+
+10. 联系我们
+
+如果您对本政策或某种特定用途是否被允许有任何疑问，请联系：
+legal@bigbranestudios.com
+
+11. 语言
+
+本政策的英文版本是唯一具有法律约束力的版本。译文仅为方便阅读而提供。如译文与英文版本之间存在任何不一致、歧义或冲突，应以英文版本为准。","粉絲內容政策
+
+最後更新：2026年4月1日
+
+提示：為方便閱讀，本文件可能會被翻譯成多種語言。譯文可能由自動方式產生，且可能包含不準確之處。具有法律拘束力的英文版本可於以下網址查閱：
+https://www.sushiben.com/en/fan-content-policy
+如翻譯版本與英文版本之間存在任何不一致、歧義或差異，應以英文版本為準。
+
+1. 適用範圍
+
+本《粉絲內容政策》（以下稱「本政策」）規範基於 Sushi Ben 以及 Big Brane Studios, Inc.（以下稱「Big Brane」、「我們」）所擁有之相關智慧財產所創作與分享的非官方粉絲內容。
+
+我們重視社群的創造力，並希望在明確且合理的指引下支持粉絲表達。本政策說明哪些類型的粉絲內容是被允許的，以及適用哪些限制。
+
+2. 定義
+
+2.1 「Sushi Ben IP」係指 Big Brane 就 Sushi Ben 所擁有或控制之全部智慧財產，包括但不限於角色、名稱、地點、故事元素、美術作品、音樂、音訊、影片、標誌以及其他專有內容。
+
+2.2 「粉絲內容」係指由您創作、基於 Sushi Ben IP 或納入 Sushi Ben IP 之原創且非官方內容，包括但不限於美術作品、影片、直播、遊戲片段以及其他類似創作作品。
+
+3. 授權
+
+3.1 以您遵守本政策為前提，Big Brane 授予您一項有限、非專屬、可撤銷且不可轉讓之授權，以創作與分享基於 Sushi Ben IP 的粉絲內容。
+
+3.2 本政策不轉讓 Sushi Ben IP 的任何所有權。
+
+3.3 Big Brane 得隨時基於任何理由並依其單獨裁量撤銷此授權。
+
+4. 允許的使用
+
+在遵守本政策限制的前提下，您可以：
+
+4.1 創作並分享非商業性的粉絲內容。
+
+4.2 在 Twitch、YouTube 或類似服務等平台上直播或以其他方式公開展示 Sushi Ben。
+
+4.3 將遊戲影片、片段、錄製內容或類似內容上傳至 YouTube、TikTok、Twitch 或類似服務等平台。
+
+4.4 僅透過平台支援的功能將影片與直播變現，例如：
+- 廣告收益；
+- 合作夥伴計畫收益；
+- 訂閱；以及
+- 贊助或打賞。
+
+4.5 僅以能夠明確表明您的粉絲內容屬於非官方，且並非由 Big Brane 擁有、贊助或背書之方式使用 Sushi Ben IP。
+
+5. 限制
+
+您不得：
+
+5.1 販售、授權或以其他方式商業利用粉絲內容，包括實體或數位商品，不論規模大小。
+
+5.2 對使用 Sushi Ben IP 的粉絲內容進行大量生產、商業散布或販售。
+
+5.3 使用 Kickstarter 或 Indiegogo 等群眾募資平台來創作、募資或販售基於 Sushi Ben IP 的商品或其他產品。
+
+5.4 將粉絲內容表示為由 Big Brane 官方發布、授權、核准、贊助或背書。
+
+5.5 將 Sushi Ben IP 用於與違法、誹謗、仇恨、歧視、騷擾或以其他方式對個人或群體有害之內容相關的情形。
+
+5.6 以可能合理損害 Sushi Ben 或 Big Brane 名譽之方式使用 Sushi Ben IP，包括不適當、冒犯性或誤導性的描繪。
+
+5.7 將 Sushi Ben IP 用於與宗教或政治訊息或圖像相關之情形。
+
+5.8 將 Sushi Ben IP 用於與 NFT、加密貨幣、區塊鏈資產或類似技術相關之情形。
+
+6. 必要聲明
+
+粉絲內容必須以清楚且合理的方式包含以下聲明：
+
+「這是非官方粉絲內容，與 Big Brane Studios 無關聯，亦未獲得 Big Brane Studios 的認可或支持。」
+
+7. 所有權
+
+7.1 您保留您對自己粉絲內容中原創貢獻部分之所有權。
+
+7.2 Big Brane 保留 Sushi Ben IP 的全部權利、所有權及利益。
+
+7.3 透過創作與分享粉絲內容，您授予 Big Brane 一項非專屬、全球性且免權利金之授權，以便基於宣傳與業務目的使用、展示、重製及分享您的粉絲內容。
+
+8. 執行與終止
+
+8.1 Big Brane 保留以下權利：
+- 要求移除違反本政策之粉絲內容；
+- 隨時基於任何理由撤銷此授權；以及
+- 於適當時採取法律行動。
+
+8.2 未遵守本政策可能導致執行措施，包括要求移除粉絲內容或停用對粉絲內容之存取。
+
+9. 本政策的變更
+
+我們可能會不時更新本政策。在該等更新後繼續創作、發布或使用粉絲內容，即表示您接受修訂後之政策。
+
+10. 聯絡我們
+
+如果您對本政策或某一特定用途是否被允許有任何疑問，請聯絡：
+legal@bigbranestudios.com
+
+11. 語言
+
+本政策的英文版本為唯一具有法律拘束力的版本。翻譯版本僅為方便閱讀而提供。如翻譯版本與英文版本之間存在任何不一致、歧義或衝突，應以英文版本為準。"
