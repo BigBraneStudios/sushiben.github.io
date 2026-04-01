@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onTurnstileLoad" async defer></script>
   <script type="application/ld+json">{{ORG_JSON_LD}}</script>
   <script type="application/ld+json">{{WEBSITE_JSON_LD}}</script>
   <script type="application/ld+json">{{WEBPAGE_JSON_LD}}</script>
@@ -281,7 +281,7 @@
               <input type="hidden" name="locale" value="{{LANG}}">
 
               <div class="turnstile-wrap">
-                <div class="cf-turnstile" data-sitekey="{{TURNSTILE_SITE_KEY}}" data-theme="auto"></div>
+                <div class="cf-turnstile" data-sitekey="{{TURNSTILE_SITE_KEY}}"></div>
               </div>
 
               <p id="form-status" class="form-status" role="status" aria-live="polite"></p>

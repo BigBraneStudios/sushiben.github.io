@@ -5,6 +5,55 @@ if (yearEl) {
 
 const THEME_KEY = "sb_theme";
 const themeButtons = Array.from(document.querySelectorAll("[data-theme-toggle]"));
+let turnstileLoadAttempts = 0;
+
+function currentTheme() {
+  return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+}
+
+function renderTurnstileWidgets(force = false) {
+  const widgets = Array.from(document.querySelectorAll(".cf-turnstile"));
+  if (!widgets.length) return;
+  if (!window.turnstile || typeof window.turnstile.render !== "function") {
+    if (turnstileLoadAttempts >= 40) return;
+    turnstileLoadAttempts += 1;
+    window.setTimeout(() => renderTurnstileWidgets(force), 250);
+    return;
+  }
+
+  const theme = currentTheme();
+
+  widgets.forEach((widget) => {
+    const sitekey = widget.getAttribute("data-sitekey");
+    if (!sitekey) return;
+    const renderedTheme = widget.getAttribute("data-rendered-theme");
+    if (!force && renderedTheme === theme && widget.getAttribute("data-widget-id")) {
+      return;
+    }
+
+    const widgetId = widget.getAttribute("data-widget-id");
+    if (widgetId && typeof window.turnstile.remove === "function") {
+      try {
+        window.turnstile.remove(widgetId);
+      } catch (_err) {
+        // Ignore stale widget ids and continue with a fresh render.
+      }
+    }
+
+    widget.innerHTML = "";
+    const nextId = window.turnstile.render(widget, {
+      sitekey,
+      theme,
+    });
+    widget.setAttribute("data-widget-id", String(nextId));
+    widget.setAttribute("data-rendered-theme", theme);
+  });
+}
+
+window.onTurnstileLoad = () => {
+  turnstileLoadAttempts = 0;
+  renderTurnstileWidgets(true);
+};
 
 function applyTheme(theme, persist = false) {
   const finalTheme = theme === "dark" ? "dark" : "light";
@@ -45,6 +94,8 @@ function applyTheme(theme, persist = false) {
       spotifyWidget.setAttribute("src", nextSrc);
     }
   });
+
+  renderTurnstileWidgets();
 }
 
 themeButtons.forEach((btn) => {
@@ -56,6 +107,7 @@ themeButtons.forEach((btn) => {
 
 const initialTheme = document.documentElement.getAttribute("data-theme") || "light";
 applyTheme(initialTheme, false);
+renderTurnstileWidgets();
 
 document.querySelectorAll("details.nav-menu, details.lang-switcher").forEach((menu) => {
   menu.querySelectorAll("a").forEach((link) => {
@@ -184,6 +236,7 @@ if (supportForm) {
 
       supportForm.classList.add("is-success");
       supportForm.reset();
+      renderTurnstileWidgets(true);
       setFormStatus("Thanks, your message was sent successfully.", "success");
     } catch (_err) {
       setFormStatus("Something went wrong sending your message. Please try again.", "error");
