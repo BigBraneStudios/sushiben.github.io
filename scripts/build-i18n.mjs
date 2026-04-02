@@ -72,6 +72,23 @@ function write(filePath, content) {
   fs.writeFileSync(abs, withBom, "utf8");
 }
 
+function redirectHtml(targetHref, canonicalUrlValue) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=${targetHref}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting | ${SITE_NAME}</title>
+  <link rel="canonical" href="${canonicalUrlValue}">
+</head>
+<body>
+  <p>Redirecting to <a href="${targetHref}">${targetHref}</a>...</p>
+</body>
+</html>
+`;
+}
+
 function parseCsv(content) {
   const rows = [];
   let row = [];
@@ -611,5 +628,12 @@ ${sitemapUrls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n")}
 `;
 
 write("sitemap.xml", sitemapXml);
+
+write("press-kit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
+write("presskit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
+
+for (const locale of LOCALES) {
+  write(`${locale}/presskit/index.html`, redirectHtml("../press-kit/", canonicalUrl(locale, "press-kit")));
+}
 
 console.log("Localized pages generated:", LOCALES.join(", "));
