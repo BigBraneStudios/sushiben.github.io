@@ -455,6 +455,7 @@ for (const locale of LOCALES) {
     FORM_NAME: escapeHtml(t("home.form.name", locale)),
     FORM_EMAIL: escapeHtml(t("home.form.email", locale)),
     FORM_MESSAGE: escapeHtml(t("home.form.message", locale)),
+    FORM_WEBSITE: escapeHtml(t("home.form.website", locale)),
     FORM_SUBMIT: escapeHtml(t("home.form.submit", locale)),
     TURNSTILE_SITE_KEY: escapeHtml(TURNSTILE_SITE_KEY),
     LEGAL_EULA_LABEL: escapeHtml(t("footer.legal.eula", locale)),

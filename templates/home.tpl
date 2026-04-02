@@ -273,7 +273,7 @@
               <textarea id="message" name="message" rows="6" required></textarea>
 
               <div class="hp-wrap" aria-hidden="true">
-                <label for="website">Website</label>
+                <label for="website">{{FORM_WEBSITE}}</label>
                 <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
               </div>
 

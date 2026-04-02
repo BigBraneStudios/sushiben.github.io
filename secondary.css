@@ -151,13 +151,18 @@
   margin-top: 0.3rem;
 }
 
+.press-quote-item {
+  list-style-position: outside;
+}
+
 .press-quote-line {
   display: block;
+  margin: 0;
 }
 
 .press-quote-summary {
   display: block;
-  margin-top: 0.32rem;
+  margin: 0.32rem 0 0;
   color: var(--soft-ink);
   font-size: 0.98rem;
   line-height: 1.5;
