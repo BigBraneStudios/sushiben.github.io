@@ -631,6 +631,7 @@ write("sitemap.xml", sitemapXml);
 
 write("press-kit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
 write("presskit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
+write("voice-actors/index.html", redirectHtml("http://www.sushiben.com/cast", `${SITE_URL}/en/cast/`));
 
 for (const locale of LOCALES) {
   write(`${locale}/presskit/index.html`, redirectHtml("../press-kit/", canonicalUrl(locale, "press-kit")));
