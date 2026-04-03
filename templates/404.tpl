@@ -65,7 +65,6 @@
   </header>
 
   <main class="legal-wrap">
-    <h1 id="not-found-page-title"></h1>
     <section class="secondary-group secondary-panel not-found-panel">
       <div class="not-found-copy">
         <p class="kicker" id="not-found-kicker"></p>
