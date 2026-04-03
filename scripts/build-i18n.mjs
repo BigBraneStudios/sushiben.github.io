@@ -331,6 +331,40 @@ function render(template, replacements) {
   return out;
 }
 
+function notFoundTranslations() {
+  const out = {};
+  for (const locale of LOCALES) {
+    out[locale] = {
+      html_lang: htmlLang(locale),
+      language_name: currentLanguageName(locale),
+      lang_aria_label: t("lang.aria_label", locale),
+      full_title: `${SITE_NAME} | ${t("page.404.title", locale)}`,
+      page_title: t("page.404.title", locale),
+      page_description: t("page.404.description", locale),
+      kicker: t("404.kicker", locale),
+      heading: t("404.heading", locale),
+      body_1: t("404.body1", locale),
+      body_2: t("404.body2", locale),
+      cta_home: t("legal.back_home", locale),
+      nav_buy: t("nav.buy", locale),
+      nav_media: t("nav.media", locale),
+      nav_about: t("nav.about", locale),
+      nav_cast: t("nav.cast", locale),
+      nav_press_kit: t("nav.press_kit", locale),
+      nav_contact: t("nav.contact", locale),
+      nav_menu: t("nav.menu", locale),
+      nav_team: t("nav.team", locale),
+      footer_eula: t("footer.legal.eula", locale),
+      footer_fan_content: t("footer.legal.fan_content", locale),
+      footer_privacy: t("footer.legal.privacy", locale),
+      footer_soundtrack: t("footer.soundtrack", locale),
+      logo_alt: t("image.logo.horizontal.alt", locale),
+      botan_alt: t("image.sticker.botan.alt", locale),
+    };
+  }
+  return jsonLd(out);
+}
+
 function reviewSummary(summaryKey, locale) {
   if (locale === DEFAULT_LOCALE) return "";
   const summary = t(summaryKey, locale);
@@ -388,6 +422,7 @@ function readSecondaryBody(locale, page) {
 const homeTemplate = read("templates/home.tpl");
 const legalTemplate = read("templates/legal.tpl");
 const secondaryTemplate = read("templates/secondary.tpl");
+const notFoundTemplate = read("templates/404.tpl");
 
 for (const locale of LOCALES) {
   const orgJson = organizationJsonLd();
@@ -628,6 +663,21 @@ ${sitemapUrls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n")}
 `;
 
 write("sitemap.xml", sitemapXml);
+
+const notFoundHtml = render(notFoundTemplate, {
+  DEFAULT_404_TITLE: escapeHtml(`${SITE_NAME} | ${t("page.404.title", DEFAULT_LOCALE)}`),
+  DEFAULT_404_DESCRIPTION: escapeHtml(t("page.404.description", DEFAULT_LOCALE)),
+  DEFAULT_404_CANONICAL: `${SITE_URL}/${DEFAULT_LOCALE}/`,
+  ORG_JSON_LD: organizationJsonLd(),
+  SOCIAL_X: SOCIAL_LABELS.x,
+  SOCIAL_YOUTUBE: SOCIAL_LABELS.youtube,
+  SOCIAL_DISCORD: SOCIAL_LABELS.discord,
+  NOT_FOUND_I18N_JSON: notFoundTranslations(),
+  LOCALES_JSON: jsonLd(LOCALES),
+  SITE_URL_JSON: jsonLd(SITE_URL),
+});
+
+write("404.html", notFoundHtml);
 
 write("press-kit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
 write("presskit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
