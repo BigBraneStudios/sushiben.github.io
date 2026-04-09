@@ -113,6 +113,15 @@
       var locales = ["en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"];
       var siteUrl = "https://www.sushiben.com";
       var basePath = window.__SB_BASE_PATH__ || "/";
+      var legacyRouteMap = {
+        "about": "index.html#about",
+        "buy": "index.html#buy",
+        "media": "index.html#media",
+        "contact": "index.html#contact",
+        "presskit": "press-kit/",
+        "press-kit": "press-kit/",
+        "voice-actors": "cast/"
+      };
 
       function setText(id, value) {
         var el = document.getElementById(id);
@@ -160,6 +169,31 @@
           if (match) return match;
         }
         return "en";
+      }
+
+      function detectLegacyTarget() {
+        var relative = window.location.pathname || "/";
+        if (relative.indexOf(basePath) === 0) {
+          relative = relative.slice(basePath.length);
+        }
+        relative = relative.replace(/^\/+|\/+$/g, "").toLowerCase();
+        if (!relative) return "";
+
+        var segments = relative.split("/");
+        if (locales.indexOf(segments[0]) !== -1) {
+          segments.shift();
+        }
+        if (!segments.length) return "";
+
+        var mapped = legacyRouteMap[segments.join("/")];
+        return mapped || "";
+      }
+
+      function redirectLegacyRoute(locale) {
+        var target = detectLegacyTarget();
+        if (!target) return false;
+        window.location.replace(localizedPath(locale, target));
+        return true;
       }
 
       function applyLocale(locale) {
@@ -252,7 +286,10 @@
         }
       }
 
-      applyLocale(detectLocale());
+      var activeLocale = detectLocale();
+      if (!redirectLegacyRoute(activeLocale)) {
+        applyLocale(activeLocale);
+      }
     })();
   </script>
   <script src="./script.js?v=20260331-theme3"></script>
