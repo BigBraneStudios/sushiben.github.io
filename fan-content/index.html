@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=../en/fan-content/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting | Sushi Ben</title>
+  <link rel="canonical" href="https://www.sushiben.com/en/fan-content/">
+  <script>
+    (function () {
+      var locales = ["en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"];
+      var prefs = Array.isArray(window.navigator.languages) && window.navigator.languages.length
+        ? window.navigator.languages
+        : [window.navigator.language || "en"];
+
+      function normalizeLocale(raw) {
+        var value = String(raw || "").toLowerCase();
+        if (!value) return "en";
+        if (locales.indexOf(value) !== -1) return value;
+        if (value === "pt") return "pt-br";
+        if (value === "zh" || value === "zh-cn" || value === "zh-sg" || value === "zh-hans") return "zh-hans";
+        if (value === "zh-tw" || value === "zh-hk" || value === "zh-mo" || value === "zh-hant") return "zh-hant";
+        var short = value.split("-")[0];
+        if (short === "pt") return "pt-br";
+        if (short === "zh") {
+          return value.indexOf("hant") !== -1 || value.indexOf("tw") !== -1 || value.indexOf("hk") !== -1
+            ? "zh-hant"
+            : "zh-hans";
+        }
+        if (locales.indexOf(short) !== -1) return short;
+        return "en";
+      }
+
+      var locale = "en";
+      for (var i = 0; i < prefs.length; i += 1) {
+        locale = normalizeLocale(prefs[i]);
+        if (locale) break;
+      }
+
+      window.location.replace("../" + locale + "/fan-content/");
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="../en/fan-content/">../en/fan-content/</a>...</p>
+</body>
+</html>

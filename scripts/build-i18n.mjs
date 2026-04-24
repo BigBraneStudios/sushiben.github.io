@@ -33,7 +33,7 @@ const DEFAULT_LOCALE = "en";
 const SECONDARY_PAGES = ["team", "cast", "press-kit"];
 const LEGAL_PAGES = [
   { slug: "eula", key: "eula" },
-  { slug: "fan-content-policy", key: "fan_content" },
+  { slug: "fan-content", key: "fan_content" },
   { slug: "privacy", key: "privacy" },
 ];
 const HREFLANG = {
@@ -84,6 +84,58 @@ function redirectHtml(targetHref, canonicalUrlValue) {
 </head>
 <body>
   <p>Redirecting to <a href="${targetHref}">${targetHref}</a>...</p>
+</body>
+</html>
+`;
+}
+
+function localeRedirectHtml(targetSuffix, canonicalUrlValue) {
+  const fallbackHref = `../${DEFAULT_LOCALE}/${targetSuffix}`;
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=${fallbackHref}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting | ${SITE_NAME}</title>
+  <link rel="canonical" href="${canonicalUrlValue}">
+  <script>
+    (function () {
+      var locales = ${jsonLd(LOCALES)};
+      var prefs = Array.isArray(window.navigator.languages) && window.navigator.languages.length
+        ? window.navigator.languages
+        : [window.navigator.language || "${DEFAULT_LOCALE}"];
+
+      function normalizeLocale(raw) {
+        var value = String(raw || "").toLowerCase();
+        if (!value) return "${DEFAULT_LOCALE}";
+        if (locales.indexOf(value) !== -1) return value;
+        if (value === "pt") return "pt-br";
+        if (value === "zh" || value === "zh-cn" || value === "zh-sg" || value === "zh-hans") return "zh-hans";
+        if (value === "zh-tw" || value === "zh-hk" || value === "zh-mo" || value === "zh-hant") return "zh-hant";
+        var short = value.split("-")[0];
+        if (short === "pt") return "pt-br";
+        if (short === "zh") {
+          return value.indexOf("hant") !== -1 || value.indexOf("tw") !== -1 || value.indexOf("hk") !== -1
+            ? "zh-hant"
+            : "zh-hans";
+        }
+        if (locales.indexOf(short) !== -1) return short;
+        return "${DEFAULT_LOCALE}";
+      }
+
+      var locale = "${DEFAULT_LOCALE}";
+      for (var i = 0; i < prefs.length; i += 1) {
+        locale = normalizeLocale(prefs[i]);
+        if (locale) break;
+      }
+
+      window.location.replace("../" + locale + "/${targetSuffix}");
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="${fallbackHref}">${fallbackHref}</a>...</p>
 </body>
 </html>
 `;
@@ -586,10 +638,10 @@ for (const locale of LOCALES) {
       LEGAL_PRIVACY_LABEL: escapeHtml(t("footer.legal.privacy", locale)),
       FOOTER_SOUNDTRACK: escapeHtml(t("footer.soundtrack", locale)),
       LEGAL_EULA_BUTTON_CLASS: page.slug === "eula" ? "btn btn-primary" : "btn btn-secondary",
-      LEGAL_FAN_CONTENT_BUTTON_CLASS: page.slug === "fan-content-policy" ? "btn btn-primary" : "btn btn-secondary",
+      LEGAL_FAN_CONTENT_BUTTON_CLASS: page.slug === "fan-content" ? "btn btn-primary" : "btn btn-secondary",
       LEGAL_PRIVACY_BUTTON_CLASS: page.slug === "privacy" ? "btn btn-primary" : "btn btn-secondary",
       LEGAL_EULA_CURRENT_ATTR: page.slug === "eula" ? ' aria-current="page"' : "",
-      LEGAL_FAN_CONTENT_CURRENT_ATTR: page.slug === "fan-content-policy" ? ' aria-current="page"' : "",
+      LEGAL_FAN_CONTENT_CURRENT_ATTR: page.slug === "fan-content" ? ' aria-current="page"' : "",
       LEGAL_PRIVACY_CURRENT_ATTR: page.slug === "privacy" ? ' aria-current="page"' : "",
       SOCIAL_X: SOCIAL_LABELS.x,
       SOCIAL_YOUTUBE: SOCIAL_LABELS.youtube,
@@ -682,9 +734,11 @@ write("404.html", notFoundHtml);
 write("press-kit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
 write("presskit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
 write("voice-actors/index.html", redirectHtml("http://www.sushiben.com/cast", `${SITE_URL}/en/cast/`));
+write("fan-content/index.html", localeRedirectHtml("fan-content/", `${SITE_URL}/en/fan-content/`));
 
 for (const locale of LOCALES) {
   write(`${locale}/presskit/index.html`, redirectHtml("../press-kit/", canonicalUrl(locale, "press-kit")));
+  write(`${locale}/fan-content-policy/index.html`, redirectHtml("../fan-content/", canonicalUrl(locale, "fan-content")));
 }
 
 console.log("Localized pages generated:", LOCALES.join(", "));

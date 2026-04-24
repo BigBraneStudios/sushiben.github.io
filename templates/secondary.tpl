@@ -89,7 +89,7 @@
         </div>
         <div class="legal-row" aria-label="Legal links">
           <a href="../eula/">{{LEGAL_EULA_LABEL}}</a>
-          <a href="../fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
+          <a href="../fan-content/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
           <a href="../privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
         </div>
         <div class="meta-row" aria-label="More links">

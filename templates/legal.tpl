@@ -78,7 +78,7 @@
     <h1>{{LEGAL_TITLE}}</h1>
     <nav class="legal-switch" aria-label="Legal page switcher">
       <a class="{{LEGAL_EULA_BUTTON_CLASS}}" href="../eula/"{{LEGAL_EULA_CURRENT_ATTR}}>{{LEGAL_EULA_LABEL}}</a>
-      <a class="{{LEGAL_FAN_CONTENT_BUTTON_CLASS}}" href="../fan-content-policy/"{{LEGAL_FAN_CONTENT_CURRENT_ATTR}}>{{LEGAL_FAN_CONTENT_LABEL}}</a>
+      <a class="{{LEGAL_FAN_CONTENT_BUTTON_CLASS}}" href="../fan-content/"{{LEGAL_FAN_CONTENT_CURRENT_ATTR}}>{{LEGAL_FAN_CONTENT_LABEL}}</a>
       <a class="{{LEGAL_PRIVACY_BUTTON_CLASS}}" href="../privacy/"{{LEGAL_PRIVACY_CURRENT_ATTR}}>{{LEGAL_PRIVACY_LABEL}}</a>
     </nav>
     <pre class="legal-text">{{LEGAL_BODY}}</pre>
@@ -94,7 +94,7 @@
         </div>
         <div class="legal-row" aria-label="Legal links">
           <a href="../eula/">{{LEGAL_EULA_LABEL}}</a>
-          <a href="../fan-content-policy/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
+          <a href="../fan-content/">{{LEGAL_FAN_CONTENT_LABEL}}</a>
           <a href="../privacy/">{{LEGAL_PRIVACY_LABEL}}</a>
         </div>
         <div class="meta-row" aria-label="More links">

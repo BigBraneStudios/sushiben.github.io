@@ -94,7 +94,7 @@
         </div>
         <div class="legal-row" aria-label="Legal links">
           <a id="not-found-footer-eula" href="en/eula/"></a>
-          <a id="not-found-footer-fan-content" href="en/fan-content-policy/"></a>
+          <a id="not-found-footer-fan-content" href="en/fan-content/"></a>
           <a id="not-found-footer-privacy" href="en/privacy/"></a>
         </div>
         <div class="meta-row" aria-label="More links">
@@ -120,7 +120,9 @@
         "contact": "index.html#contact",
         "presskit": "press-kit/",
         "press-kit": "press-kit/",
-        "voice-actors": "cast/"
+        "voice-actors": "cast/",
+        "fan-content": "fan-content/",
+        "fan-content-policy": "fan-content/"
       };
 
       function setText(id, value) {
@@ -266,7 +268,7 @@
         setHref("not-found-cta-press-kit", localizedPath(locale, "press-kit/"));
         setHref("not-found-cta-contact", localizedPath(locale, "index.html#contact"));
         setHref("not-found-footer-eula", localizedPath(locale, "eula/"));
-        setHref("not-found-footer-fan-content", localizedPath(locale, "fan-content-policy/"));
+        setHref("not-found-footer-fan-content", localizedPath(locale, "fan-content/"));
         setHref("not-found-footer-privacy", localizedPath(locale, "privacy/"));
         setHref("not-found-footer-team", localizedPath(locale, "team/"));
         setHref("not-found-footer-press-kit", localizedPath(locale, "press-kit/"));
