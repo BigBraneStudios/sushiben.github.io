@@ -32,6 +32,10 @@ node scripts/validate-i18n.mjs
 node scripts/build-i18n.mjs
 ```
 
+## Deployment Notes
+
+- When changing `styles.css` or `secondary.css`, bump the `?v=` query string in the relevant template before running the build. GitHub Pages/Cloudflare can serve cached CSS for a while, and a version bump prevents newly deployed HTML from loading stale stylesheet rules.
+
 ## Localization
 
 Translate these files directly:
