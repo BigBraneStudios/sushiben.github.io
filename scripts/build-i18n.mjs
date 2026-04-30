@@ -30,7 +30,7 @@ const CSV_FILES = [
 const SHARE_IMAGE_URL = `${SITE_URL}${SHARE_IMAGE_PATH}?v=${SHARE_IMAGE_VERSION}`;
 const LOCALES = ["en", "de", "es", "fr", "it", "pt-br", "ja", "ko", "zh-hans", "zh-hant"];
 const DEFAULT_LOCALE = "en";
-const SECONDARY_PAGES = ["team", "cast", "press-kit"];
+const SECONDARY_PAGES = ["team", "cast", "press-kit", "shop"];
 const LEGAL_PAGES = [
   { slug: "eula", key: "eula" },
   { slug: "fan-content", key: "fan_content" },
@@ -499,6 +499,7 @@ for (const locale of LOCALES) {
     NAV_ABOUT: escapeHtml(t("nav.about", locale)),
     NAV_FEATURES: escapeHtml(t("nav.features", locale)),
     NAV_BUY: escapeHtml(t("nav.buy", locale)),
+    NAV_MERCH: escapeHtml(t("nav.merch", locale)),
     NAV_MEDIA: escapeHtml(t("nav.media", locale)),
     NAV_CONTACT: escapeHtml(t("nav.contact", locale)),
     NAV_MENU: escapeHtml(t("nav.menu", locale)),
@@ -627,6 +628,7 @@ for (const locale of LOCALES) {
       LEGAL_BODY: escapeHtml(legalBody),
       NAV_ABOUT: escapeHtml(t("nav.about", locale)),
       NAV_BUY: escapeHtml(t("nav.buy", locale)),
+      NAV_MERCH: escapeHtml(t("nav.merch", locale)),
       NAV_MEDIA: escapeHtml(t("nav.media", locale)),
       NAV_CONTACT: escapeHtml(t("nav.contact", locale)),
       NAV_MENU: escapeHtml(t("nav.menu", locale)),
@@ -679,6 +681,7 @@ for (const locale of LOCALES) {
       IMAGE_LOGO_HORIZONTAL_ALT: escapeHtml(t("image.logo.horizontal.alt", locale)),
       NAV_ABOUT: escapeHtml(t("nav.about", locale)),
       NAV_BUY: escapeHtml(t("nav.buy", locale)),
+      NAV_MERCH: escapeHtml(t("nav.merch", locale)),
       NAV_MEDIA: escapeHtml(t("nav.media", locale)),
       NAV_CONTACT: escapeHtml(t("nav.contact", locale)),
       NAV_MENU: escapeHtml(t("nav.menu", locale)),
@@ -735,10 +738,13 @@ write("press-kit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/p
 write("presskit/index.html", redirectHtml("../en/press-kit/", `${SITE_URL}/en/press-kit/`));
 write("voice-actors/index.html", redirectHtml("http://www.sushiben.com/cast", `${SITE_URL}/en/cast/`));
 write("fan-content/index.html", localeRedirectHtml("fan-content/", `${SITE_URL}/en/fan-content/`));
+write("shop/index.html", localeRedirectHtml("shop/", `${SITE_URL}/en/shop/`));
+write("merch/index.html", redirectHtml("../en/shop/", `${SITE_URL}/en/shop/`));
 
 for (const locale of LOCALES) {
   write(`${locale}/presskit/index.html`, redirectHtml("../press-kit/", canonicalUrl(locale, "press-kit")));
   write(`${locale}/fan-content-policy/index.html`, redirectHtml("../fan-content/", canonicalUrl(locale, "fan-content")));
+  write(`${locale}/merch/index.html`, redirectHtml("../shop/", canonicalUrl(locale, "shop")));
 }
 
 console.log("Localized pages generated:", LOCALES.join(", "));
