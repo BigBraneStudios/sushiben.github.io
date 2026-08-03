@@ -1,1134 +1,814 @@
 ﻿key,context,en,de,es,fr,it,pt-br,ja,ko,zh-hans,zh-hant
 legal.privacy.description,Meta description | Privacy Policy page,Privacy & Data Collection Policy for Sushi Ben.,Datenschutz- und Datenerhebungsrichtlinie für Sushi Ben.,Política de privacidad y recopilación de datos de Sushi Ben.,Politique de confidentialité et de collecte des données de Sushi Ben.,Informativa sulla privacy e sulla raccolta dei dati di Sushi Ben.,Política de Privacidade e Coleta de Dados do Sushi Ben.,Sushi Ben のプライバシーおよびデータ収集ポリシーです。,Sushi Ben 개인정보 및 데이터 수집 정책입니다.,Sushi Ben 隐私与数据收集政策。,Sushi Ben 隱私與資料蒐集政策。
 legal.privacy.title,Page title | Privacy Policy page,Privacy Policy,Datenschutzerklärung,Política de privacidad,Politique de confidentialité,Informativa sulla privacy,Política de Privacidade,プライバシーポリシー,개인정보 처리방침,隐私政策,隱私政策
-legal.privacy.body,Legal body | Privacy Policy page,"Sushi Ben Privacy & Data Collection Policy
+legal.privacy.body,Legal body | Privacy Policy page,"PRIVACY & DATA COLLECTION POLICY
 
-Effective Date: August 2, 2026
+Last Updated: April 1, 2026
 
-This Privacy & Data Collection Policy (the ""Policy"") explains how Big Brane Studios, Inc. (""Big Brane,"" ""we,"" ""us,"" or ""our"") collects, uses, discloses, and protects information in connection with Sushi Ben (the ""Game""), the official Sushi Ben website, and related support and community services (collectively, the ""Services"").
+Notice: This document may be translated into multiple languages for convenience. Translations may be generated automatically and may contain inaccuracies. The legally binding English version is available at:
+https://www.sushiben.com/en/privacy
+In the event of any inconsistency, ambiguity, or discrepancy, the English version shall prevail.
 
 1. Scope
 
-This Policy applies to Services operated by Big Brane that link to it. It does not govern the independent practices of stores, console and virtual-reality platforms, social networks, embedded-media providers, or other third parties. Those services process information under their own privacy policies.
+This Privacy & Data Collection Policy (“Policy”) governs how Big Brane Studios, Inc. (“Big Brane,” “we,” “us,” or “our”) collects, uses, and protects information related to Sushi Ben (the “Game”).
 
 2. Information Processed Through the Game
 
-Sushi Ben is a single-player game. Big Brane does not operate game servers, user accounts, multiplayer services, advertising systems, or gameplay-analytics systems for Sushi Ben. The Game does not collect or transmit gameplay history, save-game contents, device sensor data, or other gameplay data to Big Brane.
+Sushi Ben is an offline, single-player game. Big Brane does not operate game servers, user accounts, multiplayer services, advertising systems, or gameplay analytics for the Game.
 
-The Game interacts with platform-operated services for achievements and cloud saves. Those services are controlled by the platform on which you play, not by Big Brane.
+The Game processes the following data through platform-operated services:
 
-- Platform user ID. The Game may temporarily read the user ID supplied by the platform only as needed to access the correct player's platform services, including achievements. The ID is not sent to Big Brane, copied to a Big Brane server, or retained by Big Brane.
-- Platform username. The Game may temporarily retrieve the current player's username solely to display it to that same player within the Game. It is not sent to or retained by Big Brane.
-- Achievements. The applicable platform administers, associates, and retains achievement records. Big Brane does not receive or store those records.
-- Cloud saves. The applicable platform transfers, controls, and retains cloud-save data. Big Brane does not receive or store cloud saves.
+- Platform user ID. Used to connect the current player to platform services.
+- Platform username. Displayed to the current player within the Game.
+- Achievements. The Game submits achievement activity to the platform. The platform associates and stores achievement records.
+- Cloud saves. The platform transfers and stores save-game data through its cloud-save service.
 
-Big Brane does not collect, store, or disclose platform user data through the Game. Platform-controlled account, achievement, cloud-save, purchase, entitlement, device, and service records remain subject to the applicable platform's terms, privacy policy, and user controls.
+Big Brane does not receive, store, retain, share, or sell this platform data. The Game does not transmit gameplay history, save-game contents, device sensor data, or other gameplay data to Big Brane.
 
-3. Information You Voluntarily Provide
+Platform-controlled data is subject to the applicable platform’s privacy policy and user controls. Requests concerning information held by Big Brane may be submitted as described in Section 8. Requests concerning platform-controlled information must be submitted to the applicable platform.
 
-We may receive information you choose to provide through email, support requests, surveys, bug reports, social-media interactions, website forms, or similar communications. Depending on what you submit, this may include:
+3. Legal Basis for Processing
 
-- your name, email address, username, or social-media identifier;
-- the platform on which you use the Game;
-- the content of your message; and
-- screenshots, logs, system information, save files, or other diagnostic material you choose to attach.
+We process personal information based on:
+- your consent;
+- contractual necessity;
+- legitimate business interests, such as support, maintenance, and security; and
+- compliance with legal obligations.
 
-Please do not submit passwords, payment-card information, unnecessary sensitive information, or personal information about another person.
+4. Data Retention
 
-4. Website and Third-Party Platform Information
+We retain personal information only as long as necessary to fulfill the purposes described in this Policy, unless a longer retention period is required by law.
 
-When you visit the Sushi Ben website, website hosting, security, form, and network providers may automatically process standard technical information such as your Internet Protocol address, browser and device type, requested page, referring page, and request date and time. Embedded video, music, community, social-media, or storefront content may cause your browser to connect directly to the applicable provider, which may process information under its own privacy policy.
+5. Data Security
 
-Stores and platform operators independently process information needed to operate their accounts, purchases, entitlements, achievements, cloud saves, devices, and other platform services. Big Brane does not control those records. If you contact Big Brane about a purchase or platform issue, we receive only the information you choose to provide or that the platform provides in connection with that specific support matter.
+We use commercially reasonable measures to protect personal information from unauthorized access, disclosure, or misuse. However, no system can be guaranteed to be completely secure.
 
-Payment information is ordinarily collected directly by the applicable store or payment processor rather than by Big Brane.
+6. Disclosure for Legal Requirements
 
-5. How We Use Information
+We may disclose personal information if required by law or in response to valid legal requests by public authorities.
 
-Platform user IDs and usernames are used temporarily within the Game only for the purposes described in Section 2. Big Brane does not receive or retain that information.
+7. Your Rights
 
-We use personal information separately provided to Big Brane through the website, support channels, or other voluntary communications to:
+Depending on your jurisdiction, you may have rights including:
+- access to your data;
+- correction of inaccurate data;
+- deletion of your data;
+- restriction of or objection to processing;
+- data portability; and
+- withdrawal of consent.
 
-- respond to questions, support requests, bug reports, and privacy requests;
-- operate, secure, troubleshoot, and improve the Services;
-- enforce our agreements and protect users, Big Brane, and the public;
-- prevent fraud, abuse, security incidents, and unlawful activity; and
-- comply with legal obligations and establish, exercise, or defend legal claims.
+To exercise your rights, contact:
+legal@bigbranestudios.com
 
-Where applicable law requires a legal basis, we rely on performance of a contract, our legitimate interests in operating and securing the Services, your consent, or compliance with legal obligations, as appropriate.
+We may need to verify your identity before processing requests.
 
-6. Disclosure of Information
+8. Third-Party Services
 
-The disclosures in this section apply only to personal information separately provided to or controlled by Big Brane, such as website or support communications. They do not apply to platform user data temporarily accessed by the Game, which Big Brane does not receive or retain.
+We may link to, embed, or rely on third-party services that we do not control. Those third parties may collect, process, or store information under their own terms and privacy policies. We are not responsible for their privacy practices, and we encourage you to review their policies.
 
-We may disclose information under our control:
+9. Changes to This Policy
 
-- to vendors acting on our behalf to provide website hosting, security, communications, support, or similar business services;
-- when you direct or consent to the disclosure;
-- when reasonably necessary to comply with law or valid legal process, protect a person, investigate wrongdoing, secure the Services, or protect legal rights; or
-- as part of a merger, acquisition, financing, reorganization, bankruptcy, sale of assets, or similar business transaction, subject to appropriate protections.
+We may update this Policy from time to time. Any updates will be posted on this page and reflected by the “Last Updated” date at the top of the Policy.
 
-Big Brane does not sell personal information, share it for cross-context behavioral advertising, or use it to serve targeted advertising.
+10. Governing Law
 
-7. Retention
+This Policy shall be governed by and construed in accordance with the laws of the Commonwealth of Virginia, United States, excluding its conflict of laws rules.
 
-Big Brane does not collect or retain platform user IDs, usernames, achievement records, or cloud saves through Sushi Ben.
+11. Contact Us
 
-Separately, Big Brane may retain information that a person voluntarily submits through email, a website form, a support request, social media, or another communication. That information is retained only as long as reasonably necessary to address the communication, provide support, maintain security and business records, comply with law, and resolve disputes. Website and security providers may retain technical records according to their own retention schedules and our service configuration. We delete or de-identify information when it is no longer reasonably needed, unless longer retention is required or permitted by law.
+If you have any questions or concerns about this Policy, contact:
+legal@bigbranestudios.com
 
-8. Access, Correction, and Deletion Requests
+12. Language
 
-Any user, regardless of geographic location, may request access to, correction of, or deletion of personal information controlled by Big Brane. There is no fee for submitting a request.
+The English version of this Policy is the only legally binding version. Translations are provided for convenience only. In the event of any inconsistency, ambiguity, or conflict between a translated version and the English version, the English version shall prevail.","DATENSCHUTZ- UND DATENERHEBUNGSRICHTLINIE
 
-To make a request, email legal@bigbranestudios.com with the subject ""Sushi Ben Data Request."" If your request concerns information previously submitted to Big Brane, identify the email address, username, approximate date, or support matter associated with that submission so we can locate it. We may request reasonable information to verify your identity and prevent unauthorized access or deletion.
+Zuletzt aktualisiert: 1. April 2026
 
-Big Brane does not possess the platform user data temporarily accessed through the Game, so there is no such data in Big Brane's systems to delete. We will nevertheless review and respond to every request. If we identify personal information separately submitted to or otherwise controlled by Big Brane—for example, information contained in a support message—we will delete or de-identify it unless retention is reasonably necessary or legally required for security, fraud prevention, transaction records, compliance with law, or establishing or defending legal claims. If we cannot fulfill all or part of a request, we will explain why where required.
-
-We generally respond within 30 days or within any different period required by applicable law. You may appeal a denied request by replying to our decision with ""Privacy Appeal"" in the subject line.
-
-Deleting the Game or its local save data does not necessarily delete records independently maintained by a store or platform operator. Requests concerning a platform account, achievements, purchases, cloud saves, or other platform-controlled records must be made through that platform's privacy and account controls because Big Brane does not possess or control those records.
-
-9. Security
-
-We use reasonable administrative, technical, and organizational safeguards appropriate to the information under our control. No transmission or storage system can be guaranteed to be completely secure.
-
-10. International Processing
-
-Big Brane is located in the United States. Information you voluntarily provide may be processed in the United States and in other countries where our providers operate. Those countries may have privacy laws different from the laws where you live. Where required, we use legally recognized safeguards for international transfers.
-
-11. Children's Privacy
-
-The Services are not directed to children under 13, and Big Brane does not knowingly collect personal information from children under 13. If you believe a child has provided personal information to us, contact us so we can investigate and delete it where appropriate.
-
-12. Changes to This Policy
-
-We may update this Policy as the Services, platform features, providers, and applicable laws change. We will post the revised Policy and update the Effective Date. If a change materially affects how we use information already collected, we will provide any additional notice or choice required by applicable law.
-
-13. Language
-
-Translations may be provided for convenience and may contain inaccuracies. The English version available at https://www.sushiben.com/en/privacy is the controlling version to the extent permitted by applicable law.
-
-14. Contact Us
-
-Questions, concerns, security reports, and privacy requests may be sent to:
-
-Big Brane Studios, Inc.
-Email: legal@bigbranestudios.com
-Privacy Policy: https://www.sushiben.com/en/privacy","Datenschutz- und Datenerhebungsrichtlinie für Sushi Ben
-
-Gültig ab: 2. August 2026
-
-Diese Datenschutz- und Datenerhebungsrichtlinie (die „Richtlinie“) erläutert, wie Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“) Informationen im Zusammenhang mit Sushi Ben (dem „Spiel“), der offiziellen Sushi-Ben-Website sowie zugehörigen Support- und Community-Diensten (zusammen die „Dienste“) erhebt, verwendet, offenlegt und schützt.
+Hinweis: Dieses Dokument kann aus Gründen der Benutzerfreundlichkeit in mehrere Sprachen übersetzt werden. Übersetzungen können automatisch erstellt werden und Ungenauigkeiten enthalten. Die rechtsverbindliche englische Fassung ist verfügbar unter:
+https://www.sushiben.com/en/privacy
+Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Abweichungen hat die englische Fassung Vorrang.
 
 1. Geltungsbereich
 
-Diese Richtlinie gilt für von Big Brane betriebene Dienste, die auf sie verweisen. Sie gilt nicht für die eigenständigen Praktiken von Stores, Konsolen- und Virtual-Reality-Plattformen, sozialen Netzwerken, Anbietern eingebetteter Medien oder sonstigen Dritten. Diese Dienste verarbeiten Informationen nach ihren eigenen Datenschutzrichtlinien.
+Diese Datenschutz- und Datenerhebungsrichtlinie („Richtlinie“) regelt, wie Big Brane Studios, Inc. („Big Brane“, „wir“, „uns“ oder „unser“) Informationen im Zusammenhang mit Sushi Ben (dem „Spiel“) erhebt, verwendet und schützt.
 
-2. Vorübergehend über das Spiel abgerufene Informationen
+2. Über das Spiel verarbeitete Informationen
 
-Sushi Ben ist ein Einzelspieler-Spiel. Big Brane betreibt für Sushi Ben keine Spielserver, Nutzerkonten, Mehrspielerdienste, Werbesysteme oder Systeme zur Analyse des Spielverhaltens. Das Spiel erhebt keine Spielverläufe, Inhalte von Speicherständen, Gerätesensordaten oder sonstigen Spieldaten und übermittelt solche Daten nicht an Big Brane.
+Sushi Ben ist ein Offline-Einzelspieler-Spiel. Big Brane betreibt für das Spiel keine Spielserver, Benutzerkonten, Mehrspieler-Dienste, Werbesysteme oder Systeme zur Analyse des Spielverhaltens.
 
-Das Spiel interagiert für Erfolge und Cloud-Speicherstände mit von der jeweiligen Plattform betriebenen Diensten. Diese Dienste werden von der Plattform kontrolliert, auf der Sie spielen, nicht von Big Brane.
+Das Spiel verarbeitet die folgenden Daten über von Plattformen betriebene Dienste:
 
-- Plattform-Nutzer-ID. Das Spiel kann die von der Plattform bereitgestellte Nutzer-ID vorübergehend auslesen, soweit dies erforderlich ist, um auf die Plattformdienste des richtigen Spielers, einschließlich Erfolgen, zuzugreifen. Die ID wird nicht an Big Brane gesendet, nicht auf einen Server von Big Brane kopiert und nicht von Big Brane gespeichert.
-- Plattform-Nutzername. Das Spiel kann den Nutzernamen des aktuellen Spielers vorübergehend abrufen, ausschließlich um ihn diesem Spieler selbst im Spiel anzuzeigen. Er wird weder an Big Brane gesendet noch von Big Brane gespeichert.
-- Erfolge. Die jeweilige Plattform verwaltet, verknüpft und speichert Erfolgsdaten. Big Brane erhält oder speichert diese Daten nicht.
-- Cloud-Speicherstände. Die jeweilige Plattform überträgt, kontrolliert und speichert Cloud-Speicherdaten. Big Brane erhält oder speichert keine Cloud-Speicherstände.
+- Plattform-Benutzer-ID. Wird verwendet, um den aktuellen Spieler mit Plattformdiensten zu verbinden.
+- Plattform-Benutzername. Wird dem aktuellen Spieler im Spiel angezeigt.
+- Erfolge. Das Spiel übermittelt Aktivitäten zu Erfolgen an die Plattform. Die Plattform verknüpft und speichert die Erfolgsdaten.
+- Cloud-Speicherstände. Die Plattform überträgt und speichert Spielstanddaten über ihren Cloud-Speicherdienst.
 
-Big Brane erhebt, speichert oder legt über das Spiel keine Plattform-Nutzerdaten offen. Von der Plattform kontrollierte Konto-, Erfolgs-, Cloud-Speicher-, Kauf-, Berechtigungs-, Geräte- und Dienstdaten unterliegen weiterhin den Bedingungen, der Datenschutzrichtlinie und den Nutzerkontrollen der jeweiligen Plattform.
+Big Brane empfängt, speichert, bewahrt, teilt oder verkauft diese Plattformdaten nicht. Das Spiel übermittelt keine Spielverläufe, Inhalte von Spielständen, Gerätesensordaten oder sonstigen Spielverlaufsdaten an Big Brane.
 
-3. Von Ihnen freiwillig bereitgestellte Informationen
+Für von der Plattform kontrollierte Daten gelten die Datenschutzrichtlinie und Benutzerkontrollen der jeweiligen Plattform. Anfragen zu Informationen im Besitz von Big Brane können wie in Abschnitt 8 beschrieben eingereicht werden. Anfragen zu von der Plattform kontrollierten Informationen müssen an die jeweilige Plattform gerichtet werden.
 
-Wir können Informationen erhalten, die Sie uns freiwillig per E-Mail, Supportanfrage, Umfrage, Fehlerbericht, Interaktion in sozialen Medien, Website-Formular oder ähnlicher Kommunikation bereitstellen. Je nach Ihrer Mitteilung kann dies umfassen:
+3. Rechtsgrundlage der Verarbeitung
 
-- Ihren Namen, Ihre E-Mail-Adresse, Ihren Nutzernamen oder Ihre Kennung in sozialen Medien;
-- die Plattform, auf der Sie das Spiel nutzen;
-- den Inhalt Ihrer Nachricht; und
-- Screenshots, Protokolle, Systeminformationen, Speicherdateien oder sonstiges Diagnosematerial, das Sie beifügen.
+Wir verarbeiten personenbezogene Daten auf Grundlage von:
+- Ihrer Einwilligung;
+- vertraglicher Erforderlichkeit;
+- berechtigten geschäftlichen Interessen, wie Support, Wartung und Sicherheit; und
+- der Einhaltung gesetzlicher Verpflichtungen.
 
-Bitte übermitteln Sie keine Passwörter, Zahlungskartendaten, nicht erforderlichen sensiblen Informationen oder personenbezogenen Daten anderer Personen.
+4. Datenspeicherung
 
-4. Website- und Drittplattforminformationen
+Wir speichern personenbezogene Daten nur so lange, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist, es sei denn, gesetzliche Vorschriften verlangen eine längere Aufbewahrungsfrist.
 
-Wenn Sie die Sushi-Ben-Website besuchen, können Anbieter für Hosting, Sicherheit, Formulare und Netzwerke automatisch übliche technische Informationen verarbeiten, etwa Ihre Internetprotokoll-Adresse, Browser- und Gerätetyp, angeforderte Seite, verweisende Seite sowie Datum und Uhrzeit der Anfrage. Eingebettete Video-, Musik-, Community-, Social-Media- oder Store-Inhalte können dazu führen, dass Ihr Browser eine direkte Verbindung zum jeweiligen Anbieter herstellt, der Informationen nach seiner eigenen Datenschutzrichtlinie verarbeiten kann.
+5. Datensicherheit
 
-Stores und Plattformbetreiber verarbeiten eigenständig Informationen, die für ihre Konten, Käufe, Berechtigungen, Erfolge, Cloud-Speicherstände, Geräte und sonstigen Plattformdienste benötigt werden. Big Brane kontrolliert diese Daten nicht. Wenn Sie Big Brane wegen eines Kaufs oder Plattformproblems kontaktieren, erhalten wir nur die Informationen, die Sie freiwillig bereitstellen oder die die Plattform im Zusammenhang mit diesem konkreten Supportfall bereitstellt.
+Wir verwenden wirtschaftlich angemessene Maßnahmen, um personenbezogene Daten vor unbefugtem Zugriff, Offenlegung oder Missbrauch zu schützen. Kein System kann jedoch als vollständig sicher garantiert werden.
 
-Zahlungsdaten werden gewöhnlich direkt vom jeweiligen Store oder Zahlungsdienstleister und nicht von Big Brane erhoben.
+6. Offenlegung aufgrund gesetzlicher Anforderungen
 
-5. Verwendung von Informationen
+Wir können personenbezogene Daten offenlegen, wenn dies gesetzlich vorgeschrieben ist oder wenn wir auf gültige rechtliche Anfragen staatlicher Stellen reagieren müssen.
 
-Plattform-Nutzer-IDs und Nutzernamen werden im Spiel nur vorübergehend für die in Abschnitt 2 beschriebenen Zwecke verwendet. Big Brane erhält oder speichert diese Informationen nicht.
+7. Ihre Rechte
 
-Personenbezogene Daten, die Big Brane gesondert über die Website, Supportkanäle oder andere freiwillige Mitteilungen bereitgestellt werden, verwenden wir, um:
+Abhängig von Ihrer Gerichtsbarkeit haben Sie möglicherweise folgende Rechte:
+- Zugriff auf Ihre Daten;
+- Berichtigung unrichtiger Daten;
+- Löschung Ihrer Daten;
+- Einschränkung der Verarbeitung oder Widerspruch gegen die Verarbeitung;
+- Datenübertragbarkeit; und
+- Widerruf einer Einwilligung.
 
-- Fragen, Supportanfragen, Fehlerberichte und Datenschutzanfragen zu beantworten;
-- die Dienste zu betreiben, zu sichern, Fehler zu beheben und zu verbessern;
-- unsere Vereinbarungen durchzusetzen und Nutzer, Big Brane und die Öffentlichkeit zu schützen;
-- Betrug, Missbrauch, Sicherheitsvorfälle und rechtswidrige Handlungen zu verhindern; und
-- rechtliche Verpflichtungen zu erfüllen und Rechtsansprüche zu begründen, auszuüben oder zu verteidigen.
+Zur Ausübung Ihrer Rechte kontaktieren Sie bitte:
+legal@bigbranestudios.com
 
-Soweit das anwendbare Recht eine Rechtsgrundlage verlangt, stützen wir uns je nach Fall auf die Erfüllung eines Vertrags, unsere berechtigten Interessen am Betrieb und an der Sicherheit der Dienste, Ihre Einwilligung oder die Erfüllung rechtlicher Verpflichtungen.
+Möglicherweise müssen wir Ihre Identität überprüfen, bevor wir Anfragen bearbeiten.
 
-6. Offenlegung von Informationen
+8. Dienste Dritter
 
-Die Offenlegungen in diesem Abschnitt gelten nur für personenbezogene Daten, die Big Brane gesondert bereitgestellt werden oder von Big Brane kontrolliert werden, etwa Website- oder Supportmitteilungen. Sie gelten nicht für Plattform-Nutzerdaten, auf die das Spiel vorübergehend zugreift und die Big Brane weder erhält noch speichert.
+Wir können auf Dienste Dritter verlinken, solche einbetten oder uns auf solche stützen, die wir nicht kontrollieren. Diese Dritten können Informationen nach ihren eigenen Bedingungen und Datenschutzrichtlinien erheben, verarbeiten oder speichern. Für deren Datenschutzpraktiken sind wir nicht verantwortlich, und wir empfehlen Ihnen, deren Richtlinien zu prüfen.
 
-Wir können von uns kontrollierte Informationen offenlegen:
+9. Änderungen dieser Richtlinie
 
-- gegenüber Anbietern, die in unserem Auftrag Website-Hosting, Sicherheit, Kommunikation, Support oder ähnliche Geschäftsdienste erbringen;
-- wenn Sie die Offenlegung anweisen oder ihr zustimmen;
-- wenn dies vernünftigerweise erforderlich ist, um Gesetze oder wirksame rechtliche Verfahren einzuhalten, Personen zu schützen, Fehlverhalten zu untersuchen, die Dienste zu sichern oder Rechte zu schützen; oder
-- im Zusammenhang mit einer Fusion, Übernahme, Finanzierung, Umstrukturierung, Insolvenz, Veräußerung von Vermögenswerten oder einer ähnlichen Unternehmenstransaktion, vorbehaltlich angemessener Schutzmaßnahmen.
+Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Etwaige Aktualisierungen werden auf dieser Seite veröffentlicht und durch das Datum „Zuletzt aktualisiert“ am Anfang der Richtlinie kenntlich gemacht.
 
-Big Brane verkauft keine personenbezogenen Daten, gibt sie nicht für kontextübergreifende verhaltensbezogene Werbung weiter und nutzt sie nicht zur Bereitstellung zielgerichteter Werbung.
+10. Geltendes Recht
 
-7. Speicherdauer
+Diese Richtlinie unterliegt den Gesetzen des Commonwealth of Virginia, Vereinigte Staaten, unter Ausschluss seiner kollisionsrechtlichen Bestimmungen, und ist nach diesen auszulegen.
 
-Big Brane erhebt oder speichert über Sushi Ben keine Plattform-Nutzer-IDs, Nutzernamen, Erfolgsdaten oder Cloud-Speicherstände.
+11. Kontakt
 
-Gesondert davon kann Big Brane Informationen speichern, die eine Person freiwillig per E-Mail, Website-Formular, Supportanfrage, über soziale Medien oder in einer anderen Mitteilung übermittelt. Diese Informationen werden nur so lange gespeichert, wie dies vernünftigerweise erforderlich ist, um die Mitteilung zu bearbeiten, Support zu leisten, Sicherheits- und Geschäftsunterlagen zu führen, Gesetze einzuhalten und Streitigkeiten beizulegen. Website- und Sicherheitsanbieter können technische Aufzeichnungen gemäß ihren eigenen Speicherfristen und unserer Dienstkonfiguration speichern. Wir löschen oder anonymisieren Informationen, wenn sie vernünftigerweise nicht mehr benötigt werden, sofern eine längere Speicherung nicht gesetzlich vorgeschrieben oder erlaubt ist.
+Wenn Sie Fragen oder Bedenken zu dieser Richtlinie haben, kontaktieren Sie bitte:
+legal@bigbranestudios.com
 
-8. Anträge auf Auskunft, Berichtigung und Löschung
+12. Sprache
 
-Jeder Nutzer kann unabhängig von seinem geografischen Standort Auskunft über, Berichtigung oder Löschung von personenbezogenen Daten verlangen, die von Big Brane kontrolliert werden. Für die Einreichung eines Antrags wird keine Gebühr erhoben.
+Die englische Fassung dieser Richtlinie ist die einzig rechtsverbindliche Fassung. Übersetzungen werden ausschließlich der Bequemlichkeit halber bereitgestellt. Im Falle von Unstimmigkeiten, Mehrdeutigkeiten oder Widersprüchen zwischen einer übersetzten Fassung und der englischen Fassung hat die englische Fassung Vorrang.","POLÍTICA DE PRIVACIDAD Y RECOPILACIÓN DE DATOS
 
-Senden Sie Ihren Antrag mit dem Betreff „Sushi Ben Data Request“ an legal@bigbranestudios.com. Betrifft Ihr Antrag Informationen, die Sie Big Brane zuvor übermittelt haben, geben Sie die mit der Übermittlung verbundene E-Mail-Adresse, den Nutzernamen, den ungefähren Zeitpunkt oder den Supportfall an, damit wir sie auffinden können. Wir können angemessene Informationen zur Überprüfung Ihrer Identität und zur Verhinderung unbefugter Zugriffe oder Löschungen verlangen.
+Última actualización: 1 de abril de 2026
 
-Big Brane besitzt die über das Spiel vorübergehend abgerufenen Plattform-Nutzerdaten nicht; daher befinden sich keine solchen Daten in den Systemen von Big Brane, die gelöscht werden könnten. Dennoch prüfen und beantworten wir jeden Antrag. Wenn wir personenbezogene Daten feststellen, die Big Brane gesondert übermittelt wurden oder anderweitig von Big Brane kontrolliert werden, etwa Daten in einer Supportnachricht, löschen oder anonymisieren wir sie, sofern ihre Speicherung nicht vernünftigerweise erforderlich oder aus Gründen der Sicherheit, Betrugsbekämpfung, Transaktionsaufzeichnungen, Gesetzeseinhaltung oder Begründung oder Verteidigung von Rechtsansprüchen gesetzlich vorgeschrieben ist. Können wir einen Antrag ganz oder teilweise nicht erfüllen, erläutern wir den Grund, soweit vorgeschrieben.
-
-Wir antworten im Allgemeinen innerhalb von 30 Tagen oder innerhalb einer anderen gesetzlich vorgeschriebenen Frist. Sie können gegen die Ablehnung eines Antrags Widerspruch einlegen, indem Sie auf unsere Entscheidung mit „Privacy Appeal“ in der Betreffzeile antworten.
-
-Durch Löschen des Spiels oder seiner lokalen Speicherstände werden von einem Store oder Plattformbetreiber eigenständig geführte Aufzeichnungen nicht unbedingt gelöscht. Anträge bezüglich eines Plattformkontos, Erfolgen, Käufen, Cloud-Speicherständen oder anderer von der Plattform kontrollierter Aufzeichnungen müssen über die Datenschutz- und Kontoeinstellungen dieser Plattform gestellt werden, da Big Brane diese Aufzeichnungen weder besitzt noch kontrolliert.
-
-9. Sicherheit
-
-Wir setzen angemessene administrative, technische und organisatorische Schutzmaßnahmen ein, die den von uns kontrollierten Informationen entsprechen. Die vollständige Sicherheit eines Übertragungs- oder Speichersystems kann nicht garantiert werden.
-
-10. Internationale Verarbeitung
-
-Big Brane hat seinen Sitz in den Vereinigten Staaten. Von Ihnen freiwillig bereitgestellte Informationen können in den Vereinigten Staaten und anderen Ländern verarbeitet werden, in denen unsere Anbieter tätig sind. Dort können andere Datenschutzgesetze gelten als an Ihrem Wohnort. Soweit erforderlich, nutzen wir rechtlich anerkannte Schutzmechanismen für internationale Übermittlungen.
-
-11. Datenschutz von Kindern
-
-Die Dienste richten sich nicht an Kinder unter 13 Jahren, und Big Brane erhebt wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie glauben, dass ein Kind uns personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns, damit wir dies prüfen und die Daten gegebenenfalls löschen können.
-
-12. Änderungen dieser Richtlinie
-
-Wir können diese Richtlinie ändern, wenn sich die Dienste, Plattformfunktionen, Anbieter oder anwendbaren Gesetze ändern. Wir veröffentlichen die geänderte Richtlinie und aktualisieren das Gültigkeitsdatum. Beeinflusst eine Änderung wesentlich unsere Verwendung bereits erhobener Informationen, erteilen wir zusätzliche Hinweise oder bieten Wahlmöglichkeiten, soweit gesetzlich vorgeschrieben.
-
-13. Sprache
-
-Übersetzungen können zur Erleichterung bereitgestellt werden und Ungenauigkeiten enthalten. Soweit gesetzlich zulässig, ist die englische Fassung unter https://www.sushiben.com/en/privacy maßgeblich.
-
-14. Kontakt
-
-Fragen, Anliegen, Sicherheitsmeldungen und Datenschutzanträge können gerichtet werden an:
-
-Big Brane Studios, Inc.
-E-Mail: legal@bigbranestudios.com
-Datenschutzrichtlinie: https://www.sushiben.com/en/privacy","Política de privacidad y recopilación de datos de Sushi Ben
-
-Fecha de entrada en vigor: 2 de agosto de 2026
-
-Esta Política de privacidad y recopilación de datos (la «Política») explica cómo Big Brane Studios, Inc. («Big Brane», «nosotros», «nos» o «nuestro») recopila, utiliza, divulga y protege información relacionada con Sushi Ben (el «Juego»), el sitio web oficial de Sushi Ben y los servicios relacionados de soporte y comunidad (conjuntamente, los «Servicios»).
+Aviso: Este documento puede traducirse a varios idiomas por conveniencia. Las traducciones pueden generarse automáticamente y pueden contener imprecisiones. La versión en inglés legalmente vinculante está disponible en:
+https://www.sushiben.com/en/privacy
+En caso de cualquier inconsistencia, ambigüedad o discrepancia, prevalecerá la versión en inglés.
 
 1. Alcance
 
-Esta Política se aplica a los Servicios operados por Big Brane que incluyan un enlace a ella. No rige las prácticas independientes de tiendas, plataformas de consola y realidad virtual, redes sociales, proveedores de contenido multimedia incrustado ni otros terceros. Dichos servicios tratan información conforme a sus propias políticas de privacidad.
+Esta Política de Privacidad y Recopilación de Datos (la “Política”) regula la manera en que Big Brane Studios, Inc. (“Big Brane”, “nosotros”, “nos” o “nuestro”) recopila, utiliza y protege la información relacionada con Sushi Ben (el “Juego”).
 
-2. Información utilizada temporalmente a través del Juego
+2. Información procesada a través del Juego
 
-Sushi Ben es un juego para un solo jugador. Big Brane no opera servidores de juego, cuentas de usuario, servicios multijugador, sistemas publicitarios ni sistemas de análisis de juego para Sushi Ben. El Juego no recopila ni transmite a Big Brane historiales de juego, contenido de partidas guardadas, datos de sensores del dispositivo ni otros datos de juego.
+Sushi Ben es un juego sin conexión para un solo jugador. Big Brane no opera servidores de juego, cuentas de usuario, servicios multijugador, sistemas de publicidad ni análisis de juego para el Juego.
 
-El Juego interactúa con servicios operados por las plataformas para los logros y las partidas guardadas en la nube. Esos servicios están controlados por la plataforma en la que usted juega, no por Big Brane.
+El Juego procesa los siguientes datos mediante servicios operados por las plataformas:
 
-- ID de usuario de la plataforma. El Juego puede leer temporalmente el ID de usuario proporcionado por la plataforma únicamente cuando sea necesario para acceder a los servicios de plataforma del jugador correcto, incluidos los logros. El ID no se envía a Big Brane, no se copia en un servidor de Big Brane ni es conservado por Big Brane.
-- Nombre de usuario de la plataforma. El Juego puede obtener temporalmente el nombre de usuario del jugador actual exclusivamente para mostrárselo a ese mismo jugador dentro del Juego. No se envía a Big Brane ni Big Brane lo conserva.
-- Logros. La plataforma correspondiente administra, asocia y conserva los registros de logros. Big Brane no recibe ni almacena esos registros.
-- Partidas guardadas en la nube. La plataforma correspondiente transfiere, controla y conserva los datos de las partidas guardadas en la nube. Big Brane no recibe ni almacena dichas partidas.
+- ID de usuario de la plataforma. Se utiliza para conectar al jugador actual con los servicios de la plataforma.
+- Nombre de usuario de la plataforma. Se muestra al jugador actual dentro del Juego.
+- Logros. El Juego envía la actividad relacionada con los logros a la plataforma. La plataforma asocia y almacena los registros de logros.
+- Partidas guardadas en la nube. La plataforma transfiere y almacena los datos de las partidas guardadas mediante su servicio de guardado en la nube.
 
-Big Brane no recopila, almacena ni divulga datos de usuarios de plataformas a través del Juego. Los registros de cuentas, logros, partidas guardadas en la nube, compras, derechos, dispositivos y servicios controlados por la plataforma siguen sujetos a las condiciones, la política de privacidad y los controles de usuario de la plataforma correspondiente.
+Big Brane no recibe, almacena, conserva, comparte ni vende estos datos de la plataforma. El Juego no transmite a Big Brane el historial de juego, el contenido de las partidas guardadas, datos de los sensores del dispositivo ni otros datos de juego.
 
-3. Información que usted proporciona voluntariamente
+Los datos controlados por la plataforma están sujetos a la política de privacidad y los controles de usuario de la plataforma correspondiente. Las solicitudes relacionadas con información en poder de Big Brane pueden presentarse como se describe en la Sección 8. Las solicitudes relacionadas con información controlada por la plataforma deben presentarse a la plataforma correspondiente.
 
-Podemos recibir información que usted decida proporcionar mediante correo electrónico, solicitudes de soporte, encuestas, informes de errores, interacciones en redes sociales, formularios del sitio web o comunicaciones similares. Dependiendo de lo que envíe, esto puede incluir:
+3. Base legal del tratamiento
 
-- su nombre, dirección de correo electrónico, nombre de usuario o identificador de redes sociales;
-- la plataforma en la que utiliza el Juego;
-- el contenido de su mensaje; y
-- capturas de pantalla, registros, información del sistema, archivos de partidas guardadas u otro material de diagnóstico que decida adjuntar.
+Tratamos la información personal sobre la base de:
+- su consentimiento;
+- la necesidad contractual;
+- intereses comerciales legítimos, como asistencia, mantenimiento y seguridad; y
+- el cumplimiento de obligaciones legales.
 
-No envíe contraseñas, información de tarjetas de pago, información confidencial innecesaria ni información personal de otra persona.
+4. Conservación de datos
 
-4. Información del sitio web y de plataformas de terceros
+Conservamos la información personal solo durante el tiempo necesario para cumplir los fines descritos en esta Política, salvo que la ley exija un período de conservación más largo.
 
-Cuando visita el sitio web de Sushi Ben, los proveedores de alojamiento, seguridad, formularios y red pueden tratar automáticamente información técnica habitual, como su dirección de Protocolo de Internet, tipo de navegador y dispositivo, página solicitada, página de procedencia, y fecha y hora de la solicitud. El contenido incrustado de vídeo, música, comunidad, redes sociales o tiendas puede hacer que su navegador se conecte directamente con el proveedor correspondiente, que puede tratar información conforme a su propia política de privacidad.
+5. Seguridad de los datos
 
-Las tiendas y los operadores de plataformas tratan independientemente la información necesaria para operar sus cuentas, compras, derechos, logros, partidas guardadas en la nube, dispositivos y otros servicios de plataforma. Big Brane no controla esos registros. Si se comunica con Big Brane por una compra o un problema de plataforma, recibimos únicamente la información que usted decida proporcionar o que la plataforma facilite en relación con ese asunto de soporte específico.
+Utilizamos medidas comercialmente razonables para proteger la información personal contra el acceso no autorizado, la divulgación o el uso indebido. Sin embargo, no puede garantizarse que ningún sistema sea completamente seguro.
 
-La información de pago normalmente es recopilada directamente por la tienda o el procesador de pagos correspondiente, no por Big Brane.
+6. Divulgación por requerimientos legales
 
-5. Cómo utilizamos la información
+Podemos divulgar información personal si la ley lo exige o en respuesta a solicitudes legales válidas de autoridades públicas.
 
-Los ID y nombres de usuario de las plataformas se utilizan temporalmente dentro del Juego únicamente para los fines descritos en la Sección 2. Big Brane no recibe ni conserva esa información.
+7. Sus derechos
 
-Utilizamos la información personal proporcionada por separado a Big Brane a través del sitio web, los canales de soporte u otras comunicaciones voluntarias para:
+Dependiendo de su jurisdicción, usted puede tener derechos que incluyen:
+- acceso a sus datos;
+- corrección de datos inexactos;
+- eliminación de sus datos;
+- restricción del tratamiento u oposición al tratamiento;
+- portabilidad de los datos; y
+- retirada del consentimiento.
 
-- responder preguntas, solicitudes de soporte, informes de errores y solicitudes de privacidad;
-- operar, proteger, solucionar problemas y mejorar los Servicios;
-- hacer cumplir nuestros acuerdos y proteger a los usuarios, a Big Brane y al público;
-- prevenir fraudes, abusos, incidentes de seguridad y actividades ilícitas; y
-- cumplir obligaciones legales y formular, ejercer o defender reclamaciones legales.
+Para ejercer sus derechos, póngase en contacto con:
+legal@bigbranestudios.com
 
-Cuando la legislación aplicable exija una base jurídica, nos basaremos, según corresponda, en la ejecución de un contrato, nuestros intereses legítimos en operar y proteger los Servicios, su consentimiento o el cumplimiento de obligaciones legales.
+Es posible que necesitemos verificar su identidad antes de tramitar solicitudes.
 
-6. Divulgación de información
+8. Servicios de terceros
 
-Las divulgaciones de esta sección se aplican únicamente a la información personal proporcionada por separado a Big Brane o controlada por Big Brane, como comunicaciones del sitio web o de soporte. No se aplican a los datos de usuarios de plataformas a los que el Juego accede temporalmente y que Big Brane no recibe ni conserva.
+Podemos enlazar, incrustar o depender de servicios de terceros que no controlamos. Dichos terceros pueden recopilar, tratar o almacenar información conforme a sus propios términos y políticas de privacidad. No somos responsables de sus prácticas de privacidad y le recomendamos revisar sus políticas.
 
-Podemos divulgar información bajo nuestro control:
+9. Cambios en esta Política
 
-- a proveedores que actúen en nuestro nombre para prestar servicios de alojamiento web, seguridad, comunicaciones, soporte u otros servicios empresariales similares;
-- cuando usted indique o autorice la divulgación;
-- cuando sea razonablemente necesario para cumplir la ley o un proceso legal válido, proteger a una persona, investigar conductas indebidas, proteger los Servicios o proteger derechos legales; o
-- como parte de una fusión, adquisición, financiación, reorganización, quiebra, venta de activos u otra operación empresarial similar, sujeta a protecciones adecuadas.
+Podemos actualizar esta Política ocasionalmente. Cualquier actualización se publicará en esta página y se reflejará mediante la fecha de “Última actualización” en la parte superior de la Política.
 
-Big Brane no vende información personal, no la comparte para publicidad conductual en distintos contextos ni la utiliza para ofrecer publicidad dirigida.
+10. Legislación aplicable
 
-7. Conservación
+Esta Política se regirá e interpretará de conformidad con las leyes del Commonwealth de Virginia, Estados Unidos, excluyendo sus normas sobre conflicto de leyes.
 
-Big Brane no recopila ni conserva a través de Sushi Ben ID de usuarios de plataformas, nombres de usuario, registros de logros ni partidas guardadas en la nube.
+11. Contáctenos
 
-Por separado, Big Brane puede conservar información que una persona envíe voluntariamente por correo electrónico, formulario web, solicitud de soporte, redes sociales u otra comunicación. Esa información se conserva únicamente durante el tiempo razonablemente necesario para atender la comunicación, prestar soporte, mantener registros de seguridad y empresariales, cumplir la ley y resolver controversias. Los proveedores del sitio web y de seguridad pueden conservar registros técnicos conforme a sus propios plazos de conservación y a nuestra configuración del servicio. Eliminamos o desidentificamos la información cuando deja de ser razonablemente necesaria, salvo que una conservación más prolongada sea obligatoria o esté permitida por la ley.
+Si tiene alguna pregunta o inquietud sobre esta Política, comuníquese con:
+legal@bigbranestudios.com
 
-8. Solicitudes de acceso, rectificación y eliminación
+12. Idioma
 
-Cualquier usuario, independientemente de su ubicación geográfica, puede solicitar acceso, rectificación o eliminación de información personal controlada por Big Brane. Presentar una solicitud es gratuito.
+La versión en inglés de esta Política es la única versión legalmente vinculante. Las traducciones se proporcionan únicamente por conveniencia. En caso de cualquier inconsistencia, ambigüedad o conflicto entre una versión traducida y la versión en inglés, prevalecerá la versión en inglés.","POLITIQUE DE CONFIDENTIALITÉ ET DE COLLECTE DES DONNÉES
 
-Para presentar una solicitud, escriba a legal@bigbranestudios.com con el asunto «Sushi Ben Data Request». Si su solicitud se refiere a información enviada anteriormente a Big Brane, indique la dirección de correo electrónico, el nombre de usuario, la fecha aproximada o el asunto de soporte asociado con ese envío para que podamos localizarlo. Podemos solicitar información razonable para verificar su identidad y evitar el acceso o la eliminación no autorizados.
+Dernière mise à jour : 1 avril 2026
 
-Big Brane no posee los datos de usuarios de plataformas a los que se accede temporalmente a través del Juego, por lo que no existen tales datos en los sistemas de Big Brane que puedan eliminarse. No obstante, revisaremos y responderemos a todas las solicitudes. Si identificamos información personal enviada por separado a Big Brane o controlada de otro modo por Big Brane —por ejemplo, información incluida en un mensaje de soporte— la eliminaremos o desidentificaremos, salvo cuando su conservación sea razonablemente necesaria o legalmente obligatoria por motivos de seguridad, prevención del fraude, registros de transacciones, cumplimiento de la ley o formulación o defensa de reclamaciones legales. Si no podemos atender total o parcialmente una solicitud, explicaremos el motivo cuando sea obligatorio.
+Avis : Le présent document peut être traduit en plusieurs langues pour des raisons de commodité. Les traductions peuvent être générées automatiquement et peuvent contenir des inexactitudes. La version anglaise juridiquement contraignante est disponible à l’adresse suivante :
+https://www.sushiben.com/en/privacy
+En cas d’incohérence, d’ambiguïté ou de divergence, la version anglaise prévaudra.
 
-Por lo general, respondemos en un plazo de 30 días o dentro de cualquier otro plazo exigido por la legislación aplicable. Puede apelar una denegación respondiendo a nuestra decisión con «Privacy Appeal» en el asunto.
+1. Portée
 
-Eliminar el Juego o sus datos guardados localmente no elimina necesariamente los registros mantenidos independientemente por una tienda o un operador de plataforma. Las solicitudes relativas a una cuenta de plataforma, logros, compras, partidas guardadas en la nube u otros registros controlados por la plataforma deben realizarse mediante los controles de privacidad y cuenta de esa plataforma, ya que Big Brane no posee ni controla dichos registros.
-
-9. Seguridad
-
-Utilizamos salvaguardas administrativas, técnicas y organizativas razonables y adecuadas para la información bajo nuestro control. No se puede garantizar la seguridad absoluta de ningún sistema de transmisión o almacenamiento.
-
-10. Tratamiento internacional
-
-Big Brane está ubicado en Estados Unidos. La información que usted proporcione voluntariamente puede tratarse en Estados Unidos y en otros países donde operen nuestros proveedores. Esos países pueden tener leyes de privacidad diferentes de las de su lugar de residencia. Cuando sea obligatorio, utilizamos salvaguardas legalmente reconocidas para las transferencias internacionales.
-
-11. Privacidad de menores
-
-Los Servicios no están dirigidos a menores de 13 años, y Big Brane no recopila a sabiendas información personal de menores de 13 años. Si considera que un menor nos ha proporcionado información personal, comuníquese con nosotros para que podamos investigarlo y eliminarla cuando corresponda.
-
-12. Cambios en esta Política
-
-Podemos actualizar esta Política a medida que cambien los Servicios, las funciones de plataforma, los proveedores y la legislación aplicable. Publicaremos la Política revisada y actualizaremos la Fecha de entrada en vigor. Si un cambio afecta sustancialmente a la forma en que utilizamos información ya recopilada, proporcionaremos cualquier aviso u opción adicional que exija la legislación aplicable.
-
-13. Idioma
-
-Las traducciones pueden proporcionarse por comodidad y contener inexactitudes. La versión inglesa disponible en https://www.sushiben.com/en/privacy será la versión prevalente en la medida permitida por la legislación aplicable.
-
-14. Contacto
-
-Las preguntas, inquietudes, informes de seguridad y solicitudes de privacidad pueden enviarse a:
-
-Big Brane Studios, Inc.
-Correo electrónico: legal@bigbranestudios.com
-Política de privacidad: https://www.sushiben.com/en/privacy","Politique de confidentialité et de collecte des données de Sushi Ben
-
-Date d’entrée en vigueur : 2 août 2026
-
-La présente Politique de confidentialité et de collecte des données (la « Politique ») explique comment Big Brane Studios, Inc. (« Big Brane », « nous », « notre » ou « nos ») collecte, utilise, divulgue et protège les informations dans le cadre de Sushi Ben (le « Jeu »), du site Web officiel de Sushi Ben et des services d’assistance et communautaires connexes (collectivement, les « Services »).
-
-1. Champ d’application
-
-La présente Politique s’applique aux Services exploités par Big Brane qui comportent un lien vers celle-ci. Elle ne régit pas les pratiques indépendantes des boutiques, des plateformes de console et de réalité virtuelle, des réseaux sociaux, des fournisseurs de médias intégrés ou d’autres tiers. Ces services traitent les informations conformément à leurs propres politiques de confidentialité.
+La présente Politique de confidentialité et de collecte des données (la « Politique ») régit la manière dont Big Brane Studios, Inc. (« Big Brane », « nous », « notre » ou « nos ») collecte, utilise et protège les informations liées à Sushi Ben (le « Jeu »).
 
 2. Informations traitées par l’intermédiaire du Jeu
 
-Sushi Ben est un jeu solo. Big Brane n’exploite pour Sushi Ben aucun serveur de jeu, compte utilisateur, service multijoueur, système publicitaire ou système d’analyse de l’activité de jeu. Le Jeu ne collecte ni ne transmet à Big Brane l’historique de jeu, le contenu des sauvegardes, les données des capteurs de l’appareil ou d’autres données de jeu.
+Sushi Ben est un jeu solo hors ligne. Big Brane n’exploite pour le Jeu aucun serveur de jeu, compte utilisateur, service multijoueur, système publicitaire ou système d’analyse du jeu.
 
-Le Jeu interagit avec des services exploités par les plateformes pour les succès et les sauvegardes dans le cloud. Ces services sont contrôlés par la plateforme sur laquelle vous jouez, et non par Big Brane.
+Le Jeu traite les données suivantes au moyen de services exploités par les plateformes :
 
-- Identifiant utilisateur de la plateforme. Le Jeu peut lire temporairement l’identifiant utilisateur fourni par la plateforme, uniquement dans la mesure nécessaire pour accéder aux services de plateforme du joueur concerné, y compris les succès. Cet identifiant n’est pas envoyé à Big Brane, copié sur un serveur de Big Brane ni conservé par Big Brane.
-- Nom d’utilisateur de la plateforme. Le Jeu peut récupérer temporairement le nom d’utilisateur du joueur actuel uniquement afin de l’afficher à ce même joueur dans le Jeu. Il n’est ni envoyé à Big Brane ni conservé par celle-ci.
-- Succès. La plateforme concernée administre, associe et conserve les données relatives aux succès. Big Brane ne reçoit ni ne conserve ces données.
-- Sauvegardes dans le cloud. La plateforme concernée transfère, contrôle et conserve les données des sauvegardes dans le cloud. Big Brane ne reçoit ni ne conserve ces sauvegardes.
+- Identifiant utilisateur de la plateforme. Utilisé pour connecter le joueur actuel aux services de la plateforme.
+- Nom d’utilisateur de la plateforme. Affiché au joueur actuel dans le Jeu.
+- Succès. Le Jeu transmet à la plateforme l’activité liée aux succès. La plateforme associe et conserve les données relatives aux succès.
+- Sauvegardes dans le cloud. La plateforme transfère et conserve les données de sauvegarde au moyen de son service de sauvegarde dans le cloud.
 
-Big Brane ne collecte, ne conserve ni ne divulgue de données d’utilisateur de plateforme par l’intermédiaire du Jeu. Les données relatives aux comptes, succès, sauvegardes dans le cloud, achats, droits d’utilisation, appareils et services contrôlées par les plateformes restent soumises aux conditions, politiques de confidentialité et contrôles utilisateur de la plateforme concernée.
+Big Brane ne reçoit, ne stocke, ne conserve, ne partage ni ne vend ces données de plateforme. Le Jeu ne transmet à Big Brane aucun historique de jeu, contenu de sauvegarde, donnée de capteur de l’appareil ou autre donnée de jeu.
 
-3. Informations que vous fournissez volontairement
+Les données contrôlées par une plateforme sont soumises à la politique de confidentialité et aux contrôles utilisateur de la plateforme concernée. Les demandes concernant des informations détenues par Big Brane peuvent être présentées comme indiqué à la Section 8. Les demandes concernant des informations contrôlées par une plateforme doivent être adressées à la plateforme concernée.
 
-Nous pouvons recevoir les informations que vous choisissez de fournir par e-mail, dans le cadre de demandes d’assistance, d’enquêtes, de rapports de bogue, d’interactions sur les réseaux sociaux, de formulaires du site Web ou de communications similaires. Selon les éléments que vous transmettez, ces informations peuvent comprendre :
+3. Base juridique du traitement
 
-- votre nom, votre adresse e-mail, votre nom d’utilisateur ou votre identifiant sur un réseau social ;
-- la plateforme sur laquelle vous utilisez le Jeu ;
-- le contenu de votre message ; et
-- les captures d’écran, journaux, informations système, fichiers de sauvegarde ou autres éléments de diagnostic que vous choisissez de joindre.
+Nous traitons les informations personnelles sur la base :
+- de votre consentement ;
+- de la nécessité contractuelle ;
+- d’intérêts commerciaux légitimes, tels que l’assistance, la maintenance et la sécurité ; et
+- du respect des obligations légales.
 
-Veuillez ne pas nous transmettre de mots de passe, d’informations de carte de paiement, d’informations sensibles inutiles ou d’informations personnelles concernant une autre personne.
+4. Conservation des données
 
-4. Informations relatives au site Web et aux plateformes tierces
+Nous conservons les informations personnelles uniquement pendant la durée nécessaire à la réalisation des finalités décrites dans la présente Politique, sauf si la loi impose une durée de conservation plus longue.
 
-Lorsque vous consultez le site Web de Sushi Ben, les fournisseurs d’hébergement, de sécurité, de formulaires et de réseau peuvent traiter automatiquement des informations techniques standard telles que votre adresse de protocole Internet, le type de navigateur et d’appareil, la page demandée, la page de provenance ainsi que la date et l’heure de la requête. Les contenus vidéo, musicaux, communautaires, de réseaux sociaux ou de boutiques intégrés peuvent amener votre navigateur à se connecter directement au fournisseur concerné, lequel peut traiter des informations conformément à sa propre politique de confidentialité.
+5. Sécurité des données
 
-Les boutiques et opérateurs de plateformes traitent indépendamment les informations nécessaires au fonctionnement de leurs comptes, achats, droits d’utilisation, succès, sauvegardes dans le cloud, appareils et autres services de plateforme. Big Brane ne contrôle pas ces données. Si vous contactez Big Brane au sujet d’un achat ou d’un problème de plateforme, nous ne recevons que les informations que vous choisissez de nous fournir ou que la plateforme transmet dans le cadre de cette demande d’assistance précise.
+Nous mettons en œuvre des mesures commercialement raisonnables afin de protéger les informations personnelles contre l’accès non autorisé, la divulgation ou l’utilisation abusive. Toutefois, aucun système ne peut être garanti comme étant totalement sécurisé.
 
-Les informations de paiement sont généralement recueillies directement par la boutique ou le prestataire de services de paiement concerné, et non par Big Brane.
+6. Divulgation pour obligations légales
 
-5. Notre utilisation des informations
+Nous pouvons divulguer des informations personnelles si la loi l’exige ou en réponse à des demandes légales valides émanant d’autorités publiques.
 
-Les identifiants et noms d’utilisateur de plateforme sont utilisés temporairement dans le Jeu uniquement aux fins décrites à la Section 2. Big Brane ne reçoit ni ne conserve ces informations.
+7. Vos droits
 
-Nous utilisons les informations personnelles fournies séparément à Big Brane par l’intermédiaire du site Web, des canaux d’assistance ou d’autres communications volontaires afin de :
+Selon votre juridiction, vous pouvez disposer notamment des droits suivants :
+- accès à vos données ;
+- rectification de données inexactes ;
+- suppression de vos données ;
+- limitation du traitement ou opposition au traitement ;
+- portabilité des données ; et
+- retrait du consentement.
 
-- répondre aux questions, demandes d’assistance, rapports de bogue et demandes relatives à la confidentialité ;
-- exploiter, sécuriser, dépanner et améliorer les Services ;
-- faire respecter nos accords et protéger les utilisateurs, Big Brane et le public ;
-- prévenir la fraude, les abus, les incidents de sécurité et les activités illicites ; et
-- respecter nos obligations légales et constater, exercer ou défendre des droits en justice.
+Pour exercer vos droits, veuillez contacter :
+legal@bigbranestudios.com
 
-Lorsque le droit applicable exige une base juridique, nous nous fondons, selon le cas, sur l’exécution d’un contrat, nos intérêts légitimes à exploiter et sécuriser les Services, votre consentement ou le respect d’obligations légales.
+Nous pouvons être amenés à vérifier votre identité avant de traiter une demande.
 
-6. Divulgation des informations
+8. Services tiers
 
-Les divulgations décrites dans la présente section concernent uniquement les informations personnelles fournies séparément à Big Brane ou contrôlées par celle-ci, telles que les communications effectuées par l’intermédiaire du site Web ou des services d’assistance. Elles ne concernent pas les données d’utilisateur de plateforme auxquelles le Jeu accède temporairement, que Big Brane ne reçoit ni ne conserve.
+Nous pouvons inclure des liens vers des services tiers, intégrer ces services ou nous appuyer sur eux sans les contrôler. Ces tiers peuvent collecter, traiter ou conserver des informations selon leurs propres conditions et politiques de confidentialité. Nous ne sommes pas responsables de leurs pratiques en matière de confidentialité et nous vous encourageons à consulter leurs politiques.
 
-Nous pouvons divulguer les informations sous notre contrôle :
+9. Modifications de la présente Politique
 
-- à des fournisseurs agissant pour notre compte afin d’assurer l’hébergement et la sécurité du site Web, les communications, l’assistance ou des services commerciaux similaires ;
-- lorsque vous demandez ou consentez à cette divulgation ;
-- lorsque cela est raisonnablement nécessaire pour respecter la loi ou une procédure judiciaire valide, protéger une personne, enquêter sur des actes répréhensibles, sécuriser les Services ou protéger des droits en justice ; ou
-- dans le cadre d’une fusion, acquisition, opération de financement, réorganisation, faillite, cession d’actifs ou opération commerciale similaire, sous réserve de protections appropriées.
+Nous pouvons mettre à jour la présente Politique de temps à autre. Toute mise à jour sera publiée sur cette page et reflétée par la date de « Dernière mise à jour » figurant en haut de la Politique.
 
-Big Brane ne vend pas d’informations personnelles, ne les partage pas à des fins de publicité comportementale intercontextuelle et ne les utilise pas pour diffuser de la publicité ciblée.
+10. Droit applicable
 
-7. Conservation
+La présente Politique est régie et interprétée conformément aux lois du Commonwealth de Virginie, États-Unis, à l’exclusion de ses règles de conflit de lois.
 
-Big Brane ne collecte ni ne conserve, par l’intermédiaire de Sushi Ben, les identifiants utilisateur de plateforme, les noms d’utilisateur, les données relatives aux succès ou les sauvegardes dans le cloud.
+11. Nous contacter
 
-Par ailleurs, Big Brane peut conserver les informations qu’une personne transmet volontairement par e-mail, au moyen d’un formulaire du site Web, d’une demande d’assistance, sur les réseaux sociaux ou dans le cadre d’une autre communication. Ces informations sont conservées uniquement pendant la durée raisonnablement nécessaire pour traiter la communication, fournir une assistance, tenir des registres de sécurité et commerciaux, respecter la loi et résoudre les litiges. Les fournisseurs du site Web et de services de sécurité peuvent conserver des journaux techniques conformément à leurs propres calendriers de conservation et à la configuration de nos services. Nous supprimons ou anonymisons les informations lorsqu’elles ne sont plus raisonnablement nécessaires, sauf si une conservation plus longue est exigée ou autorisée par la loi.
+Si vous avez des questions ou des préoccupations concernant la présente Politique, veuillez contacter :
+legal@bigbranestudios.com
 
-8. Demandes d’accès, de rectification et de suppression
+12. Langue
 
-Tout utilisateur, quel que soit son lieu de résidence, peut demander l’accès aux informations personnelles contrôlées par Big Brane, leur rectification ou leur suppression. La présentation d’une demande est gratuite.
+La version anglaise de la présente Politique est la seule version juridiquement contraignante. Les traductions sont fournies uniquement à titre de commodité. En cas d’incohérence, d’ambiguïté ou de conflit entre une version traduite et la version anglaise, la version anglaise prévaudra.","INFORMATIVA SULLA PRIVACY E SULLA RACCOLTA DEI DATI
 
-Pour présenter une demande, envoyez un e-mail à legal@bigbranestudios.com avec pour objet « Sushi Ben Data Request ». Si votre demande concerne des informations précédemment transmises à Big Brane, indiquez l’adresse e-mail, le nom d’utilisateur, la date approximative ou la demande d’assistance associés à cet envoi afin que nous puissions les retrouver. Nous pouvons demander des informations raisonnables afin de vérifier votre identité et d’empêcher tout accès ou toute suppression non autorisés.
+Ultimo aggiornamento: 1 aprile 2026
 
-Big Brane ne détient pas les données d’utilisateur de plateforme auxquelles le Jeu accède temporairement ; nos systèmes ne contiennent donc aucune donnée de cette nature à supprimer. Nous examinerons néanmoins chaque demande et y répondrons. Si nous identifions des informations personnelles transmises séparément à Big Brane ou autrement contrôlées par celle-ci — par exemple, des informations contenues dans un message d’assistance — nous les supprimerons ou les anonymiserons, sauf si leur conservation est raisonnablement nécessaire ou légalement requise à des fins de sécurité, de prévention de la fraude, de tenue des registres de transaction, de respect de la loi ou de constatation ou défense de droits en justice. Si nous ne pouvons pas satisfaire tout ou partie d’une demande, nous en expliquerons la raison lorsque cela est requis.
-
-Nous répondons généralement dans un délai de 30 jours ou dans tout autre délai imposé par le droit applicable. Vous pouvez faire appel du refus d’une demande en répondant à notre décision et en indiquant « Privacy Appeal » dans l’objet du message.
-
-La suppression du Jeu ou de ses données de sauvegarde locales n’entraîne pas nécessairement la suppression des données conservées indépendamment par une boutique ou un opérateur de plateforme. Les demandes concernant un compte de plateforme, des succès, des achats, des sauvegardes dans le cloud ou d’autres données contrôlées par une plateforme doivent être présentées au moyen des outils de confidentialité et de gestion de compte de cette plateforme, car Big Brane ne détient ni ne contrôle ces données.
-
-9. Sécurité
-
-Nous appliquons des mesures administratives, techniques et organisationnelles raisonnables et adaptées aux informations sous notre contrôle. Aucun système de transmission ou de stockage ne peut être garanti comme étant entièrement sécurisé.
-
-10. Traitement international
-
-Big Brane est établie aux États-Unis. Les informations que vous fournissez volontairement peuvent être traitées aux États-Unis et dans d’autres pays où nos fournisseurs exercent leurs activités. Les lois de ces pays en matière de confidentialité peuvent être différentes de celles de votre lieu de résidence. Lorsque cela est requis, nous recourons à des garanties juridiquement reconnues pour les transferts internationaux.
-
-11. Confidentialité des enfants
-
-Les Services ne s’adressent pas aux enfants de moins de 13 ans et Big Brane ne collecte pas sciemment d’informations personnelles auprès d’enfants de moins de 13 ans. Si vous pensez qu’un enfant nous a fourni des informations personnelles, contactez-nous afin que nous puissions examiner la situation et les supprimer, le cas échéant.
-
-12. Modifications de la présente Politique
-
-Nous pouvons mettre à jour la présente Politique en fonction de l’évolution des Services, des fonctionnalités des plateformes, des fournisseurs et des lois applicables. Nous publierons la Politique révisée et mettrons à jour la Date d’entrée en vigueur. Si une modification a une incidence substantielle sur la manière dont nous utilisons les informations déjà collectées, nous fournirons tout avis ou choix supplémentaire exigé par le droit applicable.
-
-13. Langue
-
-Des traductions peuvent être fournies à titre indicatif et comporter des inexactitudes. La version anglaise disponible à l’adresse https://www.sushiben.com/en/privacy prévaut dans toute la mesure permise par le droit applicable.
-
-14. Nous contacter
-
-Les questions, préoccupations, signalements de sécurité et demandes relatives à la confidentialité peuvent être envoyés à :
-
-Big Brane Studios, Inc.
-E-mail : legal@bigbranestudios.com
-Politique de confidentialité : https://www.sushiben.com/en/privacy","Politica sulla privacy e sulla raccolta dei dati di Sushi Ben
-
-Data di entrata in vigore: 2 agosto 2026
-
-La presente Politica sulla privacy e sulla raccolta dei dati (la «Politica») spiega come Big Brane Studios, Inc. («Big Brane», «noi», «ci» o «nostro») raccoglie, utilizza, divulga e protegge le informazioni in relazione a Sushi Ben (il «Gioco»), al sito web ufficiale di Sushi Ben e ai relativi servizi di assistenza e community (collettivamente, i «Servizi»).
+Avviso: Il presente documento può essere tradotto in più lingue per comodità. Le traduzioni possono essere generate automaticamente e possono contenere imprecisioni. La versione inglese legalmente vincolante è disponibile all’indirizzo:
+https://www.sushiben.com/en/privacy
+In caso di incongruenze, ambiguità o discrepanze, prevarrà la versione inglese.
 
 1. Ambito di applicazione
 
-La presente Politica si applica ai Servizi gestiti da Big Brane che contengono un collegamento ad essa. Non disciplina le prassi indipendenti di negozi, piattaforme per console e realtà virtuale, social network, fornitori di contenuti multimediali incorporati o altri terzi. Tali servizi trattano le informazioni in conformità alle proprie informative sulla privacy.
+La presente Informativa sulla privacy e sulla raccolta dei dati (l’“Informativa”) disciplina il modo in cui Big Brane Studios, Inc. (“Big Brane”, “noi”, “ci” o “nostro”) raccoglie, utilizza e protegge le informazioni relative a Sushi Ben (il “Gioco”).
 
 2. Informazioni trattate tramite il Gioco
 
-Sushi Ben è un gioco per giocatore singolo. Big Brane non gestisce server di gioco, account utente, servizi multigiocatore, sistemi pubblicitari o sistemi di analisi dell’attività di gioco per Sushi Ben. Il Gioco non raccoglie né trasmette a Big Brane la cronologia di gioco, il contenuto dei salvataggi, i dati dei sensori del dispositivo o altri dati di gioco.
+Sushi Ben è un gioco offline per giocatore singolo. Big Brane non gestisce server di gioco, account utente, servizi multigiocatore, sistemi pubblicitari o sistemi di analisi del gioco per il Gioco.
 
-Il Gioco interagisce con servizi gestiti dalle piattaforme per gli obiettivi e i salvataggi nel cloud. Tali servizi sono controllati dalla piattaforma sulla quale l’utente gioca, non da Big Brane.
+Il Gioco tratta i seguenti dati tramite servizi gestiti dalle piattaforme:
 
-- ID utente della piattaforma. Il Gioco può leggere temporaneamente l’ID utente fornito dalla piattaforma esclusivamente nella misura necessaria per accedere ai servizi di piattaforma del giocatore corretto, inclusi gli obiettivi. L’ID non viene inviato a Big Brane, copiato su un server di Big Brane o conservato da Big Brane.
-- Nome utente della piattaforma. Il Gioco può recuperare temporaneamente il nome utente del giocatore corrente al solo scopo di mostrarlo allo stesso giocatore all’interno del Gioco. Non viene inviato né conservato da Big Brane.
-- Obiettivi. La piattaforma applicabile gestisce, associa e conserva i dati relativi agli obiettivi. Big Brane non riceve né conserva tali dati.
-- Salvataggi nel cloud. La piattaforma applicabile trasferisce, controlla e conserva i dati dei salvataggi nel cloud. Big Brane non riceve né conserva tali salvataggi.
+- ID utente della piattaforma. Utilizzato per collegare il giocatore corrente ai servizi della piattaforma.
+- Nome utente della piattaforma. Mostrato al giocatore corrente all’interno del Gioco.
+- Obiettivi. Il Gioco invia alla piattaforma l’attività relativa agli obiettivi. La piattaforma associa e conserva i dati relativi agli obiettivi.
+- Salvataggi nel cloud. La piattaforma trasferisce e conserva i dati di salvataggio tramite il proprio servizio di salvataggio nel cloud.
 
-Big Brane non raccoglie, conserva o divulga dati utente della piattaforma tramite il Gioco. I dati relativi ad account, obiettivi, salvataggi nel cloud, acquisti, diritti di utilizzo, dispositivi e servizi controllati dalla piattaforma restano soggetti alle condizioni, all’informativa sulla privacy e ai controlli utente della piattaforma applicabile.
+Big Brane non riceve, archivia, conserva, condivide o vende questi dati della piattaforma. Il Gioco non trasmette a Big Brane la cronologia di gioco, il contenuto dei salvataggi, i dati dei sensori del dispositivo o altri dati di gioco.
 
-3. Informazioni fornite volontariamente dall’utente
+I dati controllati dalla piattaforma sono soggetti all’informativa sulla privacy e ai controlli utente della piattaforma applicabile. Le richieste riguardanti informazioni detenute da Big Brane possono essere presentate come descritto nella Sezione 8. Le richieste riguardanti informazioni controllate dalla piattaforma devono essere presentate alla piattaforma applicabile.
 
-Possiamo ricevere informazioni che l’utente sceglie di fornire tramite e-mail, richieste di assistenza, sondaggi, segnalazioni di errori, interazioni sui social media, moduli del sito web o comunicazioni analoghe. A seconda di quanto inviato, tali informazioni possono includere:
+3. Base giuridica del trattamento
 
-- nome, indirizzo e-mail, nome utente o identificativo sui social media;
-- la piattaforma sulla quale viene utilizzato il Gioco;
-- il contenuto del messaggio; e
-- schermate, log, informazioni di sistema, file di salvataggio o altro materiale diagnostico che l’utente sceglie di allegare.
+Trattiamo le informazioni personali sulla base di:
+- tuo consenso;
+- necessità contrattuale;
+- legittimi interessi commerciali, quali assistenza, manutenzione e sicurezza; e
+- adempimento di obblighi di legge.
 
-Non inviare password, dati delle carte di pagamento, informazioni sensibili non necessarie o informazioni personali relative a un’altra persona.
+4. Conservazione dei dati
 
-4. Informazioni relative al sito web e alle piattaforme di terzi
+Conserviamo le informazioni personali solo per il tempo necessario a soddisfare le finalità descritte nella presente Informativa, salvo che la legge richieda un periodo di conservazione più lungo.
 
-Quando l’utente visita il sito web di Sushi Ben, i fornitori di servizi di hosting, sicurezza, moduli e rete possono trattare automaticamente informazioni tecniche standard, quali indirizzo del protocollo Internet, tipo di browser e dispositivo, pagina richiesta, pagina di provenienza, nonché data e ora della richiesta. I contenuti incorporati relativi a video, musica, community, social media o negozi possono fare sì che il browser si connetta direttamente al fornitore applicabile, il quale può trattare informazioni in conformità alla propria informativa sulla privacy.
+5. Sicurezza dei dati
 
-I negozi e i gestori delle piattaforme trattano in modo indipendente le informazioni necessarie per gestire account, acquisti, diritti di utilizzo, obiettivi, salvataggi nel cloud, dispositivi e altri servizi di piattaforma. Big Brane non controlla tali dati. Se l’utente contatta Big Brane in merito a un acquisto o a un problema della piattaforma, riceviamo soltanto le informazioni che l’utente sceglie di fornire o che la piattaforma fornisce in relazione a quella specifica richiesta di assistenza.
+Adottiamo misure commercialmente ragionevoli per proteggere le informazioni personali da accessi non autorizzati, divulgazione o uso improprio. Tuttavia, nessun sistema può essere garantito come completamente sicuro.
 
-Le informazioni di pagamento vengono normalmente raccolte direttamente dal negozio o dal prestatore di servizi di pagamento applicabile, anziché da Big Brane.
+6. Divulgazione per obblighi di legge
 
-5. Come utilizziamo le informazioni
+Possiamo divulgare informazioni personali se richiesto dalla legge o in risposta a richieste legali valide da parte di autorità pubbliche.
 
-Gli ID utente e i nomi utente della piattaforma vengono utilizzati temporaneamente all’interno del Gioco esclusivamente per le finalità descritte nella Sezione 2. Big Brane non riceve né conserva tali informazioni.
+7. I tuoi diritti
 
-Utilizziamo le informazioni personali fornite separatamente a Big Brane tramite il sito web, i canali di assistenza o altre comunicazioni volontarie per:
+A seconda della tua giurisdizione, potresti avere diritti che includono:
+- accesso ai tuoi dati;
+- correzione di dati inesatti;
+- cancellazione dei tuoi dati;
+- limitazione o opposizione al trattamento;
+- portabilità dei dati; e
+- revoca del consenso.
 
-- rispondere a domande, richieste di assistenza, segnalazioni di errori e richieste in materia di privacy;
-- gestire, proteggere, risolvere problemi e migliorare i Servizi;
-- far rispettare i nostri accordi e proteggere gli utenti, Big Brane e il pubblico;
-- prevenire frodi, abusi, incidenti di sicurezza e attività illecite; e
-- adempiere agli obblighi di legge e accertare, esercitare o difendere diritti in sede giudiziaria.
+Per esercitare i tuoi diritti, contatta:
+legal@bigbranestudios.com
 
-Qualora la legge applicabile richieda una base giuridica, ci basiamo, a seconda dei casi, sull’esecuzione di un contratto, sui nostri legittimi interessi nella gestione e protezione dei Servizi, sul consenso dell’utente o sull’adempimento di obblighi legali.
+Potremmo dover verificare la tua identità prima di elaborare le richieste.
 
-6. Divulgazione delle informazioni
+8. Servizi di terzi
 
-Le divulgazioni indicate nella presente sezione si applicano esclusivamente alle informazioni personali fornite separatamente a Big Brane o controllate da essa, quali comunicazioni tramite il sito web o l’assistenza. Non si applicano ai dati utente della piattaforma ai quali il Gioco accede temporaneamente e che Big Brane non riceve né conserva.
+Possiamo collegarci a servizi di terzi, incorporarli o fare affidamento su di essi senza controllarli. Tali terzi possono raccogliere, elaborare o conservare informazioni secondo i propri termini e le proprie informative sulla privacy. Non siamo responsabili delle loro pratiche in materia di privacy e ti invitiamo a consultare le loro politiche.
 
-Possiamo divulgare le informazioni sotto il nostro controllo:
+9. Modifiche alla presente Informativa
 
-- a fornitori che agiscono per nostro conto per offrire servizi di hosting e sicurezza del sito web, comunicazioni, assistenza o servizi aziendali analoghi;
-- quando l’utente richiede o acconsente alla divulgazione;
-- quando ciò sia ragionevolmente necessario per rispettare la legge o un procedimento legale valido, proteggere una persona, indagare su condotte illecite, proteggere i Servizi o tutelare diritti legali; o
-- nell’ambito di una fusione, acquisizione, finanziamento, riorganizzazione, fallimento, vendita di beni o operazione commerciale analoga, fatte salve adeguate tutele.
+Possiamo aggiornare la presente Informativa di tanto in tanto. Eventuali aggiornamenti saranno pubblicati su questa pagina e indicati tramite la data di “Ultimo aggiornamento” riportata nella parte superiore dell’Informativa.
 
-Big Brane non vende informazioni personali, non le condivide per pubblicità comportamentale intercontestuale e non le utilizza per mostrare pubblicità mirata.
+10. Legge applicabile
 
-7. Conservazione
+La presente Informativa è disciplinata e interpretata in conformità alle leggi del Commonwealth della Virginia, Stati Uniti, con esclusione delle relative norme sui conflitti di legge.
 
-Big Brane non raccoglie né conserva tramite Sushi Ben gli ID utente della piattaforma, i nomi utente, i dati relativi agli obiettivi o i salvataggi nel cloud.
+11. Contatti
 
-Separatamente, Big Brane può conservare le informazioni che una persona invia volontariamente tramite e-mail, un modulo del sito web, una richiesta di assistenza, i social media o un’altra comunicazione. Tali informazioni vengono conservate soltanto per il tempo ragionevolmente necessario a gestire la comunicazione, fornire assistenza, conservare registri aziendali e di sicurezza, rispettare la legge e risolvere controversie. I fornitori del sito web e dei servizi di sicurezza possono conservare registri tecnici secondo i propri periodi di conservazione e la configurazione dei nostri servizi. Eliminiamo o deidentifichiamo le informazioni quando non sono più ragionevolmente necessarie, salvo che un periodo di conservazione più lungo sia richiesto o consentito dalla legge.
+Per qualsiasi domanda o dubbio riguardante la presente Informativa, contatta:
+legal@bigbranestudios.com
 
-8. Richieste di accesso, rettifica e cancellazione
+12. Lingua
 
-Qualsiasi utente, indipendentemente dalla propria ubicazione geografica, può richiedere l’accesso, la rettifica o la cancellazione delle informazioni personali controllate da Big Brane. La presentazione di una richiesta è gratuita.
+La versione inglese della presente Informativa è l’unica versione legalmente vincolante. Le traduzioni sono fornite esclusivamente per comodità. In caso di incongruenze, ambiguità o conflitti tra una versione tradotta e la versione inglese, prevarrà la versione inglese.","POLÍTICA DE PRIVACIDADE E COLETA DE DADOS
 
-Per presentare una richiesta, inviare un’e-mail a legal@bigbranestudios.com con oggetto «Sushi Ben Data Request». Se la richiesta riguarda informazioni precedentemente inviate a Big Brane, indicare l’indirizzo e-mail, il nome utente, la data approssimativa o la questione di assistenza associati a tale invio, in modo da consentirci di individuarle. Potremmo richiedere informazioni ragionevoli per verificare l’identità dell’utente e impedire accessi o cancellazioni non autorizzati.
+Última atualização: 1º de abril de 2026
 
-Big Brane non possiede i dati utente della piattaforma ai quali il Gioco accede temporaneamente, pertanto nei sistemi di Big Brane non vi sono dati di tale natura da cancellare. Esamineremo e risponderemo comunque a ogni richiesta. Qualora individuiamo informazioni personali inviate separatamente a Big Brane o altrimenti controllate da essa, ad esempio informazioni contenute in un messaggio di assistenza, le cancelleremo o deidentificheremo, salvo che la conservazione sia ragionevolmente necessaria o richiesta dalla legge per finalità di sicurezza, prevenzione delle frodi, registri delle transazioni, adempimento della legge o accertamento o difesa di diritti legali. Qualora non possiamo soddisfare in tutto o in parte una richiesta, ne spiegheremo il motivo ove richiesto.
-
-In genere rispondiamo entro 30 giorni o entro qualsiasi altro termine richiesto dalla legge applicabile. L’utente può presentare ricorso contro il rifiuto di una richiesta rispondendo alla nostra decisione con «Privacy Appeal» nell’oggetto.
-
-La cancellazione del Gioco o dei relativi dati di salvataggio locali non comporta necessariamente la cancellazione dei dati conservati in modo indipendente da un negozio o dal gestore di una piattaforma. Le richieste relative ad account di piattaforma, obiettivi, acquisti, salvataggi nel cloud o altri dati controllati dalla piattaforma devono essere presentate tramite i controlli della privacy e dell’account di tale piattaforma, poiché Big Brane non possiede né controlla tali dati.
-
-9. Sicurezza
-
-Adottiamo misure amministrative, tecniche e organizzative ragionevoli e adeguate alle informazioni sotto il nostro controllo. Non è possibile garantire la completa sicurezza di alcun sistema di trasmissione o archiviazione.
-
-10. Trattamento internazionale
-
-Big Brane ha sede negli Stati Uniti. Le informazioni fornite volontariamente dall’utente possono essere trattate negli Stati Uniti e in altri Paesi nei quali operano i nostri fornitori. Tali Paesi possono avere leggi sulla privacy diverse da quelle vigenti nel luogo in cui vive l’utente. Ove richiesto, utilizziamo garanzie legalmente riconosciute per i trasferimenti internazionali.
-
-11. Privacy dei minori
-
-I Servizi non sono destinati a minori di 13 anni e Big Brane non raccoglie consapevolmente informazioni personali da minori di 13 anni. Se si ritiene che un minore ci abbia fornito informazioni personali, invitiamo a contattarci affinché possiamo indagare e cancellarle, ove opportuno.
-
-12. Modifiche alla presente Politica
-
-Possiamo aggiornare la presente Politica in base all’evoluzione dei Servizi, delle funzionalità delle piattaforme, dei fornitori e delle leggi applicabili. Pubblicheremo la Politica modificata e aggiorneremo la Data di entrata in vigore. Se una modifica incide sostanzialmente sul modo in cui utilizziamo informazioni già raccolte, forniremo ogni ulteriore avviso o possibilità di scelta richiesta dalla legge applicabile.
-
-13. Lingua
-
-Le traduzioni possono essere fornite per comodità e possono contenere inesattezze. La versione inglese disponibile all’indirizzo https://www.sushiben.com/en/privacy è la versione prevalente nella misura consentita dalla legge applicabile.
-
-14. Contatti
-
-Domande, dubbi, segnalazioni di sicurezza e richieste in materia di privacy possono essere inviati a:
-
-Big Brane Studios, Inc.
-E-mail: legal@bigbranestudios.com
-Informativa sulla privacy: https://www.sushiben.com/en/privacy","Política de Privacidade e Coleta de Dados do Sushi Ben
-
-Data de vigência: 2 de agosto de 2026
-
-Esta Política de Privacidade e Coleta de Dados (a “Política”) explica como a Big Brane Studios, Inc. (“Big Brane”, “nós”, “nos” ou “nosso”) coleta, usa, divulga e protege informações relacionadas ao Sushi Ben (o “Jogo”), ao site oficial do Sushi Ben e aos serviços relacionados de suporte e comunidade (coletivamente, os “Serviços”).
+Aviso: Este documento pode ser traduzido para vários idiomas por conveniência. As traduções podem ser geradas automaticamente e podem conter imprecisões. A versão em inglês legalmente vinculante está disponível em:
+https://www.sushiben.com/en/privacy
+Em caso de qualquer inconsistência, ambiguidade ou discrepância, prevalecerá a versão em inglês.
 
 1. Escopo
 
-Esta Política se aplica aos Serviços operados pela Big Brane que contenham um link para ela. Ela não rege as práticas independentes de lojas, plataformas de consoles e realidade virtual, redes sociais, provedores de mídia incorporada ou outros terceiros. Esses serviços tratam informações de acordo com suas próprias políticas de privacidade.
+Esta Política de Privacidade e Coleta de Dados (“Política”) rege a forma como a Big Brane Studios, Inc. (“Big Brane”, “nós”, “nos” ou “nosso”) coleta, usa e protege informações relacionadas a Sushi Ben (o “Jogo”).
 
-2. Informações tratadas por meio do Jogo
+2. Informações processadas por meio do Jogo
 
-Sushi Ben é um jogo para um jogador. A Big Brane não opera servidores de jogo, contas de usuário, serviços multijogador, sistemas de publicidade ou sistemas de análise de jogabilidade para o Sushi Ben. O Jogo não coleta nem transmite à Big Brane o histórico de jogabilidade, o conteúdo dos arquivos salvos, dados de sensores do dispositivo ou outros dados de jogabilidade.
+Sushi Ben é um jogo offline para um jogador. A Big Brane não opera servidores de jogo, contas de usuário, serviços multijogador, sistemas de publicidade ou análise de jogabilidade para o Jogo.
 
-O Jogo interage com serviços operados pelas plataformas para conquistas e salvamentos na nuvem. Esses serviços são controlados pela plataforma na qual você joga, não pela Big Brane.
+O Jogo processa os seguintes dados por meio de serviços operados pelas plataformas:
 
-- ID de usuário da plataforma. O Jogo pode ler temporariamente o ID de usuário fornecido pela plataforma somente conforme necessário para acessar os serviços de plataforma do jogador correto, incluindo conquistas. O ID não é enviado à Big Brane, copiado para um servidor da Big Brane nem retido pela Big Brane.
-- Nome de usuário da plataforma. O Jogo pode recuperar temporariamente o nome de usuário do jogador atual exclusivamente para exibi-lo a esse mesmo jogador dentro do Jogo. Ele não é enviado nem retido pela Big Brane.
-- Conquistas. A plataforma aplicável administra, associa e retém os registros de conquistas. A Big Brane não recebe nem armazena esses registros.
-- Salvamentos na nuvem. A plataforma aplicável transfere, controla e retém os dados de salvamento na nuvem. A Big Brane não recebe nem armazena salvamentos na nuvem.
+- ID de usuário da plataforma. Usado para conectar o jogador atual aos serviços da plataforma.
+- Nome de usuário da plataforma. Exibido ao jogador atual dentro do Jogo.
+- Conquistas. O Jogo envia à plataforma atividades relacionadas a conquistas. A plataforma associa e armazena os registros de conquistas.
+- Salvamentos na nuvem. A plataforma transfere e armazena dados de jogos salvos por meio de seu serviço de salvamento na nuvem.
 
-A Big Brane não coleta, armazena nem divulga dados de usuário da plataforma por meio do Jogo. Os registros de contas, conquistas, salvamentos na nuvem, compras, titularidades, dispositivos e serviços controlados pela plataforma permanecem sujeitos aos termos, à política de privacidade e aos controles do usuário da plataforma aplicável.
+A Big Brane não recebe, armazena, retém, compartilha ou vende esses dados da plataforma. O Jogo não transmite à Big Brane histórico de jogabilidade, conteúdo de jogos salvos, dados de sensores do dispositivo ou outros dados de jogabilidade.
 
-3. Informações fornecidas voluntariamente
+Os dados controlados pela plataforma estão sujeitos à política de privacidade e aos controles do usuário da plataforma aplicável. Solicitações relacionadas a informações mantidas pela Big Brane podem ser enviadas conforme descrito na Seção 8. Solicitações relacionadas a informações controladas pela plataforma devem ser enviadas à plataforma aplicável.
 
-Podemos receber informações que você opte por fornecer por e-mail, solicitações de suporte, pesquisas, relatórios de erros, interações em redes sociais, formulários do site ou comunicações semelhantes. Dependendo do que você enviar, essas informações podem incluir:
+3. Base legal para o tratamento
 
-- seu nome, endereço de e-mail, nome de usuário ou identificador em rede social;
-- a plataforma na qual você usa o Jogo;
-- o conteúdo de sua mensagem; e
-- imagens, logs, informações do sistema, arquivos de salvamento ou outros materiais de diagnóstico que você opte por anexar.
+Tratamos informações pessoais com base em:
+- seu consentimento;
+- necessidade contratual;
+- interesses comerciais legítimos, como suporte, manutenção e segurança; e
+- cumprimento de obrigações legais.
 
-Não envie senhas, informações de cartões de pagamento, informações confidenciais desnecessárias ou informações pessoais sobre outra pessoa.
+4. Retenção de dados
 
-4. Informações do site e de plataformas de terceiros
+Retemos informações pessoais apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política, salvo quando a lei exigir um período de retenção mais longo.
 
-Quando você visita o site do Sushi Ben, provedores de hospedagem, segurança, formulários e rede podem tratar automaticamente informações técnicas padrão, como seu endereço de Protocolo de Internet, tipo de navegador e dispositivo, página solicitada, página de referência e data e hora da solicitação. Conteúdo incorporado de vídeo, música, comunidade, redes sociais ou lojas pode fazer com que seu navegador se conecte diretamente ao provedor aplicável, que poderá tratar informações de acordo com sua própria política de privacidade.
+5. Segurança dos dados
 
-Lojas e operadores de plataformas tratam de forma independente as informações necessárias para operar suas contas, compras, titularidades, conquistas, salvamentos na nuvem, dispositivos e outros serviços de plataforma. A Big Brane não controla esses registros. Se você entrar em contato com a Big Brane sobre uma compra ou um problema da plataforma, receberemos apenas as informações que você optar por fornecer ou que a plataforma fornecer em relação a essa questão específica de suporte.
+Adotamos medidas comercialmente razoáveis para proteger informações pessoais contra acesso não autorizado, divulgação ou uso indevido. No entanto, nenhum sistema pode ser garantido como completamente seguro.
 
-As informações de pagamento normalmente são coletadas diretamente pela loja ou pelo processador de pagamentos aplicável, e não pela Big Brane.
+6. Divulgação por exigências legais
 
-5. Como usamos as informações
+Podemos divulgar informações pessoais se exigido por lei ou em resposta a solicitações legais válidas de autoridades públicas.
 
-IDs e nomes de usuário da plataforma são usados temporariamente dentro do Jogo apenas para as finalidades descritas na Seção 2. A Big Brane não recebe nem retém essas informações.
+7. Seus direitos
 
-Usamos informações pessoais fornecidas separadamente à Big Brane por meio do site, dos canais de suporte ou de outras comunicações voluntárias para:
+Dependendo da sua jurisdição, você pode ter direitos que incluem:
+- acesso aos seus dados;
+- correção de dados imprecisos;
+- exclusão dos seus dados;
+- restrição ou objeção ao tratamento;
+- portabilidade dos dados; e
+- retirada do consentimento.
 
-- responder a perguntas, solicitações de suporte, relatórios de erros e solicitações de privacidade;
-- operar, proteger, solucionar problemas e melhorar os Serviços;
-- fazer cumprir nossos contratos e proteger usuários, a Big Brane e o público;
-- prevenir fraudes, abusos, incidentes de segurança e atividades ilegais; e
-- cumprir obrigações legais e estabelecer, exercer ou defender reivindicações legais.
+Para exercer seus direitos, entre em contato com:
+legal@bigbranestudios.com
 
-Quando a legislação aplicável exigir uma base legal, utilizamos, conforme apropriado, a execução de um contrato, nossos interesses legítimos em operar e proteger os Serviços, seu consentimento ou o cumprimento de obrigações legais.
+Podemos precisar verificar sua identidade antes de processar solicitações.
 
-6. Divulgação de informações
+8. Serviços de terceiros
 
-As divulgações desta seção se aplicam somente às informações pessoais fornecidas separadamente à Big Brane ou controladas por ela, como comunicações pelo site ou pelo suporte. Elas não se aplicam a dados de usuário da plataforma acessados temporariamente pelo Jogo, que a Big Brane não recebe nem retém.
+Podemos criar links para serviços de terceiros, incorporá-los ou depender deles sem controlá-los. Esses terceiros podem coletar, tratar ou armazenar informações de acordo com seus próprios termos e políticas de privacidade. Não somos responsáveis por suas práticas de privacidade e incentivamos você a revisar suas políticas.
 
-Podemos divulgar informações sob nosso controle:
+9. Alterações nesta Política
 
-- a fornecedores que atuem em nosso nome para prestar serviços de hospedagem e segurança do site, comunicações, suporte ou serviços comerciais semelhantes;
-- quando você instruir ou consentir com a divulgação;
-- quando for razoavelmente necessário para cumprir a lei ou um processo legal válido, proteger uma pessoa, investigar irregularidades, proteger os Serviços ou resguardar direitos legais; ou
-- como parte de uma fusão, aquisição, financiamento, reorganização, falência, venda de ativos ou transação comercial semelhante, sujeita a proteções adequadas.
+Podemos atualizar esta Política periodicamente. Quaisquer atualizações serão publicadas nesta página e refletidas na data de “Última atualização” no topo da Política.
 
-A Big Brane não vende informações pessoais, não as compartilha para publicidade comportamental entre contextos e não as utiliza para veicular publicidade direcionada.
+10. Lei aplicável
 
-7. Retenção
+Esta Política será regida e interpretada de acordo com as leis do Commonwealth da Virgínia, Estados Unidos, excluindo suas regras de conflito de leis.
 
-A Big Brane não coleta nem retém, por meio do Sushi Ben, IDs de usuário da plataforma, nomes de usuário, registros de conquistas ou salvamentos na nuvem.
+11. Fale conosco
 
-Separadamente, a Big Brane pode reter informações que uma pessoa envie voluntariamente por e-mail, formulário do site, solicitação de suporte, redes sociais ou outra comunicação. Essas informações são retidas somente pelo tempo razoavelmente necessário para tratar a comunicação, fornecer suporte, manter registros comerciais e de segurança, cumprir a lei e resolver disputas. Os provedores do site e de segurança podem reter registros técnicos de acordo com seus próprios cronogramas de retenção e com a configuração de nossos serviços. Excluímos ou desidentificamos informações quando elas não são mais razoavelmente necessárias, salvo quando uma retenção mais longa for exigida ou permitida por lei.
+Se você tiver dúvidas ou preocupações sobre esta Política, entre em contato com:
+legal@bigbranestudios.com
 
-8. Solicitações de acesso, correção e exclusão
+12. Idioma
 
-Qualquer usuário, independentemente da localização geográfica, pode solicitar acesso, correção ou exclusão de informações pessoais controladas pela Big Brane. Não há cobrança para enviar uma solicitação.
+A versão em inglês desta Política é a única versão legalmente vinculante. As traduções são fornecidas apenas por conveniência. Em caso de qualquer inconsistência, ambiguidade ou conflito entre uma versão traduzida e a versão em inglês, prevalecerá a versão em inglês.","プライバシーおよびデータ収集ポリシー
 
-Para fazer uma solicitação, envie um e-mail para legal@bigbranestudios.com com o assunto “Sushi Ben Data Request”. Se a solicitação se referir a informações anteriormente enviadas à Big Brane, informe o endereço de e-mail, nome de usuário, data aproximada ou questão de suporte associados a esse envio para que possamos localizá-las. Poderemos solicitar informações razoáveis para verificar sua identidade e evitar acesso ou exclusão não autorizados.
+最終更新日：2026年4月1日
 
-A Big Brane não possui os dados de usuário da plataforma acessados temporariamente pelo Jogo; portanto, não há dados dessa natureza nos sistemas da Big Brane a serem excluídos. Ainda assim, analisaremos e responderemos a todas as solicitações. Se identificarmos informações pessoais enviadas separadamente à Big Brane ou de outra forma controladas por ela — por exemplo, informações contidas em uma mensagem de suporte —, nós as excluiremos ou desidentificaremos, salvo quando a retenção for razoavelmente necessária ou legalmente exigida para segurança, prevenção de fraudes, registros de transações, cumprimento da lei ou estabelecimento ou defesa de reivindicações legais. Se não pudermos atender total ou parcialmente a uma solicitação, explicaremos o motivo quando exigido.
-
-Em geral, respondemos em até 30 dias ou em outro prazo exigido pela legislação aplicável. Você pode recorrer de uma solicitação negada respondendo à nossa decisão com “Privacy Appeal” no assunto.
-
-Excluir o Jogo ou seus dados locais de salvamento não necessariamente exclui registros mantidos de forma independente por uma loja ou operadora de plataforma. Solicitações relacionadas a conta de plataforma, conquistas, compras, salvamentos na nuvem ou outros registros controlados pela plataforma devem ser feitas pelos controles de privacidade e conta dessa plataforma, pois a Big Brane não possui nem controla esses registros.
-
-9. Segurança
-
-Utilizamos salvaguardas administrativas, técnicas e organizacionais razoáveis e adequadas às informações sob nosso controle. Nenhum sistema de transmissão ou armazenamento pode ter segurança completa garantida.
-
-10. Tratamento internacional
-
-A Big Brane está localizada nos Estados Unidos. As informações fornecidas voluntariamente por você podem ser tratadas nos Estados Unidos e em outros países onde nossos provedores operam. Esses países podem ter leis de privacidade diferentes das leis do local onde você reside. Quando exigido, utilizamos salvaguardas legalmente reconhecidas para transferências internacionais.
-
-11. Privacidade de crianças
-
-Os Serviços não são direcionados a crianças menores de 13 anos, e a Big Brane não coleta intencionalmente informações pessoais de crianças menores de 13 anos. Se você acreditar que uma criança nos forneceu informações pessoais, entre em contato conosco para que possamos investigar e excluí-las, quando apropriado.
-
-12. Alterações nesta Política
-
-Podemos atualizar esta Política à medida que os Serviços, recursos das plataformas, provedores e leis aplicáveis mudarem. Publicaremos a Política revisada e atualizaremos a Data de vigência. Se uma alteração afetar substancialmente a maneira como usamos informações já coletadas, forneceremos qualquer aviso ou opção adicional exigidos pela legislação aplicável.
-
-13. Idioma
-
-Traduções podem ser fornecidas por conveniência e podem conter imprecisões. A versão em inglês disponível em https://www.sushiben.com/en/privacy é a versão prevalecente na medida permitida pela legislação aplicável.
-
-14. Fale conosco
-
-Perguntas, preocupações, relatórios de segurança e solicitações de privacidade podem ser enviados para:
-
-Big Brane Studios, Inc.
-E-mail: legal@bigbranestudios.com
-Política de Privacidade: https://www.sushiben.com/en/privacy","Sushi Ben プライバシーおよびデータ収集ポリシー
-
-発効日：2026年8月2日
-
-本プライバシーおよびデータ収集ポリシー（以下「本ポリシー」）は、Big Brane Studios, Inc.（以下「Big Brane」または「当社」）が、Sushi Ben（以下「本ゲーム」）、Sushi Ben公式ウェブサイト、ならびに関連するサポートおよびコミュニティサービス（以下、総称して「本サービス」）に関連して、情報をどのように収集、利用、開示および保護するかを説明するものです。
+注意：本書は利便性のため複数の言語に翻訳される場合があります。翻訳は自動生成されることがあり、不正確な表現を含む可能性があります。法的拘束力を有する英語版は以下でご覧いただけます：
+https://www.sushiben.com/en/privacy
+翻訳版と英語版との間に不一致、曖昧さ、または相違がある場合は、英語版が優先されます。
 
 1. 適用範囲
 
-本ポリシーは、本ポリシーへのリンクを掲載するBig Brane運営の本サービスに適用されます。本ポリシーは、ストア、家庭用ゲーム機およびバーチャルリアリティのプラットフォーム、ソーシャルネットワーク、埋め込みメディアの提供者、その他の第三者による独立した取扱いには適用されません。これらのサービスは、それぞれのプライバシーポリシーに従って情報を処理します。
+本プライバシーおよびデータ収集ポリシー（以下「本ポリシー」といいます。）は、Big Brane Studios, Inc.（以下「Big Brane」「当社」）が、Sushi Ben（以下「本ゲーム」）に関連する情報をどのように収集、使用および保護するかを定めるものです。
 
 2. 本ゲームを通じて処理される情報
 
-Sushi Benはシングルプレイヤーゲームです。Big Braneは、Sushi Benについて、ゲームサーバー、ユーザーアカウント、マルチプレイヤーサービス、広告システムまたはゲームプレイ分析システムを運営していません。本ゲームは、ゲームプレイ履歴、セーブデータの内容、デバイスのセンサーデータその他のゲームプレイデータをBig Braneに収集または送信しません。
+Sushi Benはオフラインのシングルプレイヤーゲームです。Big Braneは、本ゲームについて、ゲームサーバー、ユーザーアカウント、マルチプレイヤーサービス、広告システムまたはゲームプレイ分析を運営していません。
 
-本ゲームは、実績およびクラウドセーブのために、プラットフォームが運営するサービスと連携します。これらのサービスを管理するのは、お客様が利用するプラットフォームであり、Big Braneではありません。
+本ゲームは、プラットフォームが運営するサービスを通じて、以下のデータを処理します。
 
-- プラットフォームのユーザーID。本ゲームは、実績を含む適切なプレイヤーのプラットフォームサービスにアクセスするために必要な場合に限り、プラットフォームから提供されるユーザーIDを一時的に読み取ることがあります。当該IDはBig Braneに送信されず、Big Braneのサーバーに複製されず、Big Braneによって保持されません。
-- プラットフォームのユーザー名。本ゲームは、現在のプレイヤー本人にゲーム内で表示する目的に限り、そのプレイヤーのユーザー名を一時的に取得することがあります。当該ユーザー名はBig Braneに送信されず、Big Braneによって保持されません。
-- 実績。該当するプラットフォームが実績記録を管理し、関連付け、保持します。Big Braneはこれらの記録を受領または保存しません。
-- クラウドセーブ。該当するプラットフォームがクラウドセーブデータを転送、管理および保持します。Big Braneはクラウドセーブを受領または保存しません。
+- プラットフォームのユーザーID。現在のプレイヤーをプラットフォームサービスに接続するために使用されます。
+- プラットフォームのユーザー名。本ゲーム内で現在のプレイヤー本人に表示されます。
+- 実績。本ゲームは実績に関するアクティビティをプラットフォームに送信します。プラットフォームが実績記録を関連付けて保存します。
+- クラウドセーブ。プラットフォームがクラウドセーブサービスを通じてセーブデータを転送および保存します。
 
-Big Braneは、本ゲームを通じてプラットフォームのユーザーデータを収集、保存または開示しません。プラットフォームが管理するアカウント、実績、クラウドセーブ、購入、利用権、デバイスおよびサービスの記録には、該当するプラットフォームの規約、プライバシーポリシーおよびユーザー向け管理機能が適用されます。
+Big Braneは、これらのプラットフォームデータを受領、保存、保持、共有または販売しません。本ゲームは、ゲームプレイ履歴、セーブデータの内容、デバイスのセンサーデータその他のゲームプレイデータをBig Braneに送信しません。
 
-3. お客様が任意に提供する情報
+プラットフォームが管理するデータには、該当するプラットフォームのプライバシーポリシーおよびユーザー向け管理機能が適用されます。Big Braneが保有する情報に関する請求は、第8条に記載する方法で提出できます。プラットフォームが管理する情報に関する請求は、該当するプラットフォームに提出する必要があります。
 
-当社は、お客様が電子メール、サポート依頼、アンケート、バグ報告、ソーシャルメディアでのやり取り、ウェブサイトのフォームその他これらに類する通信を通じて提供することを選択した情報を受領する場合があります。提出内容によっては、以下の情報が含まれる場合があります。
+3. 処理の法的根拠
 
-- お客様の氏名、電子メールアドレス、ユーザー名またはソーシャルメディア識別子。
-- 本ゲームを利用するプラットフォーム。
-- メッセージの内容。および
-- お客様が添付することを選択したスクリーンショット、ログ、システム情報、セーブファイルその他の診断資料。
+当社は、以下の根拠に基づいて個人情報を処理します。
+- お客様の同意
+- 契約上の必要性
+- サポート、保守およびセキュリティなどの正当な事業上の利益
+- 法的義務の遵守
 
-パスワード、決済カード情報、不要な機微情報、または他者の個人情報を送信しないでください。
+4. データ保持
 
-4. ウェブサイトおよび第三者プラットフォームの情報
+当社は、本ポリシーに記載された目的を達成するために必要な期間に限り、個人情報を保持します。ただし、法令によりより長い保持期間が求められる場合はこの限りではありません。
 
-Sushi Benウェブサイトを訪問すると、ウェブサイトのホスティング、セキュリティ、フォームおよびネットワークの各提供者が、インターネットプロトコルアドレス、ブラウザおよびデバイスの種類、要求されたページ、参照元ページ、要求の日時などの標準的な技術情報を自動的に処理する場合があります。埋め込まれた動画、音楽、コミュニティ、ソーシャルメディアまたはストアのコンテンツにより、お客様のブラウザが該当する提供者に直接接続し、その提供者が自己のプライバシーポリシーに従って情報を処理する場合があります。
+5. データセキュリティ
 
-ストアおよびプラットフォーム運営者は、アカウント、購入、利用権、実績、クラウドセーブ、デバイスその他のプラットフォームサービスを運営するために必要な情報を独立して処理します。Big Braneはこれらの記録を管理しません。お客様が購入またはプラットフォームの問題についてBig Braneに問い合わせた場合、当社は、お客様が提供することを選択した情報、または当該特定のサポート案件に関連してプラットフォームから提供される情報のみを受領します。
+当社は、個人情報を不正アクセス、開示または不正利用から保護するため、商業的に合理的な措置を講じます。ただし、いかなるシステムについても完全な安全性を保証することはできません。
 
-支払情報は通常、Big Braneではなく、該当するストアまたは決済処理事業者によって直接収集されます。
+6. 法的要請に基づく開示
 
-5. 情報の利用目的
+当社は、法令により要求される場合、または公的機関からの有効な法的要請に応じる場合に、個人情報を開示することがあります。
 
-プラットフォームのユーザーIDおよびユーザー名は、第2条に記載する目的に限り、本ゲーム内で一時的に使用されます。Big Braneはこれらの情報を受領または保持しません。
+7. お客様の権利
 
-当社は、ウェブサイト、サポート窓口その他の任意の通信を通じてBig Braneに別途提供された個人情報を、以下の目的で利用します。
+お客様の居住地域に応じて、以下を含む権利を有する場合があります。
+- ご自身のデータへのアクセス
+- 不正確なデータの訂正
+- ご自身のデータの削除
+- 処理の制限または処理への異議
+- データポータビリティ
+- 同意の撤回
 
-- 質問、サポート依頼、バグ報告およびプライバシーに関する請求への対応。
-- 本サービスの運営、安全確保、不具合対応および改善。
-- 当社の契約の執行、ならびに利用者、Big Braneおよび公衆の保護。
-- 詐欺、不正利用、セキュリティインシデントおよび違法行為の防止。および
-- 法的義務の遵守、ならびに法的請求の確立、行使または防御。
+これらの権利を行使するには、以下までご連絡ください。
+legal@bigbranestudios.com
 
-適用法により法的根拠が求められる場合、当社は状況に応じて、契約の履行、本サービスの運営および安全確保に関する当社の正当な利益、お客様の同意、または法的義務の遵守に依拠します。
+請求を処理する前に、当社がご本人確認を求める場合があります。
 
-6. 情報の開示
+8. 第三者サービス
 
-本条に記載する開示は、ウェブサイトまたはサポートでの通信など、Big Braneに別途提供された、またはBig Braneが管理する個人情報にのみ適用されます。本ゲームが一時的にアクセスするプラットフォームのユーザーデータには適用されません。Big Braneは当該データを受領または保持しません。
+当社は、当社が管理していない第三者サービスへのリンクを掲載したり、それらを埋め込んだり、それらに依拠したりする場合があります。これらの第三者は、自らの条件およびプライバシーポリシーに従って情報を収集、処理または保存する場合があります。当社は、それらのプライバシー慣行について責任を負わず、お客様にはそれらのポリシーを確認されることをお勧めします。
 
-当社は、当社が管理する情報を以下のとおり開示する場合があります。
+9. 本ポリシーの変更
 
-- ウェブサイトのホスティング、セキュリティ、通信、サポートその他類似の事業サービスを提供するために当社に代わって行動する委託先に対して。
-- お客様が開示を指示し、または同意した場合。
-- 法令もしくは有効な法的手続を遵守し、人を保護し、不正行為を調査し、本サービスの安全を確保し、または法的権利を保護するために合理的に必要な場合。または
-- 適切な保護措置を講じたうえで、合併、買収、資金調達、組織再編、破産、資産売却その他類似の事業取引の一環として。
+当社は、本ポリシーを随時更新することがあります。更新内容は本ページに掲載され、本ポリシーの上部に記載された「最終更新日」に反映されます。
 
-Big Braneは、個人情報を販売せず、クロスコンテキスト行動広告のために共有せず、ターゲティング広告の配信に利用しません。
+10. 準拠法
 
-7. 保持
+本ポリシーは、アメリカ合衆国バージニア州コモンウェルスの法律に準拠し、その抵触法の原則を除いて解釈されます。
 
-Big Braneは、Sushi Benを通じてプラットフォームのユーザーID、ユーザー名、実績記録またはクラウドセーブを収集または保持しません。
+11. お問い合わせ
 
-これとは別に、Big Braneは、電子メール、ウェブサイトのフォーム、サポート依頼、ソーシャルメディアその他の通信を通じて個人が任意に送信した情報を保持する場合があります。当該情報は、通信への対応、サポートの提供、セキュリティおよび業務記録の維持、法令遵守ならびに紛争解決のために合理的に必要な期間に限り保持されます。ウェブサイトおよびセキュリティの提供者は、それぞれの保持スケジュールおよび当社のサービス設定に従って技術記録を保持する場合があります。当社は、より長い保持が法令で義務付けられ、または認められる場合を除き、情報が合理的に不要になった時点で削除または匿名化します。
+本ポリシーに関するご質問やご懸念がある場合は、以下までご連絡ください。
+legal@bigbranestudios.com
 
-8. アクセス、訂正および削除の請求
+12. 言語
 
-すべての利用者は、所在する地域にかかわらず、Big Braneが管理する個人情報へのアクセス、訂正または削除を請求できます。請求に手数料はかかりません。
+本ポリシーの英語版のみが法的拘束力を有する正式版です。翻訳版は便宜のためにのみ提供されます。翻訳版と英語版との間に不一致、曖昧さ、または抵触がある場合は、英語版が優先されます。","개인정보 및 데이터 수집 정책
 
-請求を行うには、件名を「Sushi Ben Data Request」として、legal@bigbranestudios.com 宛てに電子メールを送信してください。請求が以前Big Braneに送信した情報に関するものである場合、当該情報を特定できるよう、その送信に関連する電子メールアドレス、ユーザー名、おおよその日付またはサポート案件を記載してください。当社は、お客様の本人確認を行い、不正なアクセスまたは削除を防止するため、合理的な情報を求める場合があります。
+최종 업데이트: 2026년 4월 1일
 
-Big Braneは、本ゲームが一時的にアクセスするプラットフォームのユーザーデータを保有していないため、Big Braneのシステムには削除対象となる当該データは存在しません。それでも当社は、すべての請求を確認し、回答します。サポートメッセージに含まれる情報など、Big Braneに別途送信された、またはBig Braneが管理する個人情報が確認された場合、セキュリティ、詐欺防止、取引記録、法令遵守、または法的請求の確立もしくは防御のために保持することが合理的に必要であるか、法律上義務付けられている場合を除き、当社は当該情報を削除または匿名化します。請求の全部または一部に応じることができない場合、必要に応じてその理由を説明します。
-
-当社は通常、30日以内、または適用法で異なる期間が定められている場合は当該期間内に回答します。請求が拒否された場合、当社の決定に対する返信の件名に「Privacy Appeal」と記載することにより、異議を申し立てることができます。
-
-本ゲームまたはローカルのセーブデータを削除しても、ストアまたはプラットフォーム運営者が独自に保持する記録が削除されるとは限りません。Big Braneは当該記録を保有または管理していないため、プラットフォームアカウント、実績、購入、クラウドセーブその他プラットフォームが管理する記録に関する請求は、そのプラットフォームのプライバシーおよびアカウント管理機能を通じて行う必要があります。
-
-9. セキュリティ
-
-当社は、当社が管理する情報に応じた合理的な管理上、技術上および組織上の保護措置を講じます。ただし、いかなる送信または保存システムについても、完全な安全性を保証することはできません。
-
-10. 国際的な処理
-
-Big Braneは米国に所在します。お客様が任意に提供する情報は、米国および当社の提供者が事業を行うその他の国で処理される場合があります。これらの国のプライバシー法は、お客様の居住地の法律と異なる場合があります。必要な場合、当社は国際移転について法的に認められた保護措置を講じます。
-
-11. 児童のプライバシー
-
-本サービスは13歳未満の児童を対象としておらず、Big Braneは13歳未満の児童から個人情報を故意に収集しません。児童が当社に個人情報を提供したと思われる場合は、当社が調査し、必要に応じて削除できるよう、当社までご連絡ください。
-
-12. 本ポリシーの変更
-
-当社は、本サービス、プラットフォーム機能、提供者および適用法の変更に応じて、本ポリシーを更新する場合があります。当社は改定後のポリシーを掲載し、発効日を更新します。変更により、既に収集した情報の利用方法に重大な影響が生じる場合、当社は適用法で義務付けられる追加の通知または選択肢を提供します。
-
-13. 言語
-
-翻訳は便宜のために提供される場合があり、不正確な内容を含む可能性があります。適用法で認められる範囲において、https://www.sushiben.com/en/privacy で閲覧できる英語版が優先します。
-
-14. お問い合わせ
-
-ご質問、ご懸念、セキュリティに関する報告およびプライバシーに関する請求は、以下までお送りください。
-
-Big Brane Studios, Inc.
-メール：legal@bigbranestudios.com
-プライバシーポリシー：https://www.sushiben.com/en/privacy","Sushi Ben 개인정보 보호 및 데이터 수집 정책
-
-발효일: 2026년 8월 2일
-
-본 개인정보 보호 및 데이터 수집 정책(이하 ""정책"")은 Big Brane Studios, Inc.(이하 ""Big Brane"", ""당사"")가 Sushi Ben(이하 ""게임""), Sushi Ben 공식 웹사이트 및 관련 지원과 커뮤니티 서비스(이하 통칭하여 ""서비스"")와 관련하여 정보를 수집, 이용, 공개 및 보호하는 방법을 설명합니다.
+고지: 본 문서는 편의를 위해 여러 언어로 번역될 수 있습니다. 번역은 자동으로 생성될 수 있으며 부정확한 내용이 포함될 수 있습니다. 법적 구속력이 있는 영어 버전은 다음에서 확인할 수 있습니다:
+https://www.sushiben.com/en/privacy
+번역본과 영어 버전 사이에 불일치, 모호성 또는 차이가 있는 경우 영어 버전이 우선합니다.
 
 1. 적용 범위
 
-본 정책은 본 정책으로 연결되는 Big Brane 운영 서비스에 적용됩니다. 본 정책은 스토어, 콘솔 및 가상현실 플랫폼, 소셜 네트워크, 임베디드 미디어 제공자 또는 기타 제3자의 독립적인 관행에는 적용되지 않습니다. 이러한 서비스는 각자의 개인정보 처리방침에 따라 정보를 처리합니다.
+본 개인정보 및 데이터 수집 정책(이하 “본 정책”)은 Big Brane Studios, Inc.(이하 “Big Brane”, “당사”)가 Sushi Ben(이하 “게임”)과 관련된 정보를 어떻게 수집, 사용 및 보호하는지를 규정합니다.
 
 2. 게임을 통해 처리되는 정보
 
-Sushi Ben은 싱글 플레이어 게임입니다. Big Brane은 Sushi Ben을 위한 게임 서버, 사용자 계정, 멀티플레이어 서비스, 광고 시스템 또는 게임 플레이 분석 시스템을 운영하지 않습니다. 게임은 게임 플레이 기록, 저장 게임 내용, 기기 센서 데이터 또는 기타 게임 플레이 데이터를 수집하거나 Big Brane에 전송하지 않습니다.
+Sushi Ben은 오프라인 싱글 플레이어 게임입니다. Big Brane은 게임을 위해 게임 서버, 사용자 계정, 멀티플레이어 서비스, 광고 시스템 또는 게임 플레이 분석을 운영하지 않습니다.
 
-게임은 업적과 클라우드 저장을 위해 플랫폼에서 운영하는 서비스와 상호 작용합니다. 이러한 서비스는 Big Brane이 아니라 귀하가 게임을 플레이하는 플랫폼에서 관리합니다.
+게임은 플랫폼이 운영하는 서비스를 통해 다음 데이터를 처리합니다.
 
-- 플랫폼 사용자 ID. 게임은 업적을 포함하여 올바른 플레이어의 플랫폼 서비스에 접근하는 데 필요한 경우에만 플랫폼에서 제공하는 사용자 ID를 일시적으로 읽을 수 있습니다. 이 ID는 Big Brane에 전송되거나 Big Brane 서버에 복사되거나 Big Brane에 의해 보관되지 않습니다.
-- 플랫폼 사용자 이름. 게임은 현재 플레이어의 사용자 이름을 게임 내에서 해당 플레이어 본인에게 표시하기 위한 목적으로만 일시적으로 가져올 수 있습니다. 이 정보는 Big Brane에 전송되거나 Big Brane에 의해 보관되지 않습니다.
-- 업적. 해당 플랫폼이 업적 기록을 관리하고 사용자와 연결하며 보관합니다. Big Brane은 해당 기록을 수신하거나 저장하지 않습니다.
-- 클라우드 저장. 해당 플랫폼이 클라우드 저장 데이터를 전송, 관리 및 보관합니다. Big Brane은 클라우드 저장 데이터를 수신하거나 저장하지 않습니다.
+- 플랫폼 사용자 ID. 현재 플레이어를 플랫폼 서비스에 연결하는 데 사용됩니다.
+- 플랫폼 사용자 이름. 게임 내에서 현재 플레이어 본인에게 표시됩니다.
+- 도전 과제. 게임은 도전 과제 활동을 플랫폼에 전송합니다. 플랫폼이 도전 과제 기록을 연결하고 저장합니다.
+- 클라우드 저장. 플랫폼이 클라우드 저장 서비스를 통해 저장 게임 데이터를 전송하고 저장합니다.
 
-Big Brane은 게임을 통해 플랫폼 사용자 데이터를 수집, 저장 또는 공개하지 않습니다. 플랫폼이 관리하는 계정, 업적, 클라우드 저장, 구매, 이용 자격, 기기 및 서비스 기록에는 해당 플랫폼의 약관, 개인정보 처리방침 및 사용자 관리 기능이 적용됩니다.
+Big Brane은 이러한 플랫폼 데이터를 수신, 저장, 보관, 공유 또는 판매하지 않습니다. 게임은 게임 플레이 기록, 저장 게임의 내용, 기기 센서 데이터 또는 기타 게임 플레이 데이터를 Big Brane에 전송하지 않습니다.
 
-3. 귀하가 자발적으로 제공하는 정보
+플랫폼이 관리하는 데이터에는 해당 플랫폼의 개인정보 처리방침 및 사용자 제어 기능이 적용됩니다. Big Brane이 보유한 정보에 관한 요청은 제8조에 설명된 방법으로 제출할 수 있습니다. 플랫폼이 관리하는 정보에 관한 요청은 해당 플랫폼에 제출해야 합니다.
 
-당사는 귀하가 이메일, 지원 요청, 설문조사, 버그 신고, 소셜 미디어 상호 작용, 웹사이트 양식 또는 이와 유사한 연락을 통해 제공하기로 선택한 정보를 수신할 수 있습니다. 귀하가 제출하는 내용에 따라 다음 정보가 포함될 수 있습니다.
+3. 처리의 법적 근거
 
-- 귀하의 이름, 이메일 주소, 사용자 이름 또는 소셜 미디어 식별자
-- 귀하가 게임을 이용하는 플랫폼
-- 귀하의 메시지 내용
-- 귀하가 첨부하기로 선택한 스크린샷, 로그, 시스템 정보, 저장 파일 또는 기타 진단 자료
+당사는 다음에 근거하여 개인정보를 처리합니다:
+- 귀하의 동의;
+- 계약상 필요성;
+- 지원, 유지보수 및 보안과 같은 정당한 사업상 이익; 및
+- 법적 의무 준수.
 
-비밀번호, 결제 카드 정보, 불필요한 민감 정보 또는 타인의 개인정보를 제출하지 마십시오.
+4. 데이터 보유
 
-4. 웹사이트 및 제3자 플랫폼 정보
+당사는 본 정책에 기재된 목적을 달성하는 데 필요한 기간 동안만 개인정보를 보유합니다. 다만, 법률에 따라 더 긴 보유 기간이 요구되는 경우는 예외로 합니다.
 
-귀하가 Sushi Ben 웹사이트를 방문하면 웹사이트 호스팅, 보안, 양식 및 네트워크 제공자가 인터넷 프로토콜(IP) 주소, 브라우저 및 기기 유형, 요청한 페이지, 유입 페이지, 요청 날짜와 시간 등의 표준 기술 정보를 자동으로 처리할 수 있습니다. 임베디드 동영상, 음악, 커뮤니티, 소셜 미디어 또는 스토어 콘텐츠로 인해 귀하의 브라우저가 해당 제공자에게 직접 연결될 수 있으며, 해당 제공자는 자체 개인정보 처리방침에 따라 정보를 처리할 수 있습니다.
+5. 데이터 보안
 
-스토어 및 플랫폼 운영자는 계정, 구매, 이용 자격, 업적, 클라우드 저장, 기기 및 기타 플랫폼 서비스를 운영하는 데 필요한 정보를 독립적으로 처리합니다. Big Brane은 이러한 기록을 관리하지 않습니다. 귀하가 구매 또는 플랫폼 문제와 관련하여 Big Brane에 문의하는 경우, 당사는 귀하가 제공하기로 선택한 정보 또는 해당 특정 지원 사안과 관련하여 플랫폼이 제공하는 정보만 수신합니다.
+당사는 개인정보를 무단 접근, 공개 또는 오용으로부터 보호하기 위해 상업적으로 합리적인 조치를 취합니다. 그러나 어떠한 시스템도 완전한 보안을 보장할 수는 없습니다.
 
-결제 정보는 일반적으로 Big Brane이 아니라 해당 스토어 또는 결제 처리업체가 직접 수집합니다.
+6. 법적 요구에 따른 공개
 
-5. 정보 이용 방법
+당사는 법률에 의해 요구되거나 공공기관의 유효한 법적 요청에 대응하기 위해 필요한 경우 개인정보를 공개할 수 있습니다.
 
-플랫폼 사용자 ID와 사용자 이름은 제2조에 명시된 목적을 위해서만 게임 내에서 일시적으로 이용됩니다. Big Brane은 해당 정보를 수신하거나 보관하지 않습니다.
+7. 귀하의 권리
 
-당사는 웹사이트, 지원 채널 또는 기타 자발적인 연락을 통해 Big Brane에 별도로 제공된 개인정보를 다음 목적으로 이용합니다.
+귀하의 관할 지역에 따라 다음과 같은 권리를 가질 수 있습니다:
+- 귀하의 데이터에 대한 접근;
+- 부정확한 데이터의 정정;
+- 귀하의 데이터 삭제;
+- 처리 제한 또는 처리에 대한 이의 제기;
+- 데이터 이동권; 및
+- 동의 철회.
 
-- 질문, 지원 요청, 버그 신고 및 개인정보 보호 요청에 답변하기 위해
-- 서비스를 운영, 보호, 문제 해결 및 개선하기 위해
-- 당사의 계약을 집행하고 사용자, Big Brane 및 일반 대중을 보호하기 위해
-- 사기, 남용, 보안 사고 및 불법 활동을 방지하기 위해
-- 법적 의무를 준수하고 법적 청구를 제기, 행사 또는 방어하기 위해
+귀하의 권리를 행사하려면 다음으로 연락해 주십시오:
+legal@bigbranestudios.com
 
-관련 법률에서 법적 근거를 요구하는 경우, 당사는 상황에 따라 계약의 이행, 서비스 운영 및 보호에 관한 당사의 정당한 이익, 귀하의 동의 또는 법적 의무 준수를 근거로 합니다.
+요청을 처리하기 전에 당사는 귀하의 신원을 확인해야 할 수 있습니다.
 
-6. 정보 공개
+8. 제3자 서비스
 
-본 조의 공개에 관한 내용은 웹사이트 또는 지원 관련 연락 등 Big Brane에 별도로 제공되거나 Big Brane이 관리하는 개인정보에만 적용됩니다. Big Brane이 수신하거나 보관하지 않는, 게임이 일시적으로 접근하는 플랫폼 사용자 데이터에는 적용되지 않습니다.
+당사는 당사가 통제하지 않는 제3자 서비스에 대한 링크를 제공하거나, 이를 삽입하거나, 이에 의존할 수 있습니다. 이러한 제3자는 자체 약관 및 개인정보처리방침에 따라 정보를 수집, 처리 또는 저장할 수 있습니다. 당사는 해당 서비스의 개인정보 보호 관행에 대해 책임을 지지 않으며, 해당 정책을 검토하시기를 권장합니다.
 
-당사는 당사가 관리하는 정보를 다음과 같이 공개할 수 있습니다.
+9. 본 정책의 변경
 
-- 웹사이트 호스팅, 보안, 통신, 지원 또는 이와 유사한 비즈니스 서비스를 당사를 대신하여 제공하는 공급업체에 공개
-- 귀하가 공개를 지시하거나 동의하는 경우
-- 법률 또는 유효한 법적 절차를 준수하거나, 사람을 보호하거나, 위법 행위를 조사하거나, 서비스를 보호하거나, 법적 권리를 보호하는 데 합리적으로 필요한 경우
-- 적절한 보호조치를 전제로 합병, 인수, 자금 조달, 조직 개편, 파산, 자산 매각 또는 이와 유사한 사업 거래의 일부로 공개
+당사는 수시로 본 정책을 업데이트할 수 있습니다. 모든 업데이트는 이 페이지에 게시되며, 정책 상단의 “최종 업데이트” 날짜에 반영됩니다.
 
-Big Brane은 개인정보를 판매하거나, 교차 맥락 행동 광고를 위해 공유하거나, 맞춤형 광고를 제공하는 데 이용하지 않습니다.
+10. 준거법
 
-7. 보유 기간
+본 정책은 미국 버지니아주 커먼웰스의 법률에 따라 규율되고 해석되며, 그 저촉법 원칙은 제외됩니다.
 
-Big Brane은 Sushi Ben을 통해 플랫폼 사용자 ID, 사용자 이름, 업적 기록 또는 클라우드 저장 데이터를 수집하거나 보관하지 않습니다.
+11. 문의처
 
-이와 별도로 Big Brane은 개인이 이메일, 웹사이트 양식, 지원 요청, 소셜 미디어 또는 기타 연락을 통해 자발적으로 제출한 정보를 보관할 수 있습니다. 해당 정보는 연락에 대응하고, 지원을 제공하고, 보안 및 사업 기록을 유지하고, 법률을 준수하고, 분쟁을 해결하는 데 합리적으로 필요한 기간 동안만 보관됩니다. 웹사이트 및 보안 제공자는 자체 보유 일정과 당사의 서비스 설정에 따라 기술 기록을 보관할 수 있습니다. 더 이상 합리적으로 필요하지 않은 정보는 법률이 더 긴 보유를 요구하거나 허용하지 않는 한 삭제하거나 비식별화합니다.
+본 정책에 관한 질문이나 우려 사항이 있는 경우 다음으로 연락해 주십시오:
+legal@bigbranestudios.com
 
-8. 접근, 정정 및 삭제 요청
+12. 언어
 
-지역과 관계없이 모든 사용자는 Big Brane이 관리하는 개인정보에 대한 접근, 정정 또는 삭제를 요청할 수 있습니다. 요청 제출에는 수수료가 부과되지 않습니다.
+본 정책의 영어 버전만이 법적 구속력이 있는 유일한 버전입니다. 번역본은 편의를 위해서만 제공됩니다. 번역본과 영어 버전 사이에 불일치, 모호성 또는 충돌이 있는 경우 영어 버전이 우선합니다.","隐私与数据收集政策
 
-요청하려면 제목을 ""Sushi Ben Data Request""로 하여 legal@bigbranestudios.com으로 이메일을 보내십시오. 요청이 이전에 Big Brane에 제출한 정보와 관련된 경우, 당사가 해당 정보를 찾을 수 있도록 그 제출과 관련된 이메일 주소, 사용자 이름, 대략적인 날짜 또는 지원 사안을 알려주십시오. 당사는 귀하의 신원을 확인하고 승인되지 않은 접근 또는 삭제를 방지하기 위해 합리적인 정보를 요청할 수 있습니다.
+最后更新：2026年4月1日
 
-Big Brane은 게임을 통해 일시적으로 접근되는 플랫폼 사용자 데이터를 보유하지 않으므로 Big Brane 시스템에는 삭제할 그러한 데이터가 없습니다. 그럼에도 당사는 모든 요청을 검토하고 답변합니다. 지원 메시지에 포함된 정보 등 Big Brane에 별도로 제출되었거나 Big Brane이 관리하는 개인정보를 확인하는 경우, 보안, 사기 방지, 거래 기록, 법률 준수 또는 법적 청구의 제기나 방어를 위해 보유할 합리적인 필요가 있거나 법적으로 요구되는 경우를 제외하고 이를 삭제하거나 비식별화합니다. 요청의 전부 또는 일부를 이행할 수 없는 경우, 법률에서 요구하는 범위에서 그 이유를 설명합니다.
-
-당사는 일반적으로 30일 이내 또는 관련 법률에서 정한 다른 기간 이내에 답변합니다. 거부된 요청에 이의를 제기하려면 제목에 ""Privacy Appeal""을 기재하여 당사의 결정에 회신할 수 있습니다.
-
-게임 또는 게임의 로컬 저장 데이터를 삭제하더라도 스토어나 플랫폼 운영자가 독립적으로 유지하는 기록이 반드시 삭제되는 것은 아닙니다. Big Brane은 플랫폼 계정, 업적, 구매, 클라우드 저장 또는 기타 플랫폼 관리 기록을 보유하거나 관리하지 않으므로, 이러한 기록에 관한 요청은 해당 플랫폼의 개인정보 보호 및 계정 관리 기능을 통해 제기해야 합니다.
-
-9. 보안
-
-당사는 당사가 관리하는 정보에 적합한 합리적인 관리적, 기술적 및 조직적 보호조치를 사용합니다. 어떠한 전송 또는 저장 시스템도 완전한 보안을 보장할 수 없습니다.
-
-10. 국제적 처리
-
-Big Brane은 미국에 소재합니다. 귀하가 자발적으로 제공하는 정보는 미국 및 당사의 제공자가 운영되는 다른 국가에서 처리될 수 있습니다. 해당 국가의 개인정보 보호법은 귀하가 거주하는 지역의 법률과 다를 수 있습니다. 법률에서 요구하는 경우, 당사는 국제 이전을 위해 법적으로 인정되는 보호조치를 사용합니다.
-
-11. 아동의 개인정보 보호
-
-서비스는 만 13세 미만의 아동을 대상으로 하지 않으며, Big Brane은 만 13세 미만 아동의 개인정보를 고의로 수집하지 않습니다. 아동이 당사에 개인정보를 제공했다고 생각되는 경우 당사에 연락해 주시면 조사하여 적절한 경우 삭제하겠습니다.
-
-12. 본 정책의 변경
-
-당사는 서비스, 플랫폼 기능, 제공자 및 관련 법률의 변경에 따라 본 정책을 업데이트할 수 있습니다. 당사는 개정된 정책을 게시하고 발효일을 업데이트합니다. 변경 사항이 이미 수집된 정보의 이용 방식에 중대한 영향을 미치는 경우, 관련 법률에서 요구하는 추가 통지 또는 선택권을 제공합니다.
-
-13. 언어
-
-번역본은 편의를 위해 제공될 수 있으며 부정확한 내용이 포함될 수 있습니다. 관련 법률이 허용하는 범위에서 https://www.sushiben.com/en/privacy 에서 확인할 수 있는 영문본이 우선합니다.
-
-14. 문의
-
-질문, 우려 사항, 보안 신고 및 개인정보 보호 요청은 다음 연락처로 보내실 수 있습니다.
-
-Big Brane Studios, Inc.
-이메일: legal@bigbranestudios.com
-개인정보 처리방침: https://www.sushiben.com/en/privacy","Sushi Ben 隐私与数据收集政策
-
-生效日期：2026年8月2日
-
-本隐私与数据收集政策（以下简称“政策”）说明 Big Brane Studios, Inc.（以下简称“Big Brane”或“我们”）如何收集、使用、披露和保护与 Sushi Ben（以下简称“游戏”）、Sushi Ben 官方网站以及相关支持和社区服务（以下统称“服务”）有关的信息。
+提示：为方便阅读，本文件可能会被翻译成多种语言。译文可能由自动方式生成，且可能包含不准确之处。具有法律约束力的英文版本可在以下地址查看：
+https://www.sushiben.com/en/privacy
+如译文与英文版本之间存在任何不一致、歧义或差异，应以英文版本为准。
 
 1. 适用范围
 
-本政策适用于由 Big Brane 运营并链接至本政策的服务。本政策不适用于商店、主机和虚拟现实平台、社交网络、嵌入式媒体提供商或其他第三方的独立做法。此类服务按照其各自的隐私政策处理信息。
+本《隐私与数据收集政策》（以下简称“本政策”）规定了 Big Brane Studios, Inc.（以下简称“Big Brane”“我们”）如何收集、使用和保护与 Sushi Ben（以下简称“本游戏”）相关的信息。
 
 2. 通过游戏处理的信息
 
-Sushi Ben 是一款单人游戏。Big Brane 不为 Sushi Ben 运营游戏服务器、用户账户、多人游戏服务、广告系统或游戏行为分析系统。游戏不会收集游戏历史、存档内容、设备传感器数据或其他游戏数据，也不会将此类数据传输给 Big Brane。
+Sushi Ben 是一款离线单人游戏。Big Brane 不为本游戏运营游戏服务器、用户账户、多人游戏服务、广告系统或游戏行为分析系统。
 
-游戏会与平台运营的服务进行交互，以使用成就和云存档功能。此类服务由您游玩游戏的平台而非 Big Brane 控制。
+本游戏通过平台运营的服务处理以下数据：
 
-- 平台用户 ID。仅在访问正确玩家的平台服务（包括成就）所必需时，游戏可能临时读取平台提供的用户 ID。该 ID 不会发送给 Big Brane、复制到 Big Brane 服务器或由 Big Brane 保留。
-- 平台用户名。游戏可能临时获取当前玩家的用户名，仅用于在游戏内向该玩家本人显示。该用户名不会发送给 Big Brane，也不会由 Big Brane 保留。
-- 成就。适用平台负责管理成就记录、将其与玩家关联并予以保留。Big Brane 不会接收或存储此类记录。
-- 云存档。适用平台负责传输、控制和保留云存档数据。Big Brane 不会接收或存储云存档。
+- 平台用户 ID。用于将当前玩家连接到平台服务。
+- 平台用户名。仅在游戏内向当前玩家本人显示。
+- 成就。本游戏向平台提交成就活动。平台关联并存储成就记录。
+- 云存档。平台通过其云存档服务传输并存储游戏存档数据。
 
-Big Brane 不会通过游戏收集、存储或披露平台用户数据。由平台控制的账户、成就、云存档、购买、权利验证、设备和服务记录受适用平台的条款、隐私政策及用户控制功能约束。
+Big Brane 不接收、存储、保留、共享或出售这些平台数据。本游戏不会向 Big Brane 传输游戏历史、存档内容、设备传感器数据或其他游戏数据。
 
-3. 您自愿提供的信息
+平台控制的数据受适用平台的隐私政策和用户控制功能约束。与 Big Brane 持有的信息有关的请求可按照第 8 节所述方式提交。与平台控制的信息有关的请求必须提交给适用平台。
 
-我们可能会收到您选择通过电子邮件、支持请求、调查、错误报告、社交媒体互动、网站表单或类似通信提供的信息。根据您提交的内容，此类信息可能包括：
+3. 处理的法律依据
 
-- 您的姓名、电子邮件地址、用户名或社交媒体标识符；
-- 您用于游玩游戏的平台；
-- 您的消息内容；以及
-- 您选择附加的屏幕截图、日志、系统信息、存档文件或其他诊断材料。
+我们基于以下依据处理个人信息：
+- 您的同意；
+- 合同上的必要性；
+- 合法商业利益，例如支持、维护与安全；以及
+- 遵守法律义务。
 
-请勿提交密码、支付卡信息、不必要的敏感信息或他人的个人信息。
+4. 数据保留
 
-4. 网站与第三方平台信息
+除非法律要求更长的保留期限，否则我们仅会在实现本政策所述目的所必需的期限内保留个人信息。
 
-当您访问 Sushi Ben 网站时，网站托管、安全、表单和网络服务提供商可能会自动处理标准技术信息，例如您的互联网协议（IP）地址、浏览器和设备类型、所请求的页面、来源页面以及请求的日期和时间。嵌入式视频、音乐、社区、社交媒体或商店内容可能会使您的浏览器直接连接至相应提供商，该提供商可能按照其自身的隐私政策处理信息。
+5. 数据安全
 
-商店和平台运营商会独立处理运营其账户、购买、权利验证、成就、云存档、设备及其他平台服务所需的信息。Big Brane 不控制这些记录。如果您就购买或平台问题联系 Big Brane，我们仅会收到您选择提供的信息，或平台就该项具体支持事宜提供的信息。
+我们采取商业上合理的措施，以保护个人信息免遭未经授权的访问、披露或滥用。但是，任何系统都无法保证绝对安全。
 
-支付信息通常由适用商店或支付处理商直接收集，而不是由 Big Brane 收集。
+6. 因法律要求而披露
 
-5. 我们如何使用信息
+如果法律要求，或为了回应公共机关提出的有效法律请求，我们可能会披露个人信息。
 
-平台用户 ID 和用户名仅会在游戏内为第 2 节所述目的临时使用。Big Brane 不会接收或保留此类信息。
+7. 您的权利
 
-对于通过网站、支持渠道或其他自愿通信另行提供给 Big Brane 的个人信息，我们会将其用于：
+根据您所在的司法辖区，您可能享有以下权利：
+- 访问您的数据；
+- 更正不准确的数据；
+- 删除您的数据；
+- 限制处理或反对处理；
+- 数据可携带权；以及
+- 撤回同意。
 
-- 回答问题、支持请求、错误报告和隐私请求；
-- 运营、保护、排查问题和改进服务；
-- 执行我们的协议并保护用户、Big Brane 和公众；
-- 防止欺诈、滥用、安全事件和非法活动；以及
-- 履行法律义务，以及提出、行使或抗辩法律主张。
+如需行使您的权利，请联系：
+legal@bigbranestudios.com
 
-如果适用法律要求具备合法处理依据，我们将视具体情况依据履行合同、我们在运营和保护服务方面的合法利益、您的同意或履行法律义务进行处理。
+在处理请求之前，我们可能需要核实您的身份。
 
-6. 信息披露
+8. 第三方服务
 
-本节所述的披露仅适用于另行提供给 Big Brane 或由 Big Brane 控制的个人信息，例如网站或支持通信信息。本节不适用于游戏临时访问的平台用户数据，因为 Big Brane 不会接收或保留该等数据。
+我们可能会提供第三方服务的链接、嵌入其内容，或依赖我们无法控制的第三方服务。该等第三方可能会根据其自身条款和隐私政策收集、处理或存储信息。对于其隐私做法，我们不承担责任，并建议您查阅其相关政策。
 
-我们可能在以下情况下披露由我们控制的信息：
+9. 本政策的变更
 
-- 向代表我们提供网站托管、安全、通信、支持或类似商业服务的供应商披露；
-- 在您指示或同意披露时；
-- 在为遵守法律或有效法律程序、保护人员、调查不当行为、保障服务安全或保护合法权利而有合理必要时；或
-- 作为合并、收购、融资、重组、破产、资产出售或类似商业交易的一部分，但须采取适当的保护措施。
+我们可能会不时更新本政策。任何更新都将发布在本页面，并通过本政策顶部的“最后更新”日期体现。
 
-Big Brane 不会出售个人信息，不会为跨情境行为广告而共享个人信息，也不会利用个人信息投放定向广告。
+10. 适用法律
 
-7. 保留期限
+本政策应受美国弗吉尼亚州联邦的法律管辖并依其解释，但不适用其法律冲突规则。
 
-Big Brane 不会通过 Sushi Ben 收集或保留平台用户 ID、用户名、成就记录或云存档。
+11. 联系我们
 
-此外，Big Brane 可能会保留个人通过电子邮件、网站表单、支持请求、社交媒体或其他通信自愿提交的信息。此类信息仅会在为处理通信、提供支持、维护安全和业务记录、遵守法律以及解决争议而合理必要的期限内保留。网站和安全服务提供商可能会按照其自身的保留计划及我们的服务配置保留技术记录。除非法律要求或允许延长保留期限，否则我们会在不再有合理需要时删除信息或对其进行去标识化处理。
+如果您对本政策有任何问题或疑虑，请联系：
+legal@bigbranestudios.com
 
-8. 访问、更正与删除请求
+12. 语言
 
-无论身处何地，任何用户均可请求访问、更正或删除由 Big Brane 控制的个人信息。提交请求无需支付任何费用。
+本政策的英文版本是唯一具有法律约束力的版本。译文仅为方便阅读而提供。如译文与英文版本之间存在任何不一致、歧义或冲突，应以英文版本为准。","隱私與資料蒐集政策
 
-如需提出请求，请以“Sushi Ben Data Request”为主题发送电子邮件至 legal@bigbranestudios.com。如果您的请求涉及此前提交给 Big Brane 的信息，请提供与该次提交有关的电子邮件地址、用户名、大致日期或支持事项，以便我们查找相关信息。我们可能会要求提供合理的信息，以验证您的身份并防止未经授权的访问或删除。
+最後更新：2026年4月1日
 
-Big Brane 不持有游戏临时访问的平台用户数据，因此 Big Brane 的系统中不存在可供删除的此类数据。尽管如此，我们仍会审查并答复每项请求。如果我们发现另行提交给 Big Brane 或由 Big Brane 控制的个人信息（例如支持消息中包含的信息），我们将删除该信息或对其进行去标识化处理，但为安全、预防欺诈、保存交易记录、遵守法律或提出或抗辩法律主张而有合理必要或法律要求保留的情况除外。如果我们无法全部或部分满足请求，我们将在法律要求的情况下说明理由。
-
-我们通常会在 30 天内答复，或在适用法律规定的其他期限内答复。如果您的请求被拒绝，您可以在回复我们的决定时将“Privacy Appeal”写入主题，以提出申诉。
-
-删除游戏或其本地存档数据并不一定会删除由商店或平台运营商独立维护的记录。由于 Big Brane 不持有或控制平台账户、成就、购买、云存档或其他由平台控制的记录，与此类记录有关的请求必须通过该平台的隐私和账户控制功能提出。
-
-9. 安全
-
-我们针对由我们控制的信息采取合理且适当的行政、技术和组织保障措施。任何传输或存储系统都无法保证绝对安全。
-
-10. 跨境处理
-
-Big Brane 位于美国。您自愿提供的信息可能会在美国及我们的服务提供商开展业务的其他国家或地区处理。此类国家或地区的隐私法律可能与您居住地的法律不同。在法律要求的情况下，我们会采用法律认可的跨境传输保障措施。
-
-11. 儿童隐私
-
-服务不面向 13 岁以下儿童，Big Brane 不会故意收集 13 岁以下儿童的个人信息。如果您认为有儿童向我们提供了个人信息，请联系我们，以便我们进行调查并在适当情况下予以删除。
-
-12. 本政策的变更
-
-我们可能会随着服务、平台功能、服务提供商和适用法律的变化更新本政策。我们将发布修订后的政策并更新生效日期。如果变更会对我们使用已收集信息的方式产生重大影响，我们将提供适用法律要求的任何额外通知或选择。
-
-13. 语言
-
-我们可能出于方便目的提供译文，译文中可能存在不准确之处。在适用法律允许的范围内，以 https://www.sushiben.com/en/privacy 提供的英文版本为准。
-
-14. 联系我们
-
-如有问题、疑虑、安全报告或隐私请求，请发送至：
-
-Big Brane Studios, Inc.
-电子邮件：legal@bigbranestudios.com
-隐私政策：https://www.sushiben.com/en/privacy","Sushi Ben 隱私與資料蒐集政策
-
-生效日期：2026年8月2日
-
-本隱私與資料蒐集政策（以下簡稱「政策」）說明 Big Brane Studios, Inc.（以下簡稱「Big Brane」或「我們」）如何蒐集、使用、揭露及保護與 Sushi Ben（以下簡稱「遊戲」）、Sushi Ben 官方網站以及相關支援與社群服務（以下統稱「服務」）有關的資訊。
+提示：為方便閱讀，本文件可能會被翻譯成多種語言。譯文可能由自動方式產生，且可能包含不準確之處。具有法律拘束力的英文版本可於以下網址查閱：
+https://www.sushiben.com/en/privacy
+如翻譯版本與英文版本之間存在任何不一致、歧義或差異，應以英文版本為準。
 
 1. 適用範圍
 
-本政策適用於由 Big Brane 營運並連結至本政策的服務。本政策不適用於商店、遊戲主機與虛擬實境平台、社群網路、嵌入式媒體供應商或其他第三方的獨立作法。此類服務依其各自的隱私權政策處理資訊。
+本《隱私與資料蒐集政策》（以下稱「本政策」）規範 Big Brane Studios, Inc.（以下稱「Big Brane」、「我們」）如何蒐集、使用及保護與 Sushi Ben（以下稱「本遊戲」）相關的資訊。
 
 2. 透過遊戲處理的資訊
 
-Sushi Ben 是一款單人遊戲。Big Brane 不為 Sushi Ben 營運遊戲伺服器、使用者帳戶、多人遊戲服務、廣告系統或遊戲行為分析系統。遊戲不會蒐集遊戲歷程、存檔內容、裝置感測器資料或其他遊戲資料，也不會將此類資料傳送給 Big Brane。
+Sushi Ben 是一款離線單人遊戲。Big Brane 不為本遊戲營運遊戲伺服器、使用者帳戶、多人遊戲服務、廣告系統或遊戲行為分析系統。
 
-遊戲會與平台營運的服務互動，以使用成就與雲端儲存功能。此類服務由您遊玩遊戲的平台而非 Big Brane 控制。
+本遊戲透過平台營運的服務處理以下資料：
 
-- 平台使用者 ID。僅在存取正確玩家的平台服務（包括成就）所必要時，遊戲可能暫時讀取平台提供的使用者 ID。該 ID 不會傳送給 Big Brane、複製到 Big Brane 伺服器或由 Big Brane 保留。
-- 平台使用者名稱。遊戲可能暫時取得目前玩家的使用者名稱，僅用於在遊戲內向該玩家本人顯示。該使用者名稱不會傳送給 Big Brane，也不會由 Big Brane 保留。
-- 成就。適用平台負責管理成就紀錄、將其與玩家連結並予以保留。Big Brane 不會接收或儲存此類紀錄。
-- 雲端儲存。適用平台負責傳輸、控制及保留雲端儲存資料。Big Brane 不會接收或儲存雲端存檔。
+- 平台使用者 ID。用於將目前玩家連接至平台服務。
+- 平台使用者名稱。僅在遊戲內向目前玩家本人顯示。
+- 成就。本遊戲向平台提交成就活動。平台會關聯並儲存成就紀錄。
+- 雲端存檔。平台透過其雲端存檔服務傳輸並儲存遊戲存檔資料。
 
-Big Brane 不會透過遊戲蒐集、儲存或揭露平台使用者資料。由平台控制的帳戶、成就、雲端儲存、購買、權利驗證、裝置及服務紀錄受適用平台的條款、隱私權政策與使用者控制功能約束。
+Big Brane 不會接收、儲存、保留、分享或出售這些平台資料。本遊戲不會向 Big Brane 傳輸遊戲歷程、存檔內容、裝置感測器資料或其他遊戲資料。
 
-3. 您自願提供的資訊
+由平台控制的資料受適用平台的隱私權政策及使用者控制功能約束。與 Big Brane 持有的資訊有關的請求，可依第 8 節所述方式提交。與平台控制的資訊有關的請求，必須提交給適用平台。
 
-我們可能會收到您選擇透過電子郵件、支援要求、問卷、錯誤回報、社群媒體互動、網站表單或類似通訊提供的資訊。視您提交的內容而定，此類資訊可能包括：
+3. 處理的法律依據
 
-- 您的姓名、電子郵件地址、使用者名稱或社群媒體識別碼；
-- 您用來遊玩遊戲的平台；
-- 您的訊息內容；以及
-- 您選擇附上的螢幕截圖、日誌、系統資訊、存檔檔案或其他診斷資料。
+我們基於以下依據處理個人資訊：
+- 您的同意；
+- 契約上的必要性；
+- 合法商業利益，例如支援、維護與安全；以及
+- 遵守法律義務。
 
-請勿提交密碼、支付卡資訊、不必要的敏感資訊或他人的個人資訊。
+4. 資料保存
 
-4. 網站與第三方平台資訊
+除非法律要求更長的保存期限，否則我們僅會在達成本政策所述目的所必需的期間內保存個人資訊。
 
-當您造訪 Sushi Ben 網站時，網站託管、安全、表單及網路服務供應商可能會自動處理標準技術資訊，例如您的網際網路通訊協定（IP）位址、瀏覽器與裝置類型、所要求的頁面、來源頁面，以及要求的日期與時間。嵌入式影片、音樂、社群、社群媒體或商店內容可能會使您的瀏覽器直接連線至相應供應商，而該供應商可能依其自身的隱私權政策處理資訊。
+5. 資料安全
 
-商店與平台營運商會獨立處理營運其帳戶、購買、權利驗證、成就、雲端儲存、裝置及其他平台服務所需的資訊。Big Brane 不控制這些紀錄。如果您就購買或平台問題聯絡 Big Brane，我們只會收到您選擇提供的資訊，或平台針對該特定支援事項提供的資訊。
+我們採取商業上合理的措施，以保護個人資訊免於未經授權的存取、揭露或濫用。然而，任何系統皆無法保證絕對安全。
 
-付款資訊通常由適用商店或付款處理商直接蒐集，而不是由 Big Brane 蒐集。
+6. 因法律要求而揭露
 
-5. 我們如何使用資訊
+如果法律要求，或為回應公權力機關提出的有效法律請求，我們可能會揭露個人資訊。
 
-平台使用者 ID 與使用者名稱只會在遊戲內為第 2 節所述目的暫時使用。Big Brane 不會接收或保留此類資訊。
+7. 您的權利
 
-對於透過網站、支援管道或其他自願通訊另行提供給 Big Brane 的個人資訊，我們會將其用於：
+依您所在司法管轄區而定，您可能享有以下權利：
+- 存取您的資料；
+- 更正不正確的資料；
+- 刪除您的資料；
+- 限制處理或反對處理；
+- 資料可攜權；以及
+- 撤回同意。
 
-- 回覆問題、支援要求、錯誤回報及隱私權要求；
-- 營運、保護、疑難排解及改善服務；
-- 執行我們的協議並保護使用者、Big Brane 與公眾；
-- 防止詐欺、濫用、安全事件及非法活動；以及
-- 履行法律義務，以及提出、行使或抗辯法律主張。
+如欲行使您的權利，請聯絡：
+legal@bigbranestudios.com
 
-若適用法律要求具備合法處理依據，我們將視具體情況，依據履行契約、我們在營運與保護服務方面的合法利益、您的同意或履行法律義務進行處理。
+在處理請求之前，我們可能需要驗證您的身分。
 
-6. 資訊揭露
+8. 第三方服務
 
-本節所述的揭露僅適用於另行提供給 Big Brane 或由 Big Brane 控制的個人資訊，例如網站或支援通訊資訊。本節不適用於遊戲暫時存取的平台使用者資料，因為 Big Brane 不會接收或保留該等資料。
+我們可能會提供第三方服務的連結、嵌入其內容，或依賴我們無法控制的第三方服務。該等第三方可能會依其自身條款及隱私政策蒐集、處理或儲存資訊。對於其隱私實務，我們不承擔責任，並建議您查閱其相關政策。
 
-我們可能在以下情況揭露由我們控制的資訊：
+9. 本政策的變更
 
-- 向代表我們提供網站託管、安全、通訊、支援或類似商業服務的供應商揭露；
-- 在您指示或同意揭露時；
-- 在為遵守法律或有效法律程序、保護人員、調查不當行為、保障服務安全或保護合法權利而有合理必要時；或
-- 作為合併、收購、融資、重組、破產、資產出售或類似商業交易的一部分，但須採取適當的保護措施。
+我們可能會不時更新本政策。任何更新都將發布於本頁面，並透過本政策頂部的「最後更新」日期反映。
 
-Big Brane 不會出售個人資訊、不會為跨情境行為廣告而分享個人資訊，也不會利用個人資訊投放目標式廣告。
+10. 準據法
 
-7. 保留期限
+本政策應受美國維吉尼亞州聯邦之法律管轄並依其解釋，但不適用其法律衝突規則。
 
-Big Brane 不會透過 Sushi Ben 蒐集或保留平台使用者 ID、使用者名稱、成就紀錄或雲端存檔。
+11. 聯絡我們
 
-此外，Big Brane 可能會保留個人透過電子郵件、網站表單、支援要求、社群媒體或其他通訊自願提交的資訊。此類資訊只會在為處理通訊、提供支援、維護安全與業務紀錄、遵守法律及解決爭議而合理必要的期間內保留。網站與安全服務供應商可能會依其自身的保留時程及我們的服務設定保留技術紀錄。除非法律要求或允許延長保留期間，否則我們會在不再有合理需要時刪除資訊或對其進行去識別化處理。
+如果您對本政策有任何問題或疑慮，請聯絡：
+legal@bigbranestudios.com
 
-8. 存取、更正與刪除要求
+12. 語言
 
-無論身處何地，任何使用者均可要求存取、更正或刪除由 Big Brane 控制的個人資訊。提出要求無須支付任何費用。
-
-如需提出要求，請以「Sushi Ben Data Request」為主旨傳送電子郵件至 legal@bigbranestudios.com。如果您的要求涉及先前提交給 Big Brane 的資訊，請提供與該次提交相關的電子郵件地址、使用者名稱、大約日期或支援事項，以便我們尋找相關資訊。我們可能會要求提供合理的資訊，以驗證您的身分並防止未經授權的存取或刪除。
-
-Big Brane 不持有遊戲暫時存取的平台使用者資料，因此 Big Brane 的系統中沒有可供刪除的此類資料。儘管如此，我們仍會審查並回覆每項要求。如果我們發現另行提交給 Big Brane 或由 Big Brane 控制的個人資訊（例如支援訊息中包含的資訊），我們將刪除該資訊或對其進行去識別化處理，但為安全、預防詐欺、保存交易紀錄、遵守法律，或提出或抗辯法律主張而有合理必要或法律要求保留的情況除外。如果我們無法全部或部分滿足要求，我們將在法律要求的情況下說明理由。
-
-我們通常會在 30 天內回覆，或在適用法律規定的其他期間內回覆。如果您的要求遭拒，您可以在回覆我們的決定時，於主旨中加入「Privacy Appeal」以提出申訴。
-
-刪除遊戲或其本機存檔資料不一定會刪除由商店或平台營運商獨立維護的紀錄。由於 Big Brane 不持有或控制平台帳戶、成就、購買、雲端儲存或其他由平台控制的紀錄，與此類紀錄有關的要求必須透過該平台的隱私權與帳戶控制功能提出。
-
-9. 安全
-
-我們針對由我們控制的資訊採取合理且適當的行政、技術及組織保護措施。任何傳輸或儲存系統都無法保證絕對安全。
-
-10. 跨境處理
-
-Big Brane 位於美國。您自願提供的資訊可能會在美國及我們的服務供應商營運所在的其他國家或地區處理。此類國家或地區的隱私權法律可能與您居住地的法律不同。在法律要求的情況下，我們會採用法律認可的跨境傳輸保護措施。
-
-11. 兒童隱私
-
-服務不以 13 歲以下兒童為對象，Big Brane 不會故意蒐集 13 歲以下兒童的個人資訊。如果您認為有兒童向我們提供了個人資訊，請聯絡我們，以便我們進行調查並在適當情況下予以刪除。
-
-12. 本政策的變更
-
-我們可能會隨著服務、平台功能、服務供應商及適用法律的變化更新本政策。我們將發布修訂後的政策並更新生效日期。如果變更會對我們使用已蒐集資訊的方式產生重大影響，我們將提供適用法律要求的任何額外通知或選擇。
-
-13. 語言
-
-我們可能基於方便目的提供譯文，譯文中可能含有不準確之處。在適用法律允許的範圍內，以 https://www.sushiben.com/en/privacy 提供的英文版本為準。
-
-14. 聯絡我們
-
-如有問題、疑慮、安全通報或隱私權要求，請寄送至：
-
-Big Brane Studios, Inc.
-電子郵件：legal@bigbranestudios.com
-隱私權政策：https://www.sushiben.com/en/privacy"
+本政策的英文版本為唯一具有法律拘束力的版本。翻譯版本僅為方便閱讀而提供。如翻譯版本與英文版本之間存在任何不一致、歧義或衝突，應以英文版本為準。"
