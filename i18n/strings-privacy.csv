@@ -1,7 +1,7 @@
-﻿"key","context","en","de","es","fr","it","pt-br","ja","ko","zh-hans","zh-hant"
-"legal.privacy.description","Meta description | Privacy Policy page","Privacy & Data Collection Policy for Sushi Ben.","Datenschutz- und Datenerhebungsrichtlinie für Sushi Ben.","Política de privacidad y recopilación de datos de Sushi Ben.","Politique de confidentialité et de collecte des données de Sushi Ben.","Informativa sulla privacy e sulla raccolta dei dati di Sushi Ben.","Política de Privacidade e Coleta de Dados do Sushi Ben.","Sushi Ben のプライバシーおよびデータ収集ポリシーです。","Sushi Ben 개인정보 및 데이터 수집 정책입니다.","Sushi Ben 隐私与数据收集政策。","Sushi Ben 隱私與資料蒐集政策。"
-"legal.privacy.title","Page title | Privacy Policy page","Privacy Policy","Datenschutzerklärung","Política de privacidad","Politique de confidentialité","Informativa sulla privacy","Política de Privacidade","プライバシーポリシー","개인정보 처리방침","隐私政策","隱私政策"
-"legal.privacy.body","Legal body | Privacy Policy page","Sushi Ben Privacy & Data Collection Policy
+﻿key,context,en,de,es,fr,it,pt-br,ja,ko,zh-hans,zh-hant
+legal.privacy.description,Meta description | Privacy Policy page,Privacy & Data Collection Policy for Sushi Ben.,Datenschutz- und Datenerhebungsrichtlinie für Sushi Ben.,Política de privacidad y recopilación de datos de Sushi Ben.,Politique de confidentialité et de collecte des données de Sushi Ben.,Informativa sulla privacy e sulla raccolta dei dati di Sushi Ben.,Política de Privacidade e Coleta de Dados do Sushi Ben.,Sushi Ben のプライバシーおよびデータ収集ポリシーです。,Sushi Ben 개인정보 및 데이터 수집 정책입니다.,Sushi Ben 隐私与数据收集政策。,Sushi Ben 隱私與資料蒐集政策。
+legal.privacy.title,Page title | Privacy Policy page,Privacy Policy,Datenschutzerklärung,Política de privacidad,Politique de confidentialité,Informativa sulla privacy,Política de Privacidade,プライバシーポリシー,개인정보 처리방침,隐私政策,隱私政策
+legal.privacy.body,Legal body | Privacy Policy page,"Sushi Ben Privacy & Data Collection Policy
 
 Last Updated: August 3, 2026
 
@@ -26,7 +26,7 @@ The Game processes the following data through platform-operated services:
 - Achievements. The Game submits achievement activity to the platform. The platform associates and stores achievement records.
 - Cloud saves. The platform transfers and stores save-game data through its cloud-save service.
 
-Big Brane does not receive, store, retain, share, or sell this platform data. The Game does not transmit gameplay history, save-game contents, device sensor data, or other gameplay data to Big Brane.
+Big Brane does not transmit, store, retain, share, or sell this platform data. The Game does not transmit gameplay history, save-game contents, device sensor data, or other gameplay data to Big Brane.
 
 Platform-controlled data is subject to the applicable platform’s privacy policy and user controls. Requests concerning information held by Big Brane may be submitted as described in Section 8. Requests concerning platform-controlled information must be submitted to the applicable platform.
 
@@ -145,7 +145,7 @@ Das Spiel verarbeitet die folgenden Daten über von Plattformen betriebene Diens
 - Erfolge. Das Spiel übermittelt Aktivitäten zu Erfolgen an die Plattform. Die Plattform verknüpft und speichert die Erfolgsdaten.
 - Cloud-Speicherstände. Die Plattform überträgt und speichert Spielstanddaten über ihren Cloud-Speicherdienst.
 
-Big Brane empfängt, speichert, bewahrt, teilt oder verkauft diese Plattformdaten nicht. Das Spiel übermittelt keine Spielverläufe, Inhalte von Spielständen, Gerätesensordaten oder sonstigen Spielverlaufsdaten an Big Brane.
+Big Brane übermittelt, speichert, bewahrt, teilt oder verkauft diese Plattformdaten nicht. Das Spiel übermittelt keine Spielverläufe, Inhalte von Spielständen, Gerätesensordaten oder sonstigen Spielverlaufsdaten an Big Brane.
 
 Für von der Plattform kontrollierte Daten gelten die Datenschutzrichtlinie und Benutzerkontrollen der jeweiligen Plattform. Anfragen zu Informationen im Besitz von Big Brane können wie in Abschnitt 8 beschrieben eingereicht werden. Anfragen zu von der Plattform kontrollierten Informationen müssen an die jeweilige Plattform gerichtet werden.
 
@@ -264,7 +264,7 @@ El Juego procesa los siguientes datos mediante servicios operados por las plataf
 - Logros. El Juego envía la actividad relacionada con los logros a la plataforma. La plataforma asocia y almacena los registros de logros.
 - Partidas guardadas en la nube. La plataforma transfiere y almacena los datos de las partidas guardadas mediante su servicio de guardado en la nube.
 
-Big Brane no recibe, almacena, conserva, comparte ni vende estos datos de la plataforma. El Juego no transmite a Big Brane el historial de juego, el contenido de las partidas guardadas, datos de los sensores del dispositivo ni otros datos de juego.
+Big Brane no transmite, almacena, conserva, comparte ni vende estos datos de la plataforma. El Juego no transmite a Big Brane el historial de juego, el contenido de las partidas guardadas, datos de los sensores del dispositivo ni otros datos de juego.
 
 Los datos controlados por la plataforma están sujetos a la política de privacidad y los controles de usuario de la plataforma correspondiente. Las solicitudes relacionadas con información en poder de Big Brane pueden presentarse como se describe en la Sección 8. Las solicitudes relacionadas con información controlada por la plataforma deben presentarse a la plataforma correspondiente.
 
@@ -383,7 +383,7 @@ Le Jeu traite les données suivantes au moyen de services exploités par les pla
 - Succès. Le Jeu transmet à la plateforme l’activité liée aux succès. La plateforme associe et conserve les données relatives aux succès.
 - Sauvegardes dans le cloud. La plateforme transfère et conserve les données de sauvegarde au moyen de son service de sauvegarde dans le cloud.
 
-Big Brane ne reçoit, ne stocke, ne conserve, ne partage ni ne vend ces données de plateforme. Le Jeu ne transmet à Big Brane aucun historique de jeu, contenu de sauvegarde, donnée de capteur de l’appareil ou autre donnée de jeu.
+Big Brane ne transmet, ne stocke, ne conserve, ne partage ni ne vend ces données de plateforme. Le Jeu ne transmet à Big Brane aucun historique de jeu, contenu de sauvegarde, donnée de capteur de l’appareil ou autre donnée de jeu.
 
 Les données contrôlées par une plateforme sont soumises à la politique de confidentialité et aux contrôles utilisateur de la plateforme concernée. Les demandes concernant des informations détenues par Big Brane peuvent être présentées comme indiqué à la Section 8. Les demandes concernant des informations contrôlées par une plateforme doivent être adressées à la plateforme concernée.
 
@@ -502,7 +502,7 @@ Il Gioco tratta i seguenti dati tramite servizi gestiti dalle piattaforme:
 - Obiettivi. Il Gioco invia alla piattaforma l’attività relativa agli obiettivi. La piattaforma associa e conserva i dati relativi agli obiettivi.
 - Salvataggi nel cloud. La piattaforma trasferisce e conserva i dati di salvataggio tramite il proprio servizio di salvataggio nel cloud.
 
-Big Brane non riceve, archivia, conserva, condivide o vende questi dati della piattaforma. Il Gioco non trasmette a Big Brane la cronologia di gioco, il contenuto dei salvataggi, i dati dei sensori del dispositivo o altri dati di gioco.
+Big Brane non trasmette, archivia, conserva, condivide o vende questi dati della piattaforma. Il Gioco non trasmette a Big Brane la cronologia di gioco, il contenuto dei salvataggi, i dati dei sensori del dispositivo o altri dati di gioco.
 
 I dati controllati dalla piattaforma sono soggetti all’informativa sulla privacy e ai controlli utente della piattaforma applicabile. Le richieste riguardanti informazioni detenute da Big Brane possono essere presentate come descritto nella Sezione 8. Le richieste riguardanti informazioni controllate dalla piattaforma devono essere presentate alla piattaforma applicabile.
 
@@ -621,7 +621,7 @@ O Jogo processa os seguintes dados por meio de serviços operados pelas platafor
 - Conquistas. O Jogo envia à plataforma atividades relacionadas a conquistas. A plataforma associa e armazena os registros de conquistas.
 - Salvamentos na nuvem. A plataforma transfere e armazena dados de jogos salvos por meio de seu serviço de salvamento na nuvem.
 
-A Big Brane não recebe, armazena, retém, compartilha ou vende esses dados da plataforma. O Jogo não transmite à Big Brane histórico de jogabilidade, conteúdo de jogos salvos, dados de sensores do dispositivo ou outros dados de jogabilidade.
+A Big Brane não transmite, armazena, retém, compartilha ou vende esses dados da plataforma. O Jogo não transmite à Big Brane histórico de jogabilidade, conteúdo de jogos salvos, dados de sensores do dispositivo ou outros dados de jogabilidade.
 
 Os dados controlados pela plataforma estão sujeitos à política de privacidade e aos controles do usuário da plataforma aplicável. Solicitações relacionadas a informações mantidas pela Big Brane podem ser enviadas conforme descrito na Seção 8. Solicitações relacionadas a informações controladas pela plataforma devem ser enviadas à plataforma aplicável.
 
@@ -740,7 +740,7 @@ Sushi Benはオフラインのシングルプレイヤーゲームです。Big B
 - 実績。本ゲームは実績に関するアクティビティをプラットフォームに送信します。プラットフォームが実績記録を関連付けて保存します。
 - クラウドセーブ。プラットフォームがクラウドセーブサービスを通じてセーブデータを転送および保存します。
 
-Big Braneは、これらのプラットフォームデータを受領、保存、保持、共有または販売しません。本ゲームは、ゲームプレイ履歴、セーブデータの内容、デバイスのセンサーデータその他のゲームプレイデータをBig Braneに送信しません。
+Big Braneは、これらのプラットフォームデータを送信、保存、保持、共有または販売しません。本ゲームは、ゲームプレイ履歴、セーブデータの内容、デバイスのセンサーデータその他のゲームプレイデータをBig Braneに送信しません。
 
 プラットフォームが管理するデータには、該当するプラットフォームのプライバシーポリシーおよびユーザー向け管理機能が適用されます。Big Braneが保有する情報に関する請求は、第8条に記載する方法で提出できます。プラットフォームが管理する情報に関する請求は、該当するプラットフォームに提出する必要があります。
 
@@ -859,7 +859,7 @@ Sushi Ben은 오프라인 싱글 플레이어 게임입니다. Big Brane은 게�
 - 도전 과제. 게임은 도전 과제 활동을 플랫폼에 전송합니다. 플랫폼이 도전 과제 기록을 연결하고 저장합니다.
 - 클라우드 저장. 플랫폼이 클라우드 저장 서비스를 통해 저장 게임 데이터를 전송하고 저장합니다.
 
-Big Brane은 이러한 플랫폼 데이터를 수신, 저장, 보관, 공유 또는 판매하지 않습니다. 게임은 게임 플레이 기록, 저장 게임의 내용, 기기 센서 데이터 또는 기타 게임 플레이 데이터를 Big Brane에 전송하지 않습니다.
+Big Brane은 이러한 플랫폼 데이터를 전송, 저장, 보관, 공유 또는 판매하지 않습니다. 게임은 게임 플레이 기록, 저장 게임의 내용, 기기 센서 데이터 또는 기타 게임 플레이 데이터를 Big Brane에 전송하지 않습니다.
 
 플랫폼이 관리하는 데이터에는 해당 플랫폼의 개인정보 처리방침 및 사용자 제어 기능이 적용됩니다. Big Brane이 보유한 정보에 관한 요청은 제8조에 설명된 방법으로 제출할 수 있습니다. 플랫폼이 관리하는 정보에 관한 요청은 해당 플랫폼에 제출해야 합니다.
 
@@ -978,7 +978,7 @@ Sushi Ben 是一款离线单人游戏。Big Brane 不为本游戏运营游戏服
 - 成就。本游戏向平台提交成就活动。平台关联并存储成就记录。
 - 云存档。平台通过其云存档服务传输并存储游戏存档数据。
 
-Big Brane 不接收、存储、保留、共享或出售这些平台数据。本游戏不会向 Big Brane 传输游戏历史、存档内容、设备传感器数据或其他游戏数据。
+Big Brane 不会传输、存储、保留、共享或出售这些平台数据。本游戏不会向 Big Brane 传输游戏历史、存档内容、设备传感器数据或其他游戏数据。
 
 平台控制的数据受适用平台的隐私政策和用户控制功能约束。与 Big Brane 持有的信息有关的请求可按照第 8 节所述方式提交。与平台控制的信息有关的请求必须提交给适用平台。
 
@@ -1097,7 +1097,7 @@ Sushi Ben 是一款離線單人遊戲。Big Brane 不為本遊戲營運遊戲伺
 - 成就。本遊戲向平台提交成就活動。平台會關聯並儲存成就紀錄。
 - 雲端存檔。平台透過其雲端存檔服務傳輸並儲存遊戲存檔資料。
 
-Big Brane 不會接收、儲存、保留、分享或出售這些平台資料。本遊戲不會向 Big Brane 傳輸遊戲歷程、存檔內容、裝置感測器資料或其他遊戲資料。
+Big Brane 不會傳輸、儲存、保留、分享或出售這些平台資料。本遊戲不會向 Big Brane 傳輸遊戲歷程、存檔內容、裝置感測器資料或其他遊戲資料。
 
 由平台控制的資料受適用平台的隱私權政策及使用者控制功能約束。與 Big Brane 持有的資訊有關的請求，可依第 8 節所述方式提交。與平台控制的資訊有關的請求，必須提交給適用平台。
 
